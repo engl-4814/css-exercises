@@ -86,7 +86,7 @@ footer h2 {
   Select any img with the class img-border and add a border to it. */
 
   .img-border {
-    border: 40px solid green;
+    border: 40px dotted green;
   }
 
 /* 6. More Specific Ruleset: 
