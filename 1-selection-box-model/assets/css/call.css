@@ -38,8 +38,8 @@ footer h2 {
   Center it with the box model's margin as follows: margin: auto; */
 
   main {
-    max-width: 500px;
     margin: auto;
+    max-width: 500px;
   }
 
 /* 3. General Ruleset: 
@@ -49,17 +49,17 @@ footer h2 {
   Then, do the same for the links, i.e., the 'a' elements. */
 
   img {
-    width: 350px;
     height: 100px;
-    padding: 10px;
     margin: 15px;
+    padding: 10px;
+    width: 350px;
   }
   
   a href {
-    width: 500px;
     height: 250px;
-    padding: 30px;
     margin: 15px;
+    padding: 30px;
+    width: 500px;
   }
 
 /* 4. General Ruleset: 
@@ -67,20 +67,20 @@ footer h2 {
   in whatever way you'd like. */
 
   header {
-    width: 560px;
-    height: 160px;
-    padding: 30px;
-    margin: 15px;
     background-color:darkkhaki;
+    height: 160px;
+    margin: 15px;
+    padding: 30px;
+    width: 560px;
   }
 
   footer {
-    width: 560px;
-    height: 160px;
-    padding: 30px;
-    margin: 15px;
     background-color:darkkhaki;
-  }
+    height: 160px;
+    margin: 15px;
+    padding: 30px;
+    width: 560px;
+  } 
 
 /* 5. More Specific Ruleset: 
   Select any img with the class img-border and add a border to it. */
