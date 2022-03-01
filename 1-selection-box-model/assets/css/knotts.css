@@ -14,7 +14,12 @@
   I mean review what heading elements are in the HTML page, 
   select them, and alter the size of the font for each of them.
 */
-
+h1 {
+  color:aquamarine;
+}
+h2 {
+  font-size: 100px;
+}
 
 
 /* 2. General Ruleset: 
@@ -22,7 +27,10 @@
   Apply a max-width of 500px.
   Center it with the box model's margin as follows: margin: auto; */
 
-
+main {
+  max-width: 400px;
+  margin: auto;
+}
 
 /* 3. General Ruleset: 
   Use rules provided by the box model to style the images and the links.
@@ -30,20 +38,52 @@
   for them to share. Just don't add a border to them.
   Then, do the same for the links, i.e., the 'a' elements. */
 
+img {
+  border-color: blue;
+  width: 400 px;
+  height: 200 px;
+  padding: 15 px;
+  margin: 10 px;
+}
 
+a href {
+  width: 400 px;
+  height: 200 px;
+  padding: 25 px;
+  margin: 10 px;
+  border-color: blueviolet;
+}
 
 /* 4. General Ruleset: 
   Use rules provided by the box model to style the header and footer
   in whatever way you'd like. */
 
+header {
+  width: 600 px;
+  height: 400 px;
+  padding: 40 px;
+  margin: 10 px;
+}
 
+footer {
+  width: 600 px;
+  height: 400 px;
+  padding: 40 px;
+  margin: 10 px;
+}
 
 /* 5. More Specific Ruleset: 
   Select any img with the class img-border and add a border to it. */
 
-
+.img-border {
+  border: 50 px bisque;
+}
 
 /* 6. More Specific Ruleset: 
   Select any img within a div with the class float.
   Apply a float: left; rule and padding-right: 20px; rule to it. */
 
+.float {
+  float: left;
+  padding-right: 20px;
+}
