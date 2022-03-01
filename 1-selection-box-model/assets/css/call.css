@@ -49,9 +49,9 @@ footer h2 {
   Then, do the same for the links, i.e., the 'a' elements. */
 
   img {
-    width: 500px;
-    height: 250px;
-    padding: 30px;
+    width: 350px;
+    height: 100px;
+    padding: 10px;
     margin: 15px;
   }
   
@@ -67,16 +67,16 @@ footer h2 {
   in whatever way you'd like. */
 
   header {
-    width: 1000px;
-    height: 300px;
+    width: 560px;
+    height: 160px;
     padding: 30px;
     margin: 15px;
     background-color:darkkhaki;
   }
 
   footer {
-    width: 1000px;
-    height: 300px;
+    width: 560px;
+    height: 160px;
     padding: 30px;
     margin: 15px;
     background-color:darkkhaki;
