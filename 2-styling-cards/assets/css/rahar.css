@@ -17,64 +17,63 @@
 
 
 /* Select the ul with the class 'card-wrapper' */
-ul.card-wrapper {
-  list-style-type: none;
-}
+ul.card-wrapper
+{ 
   /* 
     Research this rule & what it can do.
     - Make it so there's no styling for the list items
     */
+  list-style-type: none ;
+  background-color:rgb(245, 245, 212)
+}
 
 /* Select the 'card' class */
-.card {
-  background-color: wheat;
-  border-radius: 50% 20% / 10% 40%;
-  padding-bottom: 0;
-  max-width: 150px;
-}
+.card
+{
   /*
     Lookup each rule and 
     configure the card box
     styles to your liking.
     */
- /* background-color: ;
-  border-radius: ;
-  padding-bottom: ;
-  max-width: ; */
+  float: left;
+  background-color:rgb(245, 245, 212) ;
+  border-radius: 10px;
+  padding-bottom:5px ;
+  max-width:300px ;
+  margin:10px;
+}
 
 /* 
   Using a descendant combinator,
   select any h3 element that is a
   descendant of the 'card' class
   */
-  .card h3 {
-    margin-top: 10px;
-    font-size: 24px;
-  }
+.card h3
+  {
   /*
     Lookup each rule and 
     configure the card's
     h3 styles to your liking.
     */
- /* margin-top: ;
-  font-size: ; */
+  margin-top:10px ;
+  font-size:40px ;
+}
 
 /* 
   Using a child combinator,
   select any img element that is a
   direct child of the 'card' class
   */
-  .card > img {
-    border-radius: 30px;
-    width: 250px;
-  }
+
+  {
   /*
     Lookup each rule and 
     configure the card's
     img styles.
     */
- /*  border-radius: ;
-  width: ; /*Try using 100% as a value*/
+  border-radius:5px ;
+  width:100% ; /*Try using 100% as a value*/
+}
 
 /* 
   Using a general sibling combinator,
@@ -82,18 +81,17 @@ ul.card-wrapper {
   general sibling of the img element.
   HINT: Look up the 'universal' selector.
   */
-  img ~ * {
-    margin-left: 20px;
-    margin-right: 20px;
-  }
+
+  {
   /* 
     - What elements are impacted
       by this selection?
     - How could you provide uniform
       spacing on each side of these
       elements? */
-  /*margin-left: ;
+  margin-left: ;
   margin-right: ;
+}
 
 /* 
   After completing the above prompts,
@@ -105,10 +103,3 @@ ul.card-wrapper {
   Maybe add some margins to incorporate
   some lovely whitespace for our cards.
  */
-
- * {
-   margin-bottom: 50px;
- }
-/* .card {
-  float: left
-}
