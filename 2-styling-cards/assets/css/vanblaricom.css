@@ -1,0 +1,99 @@
+/* 
+  - BE SURE to practice inspecting your code's
+  results in  your Chrome/Firefox browser.
+
+  - You can also adjust values in your browser,
+  and plug them in here.
+
+  - DO NOT push your code iteratively as usual. 
+    I want everyone to have a chance to
+    work through this drill.
+
+  - Delete/Add comments as you like and need.
+
+  -  Finally, be sure to save your files, before
+  reviewing them in the browser.
+ */
+
+
+/* Select the ul with the class 'card-wrapper' */
+ul.card-wrapper {
+  /* 
+    Research this rule & what it can do.
+    - Make it so there's no styling for the list items
+    */
+  list-style-type: ;
+}
+
+/* Select the 'card' class */
+.card {
+  /*
+    Lookup each rule and 
+    configure the card box
+    styles to your liking.
+    */
+  background-color: ;
+  border-radius: ;
+  padding-bottom: ;
+  max-width: ;
+}
+
+/* 
+  Using a descendant combinator,
+  select any h3 element that is a
+  descendant of the 'card' class
+  */
+{
+  /*
+    Lookup each rule and 
+    configure the card's
+    h3 styles to your liking.
+    */
+  margin-top: ;
+  font-size: ;
+}
+
+/* 
+  Using a child combinator,
+  select any img element that is a
+  direct child of the 'card' class
+  */
+.card img ~ * {
+
+}
+  /*
+    Lookup each rule and 
+    configure the card's
+    img styles.
+    */
+  border-radius: ;
+  width: ; /*Try using 100% as a value*/
+}
+
+/* 
+  Using a general sibling combinator,
+  select any element that is a
+  general sibling of the img element.
+  HINT: Look up the 'universal' selector.
+  */
+{
+  /* 
+    - What elements are impacted
+      by this selection?
+    - How could you provide uniform
+      spacing on each side of these
+      elements? */
+  margin-left: ;
+  margin-right: ;
+}
+
+/* 
+  After completing the above prompts,
+  go back up to the .card class declaration 
+  block and add a 'float: left;' declaration.
+
+  See what happens.
+
+  Maybe add some margins to incorporate
+  some lovely whitespace for our cards.
+ */
