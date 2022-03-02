@@ -91,7 +91,6 @@ img ~ p
   color: purple;
   margin-left: 100px;
   margin-right: 100px;
-  font-family: sans-serif;
 }
 
 /* 
@@ -108,6 +107,8 @@ img ~ p
 {
   margin-left: 100px;
   padding-top: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 h3 
 { 
@@ -117,6 +118,7 @@ p
 {
   text-align: center;
   padding-bottom: 30px;
+  font-family: sans-serif;
 }
 h1
 {
