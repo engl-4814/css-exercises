@@ -17,8 +17,8 @@
 
 
 /* Select the ul with the class 'card-wrapper' */
-.card-wrapper {
-  list-style-type: disc
+ul.card-wrapper {
+  list-style-type: none
 }
   /* 
     Research this rule & what it can do.
