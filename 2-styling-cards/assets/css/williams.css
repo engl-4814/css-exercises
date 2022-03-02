@@ -17,28 +17,25 @@
 
 
 /* Select the ul with the class 'card-wrapper' */
-.card-wrapper ul 
-{
+{ 
   /* 
     Research this rule & what it can do.
     - Make it so there's no styling for the list items
     */
-  list-style-type: none;
+  list-style-type: ;
 }
 
 /* Select the 'card' class */
-.card
 {
   /*
     Lookup each rule and 
     configure the card box
     styles to your liking.
     */
-  background-color: rgba(34, 106, 240, 0.199);
-  border-radius: 200px;
-  padding-bottom: 0px;
-  max-width: 300px;
-  float: left;
+  background-color: ;
+  border-radius: ;
+  padding-bottom: ;
+  max-width: ;
 }
 
 /* 
@@ -46,18 +43,16 @@
   select any h3 element that is a
   descendant of the 'card' class
   */
-.card h3
 {
   /*
     Lookup each rule and 
     configure the card's
     h3 styles to your liking.
     */
-  margin-top: 50px;
-  font-size: 45px;
-  font-family: serif; 
+  margin-top: ;
+  font-size: ;
 }
-.card > img 
+
 /* 
   Using a child combinator,
   select any img element that is a
@@ -69,10 +64,10 @@
     configure the card's
     img styles.
     */
-  border-radius: 300px;
-  width: 100%; /*Try using 100% as a value*/
+  border-radius: ;
+  width: ; /*Try using 100% as a value*/
 }
-img ~ *
+
 /* 
   Using a general sibling combinator,
   select any element that is a
@@ -85,12 +80,9 @@ img ~ *
       by this selection?
     - How could you provide uniform
       spacing on each side of these
-      elements? 
-
-      */
-  color: rgb(18, 13, 95);
-  margin-left: 10%;
-  margin-right: 10%;
+      elements? */
+  margin-left: ;
+  margin-right: ;
 }
 
 /* 
@@ -103,28 +95,3 @@ img ~ *
   Maybe add some margins to incorporate
   some lovely whitespace for our cards.
  */
- .card 
- {
-   margin-left: 10%;
-   padding-top: 0px;
-   padding-left: 10px;
-   padding-right: 10px;
-   border-style: solid;
-   border-color: pink;
- }
-h3 
-{ 
-text-align: center;
-}
-p 
-{
-  text-align: center;
-  padding-bottom: 30px;
-  font-family: sans-serif;
-}
-h1
-{
-  font-family: georgia; 
-  text-align: right;
-  font-size: 75px;
-}
