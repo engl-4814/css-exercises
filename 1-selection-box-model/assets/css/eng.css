@@ -12,16 +12,25 @@
   Practice making a very basic heading font scheme with 
   the "font-size" rule with a "px" (pixel) value. By scheme, 
   I mean review what heading elements are in the HTML page, 
-  select them, and alter the size of the font for each of them.
-*/
-
-
+  select them, and alter the size of the font for each of them.  */
+h1 {
+    font-size: 150px;
+}
+h1 {
+  color:blueviolet
+}
+h2 {
+  font-size: 75px;
+}
 
 /* 2. General Ruleset: 
   Select the main element.
   Apply a max-width of 500px.
-  Center it with the box model's margin as follows: margin: auto; */
-
+  Center it with the box model's margin as follows: margin: auto auto; */
+main {
+  max-width: 500px;
+  margin:auto;
+}
 
 
 /* 3. General Ruleset: 
@@ -30,20 +39,44 @@
   for them to share. Just don't add a border to them.
   Then, do the same for the links, i.e., the 'a' elements. */
 
+img {
+  border-color: cadetblue;
+  width: 100px;
+  height: 75px;
+}
 
+a href {
+  color: aquamarine;
+  width: 100px;
+  height: 75px;
+}
 
 /* 4. General Ruleset: 
   Use rules provided by the box model to style the header and footer
   in whatever way you'd like. */
 
+header {
+width: 200px;
+height: 175px;
+padding: 75px;
+}
 
+footer {
+  width: 200px;
+  height: 175px;
+  padding: 75px;
+}
 
 /* 5. More Specific Ruleset: 
   Select any img with the class img-border and add a border to it. */
-
-
+.img-border {
+  border: 70px blueviolet;
+}
 
 /* 6. More Specific Ruleset: 
   Select any img within a div with the class float.
   Apply a float: left; rule and padding-right: 20px; rule to it. */
-
+.float {
+  float: left;
+  padding-right: 25px;
+}
