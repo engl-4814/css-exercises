@@ -27,7 +27,10 @@ h2 {
   Select the main element.
   Apply a max-width of 500px.
   Center it with the box model's margin as follows: margin: auto; */
-
+main {
+  max-width: 500px;
+  margin: auto
+}
 
 
 /* 3. General Ruleset: 
