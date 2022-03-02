@@ -17,31 +17,28 @@
 
 
 /* Select the ul with the class 'card-wrapper' */
-.card-wrapper { 
+.card-wrapper
+{
   /* 
     Research this rule & what it can do.
     - Make it so there's no styling for the list items
     */
-  list-style-type: square;
-  /* list point type 
-    */
+  list-style-type: none;
 }
 
 /* Select the 'card' class */
-.card {
+.card
+{
   /*
     Lookup each rule and 
     configure the card box
     styles to your liking.
     */
-  background-color: rgb(151, 115, 49);
-  border-radius: 50%;
-  /* rounded edges
-    */
+  background-color: rgba(34, 106, 240, 0.199);
+  border-radius: 200px;
+  padding-bottom: 30px;
+  max-width: 300px;
   float: left;
-  padding-bottom: 40px;
-  margin: 20px;
-  max-width: 200px;
 }
 
 /* 
@@ -49,48 +46,51 @@
   select any h3 element that is a
   descendant of the 'card' class
   */
-.card h3 {
+.card h3
+{
   /*
     Lookup each rule and 
     configure the card's
     h3 styles to your liking.
     */
-  margin-top: 40px;
-  /* set top of margin 
-    */
-  font-size: 25px;
+  margin-top: 50px;
+  font-size: 45px;
+  font-family: serif; 
 }
-
+.card > img 
 /* 
   Using a child combinator,
   select any img element that is a
   direct child of the 'card' class
   */
-.card > img {
+{
   /*
     Lookup each rule and 
     configure the card's
     img styles.
     */
-  border-radius: 50px;
-  width: 100%; /*Try using 100% as a value*/
+  border-radius: 150px;
+  width: 100px; /*Try using 100% as a value*/
 }
-
+img ~ p 
 /* 
   Using a general sibling combinator,
   select any element that is a
   general sibling of the img element.
   HINT: Look up the 'universal' selector.
   */
-img ~ * {
+{
   /* 
     - What elements are impacted
       by this selection?
     - How could you provide uniform
       spacing on each side of these
-      elements? */
-  margin-left: 50px;
-  margin-right: 50px;
+      elements? 
+
+      */
+  color: purple;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 /* 
@@ -103,3 +103,26 @@ img ~ * {
   Maybe add some margins to incorporate
   some lovely whitespace for our cards.
  */
+.card 
+{
+  margin-left: 100px;
+  padding-top: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+h3 
+{ 
+text-align: center;
+}
+p 
+{
+  text-align: center;
+  padding-bottom: 30px;
+  font-family: sans-serif;
+}
+h1
+{
+  font-family: georgia; 
+  text-align: right;
+  font-size: 75px;
+}
