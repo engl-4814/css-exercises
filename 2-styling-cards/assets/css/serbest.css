@@ -17,8 +17,7 @@
 
 
 /* Select the ul with the class 'card-wrapper' */
-ul.card-wrapper
-{
+ul.card-wrapper{ 
   /* 
     Research this rule & what it can do.
     - Make it so there's no styling for the list items
@@ -27,18 +26,18 @@ ul.card-wrapper
 }
 
 /* Select the 'card' class */
-.card
-{
+.card {
   /*
     Lookup each rule and 
     configure the card box
     styles to your liking.
     */
-  background-color: rgba(34, 106, 240, 0.199);
-  border-radius: 200px;
-  padding-bottom: 5%;
-  max-width: 300px;
+  background-color: #d294a6;
+  border-radius: 1px 100px/20px 100px;
+  padding-bottom: 0;
+  max-width: 50em;
   float: left;
+  margin: 3%;
 }
 
 /* 
@@ -46,49 +45,44 @@ ul.card-wrapper
   select any h3 element that is a
   descendant of the 'card' class
   */
-.card h3
-{
+.card h3{
   /*
     Lookup each rule and 
     configure the card's
     h3 styles to your liking.
     */
-  margin-top: 50px;
-  font-size: 45px;
-  font-family: serif; 
+  margin-top: .2em;
+  font-size: xx-large;
 }
-.card > img 
+
 /* 
   Using a child combinator,
   select any img element that is a
   direct child of the 'card' class
   */
-{
+.card > img{
   /*
     Lookup each rule and 
     configure the card's
     img styles.
     */
-  border-radius: 300px;
-  width: 100%; /*Try using 100% as a value*/
+  border-radius: 90% 10%/100% 20%;
+  width: 50%; /*Try using 100% as a value*/
 }
-img ~ *
+
 /* 
   Using a general sibling combinator,
   select any element that is a
   general sibling of the img element.
   HINT: Look up the 'universal' selector.
   */
-{
+img ~ *{
   /* 
     - What elements are impacted
       by this selection?
     - How could you provide uniform
       spacing on each side of these
-      elements? 
-
-      */
-  color: rgb(18, 13, 95);
+      elements?*/
   margin-left: 10%;
   margin-right: 10%;
 }
@@ -103,28 +97,3 @@ img ~ *
   Maybe add some margins to incorporate
   some lovely whitespace for our cards.
  */
- .card 
- {
-   margin-left: 10%;
-   padding-top: 0px;
-   padding-left: 10px;
-   padding-right: 10px;
-   border-style: solid;
-   border-color: pink;
- }
-h3 
-{ 
-text-align: center;
-}
-p 
-{
-  text-align: center;
-  padding-bottom: 30px;
-  font-family: sans-serif;
-}
-h1
-{
-  font-family: georgia; 
-  text-align: right;
-  font-size: 75px;
-}
