@@ -13,14 +13,20 @@
   the "font-size" rule with a "px" (pixel) value. By scheme, 
   I mean review what heading elements are in the HTML page, 
   select them, and alter the size of the font for each of them.  */
-  
-
+h1 {
+    font-size: 150px;
+}
+h2 {
+  font-size: 200px;
+}
 
 /* 2. General Ruleset: 
   Select the main element.
   Apply a max-width of 500px.
   Center it with the box model's margin as follows: margin: auto auto; */
-
+main {
+  max-width: 500px;
+}
 
 
 /* 3. General Ruleset: 
