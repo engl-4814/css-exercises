@@ -17,7 +17,7 @@
 
 
 /* Select the ul with the class 'card-wrapper' */
-.card-wrapper ul 
+ul.card-wrapper
 {
   /* 
     Research this rule & what it can do.
@@ -36,7 +36,7 @@
     */
   background-color: rgba(34, 106, 240, 0.199);
   border-radius: 200px;
-  padding-bottom: 0px;
+  padding-bottom: 5%;
   max-width: 300px;
   float: left;
 }
