@@ -15,11 +15,11 @@
   select them, and alter the size of the font for each of them.
 */
 h1 {
-  font-size: 100px
+  font-size: 100px;
 }
 
 h2 {
-  font-size: 60px
+  font-size: 60px;
 }
 
 
@@ -29,7 +29,7 @@ h2 {
   Center it with the box model's margin as follows: margin: auto; */
 main {
   max-width: 500px;
-  margin: auto
+  margin: auto;
 }
 
 
@@ -42,7 +42,7 @@ img {
   width: 450px;
   height: 200px;
   padding: 40px;
-  margin: 20px
+  margin: 20px;;
 }
 
 a {
@@ -61,7 +61,7 @@ header {
   width: 400px;
   height: 400px;
   padding: 50px;
-  margin: auto
+  margin: auto;
 }
 
 footer {
@@ -69,14 +69,14 @@ footer {
   width: 200px;
   height: 200px;
   padding: 75px;
-  margin: auto
+  margin: auto;
 }
 
 
 /* 5. More Specific Ruleset: 
   Select any img with the class img-border and add a border to it. */
 .img-border {
-  border: 1px solid black
+  border: 1px solid black;
 }
 
 
@@ -85,5 +85,5 @@ footer {
   Apply a float: left; rule and padding-right: 20px; rule to it. */
 .float {
   float: left;
-  padding-right: 20px
+  padding-right: 20px;
 }
