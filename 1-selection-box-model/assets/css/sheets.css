@@ -14,7 +14,13 @@
   I mean review what heading elements are in the HTML page, 
   select them, and alter the size of the font for each of them.
 */
+h1 {
+  font-size: 100px
+}
 
+h2 {
+  font-size: 60px
+}
 
 
 /* 2. General Ruleset: 
