@@ -72,7 +72,7 @@ ul.card-wrapper
   border-radius: 300px;
   width: 100%; /*Try using 100% as a value*/
 }
-img ~ *
+.card img ~ *
 /* 
   Using a general sibling combinator,
   select any element that is a
