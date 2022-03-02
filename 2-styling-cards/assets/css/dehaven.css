@@ -17,7 +17,7 @@
 
 
 /* Select the ul with the class 'card-wrapper' */
-.card-wrapper
+ul.card-wrapper
 {
   /* 
     Research this rule & what it can do.
@@ -36,7 +36,7 @@
     */
   background-color: rgba(34, 106, 240, 0.199);
   border-radius: 200px;
-  padding-bottom: 30px;
+  padding-bottom: 5%;
   max-width: 300px;
   float: left;
 }
@@ -55,6 +55,7 @@
     */
   margin-top: 50px;
   font-size: 45px;
+  font-family: serif; 
 }
 .card > img 
 /* 
@@ -68,10 +69,10 @@
     configure the card's
     img styles.
     */
-  border-radius: 150px;
-  width: 100px; /*Try using 100% as a value*/
+  border-radius: 300px;
+  width: 100%; /*Try using 100% as a value*/
 }
-img ~ p 
+.card img ~ *
 /* 
   Using a general sibling combinator,
   select any element that is a
@@ -87,9 +88,9 @@ img ~ p
       elements? 
 
       */
-  color: red;
-  margin-left: 100px;
-  margin-right: 100px;
+  color: rgb(18, 13, 95);
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 /* 
@@ -102,11 +103,15 @@ img ~ p
   Maybe add some margins to incorporate
   some lovely whitespace for our cards.
  */
-.card 
-{
-  margin-left: 100px;
-  padding-top: 0px;
-}
+ .card 
+ {
+   margin-left: 10%;
+   padding-top: 0px;
+   padding-left: 10px;
+   padding-right: 10px;
+   border-style: solid;
+   border-color: pink;
+ }
 h3 
 { 
 text-align: center;
@@ -115,4 +120,11 @@ p
 {
   text-align: center;
   padding-bottom: 30px;
+  font-family: sans-serif;
+}
+h1
+{
+  font-family: georgia; 
+  text-align: right;
+  font-size: 75px;
 }
