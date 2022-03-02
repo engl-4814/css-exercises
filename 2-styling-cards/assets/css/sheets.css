@@ -18,7 +18,7 @@
 
 /* Select the ul with the class 'card-wrapper' */
 ul.card-wrapper {
-  list-style-type: none
+  list-style-type: none;
 }
   /* 
     Research this rule & what it can do.
@@ -30,7 +30,7 @@ ul.card-wrapper {
   background-color: wheat;
   border-radius: 50% 20% / 10% 40%;
   padding-bottom: 0;
-  max-width: 150px
+  max-width: 150px;
 }
   /*
     Lookup each rule and 
@@ -49,7 +49,7 @@ ul.card-wrapper {
   */
   .card h3 {
     margin-top: 10px;
-    font-size: 24px
+    font-size: 24px;
   }
   /*
     Lookup each rule and 
@@ -66,7 +66,7 @@ ul.card-wrapper {
   */
   .card > img {
     border-radius: 30px;
-    width: 250px
+    width: 250px;
   }
   /*
     Lookup each rule and 
@@ -84,7 +84,7 @@ ul.card-wrapper {
   */
   img ~ * {
     margin-left: 20px;
-    margin-right: 20px
+    margin-right: 20px;
   }
   /* 
     - What elements are impacted
