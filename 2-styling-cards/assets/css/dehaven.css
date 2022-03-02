@@ -17,7 +17,7 @@
 
 
 /* Select the ul with the class 'card-wrapper' */
-.card-wrapper
+.card-wrapper ul 
 {
   /* 
     Research this rule & what it can do.
@@ -36,7 +36,7 @@
     */
   background-color: rgba(34, 106, 240, 0.199);
   border-radius: 200px;
-  padding-bottom: 30px;
+  padding-bottom: 0px;
   max-width: 300px;
   float: left;
 }
@@ -69,8 +69,8 @@
     configure the card's
     img styles.
     */
-  border-radius: 150px;
-  width: 100px; /*Try using 100% as a value*/
+  border-radius: 300px;
+  width: 100%; /*Try using 100% as a value*/
 }
 img ~ p 
 /* 
