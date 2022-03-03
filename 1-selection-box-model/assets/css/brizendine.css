@@ -14,12 +14,8 @@
   I mean review what heading elements are in the HTML page, 
   select them, and alter the size of the font for each of them.
 */
-h1 {
-  font-size: 100px;
-}
-
-h2 {
-  font-size: 60px;
+header {
+font-size: 30px;
 }
 
 
@@ -38,18 +34,11 @@ main {
   Your choice! So, select all of the images and write some general styles
   for them to share. Just don't add a border to them.
   Then, do the same for the links, i.e., the 'a' elements. */
-img {
-  width: 450px;
-  height: 200px;
-  padding: 40px;
-  margin: 20px;;
-}
-
-a {
-  width: 50px;
-  height: 50px;
-  padding: 15px;
-  margin: 7.5px
+img .personal-digital {
+  margin: auto;
+  width: 300px;
+  padding: 50;
+  height: auto;
 }
 
 
@@ -57,33 +46,34 @@ a {
   Use rules provided by the box model to style the header and footer
   in whatever way you'd like. */
 header {
-  background-color: lightgreen;
-  width: 400px;
-  height: 400px;
-  padding: 50px;
-  margin: auto;
+  width: auto;
+  padding: 10px;
+  border: orange;
+  height: auto;
 }
 
 footer {
-  background-color: lightsalmon;
-  width: 200px;
-  height: 200px;
-  padding: 75px;
-  margin: auto;
+  width: 35px;
+  padding: 25px;
+  border: blanchedalmond;
+  height: 35px;
 }
 
 
 /* 5. More Specific Ruleset: 
   Select any img with the class img-border and add a border to it. */
-.img-border {
-  border: 1px solid black;
+img .img-border {
+  width: 30px;
+  padding: auto;
+  border: lightskyblue;
+  height: 40px;
 }
 
 
 /* 6. More Specific Ruleset: 
   Select any img within a div with the class float.
   Apply a float: left; rule and padding-right: 20px; rule to it. */
-.float {
-  float: left;
-  padding-right: 20px;
-}
+  img .img-border {
+float: left;
+padding-right: 20px;
+  }

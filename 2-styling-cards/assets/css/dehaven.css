@@ -17,7 +17,7 @@
 
 
 /* Select the ul with the class 'card-wrapper' */
-.card-wrapper ul 
+ul.card-wrapper
 {
   /* 
     Research this rule & what it can do.
@@ -36,7 +36,7 @@
     */
   background-color: rgba(34, 106, 240, 0.199);
   border-radius: 200px;
-  padding-bottom: 0px;
+  padding-bottom: 5%;
   max-width: 300px;
   float: left;
 }
@@ -72,7 +72,7 @@
   border-radius: 300px;
   width: 100%; /*Try using 100% as a value*/
 }
-img ~ *
+.card img ~ *
 /* 
   Using a general sibling combinator,
   select any element that is a
@@ -109,6 +109,8 @@ img ~ *
    padding-top: 0px;
    padding-left: 10px;
    padding-right: 10px;
+   border-style: solid;
+   border-color: pink;
  }
 h3 
 { 
