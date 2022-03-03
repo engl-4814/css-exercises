@@ -22,7 +22,7 @@ ul.card-wrapper {
     Research this rule & what it can do.
     - Make it so there's no styling for the list items
     */
-  list-style-type: ;
+  list-style-type: square; 
 }
 
 /* Select the 'card' class */
@@ -32,10 +32,10 @@ ul.card-wrapper {
     configure the card box
     styles to your liking.
     */
-  background-color: ;
-  border-radius: ;
-  padding-bottom: ;
-  max-width: ;
+  background-color: beige ;
+  border-radius: 20px ;
+  padding-bottom: 5px ;
+  max-width: 100px ;
 }
 
 /* 
@@ -43,7 +43,7 @@ ul.card-wrapper {
   select any h3 element that is a
   descendant of the 'card' class
   */
-{
+.card h3 {
   /*
     Lookup each rule and 
     configure the card's
@@ -58,9 +58,9 @@ ul.card-wrapper {
   select any img element that is a
   direct child of the 'card' class
   */
-.card img ~ * {
 
-}
+
+.card > image
   /*
     Lookup each rule and 
     configure the card's
@@ -76,7 +76,7 @@ ul.card-wrapper {
   general sibling of the img element.
   HINT: Look up the 'universal' selector.
   */
-{
+  .card img ~ * {
   /* 
     - What elements are impacted
       by this selection?
