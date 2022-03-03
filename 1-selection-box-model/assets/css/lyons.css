@@ -12,37 +12,67 @@
   Practice making a very basic heading font scheme with 
   the "font-size" rule with a "px" (pixel) value. By scheme, 
   I mean review what heading elements are in the HTML page, 
-  select them, and alter the size of the font for each of them.
-*/
+  select them, and alter the size of the font for each of them.  */
+  h1 {
+    font-size: 50px
+  }
+  h2 {
+    font-size: 30px
+  }
+
 
 
 /* 2. General Ruleset: 
   Select the main element.
   Apply a max-width of 500px.
-  Center it with the box model's margin as follows: margin: auto; 
-*/
+  Center it with the box model's margin as follows: margin: auto auto; */
+  main {
+    max-width: 500px;
+    margin: auto auto;
+  }
+
 
 /* 3. General Ruleset: 
   Use rules provided by the box model to style the images and the links.
   Your choice! So, select all of the images and write some general styles
   for them to share. Just don't add a border to them.
-  Then, do the same for the links, i.e., the 'a' elements.
-*/
+  Then, do the same for the links, i.e., the 'a' elements. */
+  img {
+    height: 200px;
+    width: 500px;
+    padding: 20px;
+  }
+  a {
+    padding: 40px;
+  }
 
 
 /* 4. General Ruleset: 
   Use rules provided by the box model to style the header and footer
-  in whatever way you'd like.
-*/
-
+  in whatever way you'd like. */
+  header {
+    background-color: aqua;
+    padding: 20px;
+  }
+  footer {
+    background-color: orchid;
+    padding: 10px
+  }
 
 
 /* 5. More Specific Ruleset: 
-  Select any img with the class img-border and add a border to it. 
-*/
+  Select any img with the class img-border and add a border to it. */
+  img.img-border {
+    background: pink;
+    border: 40px solid darkorange;
+    padding: 70px;
+  }
 
 
 /* 6. More Specific Ruleset: 
   Select any img within a div with the class float.
-  Apply a float: left; rule and padding-right: 20px; rule to it. 
-*/
+  Apply a float: left; rule and padding-right: 20px; rule to it. */
+  div.float > img {
+    float: left;
+    padding-right: 20px;
+  }

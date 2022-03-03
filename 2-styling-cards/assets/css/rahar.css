@@ -17,31 +17,30 @@
 
 
 /* Select the ul with the class 'card-wrapper' */
-ul.card-wrapper { 
+ul.card-wrapper
+{ 
   /* 
     Research this rule & what it can do.
     - Make it so there's no styling for the list items
     */
-  list-style-type: square;
-  /* list point type 
-    */
+  list-style-type: none ;
+  background-color:rgb(245, 245, 212)
 }
 
 /* Select the 'card' class */
-.card {
+.card
+{
   /*
     Lookup each rule and 
     configure the card box
     styles to your liking.
     */
-  background-color: rgb(151, 115, 49);
-  border-radius: 50%;
-  /* rounded edges
-    */
   float: left;
-  padding-bottom: 40px;
-  margin: 20px;
-  max-width: 200px;
+  background-color:rgb(245, 245, 212) ;
+  border-radius: 10px;
+  padding-bottom:5px ;
+  max-width:300px ;
+  margin:10px;
 }
 
 /* 
@@ -49,16 +48,15 @@ ul.card-wrapper {
   select any h3 element that is a
   descendant of the 'card' class
   */
-.card h3 {
+.card h3
+  {
   /*
     Lookup each rule and 
     configure the card's
     h3 styles to your liking.
     */
-  margin-top: 40px;
-  /* set top of margin 
-    */
-  font-size: 25px;
+  margin-top:10px ;
+  font-size:40px ;
 }
 
 /* 
@@ -66,14 +64,15 @@ ul.card-wrapper {
   select any img element that is a
   direct child of the 'card' class
   */
-.card > img {
+
+  {
   /*
     Lookup each rule and 
     configure the card's
     img styles.
     */
-  border-radius: 50px;
-  width: 100%; /*Try using 100% as a value*/
+  border-radius:5px ;
+  width:100% ; /*Try using 100% as a value*/
 }
 
 /* 
@@ -82,15 +81,16 @@ ul.card-wrapper {
   general sibling of the img element.
   HINT: Look up the 'universal' selector.
   */
-img ~ * {
+
+  {
   /* 
     - What elements are impacted
       by this selection?
     - How could you provide uniform
       spacing on each side of these
       elements? */
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: ;
+  margin-right: ;
 }
 
 /* 

@@ -72,7 +72,7 @@ footer {
 /* 5. More Specific Ruleset: 
   Select any img with the class img-border and add a border to it. */
 
-.img-border {
+img.img-border {
   border: 10px solid pink;
 }
 
@@ -81,7 +81,7 @@ footer {
   Select any img within a div with the class float.
   Apply a float: left; rule and padding-right: 20px; rule to it. */
 
-.float {
+img.float {
   left: 20;
   width: 100; 
   padding-right: 20px;

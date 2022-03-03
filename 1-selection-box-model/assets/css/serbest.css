@@ -14,35 +14,67 @@
   I mean review what heading elements are in the HTML page, 
   select them, and alter the size of the font for each of them.
 */
-
+h1 {
+  font-size: 130px;
+}
+h2 {
+  font-size: 108px;
+}
 
 /* 2. General Ruleset: 
   Select the main element.
   Apply a max-width of 500px.
-  Center it with the box model's margin as follows: margin: auto; 
-*/
+  Center it with the box model's margin as follows: margin: auto; */
+main {
+  max-width: 500px;
+  margin: auto;
+}
+
 
 /* 3. General Ruleset: 
   Use rules provided by the box model to style the images and the links.
   Your choice! So, select all of the images and write some general styles
   for them to share. Just don't add a border to them.
-  Then, do the same for the links, i.e., the 'a' elements.
-*/
-
+  Then, do the same for the links, i.e., the 'a' elements. */
+img {
+  width: 40px;
+  height: 90px;
+  padding: 40px;
+  margin: 20px;
+}
+a {
+  width: 30px;
+  height: 10px;
+  padding: 10px;
+  margin: 200px;
+}
 
 /* 4. General Ruleset: 
   Use rules provided by the box model to style the header and footer
-  in whatever way you'd like.
-*/
+  in whatever way you'd like. */
+header {
+  width: 100px;
+  height: 100px;
+  color:aquamarine;
 
+}
 
-
+footer {
+ width: 100px;
+ height: 90px;
+ color:brown;
+}
 /* 5. More Specific Ruleset: 
-  Select any img with the class img-border and add a border to it. 
-*/
+  Select any img with the class img-border and add a border to it. */
+.img-border img{
+  border: 30px;
+}
 
 
 /* 6. More Specific Ruleset: 
   Select any img within a div with the class float.
-  Apply a float: left; rule and padding-right: 20px; rule to it. 
-*/
+  Apply a float: left; rule and padding-right: 20px; rule to it. */
+.float img{
+  float: left;
+  padding-right: 20px;
+}
