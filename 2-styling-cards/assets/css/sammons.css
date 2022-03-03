@@ -17,25 +17,18 @@
 
 
 /* Select the ul with the class 'card-wrapper' */
-ul.card-wrapper {
-  /* 
-    Research this rule & what it can do.
-    - Make it so there's no styling for the list items
-    */
-  list-style-type: square; 
+.card-wrapper { 
+  list-style-type: none;
 }
 
 /* Select the 'card' class */
 .card {
-  /*
-    Lookup each rule and 
-    configure the card box
-    styles to your liking.
-    */
-  background-color: beige ;
-  border-radius: 20px ;
-  padding-bottom: 5px ;
-  max-width: 100px ;
+  background-color: maroon;
+  border-radius: 30px;
+  padding-bottom: 10px;
+  max-width: 300px;
+  float: left;
+  margin: 10px
 }
 
 /* 
@@ -44,13 +37,8 @@ ul.card-wrapper {
   descendant of the 'card' class
   */
 .card h3 {
-  /*
-    Lookup each rule and 
-    configure the card's
-    h3 styles to your liking.
-    */
-  margin-top: ;
-  font-size: ;
+  margin-top: 10px;
+  font-size: 16px;
 }
 
 /* 
@@ -58,16 +46,9 @@ ul.card-wrapper {
   select any img element that is a
   direct child of the 'card' class
   */
-
-
-.card > image
-  /*
-    Lookup each rule and 
-    configure the card's
-    img styles.
-    */
-  border-radius: ;
-  width: ; /*Try using 100% as a value*/
+.card > img {
+  border-radius: 10px;
+  width: 100%; /*Try using 100% as a value*/
 }
 
 /* 
@@ -76,15 +57,9 @@ ul.card-wrapper {
   general sibling of the img element.
   HINT: Look up the 'universal' selector.
   */
-  .card img ~ * {
-  /* 
-    - What elements are impacted
-      by this selection?
-    - How could you provide uniform
-      spacing on each side of these
-      elements? */
-  margin-left: ;
-  margin-right: ;
+img ~ p{
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* 
