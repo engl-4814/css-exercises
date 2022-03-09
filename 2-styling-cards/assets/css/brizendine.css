@@ -22,7 +22,7 @@
     Research this rule & what it can do.
     - Make it so there's no styling for the list items
     */
-  ul.card-wrapper {
+  .card.ul.card-wrapper {
   list-style-type: circle;
 }
 
@@ -34,7 +34,7 @@
     */
 .card {
   background-color: blue;
-  border-radius: 30px;
+  border-radius: 100px;
   padding-bottom: 50px;
   max-width: 50px;
 }
@@ -50,7 +50,7 @@
     configure the card's
     h3 styles to your liking.
     */
-  h3 {
+  .card h3 {
   margin-top: 40px;
   font-size: large;
 }
