@@ -16,13 +16,15 @@
 
 /* GENERAL */
 
-html {
-  font-size: 20px;
-}
+/* 
+  Select the html root tag.
+  Set the font-size between 
+  18 and 22 pixels (px).
+*/
+
 
 /* TYPOGRAPHY */
- h1 {font-size: 5rem;}
- h2 { font-size: 2rem}
+
 /* 
   Take stock of your headings vs.
   paragraph elements and write some
