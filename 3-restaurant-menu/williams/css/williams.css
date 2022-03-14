@@ -15,7 +15,9 @@
 
 
 /* GENERAL */
-
+html {
+  font-size: 35px;
+}
 /* 
   Select the html root tag.
   Set the font-size between 
@@ -24,7 +26,7 @@
 
 
 /* TYPOGRAPHY */
-
+h1 { font-size: 5rem; }
 /* 
   Take stock of your headings vs.
   paragraph elements and write some
