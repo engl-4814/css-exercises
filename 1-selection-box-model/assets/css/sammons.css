@@ -12,27 +12,21 @@
   Practice making a very basic heading font scheme with 
   the "font-size" rule with a "px" (pixel) value. By scheme, 
   I mean review what heading elements are in the HTML page, 
-  select them, and alter the size of the font for each of them.  */
-  
-h1 { 
+  select them, and alter the size of the font for each of them.
+*/
+h1 {
   font-size: 100px;
-  color: royalblue;
 }
 
-h2 { 
+h2 {
   font-size: 50px;
-  color: purple;
 }
 
-footer h2 {
-  font-size: 25px;
-  color: rgb(89, 0, 255);
-}
 /* 2. General Ruleset: 
   Select the main element.
   Apply a max-width of 500px.
-  Center it with the box model's margin as follows: margin: auto auto; */
-
+  Center it with the box model's margin as follows: margin: auto; 
+*/
 main {
   max-width: 500px;
   margin: auto;
@@ -42,52 +36,51 @@ main {
   Use rules provided by the box model to style the images and the links.
   Your choice! So, select all of the images and write some general styles
   for them to share. Just don't add a border to them.
-  Then, do the same for the links, i.e., the 'a' elements. */
-
+  Then, do the same for the links, i.e., the 'a' elements.
+*/
 img {
-width: 350px;
-height: 100px;
-padding: 20px;
-margin: 20px;
+  width: 350px;
+  height: 100px;
+  padding: 10px;
+  margin: 0 auto;
 }
 
 a href {
-width: 200px;
-height: 100px;
-padding: 50px; 
-margin: 25px;
+  padding: 10px;
+  margin: 25px;
 }
+
 /* 4. General Ruleset: 
   Use rules provided by the box model to style the header and footer
-  in whatever way you'd like. */
+  in whatever way you'd like.
+*/
 header {
-  width: 500px; 
-  height: 250px; 
-  padding: 10px; 
-  margin: 10px;
-  background-color: rgb(250, 229, 240);
+  width: 100px;
+  height: 50px;
+  padding: 10px;
+  margin: 20px;
 }
 
 footer {
-  width: 300px; 
-  height: 200px; 
+  width: 100px;
+  height: 50px;
   padding: 10px;
-  margin: 10px;
-  background-color: rgb(217, 255, 0);
+  margin: 20px;
 }
+
 
 /* 5. More Specific Ruleset: 
-  Select any img with the class img-border and add a border to it. */
+  Select any img with the class img-border and add a border to it. 
+*/
 .img-border {
-  border: 10px dashed green;
+  border: 10px solid black;
 }
-
 
 /* 6. More Specific Ruleset: 
   Select any img within a div with the class float.
-  Apply a float: left; rule and padding-right: 20px; rule to it. */
-
+  Apply a float: left; rule and padding-right: 20px; rule to it. 
+*/
 .float {
-  float: left; 
+  float: left;
   padding-right: 20px;
 }
