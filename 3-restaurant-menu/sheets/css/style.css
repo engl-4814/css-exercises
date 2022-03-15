@@ -48,18 +48,24 @@ p {
 */
 header {
   background-color: lightcoral;
+  padding: 20px;
+  border: 10px lightcoral;
 }
 header h1 {
   color: white;
+  display: inline-block;
+  font-size: 1em;
 }
-header nav li {
+header nav {
   color: white;
+  display: inline-block;
+  margin-left: 75%;
+}
+header img {
+  margin: 30px;
 }
 img {
   border-radius: 50%;
-}
-header h1 {
-  display: inline;
 }
 
 /* Logo Box */
