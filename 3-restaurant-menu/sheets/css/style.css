@@ -21,34 +21,17 @@ html {
 
 /* TYPOGRAPHY */
 
-/* 
-  Take stock of your headings vs.
-  paragraph elements and write some
-  rules.
-
-  Use the root element relative 
-  length unit, which the readings
-  describe for you. Make sure you
-  know how these values are in 
-  relation to something you defined
-  above.
-*/
 p {
   font-size: 0.90em;
 }
 
 /* HEADER */
 
-/* 
-  Write a more general selection of the containing
-  element for this area of the site.
+/* Logo Box */
 
-  How can you apply some whitespace and color rules
-  to mimic the site example.
-*/
 header {
   background-color: lightcoral;
-  padding: 20px;
+  padding: 50px;
   border: 10px lightcoral;
 }
 header h1 {
@@ -56,13 +39,14 @@ header h1 {
   display: inline-block;
   font-size: 1em;
 }
-header nav {
+nav ul li {
   color: white;
   display: inline-block;
-  margin-left: 75%;
+  margin-left: 90%;
 }
 header img {
-  margin: 30px;
+  margin-bottom: 50px;
+  float: left
 }
 img {
   border-radius: 50%;
@@ -103,7 +87,9 @@ img {
   and apply some white space here to make it
   look purrrrrdy?
 */
-
+main {
+  padding: 50px;
+}
 
 /* CARDS */
 
