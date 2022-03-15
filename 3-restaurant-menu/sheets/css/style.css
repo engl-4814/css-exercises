@@ -49,6 +49,18 @@ p {
 header {
   background-color: lightcoral;
 }
+header h1 {
+  color: white;
+}
+header nav li {
+  color: white;
+}
+img {
+  border-radius: 50%;
+}
+header h1 {
+  display: inline;
+}
 
 /* Logo Box */
 
