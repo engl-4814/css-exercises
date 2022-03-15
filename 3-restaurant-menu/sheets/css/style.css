@@ -44,6 +44,9 @@ nav ul li {
   display: inline-block;
   margin-left: 90%;
 }
+nav {
+  list-style: none;
+}
 header img {
   margin-bottom: 50px;
   float: left
@@ -51,15 +54,6 @@ header img {
 img {
   border-radius: 50%;
 }
-
-/* Logo Box */
-
-/* 
-  How could you group the image and 
-  'LingerPizza' together? Then how to
-  float it?
-*/
-
 
 /* Header Navigation */
 
@@ -82,31 +76,23 @@ img {
 
 /* MAIN */
 
-/* 
-  How could you select a main wrapper 
-  and apply some white space here to make it
-  look purrrrrdy?
-*/
 main {
   padding: 50px;
 }
 
 /* CARDS */
 
+
 /* 
   Almost done!
 
-  Create a card class component and consider
+  Consider
   a similar float technique to apply to the pizza
   menu items.
-
-  Try to be semantically meaningful with your
-  class names. We have a nice context to consider for
-  your class names here.
-
-  Also, use the HTML hierarchy to select more
-  specific items within each menu item card.
 */
+.card {
+  display: inline-block;
+}
 
 /* 
   BONUS!!
