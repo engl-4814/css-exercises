@@ -21,23 +21,25 @@ html {
 }
 
 /* TYPOGRAPHY */
- h1 {font-size: 5rem;}
- h2 { font-size: 2rem}
-/* 
-  Take stock of your headings vs.
-  paragraph elements and write some
-  rules.
-
-  Use the root element relative 
-  length unit, which the readings
-  describe for you. Make sure you
-  know how these values are in 
-  relation to something you defined
-  above.
-*/
+p { 
+  font-size: 0.90em;
+}
 
 /* HEADER */
+header {
+background-color: lightcoral;
+padding: 50px;
+border: 10px lightcoral;
+}
 
+header h1 {
+  color: white;
+  font-size: 1em;
+  margin-left: 10px;
+}
+nav ul li {
+  color: white;
+}
 /* 
   Write a more general selection of the containing
   element for this area of the site.
