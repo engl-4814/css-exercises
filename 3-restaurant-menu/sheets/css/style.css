@@ -91,7 +91,12 @@ main {
   menu items.
 */
 .card {
+  width: 250px;
   display: inline-block;
+  border: 3px black;
+  border-style: solid;
+  margin: auto;
+  padding: 10px;
 }
 
 /* 
