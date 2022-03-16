@@ -39,13 +39,13 @@ header h1 {
   display: inline-block;
   font-size: 1em;
 }
-nav ul li {
+header ul li {
   color: white;
   display: inline-block;
   margin-left: 90%;
-}
-nav {
+  font-size: 1em;
   list-style: none;
+  text-align: right;
 }
 header img {
   margin-bottom: 50px;
@@ -82,14 +82,6 @@ main {
 
 /* CARDS */
 
-
-/* 
-  Almost done!
-
-  Consider
-  a similar float technique to apply to the pizza
-  menu items.
-*/
 .card {
   width: 250px;
   display: inline-block;
@@ -97,6 +89,11 @@ main {
   border-style: solid;
   margin: auto;
   padding: 10px;
+  text-align: center;
+}
+.card li {
+  list-style: none;
+  display: inline;
 }
 
 /* 
