@@ -117,9 +117,12 @@ div.card {
   padding-top: 5px;
   margin-bottom: 5px;
   margin-left: 5px;
-  width: 145px;
+  width: 200px;
 }
 
+section.clear-fix {
+  clear: both;
+}
 /* 
   Almost done!
 
