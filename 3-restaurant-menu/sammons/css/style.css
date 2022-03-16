@@ -1,0 +1,67 @@
+html { font-size: 20px;}
+
+ h1 { font-size: 5rem;}
+ h2 { font-size: 2rem;}
+ h3 { font-size: 1.5rem;}
+ h4 { font-size: 1.2rem;}
+
+header {
+  background-color: maroon;
+  color: black;
+  min-height: 65px;
+  padding: 25;
+}
+
+div.logo-box {
+  float: left;
+  margin: -7px;
+}
+
+.logo-box > img {
+float: left;
+border-radius: 50%;
+margin-right: 5px;
+}
+
+nav {
+  text-align: right;
+  max-width: 400px;
+  float: right;
+
+}
+
+nav ul li {
+  list-style-type: none;
+display: inline;
+}
+
+nav a {
+  color: black;
+}
+
+ main {
+   margin: 20px;
+ }
+
+.card_menu-item {
+  border: solid black 1px;
+  max-width: 220px;
+  max-height: 635px;
+  padding: 25;
+  float: left;
+  margin: 0 15px 15px 0;
+}
+
+.card_menu-item img {
+  border-radius: 50%;
+  width: 100%;
+}
+
+.card_menu-item ul {
+  margin: 0;
+  padding: 0;
+}
+
+ .clear-fix {
+   clear: both;
+ }
