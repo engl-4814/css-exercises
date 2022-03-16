@@ -28,10 +28,11 @@ html {
 
 /* TYPOGRAPHY */
 
-h1 { font-size: 5rem; }
+h1 { font-size: 1.2rem; }
 h2 { font-size: 2rem; }
 h3 { font-size: 1.5rem; }
-h4 { font-size: 1.2rem }
+h4 { font-size: 1em }
+h4 { font-style: italic }
 
 /* 
   Take stock of your headings vs.
@@ -56,6 +57,23 @@ h4 { font-size: 1.2rem }
   to mimic the site example.
 */
 
+header {
+  background-color: rgb(243, 130, 130);
+  color: white;
+  min-height: 65px;
+  padding: 25px;
+}
+
+div.logo-box {
+  width: 200px;
+}
+
+.logo-box > img {
+  float:left;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
 
 /* Logo Box */
 
@@ -67,7 +85,21 @@ h4 { font-size: 1.2rem }
 
 
 /* Header Navigation */
+nav {
+  text-align: right;
+  max-width: 400px;
+  float: right;
+}
 
+nav ul li { 
+  list-style-type: none;
+  display: inline; 
+  
+}
+
+nav a {
+  color: white;
+}
 /* 
   After the grouped content above,
   there seems to be a nav!
@@ -87,12 +119,28 @@ h4 { font-size: 1.2rem }
 
 /* MAIN */
 
-/* 
-  How could you select a main wrapper 
-  and apply some white space here to make it
-  look purrrrrdy?
-*/
+.card_menu_item {
+  border: solid;
+  max-width: 220px;
+  min-height: 625px;
+  padding: 25px;
+  float: left;
+  margin: 0 15px 15px 0
+}
 
+.card_menu_item img {
+  border-radius: 50%;
+  width: 100%;
+}
+
+.card_menu_item ul {
+  display: inline; 
+  list-style-type: none;
+}
+
+.clear-fix {
+clear: both
+}
 
 /* CARDS */
 
