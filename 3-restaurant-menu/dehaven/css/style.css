@@ -21,34 +21,41 @@ html {
 }
 
 /* TYPOGRAPHY */
- h1 {font-size: 5rem;}
- h2 { font-size: 2rem}
-/* 
-  Take stock of your headings vs.
-  paragraph elements and write some
-  rules.
+h1 {font-size: 1rem;}
+h2 {font-size: 1.5rem;}
+h3 {font-size: 1.3rem;}
+h4 {font-size: 1rem;}
 
-  Use the root element relative 
-  length unit, which the readings
-  describe for you. Make sure you
-  know how these values are in 
-  relation to something you defined
-  above.
-*/
 
 /* HEADER */
+header {
+background-color: lightcoral;
+padding: 50px;
+border: 10px lightcoral;
+font-size: 15px;
+}
 
-/* 
-  Write a more general selection of the containing
-  element for this area of the site.
-
-  How can you apply some whitespace and color rules
-  to mimic the site example.
-*/
-
+header h1 {
+  color: white;
+  font-size: 1em;
+  margin-left: 10px;
+}
+nav ul li {
+  color: white;
+}
 
 /* Logo Box */
+header img {
+  float: left;
+  width: 100px;
+  height: 100px;
+}
 
+header h1 {
+  top: 18px;
+  left: 10px;
+  position: relative;
+}
 /* 
   How could you group the image and 
   'LingerPizza' together? Then how to
@@ -57,35 +64,25 @@ html {
 
 
 /* Header Navigation */
+header nav {
+  float: right; 
+  position: relative; 
+}
 
-/* 
-  After the grouped content above,
-  there seems to be a nav!
-  
-  Check out this article:
-  https://www.blustemy.io/styling-inline-lists-in-css/
-
-  Note how to select list items and 
-  use the display property to change its
-  typical block behavior.
-
-  Then, lookup the 'text-align' rule and
-  consider what element to select and apply it
-  there.
-*/
 
 
 /* MAIN */
-
-/* 
-  How could you select a main wrapper 
-  and apply some white space here to make it
-  look purrrrrdy?
-*/
-
+.card-wrapper {
+  list-style-type: none;
+}
 
 /* CARDS */
-
+div.card{
+  border-color: black;
+  float: left;
+  background: transparent;
+  border-style: solid;
+}
 /* 
   Almost done!
 
