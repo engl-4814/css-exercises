@@ -5,13 +5,12 @@ body {
 header > section.picheaderbanner > h1 {
   font-size: 80%;
   color: white;
+  padding-top: 37px;
 }
 header > section.picheaderbanner > img {
   float: left;
-  margin-right: .5%;
-  margin-left: .9%;
+  margin: 20px;
   border-radius: 70px;
-  margin-top: .999%;
 }
 header > section.navbanner > nav > ul > li > a {
   color: white;
@@ -19,13 +18,16 @@ header > section.navbanner > nav > ul > li > a {
 header > section.navbanner > nav > ul > li {
   font-size: 80%;
   list-style: none;
+  display: inline-block;
 }
 header > section.navbanner > nav {
   text-align: end;
-  margin-right: .9%;
+  margin-top: -2.7%;
+  margin-right: 15px
 }
 header {
   background-color: salmon;
+  padding-bottom: 10px;
 }
 
 /* Logo Box */
