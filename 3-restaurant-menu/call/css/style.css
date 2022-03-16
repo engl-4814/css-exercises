@@ -22,8 +22,16 @@
   18 and 22 pixels (px).
 */
 
+html {
+  font-size: 20px;
+}
 
 /* TYPOGRAPHY */
+
+h1 { font-size: 5rem; }
+h2 { font-size: 2rem; }
+h3 { font-size: 1.5rem; }
+h4 { font-size: 1.2rem }
 
 /* 
   Take stock of your headings vs.
@@ -54,7 +62,7 @@
 /* 
   How could you group the image and 
   'LingerPizza' together? Then how to
-  float the image/logo?
+  float it?
 */
 
 

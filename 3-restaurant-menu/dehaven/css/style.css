@@ -16,15 +16,13 @@
 
 /* GENERAL */
 
-/* 
-  Select the html root tag.
-  Set the font-size between 
-  18 and 22 pixels (px).
-*/
-
+html {
+  font-size: 20px;
+}
 
 /* TYPOGRAPHY */
-
+ h1 {font-size: 5rem;}
+ h2 { font-size: 2rem}
 /* 
   Take stock of your headings vs.
   paragraph elements and write some
@@ -54,7 +52,7 @@
 /* 
   How could you group the image and 
   'LingerPizza' together? Then how to
-  float the image/logo?
+  float it?
 */
 
 

@@ -1,0 +1,82 @@
+/* GENERAL */
+
+html {
+  font-size: 20px;
+}
+
+/* TYPOGRAPHY */
+
+p {
+  font-size: 0.90em;
+}
+
+/* HEADER */
+
+/* Logo Box */
+
+header {
+  background-color: lightcoral;
+  padding: 50px;
+  border: 10px lightcoral;
+}
+header h1 {
+  color: white;
+  display: inline-block;
+  font-size: 1em;
+}
+header ul li {
+  color: white;
+  display: inline-block;
+  margin-left: 90%;
+  font-size: 1em;
+  list-style: none;
+  text-align: right;
+}
+header img {
+  margin-bottom: 50px;
+  float: left
+}
+img {
+  border-radius: 50%;
+}
+
+/* Header Navigation */
+
+/* 
+  After the grouped content above,
+  there seems to be a nav!
+  
+  Check out this article:
+  https://www.blustemy.io/styling-inline-lists-in-css/
+
+  Note how to select list items and 
+  use the display property to change its
+  typical block behavior.
+
+  Then, lookup the 'text-align' rule and
+  consider what element to select and apply it
+  there.
+*/
+
+
+/* MAIN */
+
+main {
+  padding: 50px;
+}
+
+/* CARDS */
+
+.card {
+  width: 250px;
+  display: inline-block;
+  border: 3px black;
+  border-style: solid;
+  margin: auto;
+  padding: 10px;
+  text-align: center;
+}
+.card li {
+  list-style: none;
+  display: inline;
+}
