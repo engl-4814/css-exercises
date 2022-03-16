@@ -1,54 +1,107 @@
-<!-- 
-  Goal: Recreate the provided website as an image 
-  in HTML and CSS. Note how there are 3 images to
-  review to help you consider what HTML to write
-  and CSS.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CeCe's Pizza</title>
+  <link rel="stylesheet" href="css/williams.css" />
+</head>
+<body>
+  <header role="banner"> 
+    <div class="header">
+      <img src="https://via.placeholder.com/150">
+      <h1 id="title">CeCe's Pizza</h1>
+      <nav role="navigation" aria-label="Primary Navigation">
+        <ul>
+          <li><a href="#">Page One</a></li>
+          <li><a href="#">Page Two</a></li>
+          <li><a href="#">Page Three</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-  Again, I recommend doing one area at a time.
+  <main role="main" aria-lablledby="pizza menu">
+    <h2 id="pizza-menu">Pizza Menu</h2>
+    <p> Choose from our specialty pies, or decide from our classic pies below.</p>
 
-  Follow the prompts below in the comments. 
+    <section role="region1" aria-labelledby="speciality-pizzas">
+      <h3 id="specialty">Specialty</h3>
+      <div class="card">
+        <h4><b>The Berserker!</b></h4> 
+        <img src="https://via.placeholder.com/150">
+        <div class="container">
+          <h4><b>Description</b></h4> 
+          <p>Here is where I describe this amazing pizza for my customers</p> 
+          <h4><b>Ingredients</b></h4> 
+          <p>da da da da da da da da da da da</p> 
+        </div>
+      </div>
+      <div class="card">
+        <h4><b>Garden of Eloquence</b></h4> 
+        <img src="https://via.placeholder.com/150">
+        <div class="container">
+          <h4><b>Description</b></h4> 
+          <p>Here is where I describe this amazing pizza for my customers</p> 
+          <h4><b>Ingredients</b></h4> 
+          <p>da da da da da da da da da da da</p>
+        </div>
+      </div>
+      <div class="card">
+        <h4><b>Pickled Pucker</b></h4> 
+        <img src="https://via.placeholder.com/150">
+        <div class="container">
+          <h4><b>Description</b></h4> 
+          <p>Here is where I describe this amazing pizza for my customers</p> 
+          <h4><b>Ingredients</b></h4> 
+          <p>da da da da da da da da da da da</p> 
+        </div>
+      </div>
+      <div class="card">
+        <h4><b>Trouble with Truffles</b></h4> 
+        <img src="https://via.placeholder.com/150">
+        <div class="container">
+          <h4><b>Description</b></h4> 
+          <p>Here is where I describe this amazing pizza for my customers</p> 
+          <h4><b>Ingredients</b></h4> 
+          <p>da da da da da da da da da da da</p> 
+        </div>
+      </div>
+    </section>
 
-  Delete comments as you complete them to help 
-  keep your code readable.
- -->
+    <section role="region2" aria-labelledby="speciality-pizzas">
+      <h3 id="classic-pizzas">Classic Pizzas</h3>
+      <div class="card">
+        <h4><b>Cheeeeeeeeeezy</b></h4> 
+        <img src="https://via.placeholder.com/150">
+        <div class="container">
+          <h4><b>Description</b></h4> 
+          <p>Here is where I describe this amazing pizza for my customers</p> 
+          <h4><b>Ingredients</b></h4> 
+          <p>da da da da da da da da da da da</p> 
+        </div>
+      </div>
+      <div class="card">
+        <h4><b>Pepperoni</b></h4> 
+        <img src="https://via.placeholder.com/150">
+        <div class="container">
+          <h4><b>Description</b></h4> 
+          <p>Here is where I describe this amazing pizza for my customers</p> 
+          <h4><b>Ingredients</b></h4> 
+          <p>da da da da da da da da da da da</p>
+        </div>
+      </div>
+      <div class="card">
+        <h4><b>Sausage</b></h4> 
+        <img src="https://via.placeholder.com/150">
+        <div class="container">
+          <h4><b>Description</b></h4> 
+          <p>Here is where I describe this amazing pizza for my customers</p> 
+          <h4><b>Ingredients</b></h4> 
+          <p>da da da da da da da da da da da</p> 
+    </section>
+  </main>
 
-<!-- 
-  1. Create the basic HTML 'skeleton' and CSS link
-  2. Don't forgot: accessibility matters, so
-    keep practicing those techniques we learned.
--->
-
-<!-- 
-  3. Note the elements/content contained within the 
-     top red bar. What element would best include
-     these elements/content?
- -->
-
-<!-- 
-  4. Below the red bar, note the consistent 
-     white space around the elements/content.
-     Also, note the kind of content. What element
-     should be another child of the body and a 
-     sibling of the red bar containing block?
- -->
-
-<!-- 
-  5. Ok, a tricky part!
-  
-     Inside this sibling block of the red bar,
-     note how there seems to be a pattern to consider
-     with regards to the menu items.
-
-     There are also 3 more headings to consider that will 
-     give you some hints to how to create a set of
-     parent-child-descendent relationships with HTML.
-
-     Hint: the two types of pizzas, Specialty vs. CLassic,
-     should be respectively contained by a some available 
-     and semantic block element. 
-     
-     Within this block, you should spot the menu item
-     pattern. How can you group these content items together
-     in HTML, add a class to a particular part of the menu
-     item, and then select them as a class in your CSS?
- -->
+</body>
+</html>

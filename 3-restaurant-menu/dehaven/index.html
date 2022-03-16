@@ -5,47 +5,155 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Restaurant Menu</title>
-    <link rel="stylesheet" href="/dehaven/css/style.css">
-</head>
-
-
+    <link rel="stylesheet"
+    href="./css/style.css">
+ </head>
 <body>
+  <header role="banner">
+    <img src="https://via.placeholder.com/100">
+    <h1>
+      ZenPizza
+    </h1>
+    <nav class="nav" role="main navigation" aria-label="page navigation">
+      <ul>
+        <li><a href="#">Page One</a></li>
+        <li><a href="#">Page Two</a></li>
+        <li><a href="#">Page Three</a></li>
+      </ul>
+  </nav>
+  </header>
 
+  <main role="main">
+  <h2 id="pizza-menu">Pizza Menu</h2>
+  <p> 
+    Choose from our specialty pies, or decide from our classic pies below. 
+  </p>
+<section role="region1" aria-labelledby="specialty pizzas">
+  <h3>Specialty Pizzas</h3>
+    <div class="card">
+        <h4>The Berserker!</h4>
+          <img src="https://via.placeholder.com/150"
+          alt="placeholder image of the Berserker pizza.">
+          <p>
+            <strong>Description:</strong>
+            Here is where I describe this amazing pizza for my customers.
+          </p>
+          <strong>Ingredients:</strong>
+          <ul>
+            <li>da da,</li>
+            <li>da da,</li>
+            <li>da da,</li>
+            <li>da da,</li>
+            <li>da da,</li>
+        </ul>
+      </div>
+    <div class="card">
+      <h4>Garden of Eloquence</h4>
+       <img src="https://via.placeholder.com/150"
+       alt="placeholder image for the Garden of Eloquence Pizza">
+      <p>
+        <strong>Description:</strong>
+        Here is where I describe this amazing pizza for my customers.
+      </p>
+      <strong>Ingredients:</strong>
+      <ul>
+        <li>da da,</li>
+        <li>da da,</li>
+        <li>da da,</li>
+        <li>da da,</li>
+        <li>da da,</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h4>Pickled Pucker</h4>
+        <img src="https://via.placeholder.com/150"
+        alt="placeholder image of the Pickled Pucker pizza.">
+        <p>
+          <strong>Description:</strong>
+          Here is where I describe this amazing pizza for my customers.
+        </p>
+        <strong>Ingredients:</strong>
+        <ul>
+          <li>da da,</li>
+          <li>da da,</li>
+          <li>da da,</li>
+          <li>da da,</li>
+          <li>da da,</li>
+        </ul>
+      </div>
+<div class="card">
+      <h4>Trouble with Truffles</h4>
+          <img src="https://via.placeholder.com/150"
+          alt="placeholder image of the Troubled with Truffles pizza.">
+          <p>
+            <strong>Description:</strong>
+            Here is where I describe this amazing pizza for my customers.
+          </p>
+          <strong>Ingredients:</strong>
+          <ul>
+            <li>da da,</li>
+            <li>da da,</li>
+            <li>da da,</li>
+            <li>da da,</li>
+            <li>da da,</li>
+        </ul>
+      </div>
+</section>
 
-
+<section role="region2" aria-labelledby="classic pizzas">
+  <h3>Classic Pizzas</h3>
+<div class="card">
+    <h4>Cheeeeeeezy</h4>
+      <img src="https://via.placeholder.com/150"
+      alt="placeholder image of the Cheeeeeeezy pizza.">
+      <p>
+        <strong>Description:</strong>
+        Here is where I describe this amazing pizza for my customers.
+      </p>
+      <strong>Ingredients:</strong>
+        <ul>
+          <li>da da,</li>
+          <li>da da,</li>
+          <li>da da,</li>
+          <li>da da,</li>
+          <li>da da,</li>
+        </ul>
+      </div>
+      <div class="card">
+    <h4>Pepperoni</h4>
+    <img src="https://via.placeholder.com/150"
+    alt="placeholder image of the pepperoni pizza.">
+    <p>
+      <strong>Description:</strong>
+      Here is where I describe this amazing pizza for my customers.
+    </p>
+    <strong>Ingredients:</strong>
+    <ul>
+      <li>da da,</li>
+      <li>da da,</li>
+      <li>da da,</li>
+      <li>da da,</li>
+      <li>da da,</li>
+    </ul>
+  </div>
+  <div class="card">
+<h4>Sausage</h4>
+  <img src="https://via.placeholder.com/150"
+  alt="placeholder image of the sausage pizza.">
+  <p>
+  <strong>Description:</strong>
+  Here is where I describe this amazing pizza for my customers.
+  </p>
+  <strong>Ingredients:</strong>
+  <ul>
+    <li>da da,</li>
+    <li>da da,</li>
+    <li>da da,</li>
+    <li>da da,</li>
+    <li>da da,</li>
+  </ul>
+</div>
+    </section>
+  </main>
 </body>
 </html>
-<!-- 
-  3. Note the elements/content contained within the 
-     top red bar. What element would best include
-     these elements/content?
- -->
-
-<!-- 
-  4. Below the red bar, note the consistent 
-     white space around the elements/content.
-     Also, note the kind of content. What element
-     should be another child of the body and a 
-     sibling of the red bar containing block?
- -->
-
-<!-- 
-  5. Ok, a tricky part!
-  
-     Inside this sibling block of the red bar,
-     note how there seems to be a pattern to consider
-     with regards to the menu items.
-
-     There are also 3 more headings to consider that will 
-     give you some hints to how to create a set of
-     parent-child-descendent relationships with HTML.
-
-     Hint: the two types of pizzas, Specialty vs. CLassic,
-     should be respectively contained by a some available 
-     and semantic block element. 
-     
-     Within this block, you should spot the menu item
-     pattern. How can you group these content items together
-     in HTML, add a class to a particular part of the menu
-     item, and then select them as a class in your CSS?
- -->

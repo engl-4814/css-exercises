@@ -1,30 +1,16 @@
-/* 
-  Below are 2 kinds of comments: 
-
-  1) The usual prompts.
-  2) Comments that document what to
-     write underneath. They use all 
-     capitals for major areas and then
-     a regular capitalization scheme for
-     subsections in that area.
-
-  When put together, I hope they provide
-  you with some clues for both your CSS 
-  AND your HTML.
-*/
 
 
 /* GENERAL */
-
-/* 
-  Select the html root tag.
-  Set the font-size between 
-  18 and 22 pixels (px).
-*/
+html {
+  font-size: 18px;
+}
 
 
 /* TYPOGRAPHY */
-
+h1 { font-size: 1rem; }
+h2 { font-size: 1.5rem; }
+h3 { font-size: 1.3rem; }
+h4 { font-size: 1rem; }
 /* 
   Take stock of your headings vs.
   paragraph elements and write some
@@ -39,6 +25,12 @@
 */
 
 /* HEADER */
+.header {
+  padding: 20px;
+  background: #f18a93;
+  color: white;
+  font-size: 15px;
+}
 
 /* 
   Write a more general selection of the containing
@@ -50,16 +42,40 @@
 
 
 /* Logo Box */
+.header img {
+  float: left;
+  width: 50px;
+  height: 50px;
+  background: #555;
+}
 
+.header h1 {
+  position: relative;
+  top: 5px;
+  left: 10px;
+}
 /* 
   How could you group the image and 
   'LingerPizza' together? Then how to
-  float the image/logo?
+  float it?
 */
 
 
 /* Header Navigation */
+.header nav {
+  float: right;
+  position: relative;
+  margin-top: -40px;
+  font-size: .7rem;
+}
 
+nav ul li {
+  display: inline;
+}
+
+nav a {
+  color: white;
+}
 /* 
   After the grouped content above,
   there seems to be a nav!
@@ -78,7 +94,10 @@
 
 
 /* MAIN */
-
+.card-wrapper {
+  list-style-type: none;
+  padding-bottom: 15px
+}
 /* 
   How could you select a main wrapper 
   and apply some white space here to make it
@@ -87,6 +106,19 @@
 
 
 /* CARDS */
+div.card {
+  background: transparent;
+  border-style: solid;
+  border-width: 2px 2px 2px 2px;
+  border-color: black;
+  border-radius: 0.3rem;
+  float: left;
+  padding-left: 5px;
+  padding-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  width: 145px;
+}
 
 /* 
   Almost done!
@@ -102,6 +134,14 @@
   Also, use the HTML hierarchy to select more
   specific items within each menu item card.
 */
+img {
+  display: block;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+}
+
 
 /* 
   BONUS!!
