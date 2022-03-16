@@ -1,18 +1,3 @@
-/* 
-  Below are 2 kinds of comments: 
-
-  1) The usual prompts.
-  2) Comments that document what to
-     write underneath. They use all 
-     capitals for major areas and then
-     a regular capitalization scheme for
-     subsections in that area.
-
-  When put together, I hope they provide
-  you with some clues for both your CSS 
-  AND your HTML.
-*/
-
 /* GENERAL */
 
 html {
@@ -95,18 +80,3 @@ main {
   list-style: none;
   display: inline;
 }
-
-/* 
-  BONUS!!
-
-  Ok, by now, you're probably frustrated with the 
-  heading for the Classic section. Why is it doing
-  that?!
-
-  This is a bonus. Research the clear: both technique
-  in this article: 
-  https://www.smashingmagazine.com/2009/10/the-mystery-of-css-float-property/
-  
-  See if you can figure out where to apply this rule 
-  to resolve that issue.
- */
