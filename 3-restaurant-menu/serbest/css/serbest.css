@@ -48,7 +48,7 @@ header {
   padding:10px ;
 }
 
-div.logo-box{
+div.logo-box {
   width: 200px;
 }
 /* 
@@ -75,6 +75,7 @@ nav {
   text-align: right;
   float: right;
   max-width: 400px;
+  margin-top: -90px;
 }
 nav ul li{
   display: inline;
@@ -100,7 +101,11 @@ nav ul li{
 
 
 /* MAIN */
+main {
+  border: 10px solid darkblue;
+  max-width: 70%;
 
+}
 /* 
   How could you select a main wrapper 
   and apply some white space here to make it
@@ -109,7 +114,18 @@ nav ul li{
 
 
 /* CARDS */
+.food > img {
+  border-radius: 1px 100px/20px 100px;
+}
 
+li.food {
+  border: 10px solid darkblue;
+  background-color: aqua;
+  padding: 15px;
+  margin: 10px 10px 0px 0px;
+  display: inline-block;
+  width: 20%;
+}
 /* 
   Almost done!
 
