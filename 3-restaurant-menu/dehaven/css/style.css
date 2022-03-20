@@ -25,63 +25,78 @@ h1 {font-size: 1rem;}
 h2 {font-size: 1.5rem;}
 h3 {font-size: 1.3rem;}
 h4 {font-size: 1rem;}
+h4 {font-style: italic;}
 
 
 /* HEADER */
 header {
 background-color: lightcoral;
-padding: 50px;
-border: 10px lightcoral;
-font-size: 15px;
+color: white;
+min-height: 65px;
+padding: 25px;
 }
 
 header h1 {
-  color: white;
-  font-size: 1em;
-  margin-left: 10px;
+  margin: 16px;
 }
-nav ul li {
-  color: white;
-}
+
 
 /* Logo Box */
-header img {
+
+div.logo-box {
+  width: 200px;
   float: left;
-  width: 100px;
-  height: 100px;
+  margin: -16px;
 }
 
-header h1 {
-  top: 18px;
-  left: 10px;
-  position: relative;
+.logo-box > img {
+  float: left;
+  border-radius: 50%;
+  margin-right: 5px;
 }
-/* 
-  How could you group the image and 
-  'LingerPizza' together? Then how to
-  float it?
-*/
-
 
 /* Header Navigation */
-header nav {
-  float: right; 
-  position: relative; 
+
+li {
+  margin-inline-end: 0px; 
+  margin-inline-start: 0px;
+  display: inline;
 }
 
+nav {
+  color: white;
+  text-align: right; 
+  max-width: 400px;
+  float: right;
+  display: block;
+}
 
-
+nav a { 
+  color: white;
+  font-size: 0.8rem;
+}
 /* MAIN */
-.card-wrapper {
-  list-style-type: none;
+
+div.card { 
+  border: solid black;
+  max-width: 220px;
+  min-height: 635px; 
+  padding: 25px;
+  float: left;
+  margin: 0 15px 15px 0; 
 }
 
 /* CARDS */
-div.card{
-  border-color: black;
-  float: left;
-  background: transparent;
-  border-style: solid;
+div.card img { 
+  border-radius: 50%;
+  width: 100%;
+}
+
+.clear-fix {
+  clear: both;
+}
+section {
+  display: block;
 }
 /* 
   Almost done!
@@ -98,17 +113,3 @@ div.card{
   specific items within each menu item card.
 */
 
-/* 
-  BONUS!!
-
-  Ok, by now, you're probably frustrated with the 
-  heading for the Classic section. Why is it doing
-  that?!
-
-  This is a bonus. Research the clear: both technique
-  in this article: 
-  https://www.smashingmagazine.com/2009/10/the-mystery-of-css-float-property/
-  
-  See if you can figure out where to apply this rule 
-  to resolve that issue.
- */
