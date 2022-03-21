@@ -35,10 +35,14 @@ body {
   font-size: large;
  }
 h1 {  
-  font-family: 'Oswald' , 'sans-serif'
+  font-family: 'Oswald' , sans-serif;
 } 
-h2 {  } 
-h3 {  }
+h2 { 
+  font-family: 'Rubik' , sans-serif;
+ } 
+h3 { 
+  font-family: 'Shadows Into Light' , 'cursive';
+ }
 h4 {  }
 p  {  }
 blockquote {  }
