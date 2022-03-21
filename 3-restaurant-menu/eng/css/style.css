@@ -47,7 +47,14 @@
   How can you apply some whitespace and color rules
   to mimic the site example.
 */
+header {
+  background-color: azure(243, 130, 130);
+  color: white;
+}
 
+.logo-box > img {
+  float 
+}
 
 /* Logo Box */
 

@@ -21,6 +21,9 @@
   Set the font-size between 
   18 and 22 pixels (px).
 */
+html {
+  font-size: 21px;
+}
 
 
 /* TYPOGRAPHY */
@@ -39,7 +42,15 @@
 */
 
 /* HEADER */
+header {
+  background-color: aquamarine;
+  min-height: 50px ;
+  padding:10px ;
+}
 
+div.logo-box {
+  width: 200px;
+}
 /* 
   Write a more general selection of the containing
   element for this area of the site.
@@ -47,16 +58,28 @@
   How can you apply some whitespace and color rules
   to mimic the site example.
 */
-
+.logo-box > img {
+  float: left;
+  border-radius: 50%;
+  margin-right: 10px;
+}
 
 /* Logo Box */
 
 /* 
   How could you group the image and 
   'LingerPizza' together? Then how to
-  float the image/logo?
+  float it?
 */
-
+nav {
+  text-align: right;
+  float: right;
+  max-width: 400px;
+  margin-top: -90px;
+}
+nav ul li{
+  display: inline;
+}
 
 /* Header Navigation */
 
@@ -78,7 +101,11 @@
 
 
 /* MAIN */
+main {
+  border: 10px solid darkblue;
+  max-width: 70%;
 
+}
 /* 
   How could you select a main wrapper 
   and apply some white space here to make it
@@ -87,7 +114,18 @@
 
 
 /* CARDS */
+.food > img {
+  border-radius: 1px 100px/20px 100px;
+}
 
+li.food {
+  border: 10px solid darkblue;
+  background-color: aqua;
+  padding: 15px;
+  margin: 10px 10px 0px 0px;
+  display: inline-block;
+  width: 20%;
+}
 /* 
   Almost done!
 

@@ -1,0 +1,115 @@
+/* 
+  Below are 2 kinds of comments: 
+
+  1) The usual prompts.
+  2) Comments that document what to
+     write underneath. They use all 
+     capitals for major areas and then
+     a regular capitalization scheme for
+     subsections in that area.
+
+  When put together, I hope they provide
+  you with some clues for both your CSS 
+  AND your HTML.
+*/
+
+
+/* GENERAL */
+
+html {
+  font-size: 20px;
+}
+
+/* TYPOGRAPHY */
+h1 {font-size: 1rem;}
+h2 {font-size: 1.5rem;}
+h3 {font-size: 1.3rem;}
+h4 {font-size: 1rem;}
+h4 {font-style: italic;}
+
+
+/* HEADER */
+header {
+background-color: lightcoral;
+color: white;
+min-height: 65px;
+padding: 25px;
+}
+
+header h1 {
+  margin: 16px;
+}
+
+
+/* Logo Box */
+
+div.logo-box {
+  width: 200px;
+  float: left;
+  margin: -16px;
+}
+
+.logo-box > img {
+  float: left;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+/* Header Navigation */
+
+li {
+  margin-inline-end: 0px; 
+  margin-inline-start: 0px;
+  display: inline;
+}
+
+nav {
+  color: white;
+  text-align: right; 
+  max-width: 400px;
+  float: right;
+  display: block;
+}
+
+nav a { 
+  color: white;
+  font-size: 0.8rem;
+}
+/* MAIN */
+
+div.card { 
+  border: solid black;
+  max-width: 220px;
+  min-height: 635px; 
+  padding: 25px;
+  float: left;
+  margin: 0 15px 15px 0; 
+}
+
+/* CARDS */
+div.card img { 
+  border-radius: 50%;
+  width: 100%;
+}
+
+.clear-fix {
+  clear: both;
+}
+section {
+  display: block;
+}
+/* 
+  Almost done!
+
+  Create a card class component and consider
+  a similar float technique to apply to the pizza
+  menu items.
+
+  Try to be semantically meaningful with your
+  class names. We have a nice context to consider for
+  your class names here.
+
+  Also, use the HTML hierarchy to select more
+  specific items within each menu item card.
+*/
+

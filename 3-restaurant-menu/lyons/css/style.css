@@ -1,0 +1,83 @@
+body {
+  font-size: 20px;
+}
+main {
+  padding-left: 40px;
+}
+header > section.picheaderbanner > h1 {
+  font-size: 80%;
+  color: white;
+  padding-top: 37px;
+}
+header > section.picheaderbanner > img {
+  float: left;
+  margin: 20px;
+  border-radius: 70px;
+}
+header > section.navbanner > nav > ul > li > a {
+  color: white;
+}
+header > section.navbanner > nav > ul > li {
+  font-size: 80%;
+  list-style: none;
+  display: inline-block;
+}
+header > section.navbanner > nav {
+  text-align: end;
+  margin-top: -2.7%;
+  margin-right: 15px
+}
+header {
+  background-color: salmon;
+  padding-bottom: 10px;
+}
+section.specials > img {
+  border-radius: 100%;
+}
+section.specials {
+  border: solid black;
+  min-width: 20%;
+  max-width: 20%;
+  padding-left: 20px;
+  padding-right: 20px;
+  float: left;
+  margin-right: 15px;
+}
+div.clear {
+  clear: both;
+}
+section.specials > ul > li {
+  list-style: none;
+  text-indent: -38px;
+}
+/* CARDS */
+
+/* 
+  Almost done!
+
+  Create a card class component and consider
+  a similar float technique to apply to the pizza
+  menu items.
+
+  Try to be semantically meaningful with your
+  class names. We have a nice context to consider for
+  your class names here.
+
+  Also, use the HTML hierarchy to select more
+  specific items within each menu item card.
+*/
+
+/* 
+  BONUS!!
+
+  Ok, by now, you're probably frustrated with the 
+  heading for the Classic section. Why is it doing
+  that?!
+
+  This is a bonus. Research the clear: both technique
+  in this article: 
+  https://www.smashingmagazine.com/2009/10/the-mystery-of-css-float-property/
+  
+  See if you can figure out where to apply this rule 
+  to resolve that issue.
+ */
