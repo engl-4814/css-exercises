@@ -1,7 +1,9 @@
 body {
   font-size: 20px;
 }
-/* HEADER */
+main {
+  padding-left: 40px;
+}
 header > section.picheaderbanner > h1 {
   font-size: 80%;
   color: white;
@@ -29,44 +31,25 @@ header {
   background-color: salmon;
   padding-bottom: 10px;
 }
-
-/* Logo Box */
-
-/* 
-  How could you group the image and 
-  'LingerPizza' together? Then how to
-  float it?
-*/
-
-
-/* Header Navigation */
-
-/* 
-  After the grouped content above,
-  there seems to be a nav!
-  
-  Check out this article:
-  https://www.blustemy.io/styling-inline-lists-in-css/
-
-  Note how to select list items and 
-  use the display property to change its
-  typical block behavior.
-
-  Then, lookup the 'text-align' rule and
-  consider what element to select and apply it
-  there.
-*/
-
-
-/* MAIN */
-
-/* 
-  How could you select a main wrapper 
-  and apply some white space here to make it
-  look purrrrrdy?
-*/
-
-
+section.specials > img {
+  border-radius: 100%;
+}
+section.specials {
+  border: solid black;
+  min-width: 20%;
+  max-width: 20%;
+  padding-left: 20px;
+  padding-right: 20px;
+  float: left;
+  margin-right: 15px;
+}
+div.clear {
+  clear: both;
+}
+section.specials > ul > li {
+  list-style: none;
+  text-indent: -38px;
+}
 /* CARDS */
 
 /* 
