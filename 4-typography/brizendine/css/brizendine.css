@@ -1,0 +1,75 @@
+/* 
+  GOAL: Create a set of rules that will create a typography scheme.
+*/
+
+
+html {
+  font-size: 18px;
+}
+
+
+
+
+/* GENERAL COPY SIZING */
+/*
+  3. Apply font-sizing, and, where
+     desired, font-style, font-weight,
+     text-indent, margins, padding,
+     line-height, and text-decoration.
+     
+     Consider how you want to style your 
+     vertical spacing, line lengths, 
+     and indentations.
+  
+  Use the relative-length rem value.
+
+  Remember, the:
+    - em computes relative to the 
+      font-size or width of the direct 
+      containing block
+    - rem computes relative to the 
+      font-size or width of the root 
+      element: html.
+*/
+body { 
+  font-size: large;
+ }
+h1 {  
+  font-family: 'Oswald' , 'sans-serif'
+} 
+h2 {  } 
+h3 {  }
+h4 {  }
+p  {  }
+blockquote {  }
+
+
+/* GENERAL FONT FAMILIES */
+/*
+  4. Define your general rules
+  for what types of fonts to
+  use with the font-family rule.
+*/
+p  {  }
+h1,h2,h3 {  }
+blockquote {  }
+
+/* 
+  5. From here on out, write more
+     specific rules for particular
+     parts of the page and classes 
+     of element(s) on the page.
+
+     Be sure to consider writing
+     them based on their position
+     in the HTML source.
+
+     Consider over-writing the 
+     general rules from above to
+     create a class distinct from the
+     general scheme, but still thematically
+     aligned with it. Again, use rules like
+     font-sizing, font-style, font-weight,
+     text-indent, margins, padding,
+     line-height, or text-decoration.
+*/
