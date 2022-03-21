@@ -15,8 +15,7 @@
 
 
 /* GENERAL */
-html {
-  font-size: 20px;
+
 }
 
 /* 
@@ -24,13 +23,11 @@ html {
   Set the font-size between 
   18 and 22 pixels (px).
 */
-
+html {
+  font-size: 20px;
 
 /* TYPOGRAPHY */
-h1 { font-size: 5rem; }
-h2 { font-size: 2rem; }
-h3 { font-size: 1.5rem;}
-h4,p { font-size: 1.2rem; }
+
 
 /* 
   Take stock of your headings vs.
@@ -44,8 +41,14 @@ h4,p { font-size: 1.2rem; }
   relation to something you defined
   above.
 */
+h1 { font-size: 5rem; }
+h2 { font-size: 2rem; }
+h3 { font-size: 1.5rem;}
+h4,p { font-size: 1.2rem; }
+h4 [ font-style: italic; }]
 
 /* HEADER */
+
 
 /* 
   Write a more general selection of the containing
@@ -54,10 +57,29 @@ h4,p { font-size: 1.2rem; }
   How can you apply some whitespace and color rules
   to mimic the site example.
 */
+header {
+background-color:rgb(240, 135, 135)
+color: white;
+min-height: 65px;
+padding: 25px;
+
+
+
+}
+
+div.logo-box{
+  width: 100px;
+}
 
 
 /* Logo Box */
+.logo-box > img {
+  float: left;
+  border-radius:50%;
+  margin-right: 5px;
 
+
+}
 /* 
   How could you group the image and 
   'LingerPizza' together? Then how to

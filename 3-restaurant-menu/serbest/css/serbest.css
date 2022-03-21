@@ -1,16 +1,33 @@
+/* 
+  Below are 2 kinds of comments: 
+
+  1) The usual prompts.
+  2) Comments that document what to
+     write underneath. They use all 
+     capitals for major areas and then
+     a regular capitalization scheme for
+     subsections in that area.
+
+  When put together, I hope they provide
+  you with some clues for both your CSS 
+  AND your HTML.
+*/
 
 
 /* GENERAL */
+
+/* 
+  Select the html root tag.
+  Set the font-size between 
+  18 and 22 pixels (px).
+*/
 html {
-  font-size: 18px;
+  font-size: 21px;
 }
 
 
 /* TYPOGRAPHY */
-h1 { font-size: 1rem; }
-h2 { font-size: 1.5rem; }
-h3 { font-size: 1.3rem; }
-h4 { font-size: 1rem; }
+
 /* 
   Take stock of your headings vs.
   paragraph elements and write some
@@ -25,13 +42,15 @@ h4 { font-size: 1rem; }
 */
 
 /* HEADER */
-.header {
-  padding: 20px;
-  background: #f18a93;
-  color: white;
-  font-size: 15px;
+header {
+  background-color: aquamarine;
+  min-height: 50px ;
+  padding:10px ;
 }
 
+div.logo-box {
+  width: 200px;
+}
 /* 
   Write a more general selection of the containing
   element for this area of the site.
@@ -39,43 +58,31 @@ h4 { font-size: 1rem; }
   How can you apply some whitespace and color rules
   to mimic the site example.
 */
-
+.logo-box > img {
+  float: left;
+  border-radius: 50%;
+  margin-right: 10px;
+}
 
 /* Logo Box */
-.header img {
-  float: left;
-  width: 50px;
-  height: 50px;
-  background: #555;
-}
 
-.header h1 {
-  position: relative;
-  top: 5px;
-  left: 10px;
-}
 /* 
   How could you group the image and 
   'LingerPizza' together? Then how to
   float it?
 */
-
-
-/* Header Navigation */
-.header nav {
+nav {
+  text-align: right;
   float: right;
-  position: relative;
-  margin-top: -40px;
-  font-size: .7rem;
+  max-width: 400px;
+  margin-top: -90px;
 }
-
-nav ul li {
+nav ul li{
   display: inline;
 }
 
-nav a {
-  color: white;
-}
+/* Header Navigation */
+
 /* 
   After the grouped content above,
   there seems to be a nav!
@@ -94,9 +101,10 @@ nav a {
 
 
 /* MAIN */
-.card-wrapper {
-  list-style-type: none;
-  padding-bottom: 15px
+main {
+  border: 10px solid darkblue;
+  max-width: 70%;
+
 }
 /* 
   How could you select a main wrapper 
@@ -106,22 +114,17 @@ nav a {
 
 
 /* CARDS */
-div.card {
-  background: transparent;
-  border-style: solid;
-  border-width: 2px 2px 2px 2px;
-  border-color: black;
-  border-radius: 0.3rem;
-  float: left;
-  padding-left: 5px;
-  padding-top: 5px;
-  margin-bottom: 5px;
-  margin-left: 5px;
-  width: 200px;
+.food > img {
+  border-radius: 1px 100px/20px 100px;
 }
 
-section.clear-fix {
-  clear: both;
+li.food {
+  border: 10px solid darkblue;
+  background-color: aqua;
+  padding: 15px;
+  margin: 10px 10px 0px 0px;
+  display: inline-block;
+  width: 20%;
 }
 /* 
   Almost done!
@@ -137,14 +140,6 @@ section.clear-fix {
   Also, use the HTML hierarchy to select more
   specific items within each menu item card.
 */
-img {
-  display: block;
-  width: 70%;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 50%;
-}
-
 
 /* 
   BONUS!!
