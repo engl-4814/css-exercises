@@ -15,6 +15,9 @@
 
 
 /* GENERAL */
+html {
+    font-size: 15px;
+  }
 
 /* 
   Select the html root tag.
@@ -24,6 +27,11 @@
 
 
 /* TYPOGRAPHY */
+
+h1 {font-size: 4rem;}
+h2 {font-size: 2rem;}
+h3 {font-size: 1.3rem;}
+h4 {font-size: 0.5rem;}
 
 /* 
   Take stock of your headings vs.
@@ -48,6 +56,21 @@
   to mimic the site example.
 */
 
+header {
+    background-color: saddlebrown;
+    padding: 30px;
+    border: 10px saddlebrown;
+    font-size: 15px;
+    }
+    
+    header h1 {
+      color: white;
+      font-size: 1em;
+      margin-left: 10px;
+    }
+    nav ul li {
+      color: white;
+    }
 
 /* Logo Box */
 
