@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@1,200&family=Source+Sans+Pro:wght@300&family=Yeseva+One&display=swap');
+
+/* GENERAL RULES */
+
+html { 
+  font-size: 18px;
+  background: rgb(239, 236, 245);
+}
+/* GENERAL COPY SIZING */
+/*
+  3. Apply font-sizing, and, where
+     desired, font-style, font-weight,
+     text-indent, margins, padding,
+     line-height, and text-decoration.
+     
+     Consider how you want to style your 
+     vertical spacing, line lengths, 
+     and indentations.
+
+*/
+li { font-size: 1.125rem; }
+h1 { font-size: 2.25rem; }
+h2 { font-size: 1.5rem; } 
+h3 { font-size: 1.125rem; }
+h4 { font-size: 1.05rem; font-style: italic; }
+p  { font-size: 1rem; }
+blockquote {  }
+
+
+/* GENERAL FONT FAMILIES */
+/*
+  4. Define your general rules
+  for what types of fonts to
+  use with the font-family rule.
+*/
+p  
+  { font-family: 'Source Sans Pro'; }
+h1,h2,h3 h4
+  { font-family: 'Yeseva One'; }
+blockquote 
+  { font-family: 'Source Sans Pro'; }
+li 
+  { font-family: 'IBM Plex Sans'; }
+
+/* 
+  5. From here on out, write more
+     specific rules for particular
+     parts of the page and classes 
+     of element(s) on the page.
+
+     Be sure to consider writing
+     them based on their position
+     in the HTML source.
+
+     Consider over-writing the 
+     general rules from above to
+     create a class distinct from the
+     general scheme, but still thematically
+     aligned with it. Again, use rules like
+     font-sizing, font-style, font-weight,
+     text-indent, margins, padding,
+     line-height, or text-decoration.
+*/
