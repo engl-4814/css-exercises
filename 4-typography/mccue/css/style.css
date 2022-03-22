@@ -44,8 +44,12 @@
       font-size or width of the root 
       element: html.
 */
-body {  }
-h1 {  } 
+body { 
+  font-size: small;
+ }
+h1 { 
+  font-size: 22px;
+ } 
 h2 {  } 
 h3 {  }
 h4 {  }
