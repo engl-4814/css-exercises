@@ -1,0 +1,109 @@
+/* 
+  GOAL: Create a set of rules that will create a typography scheme.
+*/
+
+/* IMPORTS */
+/* 
+  1. Import 3 fonts from https://fonts.google.com/ 
+
+  Consider what combination of serif and 
+  sans-serif fonts to use as a theme.
+  
+  Normally, we don't use this @import
+  method in our published code, since it
+  creates a performance-loading issue.
+  
+  But, it's fine for prototyping and play.
+*/
+
+/* GENERAL RULES */
+/* 
+  2. Set the root font-size
+*/
+html {
+  font-size: 18px;
+  background: floralwhite;
+}
+
+/* GENERAL COPY SIZING */
+/*
+  3. Apply font-sizing, and, where
+     desired, font-style, font-weight,
+     text-indent, margins, padding,
+     line-height, and text-decoration.
+     
+     Consider how you want to style your 
+     vertical spacing, line lengths, 
+     and indentations.
+  
+  Use the relative-length rem value.
+
+  Remember, the:
+    - em computes relative to the 
+      font-size or width of the direct 
+      containing block
+    - rem computes relative to the 
+      font-size or width of the root 
+      element: html.
+*/
+h1 { font-size: 2.25rem; } 
+h2 { font-size: 1.5rem; } 
+h3 { font-size: 1.125rem; }
+h4 { font-size: 1rem;
+font-style: italic; }
+p  { font-size: .8rem; }
+blockquote { font-size: .5rem; }
+.poem {line-height: 1.5rem;}
+.review {font-weight: 700;}
+
+
+/* GENERAL FONT FAMILIES */
+/*
+  4. Define your general rules
+  for what types of fonts to
+  use with the font-family rule.
+*/
+h1, h2, h3, h4 {
+  font-family: 'Playfair Display', serif;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+}
+blockquote { 
+  font-family: 'Montserrat', sans-serif;
+  columns: 2;
+  margin-left: 70%;
+}
+
+/* 
+  5. From here on out, write more
+     specific rules for particular
+     parts of the page and classes 
+     of element(s) on the page.
+
+     Be sure to consider writing
+     them based on their position
+     in the HTML source.
+
+     Consider over-writing the 
+     general rules from above to
+     create a class distinct from the
+     general scheme, but still thematically
+     aligned with it. Again, use rules like
+     font-sizing, font-style, font-weight,
+     text-indent, margins, padding,
+     line-height, or text-decoration.
+*/
+
+header {
+  padding: 30px;
+}
+
+section {
+  padding-left: 40px;
+}
+
+.article {
+  display: inline-block;
+}
