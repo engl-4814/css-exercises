@@ -72,6 +72,7 @@ p {
 blockquote { 
   font-family: 'Montserrat', sans-serif;
   columns: 2;
+  margin-left: 70%;
 }
 
 /* 
@@ -100,4 +101,8 @@ header {
 
 section {
   padding-left: 40px;
+}
+
+.article {
+  display: inline-block;
 }
