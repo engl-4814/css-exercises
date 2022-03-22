@@ -30,20 +30,21 @@ main { max-width: 500px;
   Your choice! So, select all of the images and write some general styles for them to share. Just don't add a border to them.
   Then, do the same for the links, i.e., the 'a' elements.
 */
-img {}
-a {color:blueviolet
+img { padding: 10px;
+      margin: 10px,12px; }
+a {color:blueviolet;
     padding: 20px,30px;
-    margin: 15px,20px}
+    margin: 15px,20px; }
 
 /* 4. General Ruleset: 
   Use rules provided by the box model to style the header and footer in whatever way you'd like.
 */
 header { background-color: rgb(130,130,243);
-        color:antiquewhite 
+        color:antiquewhite;
         padding: 20px; 
         margin: 20px;}
 footer { background-color: rgb(130,130,243);
-          color:antiquewhite 
+          color:antiquewhite;
           padding: 10px; 
           margin: 10px; }
 
