@@ -71,7 +71,7 @@ p {
 }
 blockquote { 
   font-family: 'Montserrat', sans-serif;
-  columns: 2 12em;
+  columns: 2;
 }
 
 /* 
