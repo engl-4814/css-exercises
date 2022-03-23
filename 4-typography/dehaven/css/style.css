@@ -50,12 +50,11 @@ figure {
   margin-top: 1.25rem;
   margin-bottom: 1.25rem;
   position: relative;
-  left: -1.2rem;
   text-align: center;
 }
 
 a { 
-  color: purple;
+  color: rgb(45, 0, 128);
   text-align: right;
 }
 
