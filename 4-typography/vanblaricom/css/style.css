@@ -121,8 +121,11 @@ h1,h2,h3 {
   font-family: 'Playfair Display', serif;
  }
 blockquote {
-  font-family: 'Montserrat', sans-serif;
-  }
+  font-family: 'Montserrat', sans-serif; 
+}
+li {
+  font-family: 'Playfair Display', serif;
+}
 
 /* 
   5. From here on out, write more
