@@ -45,9 +45,9 @@ h3 { font-size: 1rem; }
 */
 
 /* HEADER */
-header {
+h1 {
 margin-left: 300px;
-
+float: 300px;
 }
 
 /* 
