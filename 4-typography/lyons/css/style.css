@@ -1,0 +1,96 @@
+/* 
+  GOAL: Create a set of rules that will create a typography scheme.
+*/
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Poiret+One&display=swap');
+
+html {
+  font-size: 1.25rem;
+}
+
+/* GENERAL COPY SIZING */
+/*
+  3. Apply font-sizing, and, where
+     desired, font-style, font-weight,
+     text-indent, margins, padding,
+     line-height, and text-decoration.
+     
+     Consider how you want to style your 
+     vertical spacing, line lengths, 
+     and indentations.
+  
+  Use the relative-length rem value.
+
+  Remember, the:
+    - em computes relative to the 
+      font-size or width of the direct 
+      containing block
+    - rem computes relative to the 
+      font-size or width of the root 
+      element: html.
+*/
+body {font-size: 1rem}
+h1 {font-size: 3.75rem; line-height: 1rem; margin: .5rem} 
+h2 {font-size: 2.75rem; line-height: 1rem; margin: .5rem} 
+h3 {font-size: 2.25rem; line-height: 1rem; margin: .5rem}
+h4 {font-size: 1.5rem; line-height: 1rem; margin: .5rem}
+p  {font-size: 1rem; text-indent: 1rem; line-height: 1rem;}
+blockquote {font-size: 1rem; line-height: 1rem}
+
+
+/* GENERAL FONT FAMILIES */
+/*
+  4. Define your general rules
+  for what types of fonts to
+  use with the font-family rule.
+*/
+body {font-family: Poiret One}
+p  {font-family: Poiret One}
+h1,h2,h3,h4 {font-family: Lobster Two}
+blockquote {font-family: Comfortaa}
+
+/* 
+  5. From here on out, write more
+     specific rules for particular
+     parts of the page and classes 
+     of element(s) on the page.
+
+     Be sure to consider writing
+     them based on their position
+     in the HTML source.
+
+     Consider over-writing the 
+     general rules from above to
+     create a class distinct from the
+     general scheme, but still thematically
+     aligned with it. Again, use rules like
+     font-sizing, font-style, font-weight,
+     text-indent, margins, padding,
+     line-height, or text-decoration.
+*/
+
+blockquote,h1,h2,h3,h4,p {
+  margin-left: 5rem;
+}
+blockquote {
+  background-color: lightpink;
+  padding: 1rem;
+  text-align: center;
+}
+h1,h2,h3 {
+  background-color: darkcyan;
+  padding: 1rem;
+}
+h4 {
+  background-color: black;
+  padding: 1rem;
+  color: white;
+}
+body > section > img {
+  block-size: 5rem;
+  align-content: left;
+}
+body > section.cherry > img {
+  block-size: 3rem;
+  margin-left: 1.6rem;
+  display: inline-block;
+}
