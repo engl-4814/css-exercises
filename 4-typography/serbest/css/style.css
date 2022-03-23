@@ -25,6 +25,9 @@ html {
   font-size: 18px;
   background-color: rgb(245, 183, 101);
 }
+#backimage {
+  background-image: url("/4-typography/serbest/images/bikini_bottom.jpg");
+}
 /* GENERAL COPY SIZING */
 /*
   3. Apply font-sizing, and, where
