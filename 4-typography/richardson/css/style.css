@@ -1,7 +1,7 @@
 /* 
   GOAL: Create a set of rules that will create a typography scheme.
 */
-@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+
 
 /* IMPORTS */
 /* 
@@ -16,17 +16,14 @@
   
   But, it's fine for prototyping and play.
 */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
 /* GENERAL RULES */
-html {}
-  font-size: 18px;
-  background: red; 
-
-}
 /* 
   2. Set the root font-size
-  
 */
+
 
 /* GENERAL COPY SIZING */
 /*
@@ -49,15 +46,13 @@ html {}
       font-size or width of the root 
       element: html.
 */
-body {  }
-h1 {  font-size: 2.25rem;  } 
+body { font-size: 2rem; }
+h1 { font-size: 2.25rem; } 
 h2 { font-size: 1.5rem; } 
-h3 {   font-size: 1.125;}
-h4 { font-size:1.05rem; font-style: italic; }
-p  { 
-  font-family: Monoton;
- }
-blockquote {  }
+h3 { font-size: 1.125rem; }
+h4 { font-size: 1.05rem; font-style: italic }
+p  { font-size: 1rem; }
+blockquote { font-size: 1rem; }
 
 
 /* GENERAL FONT FAMILIES */
@@ -66,13 +61,9 @@ blockquote {  }
   for what types of fonts to
   use with the font-family rule.
 */
-p  {  }
-h1,h2,h3 { 
-  font-family: Monoton;
- }
-blockquote { 
-  font-familty: Metrophobic;
- }
+p  { font-family:Playfair; }
+h1,h2,h3 { font-family:Oswald; }
+blockquote { font-family:Playfair; }
 
 /* 
   5. From here on out, write more

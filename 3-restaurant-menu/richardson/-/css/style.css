@@ -16,9 +16,8 @@
 
 /* GENERAL */
 html {
-    font-size: 15px;
-  }
-
+  font-size: 20px;
+}
 /* 
   Select the html root tag.
   Set the font-size between 
@@ -28,10 +27,11 @@ html {
 
 /* TYPOGRAPHY */
 
-h1 {font-size: 4rem;}
-h2 {font-size: 2rem;}
-h3 {font-size: 1.3rem;}
-h4 {font-size: 0.5rem;}
+h1 { font-size: 5rem; }
+h2 { font-size: 2rem; }
+h3 { font-size: 1.5rem; }
+h4,p { font-size: 1.2rem; }
+h4 {font-style: italic}
 
 /* 
   Take stock of your headings vs.
@@ -57,20 +57,57 @@ h4 {font-size: 0.5rem;}
 */
 
 header {
-    background-color: saddlebrown;
-    padding: 30px;
-    border: 10px saddlebrown;
-    font-size: 15px;
-    }
-    
-    header h1 {
-      color: white;
-      font-size: 1em;
-      margin-left: 10px;
-    }
-    nav ul li {
-      color: white;
-    }
+  background-color: rgb(243,130,130);
+  color: white;
+  min-height: 65px;
+  padding: 25px;
+}
+
+header h1 {
+  font-size: 18px;
+  margin: -19px;
+}
+
+div.logo-box {
+  width:200px;
+  float: left;
+  margin: -7px;
+}
+
+.logo-box > img {
+  float: left;
+  border-radius: 50%;
+  margin-right: 5px;
+  margin: -7px;
+  width: 200px;
+}
+
+main {
+  margin: 200px
+}
+
+.card_menu-item {
+  border: solid rgb(22,21,21) 1px;
+  max-width: 220px;
+  min-height: 635px;
+  padding: 25px;
+  float: left;
+  margin: 0 15px 15px 0;
+}
+
+.card_menu-item img {
+  border-radius: 50%;
+  width: 100%;
+}
+
+ul {
+  display: block;
+
+}
+
+.clear-fix {
+  clear: both;
+}
 
 /* Logo Box */
 
@@ -82,6 +119,21 @@ header {
 
 
 /* Header Navigation */
+
+nav {
+  text-align: right;
+  max-width: 400px;
+  float: right;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline;
+}
+
+nav a {
+  color: white
+}
 
 /* 
   After the grouped content above,

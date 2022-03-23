@@ -1,0 +1,71 @@
+/* IMPORT Fronts from https://fonts.google.com/ */
+
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&family=Philosopher&family=Playfair+Display+SC:ital,wght@1,700&display=swap');
+
+img { 
+  float: right;
+  border-radius: 50px;
+  width: 45%;
+}
+
+.topnav {
+  position: fixed;
+  top: 0;
+  margin-top: 1%;
+}
+
+.topnav a {
+  text-align: right;
+  color: black;
+  padding: 2px;
+  font-family: Alegreya Sans;
+}
+  
+}
+*/
+
+/* GENERAL FONT SIZING */
+
+html { font-size: 18px; margin-left: 15%;} 
+h1 { font-size: 4.0rem; line-height: 1.8em; color: black; text-indent: 25rem;text-decoration:underline;}
+h2 { font-size: 3.0rem; }
+h3 { font-size: 2.0rem; padding-top: 30px; color:}
+
+/*
+
+ 
+  Use the relative-length rem value.
+
+  Remember, the:
+    - em computes relative to the 
+      font-size or width of the direct 
+      containing block
+    - rem computes relative to the 
+      font-size or width of the root 
+      element: html.
+*/
+body { background-color:rgb(247, 247, 247); margin-left: 30px;}
+h1 { font-weight: 210; } 
+h2 { text-decoration:solid; color: rosybrown; } 
+h3 { padding-top: 1%; color: rosybrown;}
+p  { font-size: 1.5rem; font-weight: 300;}
+blockquote { font-weight: 100;} 
+ul { font-size: 1.5rem; }
+
+
+
+/* GENERAL FONT FAMILIES */
+/*
+  4. Define your general rules
+  for what types of fonts to
+  use with the font-family rule.
+*/
+p  { font-family: Alegreya Sans; text-indent: 1em; text-align: left;}
+
+h1 { font-family: Playfair Display SC;}
+
+h2,h3 { font-family: Philosopher; }
+blockquote { font-family: Alegreya Sans; text-emphasis: 30px; text-indent: 30rem; margin-top: -30px; border-style: ridge}
+ul { font-family: Alegreya Sans;}
+
+/* 

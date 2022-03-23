@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@1,200&family=Source+Sans+Pro:wght@300&family=Yeseva+One&display=swap');
+
+/* GENERAL RULES */
+
+html { 
+  font-size: 18px;
+  background: rgb(239, 236, 245);
+}
+/* GENERAL COPY SIZING */
+/*
+  3. Apply font-sizing, and, where
+     desired, font-style, font-weight,
+     text-indent, margins, padding,
+     line-height, and text-decoration.
+     
+     Consider how you want to style your 
+     vertical spacing, line lengths, 
+     and indentations.
+
+*/
+p {
+  text-indent: 1.2rem;
+  margin-bottom: 1.25rem;
+  margin-top: 1.25rem;
+  font-size: 1rem;
+  line-height: 1rem;
+}
+
+li { font-size: 1.125rem;
+    line-height: 1rem; }
+
+h1 { font-size: 2.25rem;
+    line-height: 2.25rem}
+
+h2 { font-size: 1.5rem;
+    line-height: 1.5rem; } 
+
+h3 { font-size: 1.125rem;
+    line-height: 1.125rem; }
+
+figure { 
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  src: url(https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@1,200&family=Source+Sans+Pro:wght@300&family=Yeseva+One&display=swap) format('woff');
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: 'Yeseva One';
+  font-style: normal;
+  src: url(https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@1,200&family=Source+Sans+Pro:wght@300&family=Yeseva+One&display=swap) format('woff');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-style: italic;
+  src: url(https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@1,200&family=Source+Sans+Pro:wght@300&family=Yeseva+One&display=swap) format('woff');
+  font-weight: 100;
+}
+/* GENERAL FONT FAMILIES */
+/*
+  4. Define your general rules
+  for what types of fonts to
+  use with the font-family rule.
+*/
+p  
+  { font-family: 'Source Sans Pro'; }
+h1,h2,h3 h4
+  { font-family: 'Yeseva One'; }
+blockquote 
+  { font-family: 'Source Sans Pro'; }
+li 
+  { font-family: 'IBM Plex Sans'; }
+
+/* 
+  5. From here on out, write more
+     specific rules for particular
+     parts of the page and classes 
+     of element(s) on the page.
+
+     Be sure to consider writing
+     them based on their position
+     in the HTML source.
+
+     Consider over-writing the 
+     general rules from above to
+     create a class distinct from the
+     general scheme, but still thematically
+     aligned with it. Again, use rules like
+     font-sizing, font-style, font-weight,
+     text-indent, margins, padding,
+     line-height, or text-decoration.
+*/

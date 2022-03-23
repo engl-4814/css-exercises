@@ -1,7 +1,7 @@
 /* 
   GOAL: Create a set of rules that will create a typography scheme.
 */
-@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+
 
 /* IMPORTS */
 /* 
@@ -17,16 +17,18 @@
   But, it's fine for prototyping and play.
 */
 
-/* GENERAL RULES */
-html {}
-  font-size: 18px;
-  background: red; 
+@import url('https://fonts.googleleapis.com/css?family=Monoton|Metrophic|Roboto' );
 
-}
+/* GENERAL RULES */
 /* 
   2. Set the root font-size
-  
 */
+
+
+html {
+  font-size: 18px; 
+  background-color: antiquewhite;
+}
 
 /* GENERAL COPY SIZING */
 /*
@@ -49,15 +51,12 @@ html {}
       font-size or width of the root 
       element: html.
 */
-body {  }
-h1 {  font-size: 2.25rem;  } 
+h1 { font-size: 2.25rem; } 
 h2 { font-size: 1.5rem; } 
-h3 {   font-size: 1.125;}
-h4 { font-size:1.05rem; font-style: italic; }
-p  { 
-  font-family: Monoton;
- }
-blockquote {  }
+h3 { font-size: 1.125rem; }
+h4 { font-size: 1.05rem; }
+p  { font-size: 1rem; }
+blockquote {font-size: 1.25rem; }
 
 
 /* GENERAL FONT FAMILIES */
@@ -66,13 +65,9 @@ blockquote {  }
   for what types of fonts to
   use with the font-family rule.
 */
-p  {  }
-h1,h2,h3 { 
-  font-family: Monoton;
- }
-blockquote { 
-  font-familty: Metrophobic;
- }
+p  { font-family: Metrophobic; }
+h1,h2,h3 { font-family: Monoton; }
+blockquote {  }
 
 /* 
   5. From here on out, write more

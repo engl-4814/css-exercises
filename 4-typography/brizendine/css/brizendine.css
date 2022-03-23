@@ -1,32 +1,14 @@
 /* 
   GOAL: Create a set of rules that will create a typography scheme.
 */
-@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
 
-/* IMPORTS */
-/* 
-  1. Import 3 fonts from https://fonts.google.com/ 
 
-  Consider what combination of serif and 
-  sans-serif fonts to use as a theme.
-  
-  Normally, we don't use this @import
-  method in our published code, since it
-  creates a performance-loading issue.
-  
-  But, it's fine for prototyping and play.
-*/
-
-/* GENERAL RULES */
-html {}
-  font-size: 18px;
-  background: red; 
-
+html {
+  font-size: 28px;
 }
-/* 
-  2. Set the root font-size
-  
-*/
+
+
+
 
 /* GENERAL COPY SIZING */
 /*
@@ -49,13 +31,23 @@ html {}
       font-size or width of the root 
       element: html.
 */
-body {  }
-h1 {  font-size: 2.25rem;  } 
-h2 { font-size: 1.5rem; } 
-h3 {   font-size: 1.125;}
-h4 { font-size:1.05rem; font-style: italic; }
+body { 
+  font-size: large;
+ }
+h1 {  
+  font-family: 'Oswald' , sans-serif;
+  font-size: 1rem;
+} 
+h2 { 
+  font-family: 'Rubik' , sans-serif;
+  font-size: 0.75rem;
+ } 
+h3 { 
+  font-family: 'Shadows Into Light' , 'cursive';
+  font-size: 0.5rem;
+ }
 p  { 
-  font-family: Monoton;
+  font-size: 0.25rem;
  }
 blockquote {  }
 
@@ -67,12 +59,8 @@ blockquote {  }
   use with the font-family rule.
 */
 p  {  }
-h1,h2,h3 { 
-  font-family: Monoton;
- }
-blockquote { 
-  font-familty: Metrophobic;
- }
+h1,h2,h3 {  }
+blockquote {  }
 
 /* 
   5. From here on out, write more
