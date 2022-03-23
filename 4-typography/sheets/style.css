@@ -118,3 +118,8 @@ section {
 .poem {
   float: left;
 }
+
+blockquote {
+  background-color: moccasin;
+  border-radius: 30px;
+}

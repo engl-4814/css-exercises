@@ -24,8 +24,10 @@
 /* 
   2. Set the root font-size
 */
-
-
+h1 {font-size: 2.25rem;}
+h2 {font-size: 2rem;}
+h3 {font-size:1.5rem;}
+h4 {font-size: 1rem;}
 
 /* GENERAL COPY SIZING */
 /*
@@ -56,16 +58,16 @@ line-height: 150%;
 background-color: antiquewhite;
 }
 h1 {
-  font-size: 28px;
+  font-size: 50px;
   font-style: bold;
   margin-bottom: 1em ;
   text-align: left;
   line-height: 150%;
-  color: rgb(224, 117, 117);
+  color: rgb(238, 51, 166);
 } 
 
 h2 { 
-  font-size: 24px; 
+  font-size: 30px; 
   font-style:normal;
   margin-bottom: 1em ;
   text-align: left;
@@ -74,7 +76,7 @@ h2 {
 } 
 
 h3 {
-  font-size: 22px; 
+  font-size: 28px; 
   font-style:normal;
   margin-bottom: 1em ;
   text-align: left;
@@ -83,7 +85,7 @@ h3 {
 }
 
 h4 {
-  font-size: 20px; 
+  font-size: 24px; 
   font-style:normal;
   margin-bottom: 1em ;
   text-align: left;
@@ -101,6 +103,8 @@ p  {
 }
 blockquote { 
   font-size: 30px;
+  background-color: rgb(212, 133, 212);
+  width: 5px;
  }
 
 
