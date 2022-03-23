@@ -1,7 +1,7 @@
 /* 
   GOAL: Create a set of rules that will create a typography scheme.
 */
-
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Rubik:wght@300&family=Shadows+Into+Light&display=swap');
 
 html {
   font-size: 28px;
