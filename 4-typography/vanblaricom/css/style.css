@@ -126,6 +126,9 @@ blockquote {
 li {
   font-family: 'Playfair Display', serif;
 }
+figcaption {
+  font-family: 'Montserrat', sans-serif;
+}
 
 /* 
   5. From here on out, write more
