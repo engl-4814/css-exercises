@@ -2,6 +2,7 @@
   GOAL: Create a set of rules that will create a typography scheme.
 */
 
+
 /* IMPORTS */
 /* 
   1. Import 3 fonts from https://fonts.google.com/ 
@@ -16,13 +17,17 @@
   But, it's fine for prototyping and play.
 */
 
+@import url('https://fonts.googleleapis.com/css?family=Monoton|Metrophic|Roboto' );
+
 /* GENERAL RULES */
 /* 
   2. Set the root font-size
 */
+
+
 html {
-  font-size: 18px;
-  background: floralwhite;
+  font-size: 18px; 
+  background-color: antiquewhite;
 }
 
 /* GENERAL COPY SIZING */
@@ -49,12 +54,9 @@ html {
 h1 { font-size: 2.25rem; } 
 h2 { font-size: 1.5rem; } 
 h3 { font-size: 1.125rem; }
-h4 { font-size: 1rem;
-font-style: italic; }
-p  { font-size: .8rem; }
-blockquote { font-size: .5rem; }
-.poem {line-height: 1.5rem;}
-.review {font-weight: 700;}
+h4 { font-size: 1.05rem; }
+p  { font-size: 1rem; }
+blockquote {font-size: 1.25rem; }
 
 
 /* GENERAL FONT FAMILIES */
@@ -63,18 +65,9 @@ blockquote { font-size: .5rem; }
   for what types of fonts to
   use with the font-family rule.
 */
-h1, h2, h3, h4 {
-  font-family: 'Playfair Display', serif;
-}
-
-p {
-  font-family: 'Montserrat', sans-serif;
-}
-blockquote { 
-  font-family: 'Montserrat', sans-serif;
-  columns: 2;
-  margin-left: 70%;
-}
+p  { font-family: Metrophobic; }
+h1,h2,h3 { font-family: Monoton; }
+blockquote {  }
 
 /* 
   5. From here on out, write more
@@ -95,15 +88,3 @@ blockquote {
      text-indent, margins, padding,
      line-height, or text-decoration.
 */
-
-header {
-  padding: 30px;
-}
-
-section {
-  padding-left: 40px;
-}
-
-.article {
-  display: inline-block;
-}

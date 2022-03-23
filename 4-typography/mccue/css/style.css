@@ -1,29 +1,14 @@
 /* 
   GOAL: Create a set of rules that will create a typography scheme.
-*/
-
-/* IMPORTS */
-/* 
-  1. Import 3 fonts from https://fonts.google.com/ 
-
-  Consider what combination of serif and 
-  sans-serif fonts to use as a theme.
-  
-  Normally, we don't use this @import
-  method in our published code, since it
-  creates a performance-loading issue.
-  
-  But, it's fine for prototyping and play.
-*/
 
 /* GENERAL RULES */
 /* 
   2. Set the root font-size
 */
 html {
-  font-size: 18px;
-  background: floralwhite;
+  font-size: 28px;
 }
+
 
 /* GENERAL COPY SIZING */
 /*
@@ -46,15 +31,18 @@ html {
       font-size or width of the root 
       element: html.
 */
-h1 { font-size: 2.25rem; } 
-h2 { font-size: 1.5rem; } 
-h3 { font-size: 1.125rem; }
-h4 { font-size: 1rem;
-font-style: italic; }
-p  { font-size: .8rem; }
-blockquote { font-size: .5rem; }
-.poem {line-height: 1.5rem;}
-.review {font-weight: 700;}
+body { 
+  font-size: large;
+ }
+h1 { 
+  font-size:medium;
+  font: 'PlayfairDisplay';
+ } 
+h2 {  } 
+h3 {  }
+h4 {  }
+p  {  }
+blockquote {  }
 
 
 /* GENERAL FONT FAMILIES */
@@ -63,18 +51,9 @@ blockquote { font-size: .5rem; }
   for what types of fonts to
   use with the font-family rule.
 */
-h1, h2, h3, h4 {
-  font-family: 'Playfair Display', serif;
-}
-
-p {
-  font-family: 'Montserrat', sans-serif;
-}
-blockquote { 
-  font-family: 'Montserrat', sans-serif;
-  columns: 2;
-  margin-left: 70%;
-}
+p  {  }
+h1,h2,h3 {  }
+blockquote {  }
 
 /* 
   5. From here on out, write more
@@ -95,15 +74,3 @@ blockquote {
      text-indent, margins, padding,
      line-height, or text-decoration.
 */
-
-header {
-  padding: 30px;
-}
-
-section {
-  padding-left: 40px;
-}
-
-.article {
-  display: inline-block;
-}
