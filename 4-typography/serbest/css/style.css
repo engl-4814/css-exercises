@@ -110,9 +110,10 @@ header {
 
 li {
   list-style-type: none;
-  border: 15px solid rgb(252, 63, 63);
+  border: 5px solid rgb(252, 63, 63);
   margin-right: 2em;
   background-color: rgb(247, 183, 65);
+  margin-bottom: 1em;
 }
 
 h2 {
