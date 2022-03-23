@@ -121,9 +121,18 @@ h1,h2,h3 {
   font-family: 'Playfair Display', serif;
  }
 blockquote {
+  font-family: 'Montserrat', sans-serif; 
+}
+li {
+  font-family: 'Playfair Display', serif;
+}
+figcaption {
   font-family: 'Montserrat', sans-serif;
-  }
+}
 
+link {
+  color: hotpink
+}
 /* 
   5. From here on out, write more
      specific rules for particular
