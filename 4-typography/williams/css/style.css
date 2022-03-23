@@ -9,7 +9,7 @@ img {
 }
 
 .topnav {
-  position: fixed;
+  position: absolute;
   top: 0;
   margin-top: 1%;
   margin-left: 15px
@@ -28,7 +28,7 @@ img {
 /* GENERAL FONT SIZING */
 
 html { font-size: 18px; margin-left: 15%;} 
-h1 { font-size: 4.0rem; line-height: 1.8em; color: black; text-indent: 25rem;text-decoration:underline;}
+h1 { font-size: 4.0rem; line-height: 1.8em; color: black; text-indent: 25rem; text-decoration:underline;}
 h2 { font-size: 3.0rem; }
 h3 { font-size: 2.0rem; padding-top: 30px; color:}
 
@@ -47,7 +47,7 @@ h3 { font-size: 2.0rem; padding-top: 30px; color:}
 */
 body { background-color:rgb(247, 247, 247); margin-left: 30px; border: 15px solid black ; ; border-width: .1rem; margin-right: 1.7em;}
 h1 { font-weight: 210; } 
-h2 { text-decoration:solid; color: rosybrown; } 
+h2 { text-decoration: solid; color: rosybrown; } 
 h3 { padding-top: 1%; color: rosybrown;}
 p  { font-size: 1.5rem; font-weight: 300; }
 blockquote { font-weight: 100;} 
