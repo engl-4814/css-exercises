@@ -37,14 +37,25 @@ li { font-size: 1rem;
     line-height: 1rem; }
 
 h1 { font-size: 2.25rem;
-    line-height: 2.25rem}
+    line-height: 2.25rem;
+    background-color: rgba(248, 115, 155, 0.432);
+    padding: 1rem;
+    border-radius: 5rem;
+    text-align: center;}
 
 h2 { font-size: 2rem;
     line-height: 1.5rem; 
-    } 
+    background-color: rgb(194, 241, 209);
+    padding: 1rem;
+    border-radius: 5rem;
+    text-align: center;} 
 
 h3 { font-size: 1.5rem;
-    line-height: 1.125rem; }
+    line-height: 1.125rem;
+    background-color: rgb(199, 247, 243);
+    padding: 1rem;
+    border-radius: 5rem;
+    text-align: center; }
 
 figure { 
   margin-top: 1.25rem;
@@ -91,12 +102,7 @@ nav {
 p  
   { font-family: 'Source Sans Pro'; }
 h1, h2, h3, h4
-  { font-family: 'Yeseva One';
-  background-color: rgba(250, 210, 222, 0.582);
-  padding: 1rem;
-  border-radius: 5rem;
-  text-align: center;
- }
+  { font-family: 'Yeseva One';}
 blockquote 
   { font-family: 'Source Sans Pro'; }
 li 
