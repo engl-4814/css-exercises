@@ -52,7 +52,6 @@ h4 {font-size: 1rem;}
       element: html.
 */
 body {
-  font-size: 18px; 
 font-style:normal;
 margin-bottom: 1em ;
 text-align: left;
@@ -104,7 +103,7 @@ p  {
   color: black;
 }
 blockquote { 
-  font-size: 22px;
+  font-size: 30px;
  }
 
 
