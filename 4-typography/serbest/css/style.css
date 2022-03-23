@@ -114,3 +114,9 @@ li {
   margin-right: 2em;
   background-color: rgb(250, 175, 77);
 }
+
+h2 {
+  border: 10px solid rgb(77, 250, 86);
+  width: 20%;
+  margin-left: 16em;
+}
