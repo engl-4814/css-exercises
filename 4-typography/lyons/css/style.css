@@ -84,14 +84,17 @@ h1,h2,h3 {
 h4 {
   background-color: black;
   padding: 1rem;
+  border-radius: 5rem;
   color: white;
 }
-section > img {
-  block-size: 5rem;
-  align-content: left;
-  padding-bottom: 5rem;
+img.cherry {
+  width: 20px;
+  margin-left: .001px;
+  position: fixed;
 }
-section.cherry > img {
-  block-size: 3rem;
-
+img.cupcake {
+  margin-top: -820px;
+  width: 50px;
+  display: block;
+  margin-left: 17px;
 }
