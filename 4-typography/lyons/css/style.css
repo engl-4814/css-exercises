@@ -94,8 +94,14 @@ img.cherry {
   position: fixed;
 }
 img.cupcake {
-  margin-top: -740px;
+  margin-top: -720px;
   width: 50px;
   display: block;
   margin-left: 17px;
+}
+aside > p > a {
+  color: darkcyan;
+}
+aside {
+  padding-bottom: 10px;
 }
