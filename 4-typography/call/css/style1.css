@@ -56,24 +56,7 @@ h2 { font-size: 1.5rem; }
 h3 { font-size: 1.125rem; }
 h4 { font-size: 1.05rem; font-style: italic; }
 blockquote { font-size: 0.80rem; max-width: 550px; text-align: center; margin: 20px; padding: 20px;}
-p { 
-    line-height: 0.3in;
-    font-style: normal;
-    font-weight: 400;
-  }
-#about-our-cakes {
-  font-family: 'Arsenal';
-  width: 900px;
-  margin-left: 20px;
-  margin-right: 20px;
-}
 
-#cakes {
-  font-family: 'Arsenal';
-  width: 900px;
-  margin-left: 20px;
-  margin-right: 20px;
-}
 
 /* GENERAL FONT FAMILIES */
 /*
@@ -83,6 +66,52 @@ p {
 */
 h1, h2, h3, h4 { 
   font-family: 'Dancing Script', cursive;
+}
+
+#about-our-cakes {
+  font-family: 'Arsenal';
+}
+
+#cakes {
+  font-family: 'Arsenal';
+}
+/* 
+  5. From here on out, write more
+     specific rules for particular
+     parts of the page and classes 
+     of element(s) on the page.
+
+     Be sure to consider writing
+     them based on their position
+     in the HTML source.
+
+     Consider over-writing the 
+     general rules from above to
+     create a class distinct from the
+     general scheme, but still thematically
+     aligned with it. Again, use rules like
+     font-sizing, font-style, font-weight,
+     text-indent, margins, padding,
+     line-height, or text-decoration.
+
+*/
+
+p { 
+  line-height: 0.3in;
+  font-style: normal;
+  font-weight: 400;
+}
+#about-our-cakes {
+width: 900px;
+margin-left: 20px;
+margin-right: 20px;
+}
+
+#cakes {
+font-family: 'Arsenal';
+width: 900px;
+margin-left: 20px;
+margin-right: 20px;
 }
 
  .group-of-reviews {
@@ -133,25 +162,6 @@ footer p {
   font-size: .7em;
   font-weight: lighter;
 }
-/* 
-  5. From here on out, write more
-     specific rules for particular
-     parts of the page and classes 
-     of element(s) on the page.
 
-     Be sure to consider writing
-     them based on their position
-     in the HTML source.
-
-     Consider over-writing the 
-     general rules from above to
-     create a class distinct from the
-     general scheme, but still thematically
-     aligned with it. Again, use rules like
-     font-sizing, font-style, font-weight,
-     text-indent, margins, padding,
-     line-height, or text-decoration.
-
-*/
 
 
