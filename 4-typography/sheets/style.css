@@ -104,6 +104,10 @@ section {
   padding-left: 40px;
 }
 
-article {
+div.card {
+  width: 500px;
   display: inline-block;
+  border: 3px black;
+  border-style: solid;
+  padding: 10px;
 }
