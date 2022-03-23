@@ -22,6 +22,7 @@
   2. Set the root font-size
 */
 
+html {font-size: 18px;}
 
 /* GENERAL COPY SIZING */
 /*
@@ -44,13 +45,21 @@
       font-size or width of the root 
       element: html.
 */
-body {  }
-h1 {  } 
-h2 {  } 
-h3 {  }
-h4 {  }
-p  {  }
-blockquote {  }
+h1 { font-size: 4rem; 
+color: mediumvioletred;} 
+h2 { font-size: 2.5rem; 
+color: deeppink;} 
+h3 { font-size: 1.125rem; 
+color: darkblue;
+margin-bottom: 5px;}
+h4 { font-size: 1rem; 
+color: darkblue;
+margin-top: -5px;}
+p  { font-size: .8rem;
+width: 200px; 
+color: midnightblue;
+text-indent: 25%;}
+blockquote { font-size: .5rem; }
 
 
 /* GENERAL FONT FAMILIES */
@@ -59,9 +68,15 @@ blockquote {  }
   for what types of fonts to
   use with the font-family rule.
 */
-p  {  }
-h1,h2,h3 {  }
-blockquote {  }
+h1, h2, h3, h4 {
+  font-family: 'Bebas Neue', cursive;
+}
+p {
+  font-family: 'Roboto Slab', serif;
+}
+blockquote {
+  font-family: 'Roboto Slab', serif;
+}
 
 /* 
   5. From here on out, write more
@@ -82,3 +97,26 @@ blockquote {  }
      text-indent, margins, padding,
      line-height, or text-decoration.
 */
+
+html {
+  background-color: lightcyan;
+}
+header {
+  background-color: lightskyblue;
+  padding: 30px;
+  display: inline-block;
+  margin-bottom: 60px;
+}
+header img {
+  border-radius: 50%;
+  float: left;
+}
+section{
+  float: left;
+  padding: 10px;
+  margin-left: 60px;
+  border: 1px;
+  border-style: solid;
+  border-color: lightskyblue;
+  width:fit-content;
+}
