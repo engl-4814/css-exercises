@@ -130,6 +130,9 @@ figcaption {
   font-family: 'Montserrat', sans-serif;
 }
 
+link {
+  color: hotpink
+}
 /* 
   5. From here on out, write more
      specific rules for particular
