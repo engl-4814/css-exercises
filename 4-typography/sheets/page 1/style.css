@@ -1,10 +1,28 @@
 /* 
   GOAL: Create a set of rules that will create a typography scheme.
 */
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Poiret+One&display=swap');
 
+/* IMPORTS */
+/* 
+  1. Import 3 fonts from https://fonts.google.com/ 
+
+  Consider what combination of serif and 
+  sans-serif fonts to use as a theme.
+  
+  Normally, we don't use this @import
+  method in our published code, since it
+  creates a performance-loading issue.
+  
+  But, it's fine for prototyping and play.
+*/
+
+/* GENERAL RULES */
+/* 
+  2. Set the root font-size
+*/
 html {
-  font-size: 1.25rem;
+  font-size: 18px;
+  background: floralwhite;
 }
 
 /* GENERAL COPY SIZING */
@@ -28,13 +46,17 @@ html {
       font-size or width of the root 
       element: html.
 */
-body {font-size: 1rem}
-h1 {font-size: 3.75rem; line-height: 1rem; margin: .5rem} 
-h2 {font-size: 2.75rem; line-height: 1rem; margin: .5rem} 
-h3 {font-size: 2.25rem; line-height: 1rem; margin: .5rem}
-h4 {font-size: 1.5rem; line-height: 1rem; margin: .5rem}
-p  {font-size: 1rem; text-indent: 1rem; line-height: 1rem;}
-blockquote {font-size: 1rem; line-height: 1rem}
+h1 { font-size: 2.25rem; } 
+h2 { font-size: 1.5rem; } 
+h3 { font-size: 1.125rem; }
+h4 { font-size: 1rem;
+font-style: italic; }
+p  { font-size: .8rem; }
+blockquote { font-size: .5rem; }
+.review {font-weight: 700;
+text-indent: 25%;
+padding:20px; }
+p.poem {line-height: 1.5em;}
 
 
 /* GENERAL FONT FAMILIES */
@@ -43,10 +65,18 @@ blockquote {font-size: 1rem; line-height: 1rem}
   for what types of fonts to
   use with the font-family rule.
 */
-body {font-family: Poiret One}
-p  {font-family: Poiret One}
-h1,h2,h3,h4 {font-family: Lobster Two}
-blockquote {font-family: Comfortaa}
+h1, h2, h3, h4 {
+  font-family: 'Playfair Display', serif;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+}
+blockquote { 
+  font-family: 'Montserrat', sans-serif;
+  columns: 2;
+  margin-left: 70%;
+}
 
 /* 
   5. From here on out, write more
@@ -68,40 +98,28 @@ blockquote {font-family: Comfortaa}
      line-height, or text-decoration.
 */
 
-blockquote,h1,h2,h3,h4,p {
-  margin-left: 5rem;
+header {
+  padding: 30px;
 }
+
+section {
+  padding-left: 40px;
+  display: inline-block;
+}
+
+/*.card {
+  width: 500px;
+  display: inline-block;
+  border: 3px black;
+  border-style: solid;
+  padding: 10px;
+}
+*/
+.poem {
+  float: left;
+}
+
 blockquote {
-  background-color: lightpink;
-  padding: 1rem;
-  text-align: center;
-  margin-left: 6.5rem;
-  border-radius: 5rem;
-}
-h1,h2,h3 {
-  background-color: darkcyan;
-  padding: 1rem;
-}
-h4 {
-  background-color: black;
-  padding: 1rem;
-  border-radius: 5rem;
-  color: white;
-}
-img.cherry {
-  width: 20px;
-  margin-left: .001px;
-  position: fixed;
-}
-img.cupcake {
-  margin-top: -720px;
-  width: 50px;
-  display: block;
-  margin-left: 17px;
-}
-a {
-  color: darkcyan;
-}
-aside {
-  padding-bottom: 10px;
+  background-color: moccasin;
+  border-radius: 30px;
 }
