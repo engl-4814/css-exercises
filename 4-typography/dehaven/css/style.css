@@ -18,7 +18,7 @@ html {
      and indentations.
 
 */
-p {
+#text {
   text-indent: 1.2rem;
   margin-bottom: 1.25rem;
   margin-top: 1.25rem;
@@ -26,14 +26,22 @@ p {
   line-height: 1rem;
 }
 
-li { font-size: 1.125rem;
+#intro {
+  margin-bottom: 1.25rem;
+  margin-top: 1.25rem;
+  font-size: 1rem;
+  line-height: 1rem;
+}
+
+li { font-size: 1rem;
     line-height: 1rem; }
 
 h1 { font-size: 2.25rem;
     line-height: 2.25rem}
 
 h2 { font-size: 1.5rem;
-    line-height: 1.5rem; } 
+    line-height: 1.5rem; 
+    } 
 
 h3 { font-size: 1.125rem;
     line-height: 1.125rem; }
@@ -43,6 +51,10 @@ figure {
   margin-bottom: 1.25rem;
   position: relative;
   left: -1.2rem;
+}
+
+a { 
+  color: purple;
 }
 
 @font-face {
