@@ -89,6 +89,7 @@ nav {
   text-align: right;
   max-width: 400px;
   float: right;
+  margin-top: -60px;
 }
 
 nav ul li { 
@@ -133,7 +134,7 @@ nav a {
   width: 100%;
 }
 
-.card_menu_item ul {
+.card_menu_item ul li {
   display: inline; 
   list-style-type: none;
 }
