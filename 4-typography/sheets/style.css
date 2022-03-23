@@ -53,8 +53,10 @@ h4 { font-size: 1rem;
 font-style: italic; }
 p  { font-size: .8rem; }
 blockquote { font-size: .5rem; }
-.poem {line-height: 1.5rem;}
-.review {font-weight: 700;}
+.review {font-weight: 700;
+text-indent: 25%;
+padding:20px; }
+p.poem {line-height: 1.5em;}
 
 
 /* GENERAL FONT FAMILIES */
@@ -102,12 +104,17 @@ header {
 
 section {
   padding-left: 40px;
+  display: inline-block;
 }
 
-div.card {
+/*.card {
   width: 500px;
   display: inline-block;
   border: 3px black;
   border-style: solid;
   padding: 10px;
+}
+*/
+.poem {
+  float: left;
 }
