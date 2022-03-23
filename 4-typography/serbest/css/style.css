@@ -2,6 +2,7 @@
   GOAL: Create a set of rules that will create a typography scheme.
 */
 
+
 /* IMPORTS */
 /* 
   1. Import 3 fonts from https://fonts.google.com/ 
@@ -15,16 +16,15 @@
   
   But, it's fine for prototyping and play.
 */
-
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Patrick+Hand&family=Prompt&display=swap');
 /* GENERAL RULES */
 /* 
   2. Set the root font-size
 */
 html {
   font-size: 18px;
-  background: floralwhite;
+  background-color: rgb(245, 183, 101);
 }
-
 /* GENERAL COPY SIZING */
 /*
   3. Apply font-sizing, and, where
@@ -46,15 +46,13 @@ html {
       font-size or width of the root 
       element: html.
 */
-h1 { font-size: 2.25rem; } 
-h2 { font-size: 1.5rem; } 
-h3 { font-size: 1.125rem; }
-h4 { font-size: 1rem;
-font-style: italic; }
-p  { font-size: .8rem; }
-blockquote { font-size: .5rem; }
-.poem {line-height: 1.5rem;}
-.review {font-weight: 700;}
+body { font-size: none;}
+h1 { font-size: 3rem; text-align: center;} 
+h2 { font-size: 2rem; text-align: center;} 
+h3 { font-size: 1.7rem; text-align: center;}
+h4 { font-size: 1.5rem; text-align: center;}
+p  { font-size: 1.2rem; text-align: center;}
+blockquote { font-size: 1.2rem; text-align: center;}
 
 
 /* GENERAL FONT FAMILIES */
@@ -63,18 +61,9 @@ blockquote { font-size: .5rem; }
   for what types of fonts to
   use with the font-family rule.
 */
-h1, h2, h3, h4 {
-  font-family: 'Playfair Display', serif;
-}
-
-p {
-  font-family: 'Montserrat', sans-serif;
-}
-blockquote { 
-  font-family: 'Montserrat', sans-serif;
-  columns: 2;
-  margin-left: 70%;
-}
+p  { font-family: Prompt ; }
+h1,h2,h3 { font-family: Patrick Hand; }
+blockquote { font-family: Fjalla One ; }
 
 /* 
   5. From here on out, write more
@@ -95,15 +84,33 @@ blockquote {
      text-indent, margins, padding,
      line-height, or text-decoration.
 */
+img {
+  max-height: 200px;
+  max-width: 330px;
+  padding: 1em;
+}
+
+#Squidward > img{
+  margin-left: 7em;
+}
+
+#Krabs > img{
+  margin-left: 5em;
+}
+
+#randomfish > img{
+  margin-left: 8em;
+}
 
 header {
-  padding: 30px;
+  min-height: 1em;
+  padding: 8px;
+  border: 50px solid rgb(255, 114, 114);
 }
 
-section {
-  padding-left: 40px;
-}
-
-article {
-  display: inline-block;
+li {
+  list-style-type: none;
+  border: 5px solid rgb(252, 63, 63);
+  margin-right: 2em;
+  background-color: rgb(250, 175, 77);
 }
