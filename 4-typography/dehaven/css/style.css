@@ -51,6 +51,7 @@ figure {
   margin-bottom: 1.25rem;
   position: relative;
   left: -1.2rem;
+  text-align: center;
 }
 
 a { 
@@ -86,7 +87,12 @@ a {
 p  
   { font-family: 'Source Sans Pro'; }
 h1, h2, h3, h4
-  { font-family: 'Yeseva One'; }
+  { font-family: 'Yeseva One';
+  background-color: rgb(236, 250, 210);
+  padding: 1rem;
+  border-radius: 5rem;
+  text-align: center;
+ }
 blockquote 
   { font-family: 'Source Sans Pro'; }
 li 
