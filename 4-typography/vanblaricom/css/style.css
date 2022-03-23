@@ -64,7 +64,11 @@ h1 {
   text-align: left;
   line-height: 150%;
   color: rgb(238, 51, 166);
+  text-align: center;
 } 
+
+#sampleparagraph 
+{ text-align: center;}
 
 h2 { 
   font-size: 30px; 
@@ -86,7 +90,7 @@ h3 {
 
 h4 {
   font-size: 24px; 
-  font-style:normal;
+  font-style:italic;
   margin-bottom: 1em ;
   text-align: left;
   line-height: 150%;
@@ -104,7 +108,7 @@ p  {
 blockquote { 
   font-size: 30px;
   background-color: rgb(212, 133, 212);
-  width: 5px;
+  width: 500px;
  }
 
 
