@@ -2,9 +2,13 @@
   GOAL: Create a set of rules that will create a typography scheme.
 */
 
+
 /* IMPORTS */
 /* 
   1. Import 3 fonts from https://fonts.google.com/ 
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Playfair+Display&display=swap');
 
   Consider what combination of serif and 
   sans-serif fonts to use as a theme.
@@ -20,10 +24,10 @@
 /* 
   2. Set the root font-size
 */
-html {
-  font-size: 18px;
-  background: floralwhite;
-}
+h1 {font-size: 2.25rem;}
+h2 {font-size: 2rem;}
+h3 {font-size:1.5rem;}
+h4 {font-size: 1rem;}
 
 /* GENERAL COPY SIZING */
 /*
@@ -46,15 +50,66 @@ html {
       font-size or width of the root 
       element: html.
 */
-h1 { font-size: 2.25rem; } 
-h2 { font-size: 1.5rem; } 
-h3 { font-size: 1.125rem; }
-h4 { font-size: 1rem;
-font-style: italic; }
-p  { font-size: .8rem; }
-blockquote { font-size: .5rem; }
-.poem {line-height: 1.5rem;}
-.review {font-weight: 700;}
+body {
+font-style:normal;
+margin-bottom: 1em ;
+text-align: left;
+line-height: 150%;
+background-color: antiquewhite;
+}
+h1 {
+  font-size: 50px;
+  font-style: bold;
+  margin-bottom: 1em ;
+  text-align: left;
+  line-height: 150%;
+  color: rgb(238, 51, 166);
+  text-align: center;
+} 
+
+#sampleparagraph 
+{ text-align: center;}
+
+h2 { 
+  font-size: 30px; 
+  font-style:normal;
+  margin-bottom: 1em ;
+  text-align: left;
+  line-height: 150%;
+  color:rgb(39, 39, 39);
+} 
+
+h3 {
+  font-size: 28px; 
+  font-style:normal;
+  margin-bottom: 1em ;
+  text-align: left;
+  line-height: 150%;
+  color:rgb(39, 39, 39);
+}
+
+h4 {
+  font-size: 24px; 
+  font-style:italic;
+  margin-bottom: 1em ;
+  text-align: left;
+  line-height: 150%;
+  color:black
+} 
+
+p  { 
+  font-size:18px;
+  font-style:normal;
+  margin-bottom: 1em ;
+  text-align: left;
+  line-height: 150%;
+  color: black;
+}
+blockquote { 
+  font-size: 30px;
+  background-color: rgb(212, 133, 212);
+  width: 500px;
+ }
 
 
 /* GENERAL FONT FAMILIES */
@@ -63,19 +118,25 @@ blockquote { font-size: .5rem; }
   for what types of fonts to
   use with the font-family rule.
 */
-h1, h2, h3, h4 {
+p  { 
+  font-family: 'Montserrat', sans-serif;
+}
+h1,h2,h3 { 
+  font-family: 'Playfair Display', serif;
+ }
+blockquote {
+  font-family: 'Montserrat', sans-serif; 
+}
+li {
   font-family: 'Playfair Display', serif;
 }
-
-p {
+figcaption {
   font-family: 'Montserrat', sans-serif;
 }
-blockquote { 
-  font-family: 'Montserrat', sans-serif;
-  columns: 2;
-  margin-left: 70%;
-}
 
+a {
+  color: hotpink
+}
 /* 
   5. From here on out, write more
      specific rules for particular
@@ -95,15 +156,3 @@ blockquote {
      text-indent, margins, padding,
      line-height, or text-decoration.
 */
-
-header {
-  padding: 30px;
-}
-
-section {
-  padding-left: 40px;
-}
-
-article {
-  display: inline-block;
-}

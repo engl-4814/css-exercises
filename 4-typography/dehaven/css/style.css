@@ -1,24 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@1,200&family=Source+Sans+Pro:wght@300&family=Yeseva+One&display=swap');
 
-/* GENERAL RULES */
 
 html { 
   font-size: 18px;
   background: rgb(239, 236, 245);
 }
-/* GENERAL COPY SIZING */
-/*
-  3. Apply font-sizing, and, where
-     desired, font-style, font-weight,
-     text-indent, margins, padding,
-     line-height, and text-decoration.
-     
-     Consider how you want to style your 
-     vertical spacing, line lengths, 
-     and indentations.
 
-*/
-p {
+#text {
   text-indent: 1.2rem;
   margin-bottom: 1.25rem;
   margin-top: 1.25rem;
@@ -26,21 +14,51 @@ p {
   line-height: 1rem;
 }
 
-li { font-size: 1.125rem;
+#intro {
+  margin-bottom: 1.25rem;
+  margin-top: 1.25rem;
+  font-size: 1rem;
+  line-height: 1rem;
+}
+
+li { font-size: 1rem;
     line-height: 1rem; }
 
 h1 { font-size: 2.25rem;
-    line-height: 2.25rem}
+    line-height: 2.25rem;
+    background-color: rgba(248, 115, 155, 0.432);
+    padding: 1rem;
+    border-radius: 5rem;
+    text-align: center;}
 
-h2 { font-size: 1.5rem;
-    line-height: 1.5rem; } 
+h2 { font-size: 2rem;
+    line-height: 1.5rem; 
+    background-color: rgb(194, 241, 209);
+    padding: 1rem;
+    border-radius: 5rem;
+    text-align: center;} 
 
-h3 { font-size: 1.125rem;
-    line-height: 1.125rem; }
+h3 { font-size: 1.5rem;
+    line-height: 1.125rem;
+    background-color: rgb(199, 247, 243);
+    padding: 1rem;
+    border-radius: 5rem;
+    text-align: center; }
 
 figure { 
   margin-top: 1.25rem;
   margin-bottom: 1.25rem;
+  position: relative;
+  text-align: center;
+}
+
+a { 
+  color: rgb(128, 0, 70);
+}
+
+nav { 
+  text-align: right;
+  list-style: none;
 }
 
 @font-face {
@@ -63,16 +81,10 @@ figure {
   src: url(https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@1,200&family=Source+Sans+Pro:wght@300&family=Yeseva+One&display=swap) format('woff');
   font-weight: 100;
 }
-/* GENERAL FONT FAMILIES */
-/*
-  4. Define your general rules
-  for what types of fonts to
-  use with the font-family rule.
-*/
 p  
   { font-family: 'Source Sans Pro'; }
-h1,h2,h3 h4
-  { font-family: 'Yeseva One'; }
+h1, h2, h3, h4
+  { font-family: 'Yeseva One';}
 blockquote 
   { font-family: 'Source Sans Pro'; }
 li 
