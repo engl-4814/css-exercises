@@ -1,11 +1,8 @@
 /* 
   GOAL: Create a set of rules that will create a typography scheme.
 */
-@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Arsenal&family=Dancing+Script&family=Italiana&display=swap');
 /* IMPORTS */
 /* 
   1. Import 3 fonts from https://fonts.google.com/ 
@@ -21,15 +18,17 @@
 */
 
 /* GENERAL RULES */
-html {
-  font-size: 18px;
-  background: red; 
-
-}
 /* 
   2. Set the root font-size
-  
 */
+
+html {
+  font-size: 18px; 
+  background-image: url("images/ilysm-cake.png");
+  background-position: center;
+  background-size: cover;
+}
+
 
 /* GENERAL COPY SIZING */
 /*
@@ -52,18 +51,28 @@ html {
       font-size or width of the root 
       element: html.
 */
-body {  }
-h1 {  font-size: 2.25rem;
-font-style:   } 
+
+h1 { font-size: 2.25rem; text-align: center;} 
 h2 { font-size: 1.5rem; } 
-h3 {   font-size: 1.125;}
-h4 { font-size:1.05rem; font-style: italic; }
-p  { 
-  font-family: Black Ops One;
+h3 { font-size: 1.125rem; }
+h4 { font-size: 1.05rem; font-style: italic; }
+blockquote { font-size: 0.80rem; max-width: 550px; text-align: center; margin: 20px; padding: 20px;}
+p { 
+    line-height: 0.3in;
+    font-style: normal;
+    font-weight: 400;
+  }
+#about-our-cakes {
+  width: 700px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
 
- }
-blockquote {  }
-
+#cakes {
+  width: 700px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
 
 /* GENERAL FONT FAMILIES */
 /*
@@ -71,14 +80,35 @@ blockquote {  }
   for what types of fonts to
   use with the font-family rule.
 */
-p  {  }
-h1,h2,h3 { 
-  font-family: Monoton;
- }
-blockquote { 
-  font-familty: Metrophobic;
- }
+h1, h2, h3, h4 { 
+  font-family: 'Dancing Script', cursive;
+}
 
+div {
+  width: 500px;
+}
+
+.review-1 {
+  font-family: 'Italiana', serif;
+  background-color: white;
+  border-radius: 20px;
+  font-style: italic;
+  font-weight: lighter;
+  
+}
+
+.review-2 {
+  font-family: 'Italiana', serif;
+  background-color: white;
+  border-radius: 20px;
+  font-style: italic;
+  font-weight: lighter;
+}
+
+footer p {
+  font-size: .7em;
+  font-weight: lighter;
+}
 /* 
   5. From here on out, write more
      specific rules for particular
@@ -97,4 +127,7 @@ blockquote {
      font-sizing, font-style, font-weight,
      text-indent, margins, padding,
      line-height, or text-decoration.
+
 */
+
+

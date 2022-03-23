@@ -1,10 +1,7 @@
 /* 
   GOAL: Create a set of rules that will create a typography scheme.
 */
-@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+
 
 /* IMPORTS */
 /* 
@@ -19,18 +16,15 @@
   
   But, it's fine for prototyping and play.
 */
-
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Patrick+Hand&family=Prompt&display=swap');
 /* GENERAL RULES */
-html {
-  font-size: 18px;
-  background: red; 
-
-}
 /* 
   2. Set the root font-size
-  
 */
-
+html {
+  font-size: 18px;
+  background-color: rgb(245, 183, 101);
+}
 /* GENERAL COPY SIZING */
 /*
   3. Apply font-sizing, and, where
@@ -52,17 +46,13 @@ html {
       font-size or width of the root 
       element: html.
 */
-body {  }
-h1 {  font-size: 2.25rem;
-font-style:   } 
-h2 { font-size: 1.5rem; } 
-h3 {   font-size: 1.125;}
-h4 { font-size:1.05rem; font-style: italic; }
-p  { 
-  font-family: Black Ops One;
-
- }
-blockquote {  }
+body { font-size: none;}
+h1 { font-size: 3rem; text-align: center;} 
+h2 { font-size: 2rem; text-align: center;} 
+h3 { font-size: 1.7rem; text-align: center;}
+h4 { font-size: 1.5rem; text-align: center;}
+p  { font-size: 1.2rem; text-align: center;}
+blockquote { font-size: 1.2rem; text-align: center;}
 
 
 /* GENERAL FONT FAMILIES */
@@ -71,13 +61,9 @@ blockquote {  }
   for what types of fonts to
   use with the font-family rule.
 */
-p  {  }
-h1,h2,h3 { 
-  font-family: Monoton;
- }
-blockquote { 
-  font-familty: Metrophobic;
- }
+p  { font-family: Prompt ; }
+h1,h2,h3 { font-family: Patrick Hand; }
+blockquote { font-family: Fjalla One ; }
 
 /* 
   5. From here on out, write more
@@ -98,3 +84,33 @@ blockquote {
      text-indent, margins, padding,
      line-height, or text-decoration.
 */
+img {
+  max-height: 200px;
+  max-width: 330px;
+  padding: 1em;
+}
+
+#Squidward > img{
+  margin-left: 7em;
+}
+
+#Krabs > img{
+  margin-left: 5em;
+}
+
+#randomfish > img{
+  margin-left: 8em;
+}
+
+header {
+  min-height: 1em;
+  padding: 8px;
+  border: 50px solid rgb(255, 114, 114);
+}
+
+li {
+  list-style-type: none;
+  border: 5px solid rgb(252, 63, 63);
+  margin-right: 2em;
+  background-color: rgb(250, 175, 77);
+}
