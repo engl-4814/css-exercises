@@ -104,7 +104,7 @@ p  {
   color: black;
 }
 blockquote { 
-  font-size: 17px;
+  font-size: 22px;
  }
 
 
@@ -130,7 +130,7 @@ figcaption {
   font-family: 'Montserrat', sans-serif;
 }
 
-link {
+a {
   color: hotpink
 }
 /* 
