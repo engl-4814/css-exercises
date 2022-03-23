@@ -27,7 +27,7 @@ html {
 
 h1 { font-size: 5rem; }
 h2 { font-size: 2rem; }
-h3 { font-size}
+h3 { font-size: 1rem; }
 
 /* TYPOGRAPHY */
 
@@ -45,7 +45,10 @@ h3 { font-size}
 */
 
 /* HEADER */
-header { }
+header {
+margin-left: 300px;
+
+}
 
 /* 
   Write a more general selection of the containing
