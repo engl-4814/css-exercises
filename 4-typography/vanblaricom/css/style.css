@@ -1,14 +1,14 @@
 /* 
   GOAL: Create a set of rules that will create a typography scheme.
 */
-@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+
 
 /* IMPORTS */
 /* 
   1. Import 3 fonts from https://fonts.google.com/ 
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Playfair+Display&display=swap');
 
   Consider what combination of serif and 
   sans-serif fonts to use as a theme.
@@ -21,15 +21,14 @@
 */
 
 /* GENERAL RULES */
-html {
-  font-size: 18px;
-  background: red; 
-
-}
 /* 
   2. Set the root font-size
-  
 */
+h1 {font-size: 2.25rem;}
+h2 {font-size: 2rem;}
+h3 {font-size:1.5rem;}
+h4 {font-size: 1rem;}
+
 
 /* GENERAL COPY SIZING */
 /*
@@ -52,17 +51,61 @@ html {
       font-size or width of the root 
       element: html.
 */
-body {  }
-h1 {  font-size: 2.25rem;
-font-style:   } 
-h2 { font-size: 1.5rem; } 
-h3 {   font-size: 1.125;}
-h4 { font-size:1.05rem; font-style: italic; }
-p  { 
-  font-family: Black Ops One;
+body {
+  font-size: 18px; 
+font-style:normal;
+margin-bottom: 1em ;
+text-align: left;
+line-height: 150%;
+background-color: antiquewhite;
+}
+h1 {
+  font-size: 28px;
+  font-style: bold;
+  margin-bottom: 1em ;
+  text-align: left;
+  line-height: 150%;
+  color: rgb(224, 117, 117);
+} 
 
+h2 { 
+  font-size: 24px; 
+  font-style:normal;
+  margin-bottom: 1em ;
+  text-align: left;
+  line-height: 150%;
+  color:rgb(39, 39, 39);
+} 
+
+h3 {
+  font-size: 22px; 
+  font-style:normal;
+  margin-bottom: 1em ;
+  text-align: left;
+  line-height: 150%;
+  color:rgb(39, 39, 39);
+}
+
+h4 {
+  font-size: 20px; 
+  font-style:normal;
+  margin-bottom: 1em ;
+  text-align: left;
+  line-height: 150%;
+  color:black
+} 
+
+p  { 
+  font-size:18px;
+  font-style:normal;
+  margin-bottom: 1em ;
+  text-align: left;
+  line-height: 150%;
+  color: black;
+}
+blockquote { 
+  font-size: 17px;
  }
-blockquote {  }
 
 
 /* GENERAL FONT FAMILIES */
@@ -71,13 +114,15 @@ blockquote {  }
   for what types of fonts to
   use with the font-family rule.
 */
-p  {  }
+p  { 
+  font-family: 'Montserrat', sans-serif;
+}
 h1,h2,h3 { 
-  font-family: Monoton;
+  font-family: 'Playfair Display', serif;
  }
-blockquote { 
-  font-familty: Metrophobic;
- }
+blockquote {
+  font-family: 'Montserrat', sans-serif;
+  }
 
 /* 
   5. From here on out, write more
