@@ -39,12 +39,15 @@ h1 {
   font-size: 1rem;
 } 
 h2 { 
-  font-family: 'Rubik' , sans-serif;
+  font-family: 'Shadows Into Light' , 'cursive';
   font-size: 0.75rem;
  } 
 h3 { 
-  font-family: 'Shadows Into Light' , 'cursive';
+  font-family:  'Rubik' , sans-serif; 
   font-size: 0.5rem;
+ }
+ h4 {
+   font-family: 'Oswald' , sans-serif;
  }
 p  { 
   font-size: 0.25rem;
