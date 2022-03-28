@@ -2,9 +2,6 @@
   GOAL: Create a set of rules that will create a typography scheme.
 */
 @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
 
 /* IMPORTS */
 /* 
@@ -23,7 +20,7 @@
 /* GENERAL RULES */
 html {
   font-size: 18px;
-  background: red; 
+  background-color: rgb(124, 99, 99); 
 
 }
 /* 
@@ -52,17 +49,14 @@ html {
       font-size or width of the root 
       element: html.
 */
-body {  }
-h1 {  font-size: 2.25rem;
-font-style:   } 
-h2 { font-size: 1.5rem; } 
-h3 {   font-size: 1.125;}
-h4 { font-size:1.05rem; font-style: italic; }
-p  { 
-  font-family: Black Ops One;
+body { font-family: 'Black Ops One';font-size: none; }
+h1 {   font-family: 'Black Ops One'; font-size: 2.25rem; text-align: center;  } 
+h2 {   font-family: 'Black Ops One';font-size: 1.5rem; text-align: center; } 
+h3 {   font-family: 'Black Ops One';font-size: 1.125; text-align: center; }
+h4 {   font-family: 'Black Ops One';font-size:1.05rem; font-style: italic; text-align: center; }
+p  {   font-family: 'Black Ops One'; text-align: center;    }
 
- }
-blockquote {  }
+blockquote { font-family: 'Black Ops One';font-size: 1.2rem; text-align: center; }
 
 
 /* GENERAL FONT FAMILIES */
@@ -71,13 +65,10 @@ blockquote {  }
   for what types of fonts to
   use with the font-family rule.
 */
-p  {  }
-h1,h2,h3 { 
-  font-family: Monoton;
- }
-blockquote { 
-  font-familty: Metrophobic;
- }
+p  { font-family: 'Black Ops One'; }
+h1,h2,h3 { font-family: 'Black Ops One', cursive; }
+
+blockquote { font-family: 'Black Ops One', cursive; }
 
 /* 
   5. From here on out, write more
