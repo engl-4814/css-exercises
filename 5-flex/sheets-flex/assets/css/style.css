@@ -1,4 +1,20 @@
-.img-1 {
+/* stepping stones */
+div {
     border: 3px black;
     border-style: solid;
+    margin: 20px;
+    width: 200px;
+}
+
+.flexbox-1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.box-2 {
+    align-self: center;
+}
+
+.box-3 {
+    align-self: flex-end;
 }
