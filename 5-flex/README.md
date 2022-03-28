@@ -43,6 +43,8 @@ Like #1, there are variations on this design scheme, but try to write your HTML 
 
 Taking up the design principles from our reading, design your own alignment and draw your own wireframe. Then, add it to a new section after the prior 2 sections.
 
+Save an image of your wireframe within your `assets` folder.
+
 ## Other Considerations
 
 - Practice designing these sites with the **MOZILLA FIREFOX** browser's inspection tool. It has a more robust inspector than Chrome. However, the latest version of Chrome now has a flex and grid inspectioon tool.
