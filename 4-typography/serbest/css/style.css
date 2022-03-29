@@ -1,7 +1,7 @@
 /* 
   GOAL: Create a set of rules that will create a typography scheme.
 */
-@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+
 
 /* IMPORTS */
 /* 
@@ -16,18 +16,18 @@
   
   But, it's fine for prototyping and play.
 */
-
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Patrick+Hand&family=Prompt&display=swap');
 /* GENERAL RULES */
-html {
-  font-size: 18px;
-  background-color: rgb(124, 99, 99); 
-
-}
 /* 
   2. Set the root font-size
-  
 */
-
+html {
+  font-size: 18px;
+  background-color: rgb(245, 183, 101);
+}
+#backimage {
+  background-image: url("/4-typography/serbest/images/bikini_bottom.jpg");
+}
 /* GENERAL COPY SIZING */
 /*
   3. Apply font-sizing, and, where
@@ -49,14 +49,13 @@ html {
       font-size or width of the root 
       element: html.
 */
-body { font-family: 'Black Ops One';font-size: none; }
-h1 {   font-family: 'Black Ops One'; font-size: 2.25rem; text-align: center;  } 
-h2 {   font-family: 'Black Ops One';font-size: 1.5rem; text-align: center; } 
-h3 {   font-family: 'Black Ops One';font-size: 1.125; text-align: center; }
-h4 {   font-family: 'Black Ops One';font-size:1.05rem; font-style: italic; text-align: center; }
-p  {   font-family: 'Black Ops One'; text-align: center;    }
-
-blockquote { font-family: 'Black Ops One';font-size: 1.2rem; text-align: center; }
+body { font-size: none;}
+h1 { font-size: 3rem; text-align: center; text-decoration: underline;} 
+h2 { font-size: 2rem; text-align: center;} 
+h3 { font-size: 1.7rem; text-align: center;}
+h4 { font-size: 1.5rem; text-align: center;}
+p  { font-size: 1.2rem; text-align: center;}
+blockquote { font-size: 1.2rem; text-align: center;}
 
 
 /* GENERAL FONT FAMILIES */
@@ -65,10 +64,9 @@ blockquote { font-family: 'Black Ops One';font-size: 1.2rem; text-align: center;
   for what types of fonts to
   use with the font-family rule.
 */
-p  { font-family: 'Black Ops One'; }
-h1,h2,h3 { font-family: 'Black Ops One', cursive; }
-
-blockquote { font-family: 'Black Ops One', cursive; }
+p  { font-family: Prompt ; }
+h1,h2,h3 { font-family: Patrick Hand; }
+blockquote { font-family: Fjalla One ; }
 
 /* 
   5. From here on out, write more
@@ -89,3 +87,56 @@ blockquote { font-family: 'Black Ops One', cursive; }
      text-indent, margins, padding,
      line-height, or text-decoration.
 */
+img {
+  max-height: 200px;
+  max-width: 320px;
+  padding: 1em;
+}
+
+#Squidward > img{
+  margin-left: 7em;
+}
+
+#Krabs > img{
+  margin-left: 5em;
+}
+
+#randomfish > img{
+  margin-left: 8em;
+}
+
+header {
+  min-height: 1em;
+  padding: 8px;
+  border: 50px solid rgb(255, 209, 156);
+}
+
+li {
+  list-style-type: none;
+  border: 5px solid rgb(252, 63, 63);
+  margin-right: 2em;
+  background-color: rgb(247, 183, 65);
+  margin-bottom: 1em;
+}
+
+h2 {
+  width: 20%;
+  margin-left: 16em;
+}
+
+#Spongebob > h2 {
+  border: 10px solid rgb(250, 247, 77);
+}
+
+#Patrick > h2 {
+  border: 10px solid rgb(255, 118, 214);
+}
+
+#Squidward > h2 {
+  border: 10px solid rgb(77, 224, 250);
+}
+
+#Krabs > h2 {
+  border: 10px solid rgb(250, 77, 77);
+}
+

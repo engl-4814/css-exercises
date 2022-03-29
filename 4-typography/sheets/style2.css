@@ -1,7 +1,7 @@
 /* 
   GOAL: Create a set of rules that will create a typography scheme.
 */
-@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+
 
 /* IMPORTS */
 /* 
@@ -18,15 +18,11 @@
 */
 
 /* GENERAL RULES */
-html {
-  font-size: 18px;
-  background-color: rgb(124, 99, 99); 
-
-}
 /* 
   2. Set the root font-size
-  
 */
+
+html {font-size: 18px;}
 
 /* GENERAL COPY SIZING */
 /*
@@ -49,14 +45,21 @@ html {
       font-size or width of the root 
       element: html.
 */
-body { font-family: 'Black Ops One';font-size: none; }
-h1 {   font-family: 'Black Ops One'; font-size: 2.25rem; text-align: center;  } 
-h2 {   font-family: 'Black Ops One';font-size: 1.5rem; text-align: center; } 
-h3 {   font-family: 'Black Ops One';font-size: 1.125; text-align: center; }
-h4 {   font-family: 'Black Ops One';font-size:1.05rem; font-style: italic; text-align: center; }
-p  {   font-family: 'Black Ops One'; text-align: center;    }
-
-blockquote { font-family: 'Black Ops One';font-size: 1.2rem; text-align: center; }
+h1 { font-size: 4rem; 
+color: mediumvioletred;} 
+h2 { font-size: 2.5rem; 
+color: deeppink;} 
+h3 { font-size: 1.125rem; 
+color: darkblue;
+margin-bottom: 5px;}
+h4 { font-size: 1rem; 
+color: darkblue;
+margin-top: -5px;}
+p  { font-size: .8rem;
+width: 200px; 
+color: midnightblue;
+text-indent: 25%;}
+blockquote { font-size: .5rem; }
 
 
 /* GENERAL FONT FAMILIES */
@@ -65,10 +68,15 @@ blockquote { font-family: 'Black Ops One';font-size: 1.2rem; text-align: center;
   for what types of fonts to
   use with the font-family rule.
 */
-p  { font-family: 'Black Ops One'; }
-h1,h2,h3 { font-family: 'Black Ops One', cursive; }
-
-blockquote { font-family: 'Black Ops One', cursive; }
+h1, h2, h3, h4 {
+  font-family: 'Bebas Neue', cursive;
+}
+p {
+  font-family: 'Roboto Slab', serif;
+}
+blockquote {
+  font-family: 'Roboto Slab', serif;
+}
 
 /* 
   5. From here on out, write more
@@ -89,3 +97,26 @@ blockquote { font-family: 'Black Ops One', cursive; }
      text-indent, margins, padding,
      line-height, or text-decoration.
 */
+
+html {
+  background-color: lightcyan;
+}
+header {
+  background-color: lightskyblue;
+  padding: 30px;
+  display: inline-block;
+  margin-bottom: 60px;
+}
+header img {
+  border-radius: 50%;
+  float: left;
+}
+section{
+  float: left;
+  padding: 10px;
+  margin-left: 60px;
+  border: 1px;
+  border-style: solid;
+  border-color: lightskyblue;
+  width:fit-content;
+}

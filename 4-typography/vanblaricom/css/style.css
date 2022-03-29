@@ -1,11 +1,14 @@
 /* 
   GOAL: Create a set of rules that will create a typography scheme.
 */
-@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+
 
 /* IMPORTS */
 /* 
   1. Import 3 fonts from https://fonts.google.com/ 
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Playfair+Display&display=swap');
 
   Consider what combination of serif and 
   sans-serif fonts to use as a theme.
@@ -18,15 +21,13 @@
 */
 
 /* GENERAL RULES */
-html {
-  font-size: 18px;
-  background-color: rgb(124, 99, 99); 
-
-}
 /* 
   2. Set the root font-size
-  
 */
+h1 {font-size: 2.25rem;}
+h2 {font-size: 2rem;}
+h3 {font-size:1.5rem;}
+h4 {font-size: 1rem;}
 
 /* GENERAL COPY SIZING */
 /*
@@ -49,14 +50,66 @@ html {
       font-size or width of the root 
       element: html.
 */
-body { font-family: 'Black Ops One';font-size: none; }
-h1 {   font-family: 'Black Ops One'; font-size: 2.25rem; text-align: center;  } 
-h2 {   font-family: 'Black Ops One';font-size: 1.5rem; text-align: center; } 
-h3 {   font-family: 'Black Ops One';font-size: 1.125; text-align: center; }
-h4 {   font-family: 'Black Ops One';font-size:1.05rem; font-style: italic; text-align: center; }
-p  {   font-family: 'Black Ops One'; text-align: center;    }
+body {
+font-style:normal;
+margin-bottom: 1em ;
+text-align: left;
+line-height: 150%;
+background-color: antiquewhite;
+}
+h1 {
+  font-size: 50px;
+  font-style: bold;
+  margin-bottom: 1em ;
+  text-align: left;
+  line-height: 150%;
+  color: rgb(238, 51, 166);
+  text-align: center;
+} 
 
-blockquote { font-family: 'Black Ops One';font-size: 1.2rem; text-align: center; }
+#sampleparagraph 
+{ text-align: center;}
+
+h2 { 
+  font-size: 30px; 
+  font-style:normal;
+  margin-bottom: 1em ;
+  text-align: left;
+  line-height: 150%;
+  color:rgb(39, 39, 39);
+} 
+
+h3 {
+  font-size: 28px; 
+  font-style:normal;
+  margin-bottom: 1em ;
+  text-align: left;
+  line-height: 150%;
+  color:rgb(39, 39, 39);
+}
+
+h4 {
+  font-size: 24px; 
+  font-style:italic;
+  margin-bottom: 1em ;
+  text-align: left;
+  line-height: 150%;
+  color:black
+} 
+
+p  { 
+  font-size:18px;
+  font-style:normal;
+  margin-bottom: 1em ;
+  text-align: left;
+  line-height: 150%;
+  color: black;
+}
+blockquote { 
+  font-size: 30px;
+  background-color: rgb(212, 133, 212);
+  width: 500px;
+ }
 
 
 /* GENERAL FONT FAMILIES */
@@ -65,11 +118,25 @@ blockquote { font-family: 'Black Ops One';font-size: 1.2rem; text-align: center;
   for what types of fonts to
   use with the font-family rule.
 */
-p  { font-family: 'Black Ops One'; }
-h1,h2,h3 { font-family: 'Black Ops One', cursive; }
+p  { 
+  font-family: 'Montserrat', sans-serif;
+}
+h1,h2,h3 { 
+  font-family: 'Playfair Display', serif;
+ }
+blockquote {
+  font-family: 'Montserrat', sans-serif; 
+}
+li {
+  font-family: 'Playfair Display', serif;
+}
+figcaption {
+  font-family: 'Montserrat', sans-serif;
+}
 
-blockquote { font-family: 'Black Ops One', cursive; }
-
+a {
+  color: hotpink
+}
 /* 
   5. From here on out, write more
      specific rules for particular

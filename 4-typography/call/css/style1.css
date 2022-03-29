@@ -2,6 +2,7 @@
   GOAL: Create a set of rules that will create a typography scheme.
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Arsenal&family=Dancing+Script&family=Italiana&display=swap');
 /* IMPORTS */
 /* 
   1. Import 3 fonts from https://fonts.google.com/ 
@@ -20,9 +21,12 @@
 /* 
   2. Set the root font-size
 */
+
 html {
-  font-size: 18px;
-  background: floralwhite;
+  font-size: 18px; 
+  background-image: url("images/ilysm-cake.png");
+  background-position: center;
+  background-size: cover;
 }
 
 /* GENERAL COPY SIZING */
@@ -46,17 +50,12 @@ html {
       font-size or width of the root 
       element: html.
 */
-h1 { font-size: 2.25rem; } 
+
+h1 { font-size: 2.25rem; text-align: center;} 
 h2 { font-size: 1.5rem; } 
 h3 { font-size: 1.125rem; }
-h4 { font-size: 1rem;
-font-style: italic; }
-p  { font-size: .8rem; }
-blockquote { font-size: .5rem; }
-.review {font-weight: 700;
-text-indent: 25%;
-padding:20px; }
-p.poem {line-height: 1.5em;}
+h4 { font-size: 1.05rem; font-style: italic; }
+blockquote { font-size: 0.80rem; max-width: 550px; text-align: center; margin: 20px; padding: 20px;}
 
 
 /* GENERAL FONT FAMILIES */
@@ -65,19 +64,17 @@ p.poem {line-height: 1.5em;}
   for what types of fonts to
   use with the font-family rule.
 */
-h1, h2, h3, h4 {
-  font-family: 'Playfair Display', serif;
+h1, h2, h3, h4 { 
+  font-family: 'Dancing Script', cursive;
 }
 
-p {
-  font-family: 'Montserrat', sans-serif;
-}
-blockquote { 
-  font-family: 'Montserrat', sans-serif;
-  columns: 2;
-  margin-left: 70%;
+#about-our-cakes {
+  font-family: 'Arsenal';
 }
 
+#cakes {
+  font-family: 'Arsenal';
+}
 /* 
   5. From here on out, write more
      specific rules for particular
@@ -96,30 +93,75 @@ blockquote {
      font-sizing, font-style, font-weight,
      text-indent, margins, padding,
      line-height, or text-decoration.
+
 */
 
-header {
-  padding: 30px;
+p { 
+  line-height: 0.3in;
+  font-style: normal;
+  font-weight: 400;
+}
+#about-our-cakes {
+width: 900px;
+margin-left: 20px;
+margin-right: 20px;
 }
 
-section {
-  padding-left: 40px;
-  display: inline-block;
+#cakes {
+font-family: 'Arsenal';
+width: 900px;
+margin-left: 20px;
+margin-right: 20px;
 }
 
-/*.card {
-  width: 500px;
-  display: inline-block;
-  border: 3px black;
-  border-style: solid;
-  padding: 10px;
+ .group-of-reviews {
+  margin: auto;
+  text-align: center;
 }
-*/
-.poem {
+
+.review-1 {
   float: left;
+  font-family: 'Italiana', serif;
+  background-color: white;
+  border-radius: 20px;
+  display: inline-block;
+  font-style: italic;
+  font-weight: lighter;
+  padding-bottom: 1px;
+  padding-top: 1px;
+  width: 300px;
+  
 }
 
-blockquote {
-  background-color: moccasin;
-  border-radius: 30px;
+.review-2 {
+  font-family: 'Italiana', serif;
+  background-color: white;
+  border-radius: 20px;
+  display: inline-block;
+  font-style: italic;
+  font-weight: lighter;
+  padding-bottom: 1px;
+  padding-top: 1px;
+  width: 300px
 }
+
+.review-3 {
+  align-content: center;
+  font-family: 'Italiana', serif;
+  background-color: white;
+  border-radius: 20px;
+  display: inline-block;
+  font-style: italic;
+  font-weight: lighter;
+  padding-bottom: 1px;
+  padding-top: 1px;
+  width: 300px;
+}
+
+footer p {
+  font-size: .7em;
+  font-weight: lighter;
+}
+
+
+
