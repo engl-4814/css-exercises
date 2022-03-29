@@ -18,3 +18,23 @@ div {
 .box-3 {
     align-self: flex-end;
 }
+
+/*switching it up*/
+.text {
+    width: 200px;
+    height: 200px;
+}
+
+article {
+    display: flex;
+    flex-direction: row;
+}
+
+.group-2 {
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+
+.footer {
+    justify-content: space-around;
+}
