@@ -2,6 +2,12 @@ section {
   display: flex;
   flex-direction: column;
 }
+section.sect1 {
+  margin-bottom: 3rem;
+}
+section.sect1 > h1 {
+  font-size: 2rem;
+}
 img {
   align-self: flex-start;
 }
