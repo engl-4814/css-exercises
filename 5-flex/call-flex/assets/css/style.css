@@ -62,7 +62,13 @@ flex-direction: column;
 
 /* create your own */
 
+.flexbox-3 {
+  display: flex;
+  flex-direction: column;
+}
+
 .text-and-image {
+  align-self: center;
   display: flex;
   border: none;
   flex-direction: row;
@@ -72,19 +78,19 @@ flex-direction: column;
   border: none;
   display: flex;
   flex-wrap: wrap;
-  align-self: center;
 }
+
+
 
 div img .image {
   align-self: center;
   border: 500px;
-  border-color: crimson;
   display: flex;
   
 }
 
- .bottom-group {
-  align-items: center;
+.bottom-group {
+  align-self: center;
   border: none;
   display: flex;
   flex-direction: row;
@@ -98,6 +104,7 @@ div img .image {
 
 .group-1 img {
   align-self: center;
+  border: 20px;
   display: flex;
   flex-direction: column;
 }
@@ -115,6 +122,7 @@ div img .image {
 
 .group-2 img {
   align-self: center;
+  border: 20px;
   display: flex;
   flex-direction: column;
 }
