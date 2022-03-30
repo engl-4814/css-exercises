@@ -4,3 +4,39 @@ html {
     font-size: 22px;
     background: blanchedalmond;
 }
+h1 { font-size: 2rem;}
+h2 { font-size: 1.75rem;}
+h3 { font-size: 1.5rem;}
+h4 { font-size: 1rem; font-style:italic}
+p  { font-size: .75rem;}
+blockquote { font-size: .75rem;}
+
+h1, h2, h3, h4 {
+    font-family: Merriweather;
+}
+p {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+img {
+    max-height: 400px;
+    max-width: 300px;
+    padding: 2em;
+  }
+  
+  #hellomolly > img{
+    margin-left: 8em;
+  }
+  
+  #princesspolly > img{
+    margin-left: 9em;
+  }
+  
+  #zara > img{
+    margin-left: 8em;
+  }
+
+  li {
+      border: 7rem;
+      border-color: blueviolet;
+  }
