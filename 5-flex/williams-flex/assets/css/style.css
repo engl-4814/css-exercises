@@ -1,0 +1,8 @@
+/* First Website Layout Practice 1 */
+
+element.style {
+  margin: 30px;
+}
+
+div .image-box-1{
+  display: flex;

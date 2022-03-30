@@ -1,0 +1,153 @@
+/*stepping stones*/
+
+div {
+  border: 5px black solid;
+  margin: 30px;
+  width: 350px;
+}
+
+.flexbox-1 {
+display: flex;
+flex-direction: column;
+}
+
+.box-1 {
+  align-self: flex-start;
+}
+
+.box-2 {
+  align-self: center;
+}
+
+.box-3 {
+  align-self: flex-end;
+}
+
+/*switching it up*/
+
+.flexbox-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.set-1 {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  width: 800px;
+}
+
+.set-2 {
+  background-color: coral;
+  display: flex;
+  flex-direction: row-reverse;
+  width: 800px;
+}
+
+.set-3 {
+  display: flex;
+  flex-direction: row;
+  width: 800px;
+}
+
+.mini-boxes {
+  background-color: coral;
+  border: none;
+  display: flex;
+  flex-direction: row;
+  width: 800px;
+  justify-content: space-between;
+}
+
+/* create your own */
+
+.flexbox-3 {
+  display: flex;
+  flex-direction: column;
+}
+
+.text-and-image {
+  align-self: center;
+  display: flex;
+  border: none;
+  flex-direction: row;
+}
+
+.text {
+  border: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+
+div img .image {
+  align-self: center;
+  border: 500px;
+  display: flex;
+  
+}
+
+.bottom-group {
+  align-self: center;
+  border: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.group-1 h2 {
+  align-self: flex-start;
+  display: flex;
+}
+
+.group-1 img {
+  align-self: center;
+  border: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.group-1 p {
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+}
+
+.group-2 h2 {
+  align-self: flex-start;
+  display: flex;
+}
+
+.group-2 img {
+  align-self: center;
+  border: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.group-2 p {
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+}
+
+.group-3 h2 {
+  align-self: flex-start;
+  display: flex;
+}
+
+.group-3 img {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.group-3 p {
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+}
+
+
