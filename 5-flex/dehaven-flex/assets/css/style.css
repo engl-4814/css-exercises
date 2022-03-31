@@ -5,6 +5,7 @@ div {
   margin: 30px; 
   width: 350px;
   margin: 20px;
+  flex-wrap: wrap;
 }
 
 .flexbox-1 { 
@@ -36,9 +37,9 @@ div {
 
 .group-1 {
   display: flex;
-  flex-direction: row; 
   align-self: center; 
   width: 800px;
+  flex-direction: row;
   justify-content: space-between;
 }
 
@@ -67,3 +68,34 @@ div {
 
 /*create-your-own*/
 
+
+.flexbox-3 {
+  display: flex; 
+  flex-direction: column; 
+}
+.navigation {
+  background-color: lightcyan;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.area-1 {
+  display: flex; 
+  flex-direction: row;
+  justify-content: space-between;
+  align-self: center;
+}
+
+.area-2 {
+  background-color: lightgoldenrodyellow;
+  display: flex; 
+  flex-direction: row;
+  justify-content: space-between; 
+}
+
+.area-3 {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+}
