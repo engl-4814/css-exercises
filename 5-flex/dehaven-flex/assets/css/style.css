@@ -18,6 +18,7 @@ div {
 
 .box-2 {
   align-self: center;
+  width: 350px;
 }
 
 .box-3 {
@@ -54,3 +55,12 @@ div {
   width: 800px;
   justify-content: space-between;
 }
+
+.footer {
+  background-color: orange;
+  display: flex;
+  flex-direction: row;
+  width: 800px;
+  justify-content: space-between;
+}
+
