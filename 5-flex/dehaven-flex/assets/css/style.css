@@ -1,9 +1,10 @@
 /*flex-1-align*/
 
 div {
-  border: 4px black solid; 
+  border: 5px black solid; 
   margin: 30px; 
-  width: 300px;
+  width: 350px;
+  margin: 20px;
 }
 
 .flexbox-1 { 
@@ -21,4 +22,35 @@ div {
 
 .box-3 {
   align-self: flex-end;
+}
+
+/*flex-2-row-scheme*/
+
+.flexbox-2 {
+  display: flex; 
+  flex-direction: column; 
+  align-items: center;
+}
+
+.group-1 {
+  display: flex;
+  flex-direction: row; 
+  align-self: center; 
+  width: 800px;
+  justify-content: space-between;
+}
+
+.group-2 {
+  background-color: orange;
+  display: flex;
+  flex-direction: row-reverse; 
+  width: 800px;
+  justify-content: space-between;
+}
+
+.group-3 {
+  display: flex; 
+  flex-direction: row;
+  width: 800px;
+  justify-content: space-between;
 }
