@@ -1,0 +1,21 @@
+.box2 {
+  display: flex;
+  justify-content: center;
+}
+
+.box3 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.p1 {
+  display:flex;
+  flex-direction: column;
+  justify-content: baseline;
+}
+
+.img1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
