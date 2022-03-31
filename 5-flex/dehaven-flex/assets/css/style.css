@@ -1,0 +1,24 @@
+/*flex-1-align*/
+
+div {
+  border: 4px black solid; 
+  margin: 30px; 
+  width: 300px;
+}
+
+.flexbox-1 { 
+  display: flex; 
+  flex-direction: column;
+}
+
+.box-1 {
+  align-self: flex-start;
+}
+
+.box-2 {
+  align-self: center;
+}
+
+.box-3 {
+  align-self: flex-end;
+}
