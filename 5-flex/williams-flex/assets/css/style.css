@@ -1,7 +1,32 @@
-/* First Website Layout Practice 1 */
+/* 
+  First Website Layout Practice 1
 
-The Staircase
+  CSS Tricks Resource:
+  https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+*/
 
+/* GENERAL */
+
+img {
+  width: 300px;
+}
+
+/* The Staircase */
+
+/* 
+  Ok, I see how I maybe have not
+  explained alignment as best as I
+  could. Instead of thinking about
+  justify as horiz vs align as vert,
+  they are more acurately described as
+  justify as main-axis vs. align as cross-
+  axis. See this article:
+  https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Aligning_Items_in_a_Flex_Container#changing_the_main_axis
+
+  Review that and consider how you'd like
+  to solve this design scheme with a 
+  flex-direction as rows vs. columns.
+*/
 .container-1 {
   display: flex;
 }
@@ -18,8 +43,8 @@ The Staircase
   margin-right: 5px;
 }
 
-Switching-It-Up
+/* Switching-It-Up */
 
 
 
-My Creation
+/* My Creation */
