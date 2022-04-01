@@ -13,21 +13,6 @@ img {
 
 /* The Staircase */
 
-/* 
-  Ok, I see how I maybe have not
-  explained alignment as best as I
-  could. Instead of thinking about
-  justify as horiz vs align as vert,
-  they are more acurately described as
-  justify as main-axis vs. align as cross-
-  axis. See this article:
-  https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Aligning_Items_in_a_Flex_Container#changing_the_main_axis
-
-  Review that and consider how you'd like
-  to solve this design scheme with a 
-  flex-direction as rows vs. columns.
-*/
-
 .text-1 {
   width: 30rem;
   padding: 5rem;
