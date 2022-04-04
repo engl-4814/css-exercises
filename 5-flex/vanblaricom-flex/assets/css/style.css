@@ -14,8 +14,20 @@
   justify-content: baseline;
 }
 
-.img1 {
+.section1 {
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: center;
+}
+
+.section2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.section3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
