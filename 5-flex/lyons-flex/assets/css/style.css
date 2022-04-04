@@ -1,0 +1,81 @@
+section {
+  display: flex;
+  flex-direction: column;
+}
+section.sect1 {
+  margin-bottom: 3rem;
+}
+section.sect1 > h1 {
+  font-size: 2rem;
+}
+img {
+  align-self: flex-start;
+}
+section.sect1 > p {
+  width: 20rem;
+  align-self: center;
+}
+img.sect1-rimg {
+  align-self: flex-end;
+}
+section.sect2 {
+  margin-bottom: 3rem;
+}
+section.sect2-1 {
+  flex-direction: row;
+}
+section.sect2-1 > img {
+  width: 96.3rem;
+  margin-left: 1rem;
+}
+section.sect2-2 {
+  background-color: cornflowerblue;
+  flex-direction: row;
+}
+section.sect2-2 > img {
+  width: 96.3rem;
+  margin-right: 1rem;
+}
+section.sect2-3 {
+  flex-direction: row;
+}
+section.sect2-3 > img {
+  width: 100.6rem;
+  margin-left: 1rem;
+}
+section.sect2-4 {
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: cornflowerblue;
+}
+section.sect3-images1 {
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-bottom: 4rem;
+}
+section.sect3-images1 > img {
+  border-radius: 100rem;
+}
+section.sect3-images2 > img {
+  border-radius: 100rem;
+  align-self: center;
+}
+section.sect3-images2 {
+  margin-bottom: 2rem;
+}
+section.sect3-p1 {
+  flex-direction: row;
+  justify-content: space-around;
+}
+section.sect3-p2 {
+  flex-direction: row;
+  justify-content: space-around;
+}
+section.sect3-p3 {
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+section.sect3-p4 {
+  align-self: center;
+  justify-self: center;
+}

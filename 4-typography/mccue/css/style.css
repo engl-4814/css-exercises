@@ -74,3 +74,10 @@ blockquote {  }
      text-indent, margins, padding,
      line-height, or text-decoration.
 */
+body { font-size: none;}
+h1 { font-size: 3rem; text-align: left; text-decoration: underline;} 
+h2 { font-size: 2rem; text-align: right;} 
+h3 { font-size: 1.5rem; text-align: left;}
+h4 { font-size: 1.5rem; text-align: right;}
+p  { font-size: 1rem; text-align: left;}
+blockquote { font-size: 1.2rem; text-align: center;}
