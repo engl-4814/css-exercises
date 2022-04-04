@@ -13,6 +13,7 @@ div {
 
 .box-2 {
     align-self: center;
+    height: 200px;
 }
 
 .box-3 {
@@ -37,4 +38,32 @@ article {
 
 .footer {
     justify-content: space-around;
+}
+
+/*create your own*/
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+}
+
+.img-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.footer-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.small-box-text {
+    width: 100px;
 }

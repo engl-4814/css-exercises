@@ -1,0 +1,125 @@
+/*stepping stones*/
+
+div {
+  border: 5px black solid;
+  margin: 30px;
+  width: 350px;
+}
+
+.flexbox-1 {
+display: flex;
+flex-direction: column;
+}
+
+.box-1 {
+  align-self: flex-start;
+}
+
+.box-2 {
+  align-self: center;
+}
+
+.box-3 {
+  align-self: flex-end;
+}
+
+/*switching it up*/
+
+.flexbox-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.set-1 {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  width: 800px;
+}
+
+.set-2 {
+  background-color: coral;
+  display: flex;
+  flex-direction: row-reverse;
+  width: 800px;
+}
+
+.set-3 {
+  display: flex;
+  flex-direction: row;
+  width: 800px;
+}
+
+.mini-boxes {
+  background-color: coral;
+  border: none;
+  display: flex;
+  flex-direction: row;
+  width: 800px;
+  justify-content: space-between;
+}
+
+/* create your own */
+
+.flexbox-3 {
+  display: flex;
+  flex-direction: column;
+}
+
+.text-and-image {
+  align-self: center;
+  display: flex;
+  border: none;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.text {
+  border: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+div img .image {
+  align-self: center;
+  border: 500px;
+  display: flex;
+  
+}
+
+.bottom-group {
+  align-self: center;
+  border: none;
+  display: flex;
+  justify-content: center;
+}
+
+.group-1 {
+  align-self: flex-start;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 40px;
+}
+
+.group-2 {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 40px;
+}
+
+.group-3 {
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 40px;
+}
+
+
+
+

@@ -1,0 +1,113 @@
+/* 
+  First Website Layout Practice 1
+
+  CSS Tricks Resource:
+  https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+*/
+
+/* GENERAL */
+
+img {
+  width: 300px;
+}
+
+/* The Staircase */
+
+.text-1 {
+  width: 30rem;
+  padding: 5rem;
+  margin: auto;
+}
+
+.image-box-2 {
+  width: 5rem;
+  padding-bottom: 5rem;
+  margin-left: 75%;
+}
+
+/* Switching-It-Up */
+
+.container-2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.text-2 {
+  align-items: flex-start;
+  width: 30rem; 
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 17rem;
+}
+
+.image-box-3 {
+  padding-left: 15rem;
+  width: 40%
+}
+
+.image-box-4 {
+  align-items: flex-start;
+  padding-left: 10rem;
+  padding-top: 2rem;
+  padding-bottom: 10rem;
+  flex-wrap: wrap;
+  
+  
+}
+
+.text-3 {
+  flex-direction: column;
+  width: 30rem;
+  padding-left: 25rem;
+  margin-left: -8rem;
+  justify-content: flex-start;
+  padding-top: 5rem;
+  padding-right: 3rem;
+}
+
+.text-4 {
+  width: 30rem;
+  flex-direction: column;
+  padding-left: 7rem;
+  padding-bottom: 5rem;
+  padding-right: -5rem;
+}
+
+.image-box-5 {
+  padding-left: 5rem;
+  padding-bottom: 5rem;
+  padding-right: 10rem;
+}
+
+.list-items {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  padding-bottom: 5rem;
+}
+
+
+
+/* My Creation */
+
+.container-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.text-5 {
+  width: 30rem;
+
+}
+
+.text-6 {
+  width: 50rem;
+}
+
+.text-7 {
+  flex-direction: row;
+  width: 30rem;
+}
