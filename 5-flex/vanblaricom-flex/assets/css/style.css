@@ -15,19 +15,25 @@
 }
 
 .section1 {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 10px;
+  border: 5px;
+  border-color:black;
 }
 
 .section2 {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 10px;
+  border: 5px;
+  border-color:black;
 }
 
 .section3 {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 10px;
+  border: 5px;
+  border-color: black;
 }
