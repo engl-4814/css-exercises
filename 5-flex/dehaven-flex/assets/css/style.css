@@ -1,0 +1,101 @@
+/*flex-1-align*/
+
+div {
+  border: 5px black solid; 
+  margin: 30px; 
+  width: 350px;
+  margin: 20px;
+  flex-wrap: wrap;
+}
+
+.flexbox-1 { 
+  display: flex; 
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.box-1 {
+  align-self: flex-start;
+}
+
+.box-2 {
+  align-self: center;
+  width: 350px;
+}
+
+.box-3 {
+  align-self: flex-end;
+}
+
+/*flex-2-row-scheme*/
+
+.flexbox-2 {
+  display: flex; 
+  flex-direction: column; 
+  align-items: center;
+}
+
+.group-1 {
+  display: flex;
+  align-self: center; 
+  width: 800px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.group-2 {
+  background-color: orange;
+  display: flex;
+  flex-direction: row-reverse; 
+  width: 800px;
+  justify-content: space-between;
+}
+
+.group-3 {
+  display: flex; 
+  flex-direction: row;
+  width: 800px;
+  justify-content: space-between;
+}
+
+.footer {
+  background-color: orange;
+  display: flex;
+  flex-direction: row;
+  width: 800px;
+  justify-content: space-between;
+}
+
+/*create-your-own*/
+
+
+.flexbox-3 {
+  display: flex; 
+  flex-direction: column; 
+}
+.navigation {
+  background-color: lightcyan;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.area-1 {
+  display: flex; 
+  flex-direction: row;
+  justify-content: space-between;
+  align-self: center;
+}
+
+.area-2 {
+  background-color: lightgoldenrodyellow;
+  display: flex; 
+  flex-direction: row;
+  justify-content: space-between; 
+}
+
+.area-3 {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+}

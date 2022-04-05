@@ -1,0 +1,73 @@
+div {
+    border: 5px black;
+    margin: 12px;
+    width: 150px;
+    max-height: 150px;
+
+}
+
+.example1 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.box2 {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.box3 {
+    display: flex;
+    align-self: flex-end;
+}
+
+.example2 {
+    display: flex;
+    flex-flow: row wrap;
+    width: 350px;
+    max-height: 150px;
+    border: 150px;
+    /*padding: 30rem;*/
+    margin-bottom: 30rem;
+}
+
+.row2 {
+    background-color:aquamarine;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: row;
+    max-width: 350px;
+    justify-content: space-between;
+    background-color:lightpink;
+}
+
+.example3 {
+    display: flex;
+    /*flex-direction: column;*/
+    flex-wrap: wrap;
+    /*flex-flow: column wrap;*/
+    max-width: 500px;
+    max-height: 150px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px;
+    width: 150px;
+}
+
+.support {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px;
+    width: 150px;
+}
+
+
+/*need flex containers (boxes) to have less classes*/
+/*check the inspection tool more often -- switch to Chrome instead of Edge, which is default*/

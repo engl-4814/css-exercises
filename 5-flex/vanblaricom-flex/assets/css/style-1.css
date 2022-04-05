@@ -1,0 +1,36 @@
+.section1 {
+  margin: 20px;
+  display: grid;
+  grid-template-columns: 1fr 400px; 
+}
+
+.div1 {
+  border: 5px hotpink;
+  border-style: solid;
+  margin: 20px;
+  background-color:bisque; 
+}
+.div2 {
+  border: 3px hotpink;
+  border-style: solid;
+  margin: 20px;
+}
+
+.section2 {
+  margin: 20px;
+  display: grid;
+  grid-template-columns: 1fr 400px; 
+  justify-content: center;
+}
+.div3 {
+  border: 5px hotpink;
+  border-style: solid;
+  margin: 20px;
+  background-color: bisque;
+}
+
+.div4 {
+  border: 3px hotpink;
+  border-style: solid;
+  margin: 20px;
+}

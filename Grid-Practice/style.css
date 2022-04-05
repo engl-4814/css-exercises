@@ -1,0 +1,22 @@
+img {
+  display: block;
+  width: 100%; 
+}
+
+/* Section-1 */
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 150px;
+  row-gap: 10%;
+}
+
+.grid-1 {
+  margin: 3rem;
+}
+
+.grid-2 {
+  margin: 3rem;
+}
+
+
