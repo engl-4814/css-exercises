@@ -1,0 +1,14 @@
+.wireframe-1 > p:nth-child(1){
+  display: flex;
+  justify-content: flex-start;
+}
+
+.wireframe-1 > p:nth-child(3){
+  display: flex;
+  justify-content: center;
+}
+
+.wireframe-1 > p:nth-child(4){
+  display: flex;
+  justify-content: flex-end;
+}
