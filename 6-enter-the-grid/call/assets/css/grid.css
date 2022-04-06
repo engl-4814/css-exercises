@@ -13,7 +13,7 @@ grid-template-areas:
 grid-template-columns: 300px repeat(2, 1fr) 500px; 
 }
 
-.content > * {
+.container > * {
   background-color: rgb(84, 131, 82);
   padding: 40px;
 }
