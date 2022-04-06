@@ -1,0 +1,61 @@
+.content {
+display: grid;
+gap: 0.5em;
+grid-auto-rows: minmax(100px, auto);
+grid-template-areas: 
+  "header header header header"
+  "aside main main main" 
+  "nav main main main"
+  "section section section section"
+  "section section section section"
+  "section section section section"
+  "footer footer footer footer";
+grid-template-columns: 300px repeat(2, 1fr) 500px; 
+}
+
+.container > * {
+  background-color: rgb(84, 131, 82);
+  padding: 40px;
+}
+
+header { 
+  grid-area: header;
+  text-align: center;
+}
+
+aside { 
+  grid-area: aside; 
+  text-align: center;
+  
+}
+
+nav {
+  grid-area: nav; 
+  text-align: center;
+  
+}
+
+main {
+  grid-area: main;
+
+}
+
+section {
+  grid-area: section;
+ 
+}
+
+footer {
+  grid-area: footer; 
+  
+}
+
+h2 {
+  text-align: center;
+}
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
