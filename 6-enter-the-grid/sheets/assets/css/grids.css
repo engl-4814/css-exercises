@@ -12,3 +12,22 @@
     justify-content: space-around;
 }
 
+/*Grid areas
+
+.grid {
+    grid-template-areas: 
+    "txt img txt"
+    "ftr ftr ftr";
+    }
+
+.text {
+grid-area: txt;
+}
+
+.img {
+grid-area: img;
+}
+
+.footer {
+grid-area: ftr;
+}
