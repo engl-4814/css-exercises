@@ -1,0 +1,23 @@
+.header {
+  grid-area: header;
+}
+.navigation {
+  grid-area: nav
+}
+
+.section1 {
+  grid-area: section1
+}
+
+.section2 {
+  grid-area: section2
+}
+
+.section3 {
+  grid-area: section3
+}
+
+.aside {
+  grid-area: aside 
+}
+
