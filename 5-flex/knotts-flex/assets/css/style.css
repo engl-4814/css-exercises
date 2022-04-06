@@ -1,0 +1,44 @@
+div {
+    border: 4px black;
+    border-style: solid;
+    margin: 35px;
+    width: 250px;
+}
+
+.flexbox-1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.box-1 {
+    align-self: flex-start
+}
+
+.box-2 {
+    align-self: center;
+}
+
+.box-3 {
+    align-self: flex-end;
+}
+
+.group-1 {
+    display: flex;
+  flex-direction: row-reverse;
+  align-self: center;
+  width: 600px;
+}
+
+.group-2 {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start
+    width: 600px;
+}
+
+.group-3 {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-end;
+    width: 600 px;
+}
