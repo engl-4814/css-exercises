@@ -1,5 +1,6 @@
 div {
-    border: 5px black;
+    border: 10px;
+    border-color: black;
     width: 300px;
     margin: 10px;
 }
