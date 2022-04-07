@@ -46,8 +46,8 @@ main {
 */
 
 img {
-  height: 175px;
-  width: 50px;
+  height: 700px;
+  width: 200px;
   padding: 10px;
   margin: 20px;
 }
@@ -65,16 +65,16 @@ a href {
 */
 
 header {
-  height: 200px;
-  width: 400px;
+  height: 100px;
+  width: 700px;
   padding:30px;
   margin: 40px;
   background-color: forestgreen;
 }
 
 footer {
-  height: 200px;
-  width: 400px;
+  height: 100px;
+  width: 700px;
   padding: 30px;
   margin: 40px;
   background-color:forestgreen;
