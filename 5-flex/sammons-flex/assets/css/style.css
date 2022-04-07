@@ -1,0 +1,65 @@
+div {
+    border: 5px black;
+    width: 300px;
+    margin: 10px;
+}
+/*Stepping Stones*/
+.steppingstones {
+    display: flex;
+    flex-direction: column;
+}
+
+.ss1 {
+    align-self: flex-start;
+}
+
+.ss2 {
+    align-self: center;
+}
+
+.ss3 {
+    align-self: flex-end;
+}
+
+/*Switching it up*/
+.switchitup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.set1 {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    width: 650px;
+}
+
+.set2 {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    width: 650px;
+    background-color: orange;
+}
+
+.set3 {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    width: 650px;
+}
+
+.minis {
+    display: flex;
+    flex-direction: row;
+    width: 650px;
+    justify-content: space-between; background-color: orange;
+}
+
+/*DIY*/
+.diy {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+}
