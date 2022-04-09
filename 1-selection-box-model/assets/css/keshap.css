@@ -1,0 +1,99 @@
+/* 
+  GOAL: 
+    Practice selecting particular HTML elements and groups of element by using the different selector types: 
+    - element type
+    - class name
+    - descendant combinator
+    
+  Follow each prompt in the comments below. Write your CSS code directly under each prompt.
+*/
+
+/* 1. General Ruleset: 
+  Practice making a very basic heading font scheme with 
+  the "font-size" rule with a "px" (pixel) value. By scheme, 
+  I mean review what heading elements are in the HTML page, 
+  select them, and alter the size of the font for each of them.
+*/
+
+h1 {
+  font-size: 75px;
+}
+
+h2 {
+  font-size: 50px;
+}
+
+footer h2 {
+  font-size: 25px;
+}
+
+/* 2. General Ruleset: 
+  Select the main element.
+  Apply a max-width of 500px.
+  Center it with the box model's margin as follows: margin: auto; 
+*/
+
+main {
+  max-width: 500px;
+  margin: auto;
+}
+
+/* 3. General Ruleset: 
+  Use rules provided by the box model to style the images and the links.
+  Your choice! So, select all of the images and write some general styles
+  for them to share. Just don't add a border to them.
+  Then, do the same for the links, i.e., the 'a' elements.
+*/
+
+img {
+  height: 350px;
+  width: 100px;
+  padding: 10px;
+  margin: 20px;
+}
+
+a href {
+  height: 100px;
+  width: 200px;
+  padding: 10px;
+  margin: 20px;
+}
+
+/* 4. General Ruleset: 
+  Use rules provided by the box model to style the header and footer
+  in whatever way you'd like.
+*/
+
+header {
+  height: 200px;
+  width: 900px;
+  padding:30px;
+  margin: 40px;
+  background-color: forestgreen;
+}
+
+footer {
+  height: 200px;
+  width: 900px;
+  padding: 30px;
+  margin: 40px;
+  background-color:forestgreen;
+}
+
+/* 5. More Specific Ruleset: 
+  Select any img with the class img-border and add a border to it. 
+*/
+
+.img-border {
+  border:20px forestgreen;
+}
+
+/* 6. More Specific Ruleset: 
+  Select any img within a div with the class float.
+  Apply a float: left; rule and padding-right: 20px; rule to it. 
+*/
+
+.img-float {
+  float: left;
+  padding-right: 20px;
+}

@@ -1,3 +1,91 @@
 .wireframe-1 {
-  
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+.element-1 {
+  align-self: flex-start;
+  width: 250px;
+}
+
+.element-2 {
+  align-self: center;
+  width: 250px;
+}
+
+.element-3 {
+  align-self: flex-end;
+  width: 250px;
+}
+
+.wireframe-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.portion-1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.portion-2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  background-color: orange;
+}
+
+.portion-3 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.footer {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  background-color: orange;
+}
+
+.wireframe-3 {
+  display: flex;
+  flex-direction: column;
+}
+
+.top-text-1 {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+
+.top-text-2 {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+}
+
+.centerpiece {
+  display: flex;
+  align-self: center;
+  width: 250px;
+}
+
+.bottom-text-1 {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+
+.bottom-text-2 {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+}
+
+.footer-2 {
+  background-color: blue;
 }

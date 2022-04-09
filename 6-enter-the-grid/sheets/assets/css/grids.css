@@ -1,11 +1,33 @@
 .grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-auto-rows: minmax(200px, auto);
+    grid-template-rows: minmax(200px, auto);
     padding: 50px;
+    column-gap: 15px;
+    row-gap: 15px;
 }
 
 .footer {
     display: flex;
     justify-content: space-around;
+}
+
+/*Grid areas (messes up layout?)
+
+.grid {
+    grid-template-areas: 
+    "txt img txt"
+    "ftr ftr ftr";
+    }
+
+.text {
+grid-area: txt;
+}
+
+.img {
+grid-area: img;
+}
+
+.footer {
+grid-area: ftr;
 }
