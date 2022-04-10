@@ -72,3 +72,16 @@
   border: 10px solid rgb(0, 0, 0);
   margin-left: 20px;
 }
+.colordiv1 {
+  background-color: aqua;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.colordiv1 > .boxi{
+  padding-top: 100px;
+  border: 10px solid rgb(0, 0, 0);
+}
+.colordiv1 > h3{
+  padding-right: 60px;
+}
