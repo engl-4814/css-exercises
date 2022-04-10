@@ -85,3 +85,9 @@
 .colordiv1 > h3{
   padding-right: 60px;
 }
+
+/*Wirefram 3*/
+.wireframe-3 {
+  display: flex;
+  flex-direction: column-reverse;
+}
