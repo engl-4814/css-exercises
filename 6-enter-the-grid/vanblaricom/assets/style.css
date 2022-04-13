@@ -2,38 +2,39 @@
   grid-area: header;
 }
 .navigation {
-  grid-area: nav
+  grid-area: nav;
 }
 
 .section1 {
-  grid-area: section1
+  grid-area: section1;
 }
 
 .section2 {
-  grid-area: section2
+  grid-area: section2;
 }
 
 .section3 {
-  grid-area: section3
+  grid-area: section3;
 }
 
 .aside {
-  grid-area: aside 
+  grid-area: aside ;
 }
 
 .footer {
-  grid-area: footer
+  grid-area: footer;
 }
 
 .container {
   display: grid;
-  grid-template-columns: 250px 1fr 200px;
-  grid-template-rows: 50vh 1fr 1fr 1fr 100px;
+  grid-template-columns: 200px 1fr 200px;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-gap: 1rem;
   grid-template-areas:
-  "header header header"
-  "nav" "section1" "aside"
-  "nav" "section2" "aside"
-  "nav" "section3" "aside"
-  "footer" "footer" "footer";
+    "header header header"
+    "header header header"
+    "nav section1 aside"
+    "nav section2 aside"
+    "nav section3 aside"
+    "footer footer footer";
 }
