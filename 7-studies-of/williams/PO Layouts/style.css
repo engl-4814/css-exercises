@@ -1,0 +1,38 @@
+
+header {
+  display: flex;
+  background-color: rgb(239, 234, 234)
+}
+
+.description {
+  text-align: center;
+  margin: 15%;
+}
+
+h1 {
+  font-size: 5rem;
+  margin: -186px;
+  display: inline-block;
+}
+
+h2 {
+  display: inline-block;
+  width: 25rem;
+  padding-bottom: 10rem;
+}
+
+h3 {
+  position: relative;
+  margin: .5em;
+  width: 25rem;
+}
+
+.grid-4-columns {
+  display: grid;
+  grid-template-columns: 10% 10% 10% 10% ;
+  margin: 5rem auto;
+  width: min(90%, 70);
+  column-gap: 1em;
+  justify-content: right;
+  font-size: 20px;
+}
