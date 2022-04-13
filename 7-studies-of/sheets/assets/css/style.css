@@ -1,0 +1,36 @@
+/*STUDY IN CONTRAST*/
+
+.grid-contrast {
+    display: grid;
+    grid-template-areas: 
+    "nav nav nav"
+    "main main main"
+    "bar bar bar";
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 400px 400px 400px;
+}
+
+.ac-nav-bar {
+    grid-area: nav;
+    background-color: red;
+    color: white;
+}
+
+.main-content {
+    grid-area: main;
+    background-image: url(https://animal-crossing.com/assets/icons/share_icon.jpg);
+    background-size: 900px 400px;
+}   
+
+.birthday-bar {
+    grid-area: bar;
+}
+
+.main-content p {
+    background-color: burlywood;
+    max-width: fit-content;
+    max-height: fit-content;
+    padding: 10px;
+    margin-left: 315px;
+    margin-top: 325px;
+}
