@@ -1,0 +1,70 @@
+.header {
+  grid-area: header;
+  font-size:large;
+  text-align: center;
+  color: darkslateblue;
+  Font-weight: 800;
+}
+.card1 {
+  grid-area: card1;
+  font-size: large; 
+  text-align: center;
+  color: darkblue;
+  font-weight:700; 
+}
+
+.card2 {
+  grid-area: card2;
+  font-size: larger;
+  text-align: center;
+  color: darkblue;
+  font-weight:700;
+}
+
+.card3 {
+  grid-area: card3;
+  font-size: large;
+  text-align: center;
+  color: darkblue;
+  font-weight:700;
+}
+
+.card4 {
+  grid-area: card4;
+  font-size: larger;
+  text-align: center;
+  color: darkblue;
+  font-weight:700;
+}
+
+.card5 {
+  grid-area: card5;
+  font-size: large;
+  text-align: center;
+  color: darkblue;
+  font-weight:700;
+}
+
+.card6 {
+  grid-area: card6;
+  font-size: larger;
+  text-align: center;
+  color: darkblue;
+  font-weight:700;
+}
+
+.container > * { 
+  border: 5px solid black;
+}
+.container {
+  display: grid;
+  background-color:azure;
+  grid-template-columns: 50vh 1fr 1fr 1fr;
+  grid-template-rows: 300px 700px ;
+  grid-gap: 1rem;
+  grid-template-areas: 
+  "header header"
+  "card1 card2"
+  "card3 card4"
+  "card5 card6";
+}
