@@ -89,17 +89,14 @@ h3 {
   flex-wrap: wrap;
 }
 
-#plant-nav {
+#whiteboard-list {
   display: flex; 
   list-style: none; 
   flex-direction: row;
   gap: 10px;
-  justify-content: left;
+
 }
 
 #plant-h1 {
-  flex-wrap: wrap; 
-  text-align: left; 
-  font-family: 'Anton';
-  font-size: 3em
+  text-align: left;
 }
