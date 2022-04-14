@@ -14,7 +14,7 @@ html {
     "header header main main main"
     "header header footer footer footer"
     "header header footer footer footer";
-  grid-template-columns: 100px repeat(4, 1fr); 
+  grid-template-columns: 10px repeat(4, 1fr); 
   }
   
   .container > * {
@@ -78,12 +78,12 @@ p, a {
   }
   
   article {
-    max-width: 300px;
+    max-width: 250px;
     border: 1px solid black;
     border-radius: 1rem;
     padding-bottom: 30px;
     padding-top: 30px;
-    padding-left: 100px;
+    padding-left: 60px;
   }
 
   article > p {

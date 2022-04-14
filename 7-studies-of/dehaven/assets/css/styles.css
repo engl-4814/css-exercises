@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Manrope:wght@200&family=Open+Sans:wght@300&display=swap');
+
+
+#column-file {
+background-color: rgba(0, 60, 255, 0.671);
+}
+
+#column-navigation {
+  flex-wrap: wrap;
+  align-self: center;
+}
+
+#poke-nav {
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+  background-color: rgba(211, 211, 211, 0.384);
+  justify-content: center;
+} 
+
+#poke-list {
+  display: flex;
+  margin: 14px;
+  align-content: center;
+}
+
+.center-video {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  flex-wrap: wrap;
+  text-align: center;
+  font-family: 'Anton';
+  font-size: 3em;
+}
+
+#entire-area {
+  flex-wrap: wrap;
+  background-color: rgba(255,255,255,0.5);
+}
+
+h2 {
+ font-family: 'Manrope'; 
+ font-weight: 800;
+ font-size: 2em;
+ text-align: center;
+}
+
+#border-image {
+  display: block; 
+  margin: auto; 
+  text-align: center;}
+
+h3 {
+  font-family: 'Manrope';
+    font-weight: 300;
+    font-size: 1.8em;
+    justify-content: left;
+    display: flex; 
+    margin-left: 70px;
+    margin-right: 70px;
+  }
+
+#text-1 { 
+  margin-bottom: 50px;
+  }
+#text-2 {
+  margin-top: 1000px;
+}
+
+  #middle-images {
+    display: grid; 
+    flex-wrap: wrap;
+    height: 100px;
+    grid-template-columns: auto auto; 
+    gap: 10%;
+    align-items: center;
+    justify-items: center;
+    margin-left: 20px; 
+    margin-right: 20px;
+  }
+
+/* new section */
+
+
+#whitespace-navigation {
+  flex-wrap: wrap;
+}
+
+#whiteboard-list {
+  display: flex; 
+  list-style: none; 
+  flex-direction: row;
+  gap: 10px;
+
+}
+
+#plant-h1 {
+  text-align: left;
+}
