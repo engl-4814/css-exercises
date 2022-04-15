@@ -33,7 +33,7 @@
     "leia landy spacer3 greedo maul"
     "obiwan poe spacer4 phasma sidious";
     grid-template-rows: repeat(4, minmax(min-content, 400px));
-    grid-template-columns: repeat(4, minmax(min-content, 400px));
+    grid-template-columns: repeat(5, minmax(min-content, 400px));
     row-gap: 1fr;
     column-gap: 10px 100px 10px;
 }
