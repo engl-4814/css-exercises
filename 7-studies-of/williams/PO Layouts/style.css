@@ -1,0 +1,78 @@
+
+header {
+  display: flex;
+  background-color: rgb(239, 234, 234);
+}
+
+.description {
+  text-align: center;
+  margin: 15%;
+}
+
+h1 {
+  font-size: 5rem;
+  margin: -186px;
+  display: inline-block;
+}
+
+h2 {
+  display: inline-block;
+  width: 25rem;
+  padding-bottom: 10rem;
+}
+
+h3 {
+  position: relative;
+  margin: .5em;
+  width: 25rem;
+}
+
+h4 {
+  font-size: 30px
+}
+
+blockquote {
+  font-size: 40px;
+  width: 15rem;
+  line-height: 40px;
+}
+
+.grid-4-columns {
+  display: grid;
+  grid-gap: 2rem;
+  width: 40%;
+  line-height: 20px;
+  margin-top: 3rem;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 4em 6vw 4em 22vw;
+}
+
+.single-paragraph {
+  width: 14rem;
+  flex: 1;
+  padding: 16px;
+}
+
+.paragraph-group-1 {
+  width: 14rem;
+  flex: 1;
+  padding: 16px;
+}
+
+.paragraph-group-2 {
+  width: 14rem;
+  flex: 1;
+  padding: 16px;
+}
+
+.paragraph-group-3 {
+  width: 14rem;
+  flex: 1;
+  padding: 16px;
+}
+
+.paragraph-group-4 {
+  width: 14rem;
+  flex: 1;
+  padding: 16px;
+}
