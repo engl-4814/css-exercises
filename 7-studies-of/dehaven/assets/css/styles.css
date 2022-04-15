@@ -34,6 +34,7 @@ h1 {
   text-align: center;
   font-family: 'Anton';
   font-size: 3em;
+  font-weight: 500;
 }
 
 #entire-area {
@@ -84,19 +85,66 @@ h3 {
 
 /* new section */
 
+#whitespace-nav {
+  list-style: none;
+  font-size: 11px;
+  font-style: italic;
+}
 
-#whitespace-navigation {
+.header {
+  grid-area: header;
+}
+
+.nav-left {
+  grid-area: nav-left;
+}
+
+.content-1 {
+  grid-area: content-1;
+}
+
+.content-2 {
+  grid-area: content-2;
+}
+
+.content-3 {
+  grid-area: content-3;
+}
+
+.sidebar-right {
+  grid-area: sidebar-right
+}
+
+.footer {
+  grid-area: footer;
+}
+
+.wooper {
+  grid-area: wooper;
+  justify-self: end;
+  align-self: end;
+}
+
+.container {
   flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 230px 1fr 230px;
+  grid-template-rows: 100px .8fr .8fr .8fr 100px;
+  grid-gap: 1rem; 
+  grid-template-areas:
+    ". header ."
+    "nav-left content-1 sidebar-right"
+    "nav-left content-2 sidebar-right" 
+    ". content-3 ."
+    "footer footer wooper";
 }
 
-#whiteboard-list {
-  display: flex; 
-  list-style: none; 
-  flex-direction: row;
-  gap: 10px;
-
+p {
+  font-family: 'Open Sans';
 }
 
-#plant-h1 {
-  text-align: left;
+#sidebar-nav { 
+  list-style: none;
+  font-size: 11px;
+  font-style: italic;
 }
