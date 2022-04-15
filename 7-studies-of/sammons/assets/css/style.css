@@ -1,0 +1,28 @@
+/* Whitespace Study */
+.whitespace-grid-container {
+    display: grid;
+    grid-template-areas: "extext expic"
+    "dstext dspic";
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, minmax(min-content, 900px));
+    row-gap: 50px;
+    column-gap: 5px;
+}
+
+.extext {
+    grid-area: extext;
+}
+
+.expic {
+    grid-area: expic;
+}
+
+.dstext {
+    grid-area: dstext;
+}
+
+.dspic {
+    grid-area: dspic;
+}
+
+/* Proximity Study*/
