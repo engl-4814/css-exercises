@@ -26,3 +26,78 @@
 }
 
 /* Proximity Study*/
+.proximity-grid-container {
+    display: grid;
+    grid-template-areas: "header1 header2 header3 header4"
+    "aayla lando boba bossk"
+    "leia landy greedo maul"
+    "obiwan poe phasma sidious";
+    grid-template-rows: repeat(4, minmax(min-content, 400px));
+    grid-template-columns: repeat(4, minmax(min-content, 400px));
+    row-gap: 1fr;
+    column-gap: 10px 100px 10px;
+}
+
+.header1 {
+    grid-area: header1;
+}
+
+.header2 {
+    grid-area: header2;
+}
+
+.header3 {
+    grid-area: header3;
+}
+
+.header4 {
+    grid-area: header4;
+}
+
+.aayla {
+    grid-area: aayla;
+}
+
+.lando {
+    grid-area: lando;
+}
+
+.boba {
+    grid-area: boba;
+}
+
+.bossk {
+    grid-area: bossk;
+}
+
+.leia {
+    grid-area: leia;
+}
+
+.landy {
+    grid-area: landy;
+}
+
+.greedo {
+    grid-area: greedo;
+}
+
+.maul {
+    grid-area: maul;
+}
+
+.obiwan {
+    grid-area: obiwan;
+}
+
+.poe {
+    grid-area: poe;
+}
+
+.phasma {
+    grid-area: phasma;
+}
+
+.sidious {
+    grid-area: sidious;
+}
