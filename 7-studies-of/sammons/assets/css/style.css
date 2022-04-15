@@ -28,7 +28,8 @@
 /* Proximity Study*/
 .proximity-grid-container {
     display: grid;
-    grid-template-areas: "aayla lando spacer2 boba bossk"
+    grid-template-areas: "header1 header2 spacer1 header3 header4"
+    "aayla lando spacer2 boba bossk"
     "leia landy spacer3 greedo maul"
     "obiwan poe spacer4 phasma sidious";
     grid-template-rows: repeat(4, minmax(min-content, 400px));
@@ -99,6 +100,10 @@
 
 .sidious {
     grid-area: sidious;
+}
+
+.spacer1 {
+    grid-area: spacer1
 }
 
 .spacer2{
