@@ -1,0 +1,18 @@
+.grid-container {
+    display: grid;
+    grid-template-areas: "image text image"
+    "text image text"
+    "text text image";
+    grid-template-rows: repeat (3, 1fr);
+    grid-template-columns: minmax(min-content, 400px);
+    row-gap: 20px;
+    column-gap: 20px;
+}
+
+.image {
+    grid-area: image;
+}
+
+.text {
+    grid-area: text;
+}
