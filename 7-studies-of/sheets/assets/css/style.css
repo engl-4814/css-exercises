@@ -66,3 +66,66 @@
     max-width: 200px;
     max-height: 200px;
 }
+
+/*STUDY IN DENSITY*/
+
+.char-grid {
+    display: grid;
+    grid-template-areas: 
+    "mk-img mk-img mk-img"
+    "mk-img mk-img mk-img"
+    "mk-img mk-img mk-img";
+    list-style: none;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+    grid-gap: 4px;
+    margin: 100px;
+    margin-left: 550px;
+    padding: 1rem;
+}
+
+.char-grid li img {
+    max-width: 100px;
+    max-height: 100px;
+    grid-area: mk-img;
+}
+
+.mk-nav-bar {
+    display: grid;
+    grid-template-areas: 
+    "mklogo mknav mklogin";
+    grid-template-columns: 300px;
+    grid-template-rows: 100px;
+    padding: 50px;
+    background-color: black;
+}
+
+.mk-nav-logo {
+    grid-area: mklogo;
+    color: white;
+}
+
+.mk-nav {
+    grid-area: mknav;
+}
+
+.mk-nav-login {
+    grid-area: mklogin;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.roster1 {
+    display: flex;
+    justify-content: center;
+    background-color: red;
+    color: white;
+}
+
+.roster2 {
+    display: flex;
+    justify-content: center;
+    background-color: red;
+    color: white;
+}
