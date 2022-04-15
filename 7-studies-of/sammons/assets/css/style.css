@@ -28,10 +28,9 @@
 /* Proximity Study*/
 .proximity-grid-container {
     display: grid;
-    grid-template-areas: "header1 header2 header3 header4"
-    "aayla lando boba bossk"
-    "leia landy greedo maul"
-    "obiwan poe phasma sidious";
+    grid-template-areas: "aayla lando spacer2 boba bossk"
+    "leia landy spacer3 greedo maul"
+    "obiwan poe spacer4 phasma sidious";
     grid-template-rows: repeat(4, minmax(min-content, 400px));
     grid-template-columns: repeat(4, minmax(min-content, 400px));
     row-gap: 1fr;
@@ -100,4 +99,16 @@
 
 .sidious {
     grid-area: sidious;
+}
+
+.spacer2{
+    grid-area: spacer2;
+}
+
+.spacer3 {
+    grid-area: spacer3;
+}
+
+.spacer4 {
+    grid-area: spacer4
 }
