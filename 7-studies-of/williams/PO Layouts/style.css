@@ -37,12 +37,42 @@ blockquote {
   line-height: 40px;
 }
 
-.flex-4-columns {
+.grid-4-columns {
   display: grid;
-  grid-template-columns: repeat(4, 230px);
   grid-gap: 2rem;
-  width: 70rem;
+  width: 40%;
   line-height: 20px;
   margin-top: 3rem;
-  padding-left: 32rem;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 4em 6vw 4em 22vw;
+}
+
+.single-paragraph {
+  width: 14rem;
+  flex: 1;
+  padding: 16px;
+}
+
+.paragraph-group-1 {
+  width: 14rem;
+  flex: 1;
+  padding: 16px;
+}
+
+.paragraph-group-2 {
+  width: 14rem;
+  flex: 1;
+  padding: 16px;
+}
+
+.paragraph-group-3 {
+  width: 14rem;
+  flex: 1;
+  padding: 16px;
+}
+
+.paragraph-group-4 {
+  width: 14rem;
+  flex: 1;
+  padding: 16px;
 }
