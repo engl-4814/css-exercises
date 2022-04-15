@@ -27,14 +27,6 @@ h3 {
   width: 25rem;
 }
 
-.grid-4-columns {
-  display: flex;
-  margin: 5rem auto;
-  font-size: 20px;
-  flex-direction: column; 
-  width: 20rem;
-}
-
 h4 {
   font-size: 30px
 }
@@ -42,4 +34,15 @@ h4 {
 blockquote {
   font-size: 40px;
   width: 15rem;
+  line-height: 40px;
+}
+
+.flex-4-columns {
+  display: grid;
+  grid-template-columns: repeat(4, 230px);
+  grid-gap: 2rem;
+  width: 70rem;
+  line-height: 20px;
+  margin-top: 3rem;
+  padding-left: 32rem;
 }
