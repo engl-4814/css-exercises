@@ -1,108 +1,70 @@
-/* 
-  Don't forget to use comments
-  to document your code areas:
-  where do your general rules start and stop?
-  Your typography?
-  Then use the HTML source order to determine
-  where you write what CSS.
-*/
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond&family=Open+Sans:wght@300&display=swap");
 
+/*  Header Design Content*/
 
 header {
   display: flex;
   background-color: rgb(239, 234, 234);
 }
 
-/* 
-  Overall, try to be more
-  consistent with you values.
-  You have a mix that can really
-  become hard to track over time.
-*/
+/* Header Description*/
+
 .description {
   text-align: center;
   margin: 15%;
 }
 
-/* 
-  I'd comment out your width rules
-  Use the inspection tool to show you
-  what would happen if you modify
-  your rules on these flexbox items
-
-  Your margins, widths, and paddings
-  are the main root of your issues.
-*/
 h1 {
   font-size: 5rem;
-  /* Verify if this is what you want */
   margin: -186px;
   display: inline-block;
+  color: #2c5375;
+  font-family: Garamond;
 }
 
 h2 {
-  display: inline-block;
   width: 25rem;
   padding-bottom: 10rem;
+  color: rgba(0, 0, 0, 0.6);
 }
 
 h3 {
-  position: relative;
   margin: .5em;
   width: 25rem;
+  font-style: italic;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+/* Body Structure */
+
+.grid-4-columns {
+  column-count: 4;
+  width: 75rem;
+  column-gap: 3rem;
+  margin-top: 5rem;
+  padding-left: 22rem;
+  font-size: 18.5px;
+  line-height: 25px;
+  font-family: Garamond;
 }
 
 h4 {
-  font-size: 30px
+  font-size: 30px;
+  margin-bottom: .5rem;
+  color: #2c5375;
 }
 
 blockquote {
+  display: block;
   font-size: 40px;
-  width: 15rem;
+  width: 17rem;
   line-height: 40px;
-}
-
-.grid-4-columns {
-  display: grid;
-  grid-gap: 2rem;
-  width: 40%;
-  line-height: 20px;
-  margin-top: 3rem;
-  grid-template-columns: repeat(4, 1fr);
-  /* 
-    CHECK YOUR PADDING HERE. IT'S QUITE A BIT.
-    - I recommend wait to do padding until
-      after you develop your template
-  */
-  padding: 4em 6vw 4em 22vw;
+  color: #4b87bc;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-left: auto;
 }
 
 .single-paragraph {
-  width: 14rem;
-  flex: 1;
-  padding: 16px;
-}
-
-.paragraph-group-1 {
-  width: 14rem;
-  flex: 1;
-  padding: 16px;
-}
-
-.paragraph-group-2 {
-  width: 14rem;
-  flex: 1;
-  padding: 16px;
-}
-
-.paragraph-group-3 {
-  width: 14rem;
-  flex: 1;
-  padding: 16px;
-}
-
-.paragraph-group-4 {
-  width: 14rem;
-  flex: 1;
-  padding: 16px;
+  margin-top: .1rem;
 }
