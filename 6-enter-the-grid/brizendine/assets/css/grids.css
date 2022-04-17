@@ -1,0 +1,12 @@
+
+
+.container {
+  display: grid;
+  grid-template-columns: ;
+  grid-template-rows: ;
+  grid-gap: 1rem;
+  grid-template-areas: 
+  "header header header"
+  "navigation navigation navigation"
+  "section-1 section";
+}
