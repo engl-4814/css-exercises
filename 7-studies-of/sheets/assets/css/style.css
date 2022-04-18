@@ -1,0 +1,131 @@
+/*STUDY IN CONTRAST*/
+
+.grid-contrast {
+    display: grid;
+    grid-template-areas: 
+    "nav-1 acnav nav-2"
+    "main main main"
+    "bar bar bar";
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 400px 400px 400px;
+}
+.ac-nav {
+    grid-area: acnav;
+    background-color: red;
+}
+
+.ac-nav-logo {
+    grid-area: nav-1;
+    background-color: red;
+    color: white;
+    padding: 20px;
+}
+
+.ac-nav-login {
+    grid-area: nav-2;
+    background-color: red;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.main-content {
+    grid-area: main;
+    background-image: url(https://animal-crossing.com/assets/icons/share_icon.jpg);
+    background-size: 900px 400px;
+}   
+
+.birthday-bar {
+    grid-area: bar;
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 30px;
+}
+
+.main-content p {
+    background-color: burlywood;
+    max-width: fit-content;
+    max-height: fit-content;
+    padding: 10px;
+    margin-left: 315px;
+    margin-top: 325px;
+}
+
+.birthday-bar p {
+    color: gold;
+}
+
+.birthday-bar h3 {
+    color: white;
+}
+
+.birthday-bar img {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+/*STUDY IN DENSITY*/
+
+.char-grid {
+    display: grid;
+    grid-template-areas: 
+    "mk-img mk-img mk-img"
+    "mk-img mk-img mk-img"
+    "mk-img mk-img mk-img";
+    list-style: none;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+    grid-gap: 4px;
+    margin: 100px;
+    margin-left: 550px;
+    padding: 1rem;
+}
+
+.char-grid li img {
+    max-width: 100px;
+    max-height: 100px;
+    grid-area: mk-img;
+}
+
+.mk-nav-bar {
+    display: grid;
+    grid-template-areas: 
+    "mklogo mknav mklogin";
+    grid-template-columns: 300px;
+    grid-template-rows: 100px;
+    padding: 50px;
+    background-color: black;
+}
+
+.mk-nav-logo {
+    grid-area: mklogo;
+    color: white;
+}
+
+.mk-nav {
+    grid-area: mknav;
+}
+
+.mk-nav-login {
+    grid-area: mklogin;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.roster1 {
+    display: flex;
+    justify-content: center;
+    background-color: red;
+    color: white;
+}
+
+.roster2 {
+    display: flex;
+    justify-content: center;
+    background-color: red;
+    color: white;
+}

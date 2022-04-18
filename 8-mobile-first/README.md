@@ -4,11 +4,11 @@ Practice your very first mobile-first grid layout design by:
 
 1. Designing and annotating a wireframe with prioritized content;
 2. Using the grid areas technique;
-3. Using @media queries with breakpoints ([screensiz.es](https://screensiz.es)) to create a design for mobile, then tablet, then desktop sized screens.
+3. Using `@media`queries with breakpoints ([screensiz.es](https://screensiz.es)) to create a design for mobile, then use `@media` queries to revise the layout for a tablet-sized screen and then a desktop-sized screen.
 
 Keep it at your comfort level. Go as small or big as you can handle right now. The important lesson is how to progressively plan and implement a mobile-first content design.
 
-**NOTE**: I *DO NOT* recommend copy-pasting my demo code. It will only cause confusion for your own goals and learning.
+**NOTE**: I *DO NOT* recommend copy-pasting the demo code. It will only cause confusion for your own goals and learning.
 
 ## Folder Setup
 
@@ -27,4 +27,3 @@ Follow this procedure to setup your coding folder:
 - Practice using the browser's specific grid inspection tool.
 - If you'd like to spice it up with your own flare, feel free to practice some basic typography and color schemes.
 - Practice documenting your code and writing your CSS from more general rules to more specific in the HTML source order.
-- **DO NOT** push your code until class time.

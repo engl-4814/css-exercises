@@ -1,0 +1,119 @@
+/* Whitespace Study */
+.whitespace-grid-container {
+    display: grid;
+    grid-template-areas: "extext expic"
+    "dstext dspic";
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, minmax(min-content, 900px));
+    row-gap: 50px;
+    column-gap: 5px;
+}
+
+.extext {
+    grid-area: extext;
+}
+
+.expic {
+    grid-area: expic;
+}
+
+.dstext {
+    grid-area: dstext;
+}
+
+.dspic {
+    grid-area: dspic;
+}
+
+/* Proximity Study*/
+.proximity-grid-container {
+    display: grid;
+    grid-template-areas: "header1 header2 spacer1 header3 header4"
+    "aayla lando spacer2 boba bossk"
+    "leia landy spacer3 greedo maul"
+    "obiwan poe spacer4 phasma sidious";
+    grid-template-rows: repeat(4, minmax(min-content, 400px));
+    grid-template-columns: repeat(5, minmax(min-content, 400px));
+    row-gap: 1fr;
+    column-gap: 10px 100px 10px;
+}
+
+.header1 {
+    grid-area: header1;
+}
+
+.header2 {
+    grid-area: header2;
+}
+
+.header3 {
+    grid-area: header3;
+}
+
+.header4 {
+    grid-area: header4;
+}
+
+.aayla {
+    grid-area: aayla;
+}
+
+.lando {
+    grid-area: lando;
+}
+
+.boba {
+    grid-area: boba;
+}
+
+.bossk {
+    grid-area: bossk;
+}
+
+.leia {
+    grid-area: leia;
+}
+
+.landy {
+    grid-area: landy;
+}
+
+.greedo {
+    grid-area: greedo;
+}
+
+.maul {
+    grid-area: maul;
+}
+
+.obiwan {
+    grid-area: obiwan;
+}
+
+.poe {
+    grid-area: poe;
+}
+
+.phasma {
+    grid-area: phasma;
+}
+
+.sidious {
+    grid-area: sidious;
+}
+
+.spacer1 {
+    grid-area: spacer1
+}
+
+.spacer2{
+    grid-area: spacer2;
+}
+
+.spacer3 {
+    grid-area: spacer3;
+}
+
+.spacer4 {
+    grid-area: spacer4
+}

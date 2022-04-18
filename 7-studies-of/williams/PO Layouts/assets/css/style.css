@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond&family=Open+Sans:wght@300&display=swap");
+
+/*  Header Design Content*/
+
+header {
+  display: flex;
+  background-color: rgb(239, 234, 234);
+}
+
+/* Header Description*/
+
+.description {
+  text-align: center;
+  margin: 15%;
+}
+
+h1 {
+  font-size: 5rem;
+  margin: -186px;
+  display: inline-block;
+  color: #2c5375;
+  font-family: Garamond;
+}
+
+h2 {
+  width: 25rem;
+  padding-bottom: 10rem;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+h3 {
+  margin: .5em;
+  width: 25rem;
+  font-style: italic;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+/* Body Structure */
+
+.grid-4-columns {
+  column-count: 4;
+  width: 75rem;
+  column-gap: 3rem;
+  margin-top: 5rem;
+  padding-left: 22rem;
+  font-size: 18.5px;
+  line-height: 25px;
+  font-family: Garamond;
+}
+
+h4 {
+  font-size: 30px;
+  margin-bottom: .5rem;
+  color: #2c5375;
+}
+
+blockquote {
+  display: block;
+  font-size: 40px;
+  width: 17rem;
+  line-height: 40px;
+  color: #4b87bc;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-left: auto;
+}
+
+.single-paragraph {
+  margin-top: .1rem;
+}
