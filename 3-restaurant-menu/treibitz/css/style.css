@@ -15,9 +15,6 @@
 
 
 /* GENERAL */
-html {
-    font-size: 15px;
-  }
 
 /* 
   Select the html root tag.
@@ -27,11 +24,6 @@ html {
 
 
 /* TYPOGRAPHY */
-
-h1 {font-size: 4rem;}
-h2 {font-size: 2rem;}
-h3 {font-size: 1.3rem;}
-h4 {font-size: 0.5rem;}
 
 /* 
   Take stock of your headings vs.
@@ -56,28 +48,13 @@ h4 {font-size: 0.5rem;}
   to mimic the site example.
 */
 
-header {
-    background-color: saddlebrown;
-    padding: 30px;
-    border: 10px saddlebrown;
-    font-size: 15px;
-    }
-    
-    header h1 {
-      color: white;
-      font-size: 1em;
-      margin-left: 10px;
-    }
-    nav ul li {
-      color: white;
-    }
 
 /* Logo Box */
 
 /* 
   How could you group the image and 
   'LingerPizza' together? Then how to
-  float it?
+  float the image/logo?
 */
 
 
@@ -102,10 +79,6 @@ header {
 
 /* MAIN */
 
-ul {
-  display: block;
-}
-
 /* 
   How could you select a main wrapper 
   and apply some white space here to make it
@@ -114,14 +87,6 @@ ul {
 
 
 /* CARDS */
-
-.card_menu-item {
-  border: solid salmon 5px;
-  max-width: 200px;
-  max-height: 500 px;
-  padding: 10 px;
-  float: right;
-}
 
 /* 
   Almost done!
