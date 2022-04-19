@@ -28,21 +28,132 @@
     grid-template-rows: 1fr 1fr;
     grid-template-areas: 
     "home-txt home-img"
-    "30-img 30-txt";
+    "aniv-img aniv-txt";
+    flex-wrap: wrap;
+    background-color: whitesmoke;
 }
 
 .home-txt {
+    grid-area: home-txt;
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+    max-width: 400px;
+}
 
+.home-txt h3 {
+    color: navy;
+}
+
+.home-txt h1 {
+    color: palevioletred;
+    font-size: 50px;
+}
+
+.home-txt p {
+    color: navy;
 }
 
 .home-img {
-
+    grid-area: home-img;
 }
 
 .aniv-img {
-
+    grid-area: aniv-img;
 }
 
 .aniv-txt {
-    
+    grid-area: aniv-txt;
+    background-color: palevioletred;
+    color: navy;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 20px;
+    max-width: 400px;
+}
+
+/*ASIDE*/
+
+.news {
+    background-color: plum;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.news h3 {
+    color: white;
+}
+
+.news1 p {
+    margin-top: -4px;
+    color: navy;
+}
+
+.news1 h4 {
+    margin-top: -3px;
+    padding-bottom: 10px;
+    color: navy;
+}
+
+.news2 p {
+    margin-top: -4px;
+    color: navy;
+}
+
+.news2 h4 {
+    margin-top: -3px;
+    padding-bottom: 10px;
+    color: navy;
+}
+
+.news3 p {
+    margin-top: -4px;
+    color: navy;
+}
+
+.news3 h4 {
+    margin-top: -3px;
+    padding-bottom: 10px;
+    color: navy;
+}
+
+/*MEDIA QUERIES*/
+
+@media screen and (min-width: 900px) {
+    .main {
+        grid-template-columns: 1fr 3fr 3fr 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas: 
+        "home-txt home-img aniv-img aniv-txt";
+    }
+    .news {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .header {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .main {
+        display: flex;
+        flex-direction: column;
+    }
 }
