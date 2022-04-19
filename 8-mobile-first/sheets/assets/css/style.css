@@ -1,0 +1,48 @@
+/*HEADER*/
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: red;
+    color: white;
+    padding: 20px;
+}
+
+/*NAV*/
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: whitesmoke;
+    color: navy;
+    padding: 20px;
+}
+
+/*MAIN*/
+
+.main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "home-txt home-img"
+    "30-img 30-txt";
+}
+
+.home-txt {
+
+}
+
+.home-img {
+
+}
+
+.aniv-img {
+
+}
+
+.aniv-txt {
+    
+}
