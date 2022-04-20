@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Manrope:wght@200&family=Open+Sans:wght@300&display=swap');
+
+/* font styles and sizes */
+
+h1 {
+  font-family: 'Anton';
+  font-size: 2.5em;
+  font-weight: 200;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Anton';
+  font-size: 2em;
+  font-weight: 200;
+  text-align: center;
+}
+
+p {
+  font-family: 'Open Sans';
+  font-size: 1.5em;
+}
+
+li {
+  font-family: 'Open Sans';
+  font-size: 1.2em;
+}
+
+/*general rules*/
+
+
+.center-photo {
+  display: flex; 
+  justify-content: center;
+  grid-area: center-photo;
+  align-items: center;
+}
+
+#mobile-nav {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  padding-left: 0;
+  background-color: rgba(255, 166, 0, 0.342);
+}
+
+#aside-nav {
+  display: flex; 
+  flex-wrap: wrap;
+  list-style: none; 
+  justify-content: space-around;
+  padding-left: 0;
+  background-color: lightgoldenrodyellow;
+}
+
+.content-1 {
+background-color: pink;
+}
+
+.content-2 {
+  background-color: lightblue;
+}
+
+.content-3 {
+  background-color: lightgreen;
+
+}
+
+/* grid area rules */
+.mobile-navigation {grid-area: mobile-navigation;}
+.center-photo {grid-area: center-photo;}
+.content-1 {grid-area: content-1;}
+.content-2 {grid-area: content-2;}
+.content-3 {grid-area: content-3;}
+.side-navigation {grid-area: side-navigation;}
+
+/* tablet rules */
+
+@media screen and (min-width: 600px) {
+  .container {
+    display: grid; 
+    grid-template-rows: 100px .5fr .5fr .5fr 100px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+      "mobile-navigation mobile-navigation"
+      "center-photo content-1"
+      "content-2 content-2"
+      "content-3 content-3"
+      "side-navigation side-navigation";
+    gap: 1em;
+  } 
+
+}
+
+/* desktop rules */
+
+@media screen and (min-width: 1280px) {
+  .container {
+    display: grid;
+    grid-template-rows: 150px 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "mobile-navigation mobile-navigation mobile-navigation"
+    "center-photo content-1 content-1"
+    "content-2 content-2 side-navigation"
+    "content-3 content-3 side-navigation"
+  }
+.side-navigation {
+  display: flex;
+  flex-direction: column;
+}
+}
