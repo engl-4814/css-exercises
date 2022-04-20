@@ -106,7 +106,6 @@ background-color: pink;
     "content-3 content-3 side-navigation"
   }
 .side-navigation {
-  display: flex;
-  flex-direction: column;
+  display: grid;
 }
 }
