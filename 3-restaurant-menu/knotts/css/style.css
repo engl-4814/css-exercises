@@ -102,6 +102,10 @@ header {
 
 /* MAIN */
 
+ul {
+  display: block;
+}
+
 /* 
   How could you select a main wrapper 
   and apply some white space here to make it
@@ -110,6 +114,14 @@ header {
 
 
 /* CARDS */
+
+.card_menu-item {
+  border: solid salmon 5px;
+  max-width: 200px;
+  max-height: 500 px;
+  padding: 10 px;
+  float: right;
+}
 
 /* 
   Almost done!
