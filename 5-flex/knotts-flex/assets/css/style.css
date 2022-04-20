@@ -23,7 +23,7 @@ div {
 }
 
 .group-1 {
-    display: flex;
+  display: flex;
   flex-direction: row-reverse;
   align-self: center;
   width: 600px;
@@ -32,7 +32,7 @@ div {
 .group-2 {
     display: flex;
     flex-direction: row;
-    align-self: flex-start
+    align-self: flex-start;
     width: 600px;
 }
 

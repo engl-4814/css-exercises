@@ -1,0 +1,62 @@
+/*General Grid Area */
+/*
+.container {
+  display: grid;
+  grid-area: opening-content;
+  grid-area: side-info-panel;
+  grid-area: bottom-section;
+  grid-template-areas: 
+  "opening-content side-info-panel ."
+  "opening-content side-info-panel ."
+  "bottom-section bottom-section bottom-section";
+  grid-template-columns: 970px 1fr 600px;
+  grid-template-rows: 1fr;
+}
+*/
+
+/* Top Header */
+
+.top-header {
+  background-color: grey;
+  padding: 5rem;
+  background-size: auto;
+}
+
+/* Main Section */
+
+.opening-content {
+  background-color: pink;
+}
+
+.main-image {
+  width: 10px;
+}
+
+.main-paragraph {
+  width: 23rem;
+  font-size: larger;
+  padding-top: .5rem;
+}
+
+/* Aside Section */
+
+.side-info-panel {
+  background-color: green;
+  padding: 3rem;
+}
+
+/* Footers Section */
+.bottom-section {
+  background-color: black;
+}
+
+.footer-info {
+  width: 35rem;
+  line-height: 40%;
+  color: white;
+}
+
+.footer-directions {
+  color: white;
+  width: 40rem;
+}
