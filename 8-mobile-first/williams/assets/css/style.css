@@ -1,62 +1,165 @@
-/*General Grid Area */
-/*
-.container {
-  display: grid;
-  grid-area: opening-content;
-  grid-area: side-info-panel;
-  grid-area: bottom-section;
-  grid-template-areas: 
-  "opening-content side-info-panel ."
-  "opening-content side-info-panel ."
-  "bottom-section bottom-section bottom-section";
-  grid-template-columns: 970px 1fr 600px;
-  grid-template-rows: 1fr;
-}
-*/
-
-/* Top Header */
+/* iPhone XR */
 
 .top-header {
-  background-color: grey;
-  padding: 5rem;
-  background-size: auto;
+  background-color: rgb(92, 88, 88);
 }
+
+h1 {
+  margin: auto;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  padding-left: .5rem;
+  color: white;
+}
+
 
 /* Main Section */
 
 .opening-content {
-  background-color: pink;
-}
-
-.main-image {
-  width: 10px;
+  width: 80%;
+  margin: auto;
+  box-shadow: -2px -1px 6px black;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .main-paragraph {
-  width: 23rem;
   font-size: larger;
-  padding-top: .5rem;
+  padding-bottom: 1rem;
+  margin-left: 1rem;
 }
+
+.main-image img {
+  width: 100%;
+  padding-top: 2rem;
+}
+
+
 
 /* Aside Section */
 
 .side-info-panel {
-  background-color: green;
-  padding: 3rem;
+  width: 80%;
+  margin: auto;
+  box-shadow: -2px -1px 6px black;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
+
+.circle-deets-logo img {
+  padding-left: 1rem;
+  padding-top: 2rem;
+  border-radius: 50%;
+}
+
+a {
+  color: #D16B1F;
+}
+
+.external-link {
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+
+
 
 /* Footers Section */
 .bottom-section {
   background-color: black;
+  padding-bottom: 1rem;
+  margin-top: 6rem;
+}
+
+.state-of-virginia {
+  display: block;
+  margin-left: 6rem;
+  padding-top: 3rem;
+  
 }
 
 .footer-info {
-  width: 35rem;
-  line-height: 40%;
   color: white;
+  text-align: center;
+  padding-top: 1rem;
 }
 
 .footer-directions {
   color: white;
-  width: 40rem;
+  margin-left: 4rem;
+  list-style: none;
+  line-height: 35px;
 }
+
+.dining-locations {
+  color: #D16B1F;
+  font-weight: bold;
+}
+
+
+/* Apple i-Pad Mini Screen*/
+
+@media only screen and (max-width: 2048px) {
+
+/* Define grid area keywords per class */
+.top-header { grid-area: header }
+.opening-content { grid-area: p1; }
+.side-info-panel { grid-area: p2; }
+.bottom-section { grid-area: footer; }
+
+/* Define grid */
+.container {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-areas: 
+  "header header header"
+  "p1 p1 p1"
+  "p2 p2 p2"
+  "footer footer footer";
+}
+
+h1 {
+  margin: auto;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  padding-left: 3rem;
+  color: white;
+  }
+
+  .circle-deets-logo img {
+    padding-top: 2rem;
+    margin-left: 1rem;
+    margin-right: auto;
+    height: 90%;
+    width: 90%;
+  }
+
+  ul {
+    line-height: 3vh;
+  }
+  
+  
+  /* Footer Section */
+
+  .bottom-section {
+    display: flex;
+    background-color: black;
+    padding-bottom: 1rem;
+    margin-top: 6rem;
+
+  }
+
+  .footer-info {
+    color: white;
+    columns: 2;
+    margin: 1px;
+  }
+
+  .footer-directions {
+    color: white;
+    line-height: 35px;
+  }
+
+  .state-of-virginia {
+    padding-top: 3rem;
+  }
