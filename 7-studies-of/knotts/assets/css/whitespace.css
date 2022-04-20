@@ -1,0 +1,18 @@
+html {font-size: 25px;}
+
+h1 {font-size: 60px;
+text-align: center;
+color: palevioletred;}
+
+h2 {font-size: 45px;
+color: red;}
+
+
+header {padding:15px;
+margin-top: 20px;
+background-color: mediumspringgreen;}
+
+main {background-color: mediumseagreen;}
+
+.left-1 {text-align: left;
+background-color: aqua;}
