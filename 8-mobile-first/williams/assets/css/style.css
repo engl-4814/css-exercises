@@ -156,3 +156,73 @@ h1 {
    line-height: 11px;
    margin-top: 1rem;
 }
+
+/* desktop rules */
+@media screen and (min-width: 1280px) {
+  .container {
+    display: grid;
+    grid-template-columns: 100px 1fr 1fr -56px 1fr;
+    grid-template-rows: -9px 3fr 1fr;
+    grid-template-areas: 
+    "header header header"
+    "p1 p1 p2"
+    "p1 p1 p2"
+    "p1 p1 p2"
+    "footer footer footer";
+  }
+
+  .top-header {
+    background-color: rgb(92, 88, 88);
+    padding-bottom: 3rem;
+    padding-top: 2rem;
+  }
+
+  .opening-content {
+    position: relative;
+    margin-top: 2rem;
+    padding-right: 22.5rem;
+    padding-left: 8rem;
+    margin-left: 10rem;
+    box-shadow: -2px -1px 3px 1px black;
+    width: 60%;
+  }
+
+  .main-paragraph {
+    margin-bottom: 40rem;
+  }
+
+  .main-image img {
+    padding-top: 5rem;
+  }
+
+  
+  h1 {
+    margin: auto;
+    padding-left: 10rem;
+    color: white;
+    font-size: 5rem;
+  }
+
+ .bottom-section {
+   display: flex;
+ }
+
+ .footer-info {
+  columns: 3;
+  margin-left: 16rem;
+  line-height: 11px;
+  margin-top: 2rem;
+  column-gap: 90px;
+}
+
+.footer-directions {
+  padding-top: 1rem;
+  margin-left: 1rem;
+  margin-top: 5rem;
+}
+
+.side-info-panel {
+  width: 60%;
+  margin-left: 1rem;
+  padding-top: 1rem;
+}
