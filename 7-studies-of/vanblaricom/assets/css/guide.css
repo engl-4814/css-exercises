@@ -1,26 +1,48 @@
+.container > * {
+  background-color:whitesmoke;
+}
+
+.section1 {
+  display: grid;
+  grid-template-columns: 500px 500px;
+  flex-direction: center;
+}
+
+.section2 {
+  display: grid;
+  grid-template-columns: 500px 500px;
+  flex-direction: center;
+}
+
+.section3 {
+  display: grid;
+  grid-template-columns: 500px 500px;
+  flex-direction: center;
+}
+
 .computer {
-  grid-area: computer;
   text-align: center;
+  border: 5px solid black;
 }
 
 .printer {
-  grid-area: printer;
   text-align: center;
+  border:5px solid black;
 }
 
 .printer2 {
-  grid-area: printer2;
   text-align: center;
+  border: 5px solid black;
 }
 
 .mouse {
-  grid-area: mouse;
   text-align: center;
+  border: 5px solid black;
 }
 
 .mac {
-  grid-area: mac;
   text-align: center;
+  border: 5px solid black;
 }
 
 
@@ -32,11 +54,3 @@
   text-align :center;
 }
 
-.container > * {
-  border: 0.5px solid black;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 500px 500px 500px;
-  grid-template-areas: 
-  ""
-  }
