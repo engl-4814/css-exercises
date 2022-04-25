@@ -1,0 +1,14 @@
+body {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-template-areas: 
+  "main main main"
+  "aside main nav"
+  "aside main nav"
+  "footer footer footer"
+}
+
+main { grid-area: main;}
+nav { grid-area: nav;}
+aside { grid-area: aside;}
+footer { grid-area: footer;}
