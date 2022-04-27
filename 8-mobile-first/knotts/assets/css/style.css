@@ -1,0 +1,35 @@
+body {background-color: pink;}
+
+header {font-size: 500px;
+text-emphasis-color: green;}
+
+.header-one {
+    grid-area: header;
+}
+
+.navigation-top {
+    grid-area: nav;
+}
+
+.about {
+    grid-area: h1;
+}
+
+.ourstory {
+    grid-area: h2;
+}
+
+.externallinks {
+    grid-area: h3;
+}
+
+@media screen and (max-width:1000px) {
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-gap: 2rem;
+        grid-template-areas: 
+        "header nav"
+        "h1 h2"
+        "h2 h3"}
