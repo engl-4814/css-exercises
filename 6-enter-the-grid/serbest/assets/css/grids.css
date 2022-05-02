@@ -1,10 +1,11 @@
 body {
   display: grid;
-  grid-template-columns: 33% 33% 33%;
+  grid-template-columns: repeat(3, minmax(10px, 1fr));
+  gap:10px;
   grid-template-areas: 
   "main main main"
-  "aside main nav"
-  "aside main nav"
+  "aside . nav"
+  "aside . nav"
   "footer footer footer"
 }
 
@@ -12,3 +13,14 @@ main { grid-area: main;}
 nav { grid-area: nav;}
 aside { grid-area: aside;}
 footer { grid-area: footer;}
+
+footer{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.welcome{
+  display: flex;
+  justify-content: center;
+}
+
