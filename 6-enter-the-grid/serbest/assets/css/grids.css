@@ -1,6 +1,6 @@
 body {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, minmax(10px, 1fr));
   gap:10px;
   grid-template-areas: 
   "main main main"
@@ -13,4 +13,14 @@ main { grid-area: main;}
 nav { grid-area: nav;}
 aside { grid-area: aside;}
 footer { grid-area: footer;}
+
+footer{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.welcome{
+  display: flex;
+  justify-content: center;
+}
 
