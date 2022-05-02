@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap:wght@300&family=Roboto:wght@300&display=swap:wght@300&family=Roboto:wght@500&display=swap');
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 1rem;
+  margin: 3rem;
+}
+
+section {
+  display: flex;
+  flex-flow: column;
+  border: 1px solid black;
+  border-radius: 1rem;
+}
+
+h1 {
+  padding: 1rem;
+  font-size: 120%;
+  font-family: Roboto;
+}
+
+p {
+  padding: 1rem;
+  margin-top: -2.5rem;
+  font-family: Roboto;
+  font-size: small;
+  font-weight: lighter;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+}
+
+.button {
+  margin-bottom: .5rem;
+  padding: 0.8rem;
+  margin-top: auto;
+  margin-left: 1%;
+  padding-top: -5rem;
+}
+
+button {
+  font-family: 'Open Sans', sans-serif;
+  background: rgb(164, 99, 110);
+  color: white;
+  width: 95%;
+  border: none;
+  border-radius: 1rem;
+  padding: 10px;
+  font-size: larger;
+}
+
+ul {
+  margin-top: -1rem;
+  font-family: Roboto;
+  font-size: small;
+  font-weight: lighter;
+}
+

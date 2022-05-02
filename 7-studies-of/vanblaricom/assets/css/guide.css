@@ -1,0 +1,56 @@
+.container > * {
+  background-color:whitesmoke;
+}
+
+.section1 {
+  display: grid;
+  grid-template-columns: 500px 500px;
+  flex-direction: center;
+}
+
+.section2 {
+  display: grid;
+  grid-template-columns: 500px 500px;
+  flex-direction: center;
+}
+
+.section3 {
+  display: grid;
+  grid-template-columns: 500px 500px;
+  flex-direction: center;
+}
+
+.computer {
+  text-align: center;
+  border: 5px solid black;
+}
+
+.printer {
+  text-align: center;
+  border:5px solid black;
+}
+
+.printer2 {
+  text-align: center;
+  border: 5px solid black;
+}
+
+.mouse {
+  text-align: center;
+  border: 5px solid black;
+}
+
+.mac {
+  text-align: center;
+  border: 5px solid black;
+}
+
+
+.button {
+  background-color: aqua;
+}
+
+.ul {
+  text-align :center;
+}
+
