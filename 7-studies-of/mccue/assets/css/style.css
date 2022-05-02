@@ -1,0 +1,16 @@
+* { box-sizing: border-box; }
+body { margin: 0; }
+
+html {
+	font-family: Avenir, Helvetica, sans-serif;
+	background: #e4e4d5;
+}
+header {
+	margin: 4rem;
+}
+h1 {
+	text-transform: uppercase;	
+	font-size: 4rem;
+	border: 8px solid #d55349;
+	text-align: center;
+}
