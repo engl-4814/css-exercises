@@ -1,22 +1,4 @@
-<!-- 
-  Goal: Recreate the provided website as an image 
-  in HTML and CSS. Note how there are 3 images to
-  review to help you consider what HTML to write
-  and CSS.
 
-  Again, I recommend doing one area at a time.
-
-  Follow the prompts below in the comments. 
-
-  Delete comments as you complete them to help 
-  keep your code readable.
- -->
-
-<!-- 
-  1. Create the basic HTML 'skeleton' and CSS link
-  2. Don't forgot: accessibility matters, so
-    keep practicing those techniques we learned.
--->
 <DOCTYPE html>
 <html lang="eng">
 <head>
@@ -28,22 +10,75 @@ content=""width=device-width, initial-scale="1.0">
 <title>Menu - KartikBurger
 
 </title>
-<link rel="stylesheet" type="text/css" href="css/style.css">
+
+<link rel="stylesheet" type="text/css" href="./css/style.css">
 
 </head>
+
+
+
 <body>
   <header roles="banner">
-  </header>
-<main role="main" aria-labelledby="Burger-menu">
-  <h2 id="Burger-menu"<h2/>
-<p>
+  
+  <div class="logo-box">
+<img src="../images/lingerpizza-no-styles.png">
+<h2 id="Burger-menu"<h2/>
 
-</p>
+  </div>
+
+  <nav class="nav" role="main navigation" aria-label="page navigation">
+<ul>
+  <li>
+    <a href="#">Location 1</a>
+  </li>
+  <li>
+    Charlotte
+  </li>
+  <li>
+    <a href="#">Location 2</a>
+  </li>
+  <li>
+    Richmond
+  </li>
+  <li>
+    <a href="#">Location 3</a>
+  </li>
+  <li>
+    Fairfax
+  </li>
+</ul>
+  </nav>
+</header>
+
+
+<main role="main" aria-labelledby="Burger-menu">
+  <div class="card_menu_item">>
+<h2 id="The Menu">The Menu</h2>
+<p>All our food items are organic and gluten free! We also have vegan options!</p>
+
 <section role="region"
 aria-labelledby="speciality-burger">
-<h3 id="speciality-burgers"> Specialty pizzas</h3>
 </section>
+
+<h3 id="speciality-burgers"> Specialty Burgers</h3>
+<h4>The Hushburger</h4>
+<ul>
+  <li>Fully Organic</li>
+  <li>Fully customizable</li>
+  <li>Served with optional 10 different sauces</li>
+</ul>
+
+<h4>The Bean Burger</h4>
+<ul>
+  <li>Fully Organic</li>
+  <li>Vegetarian</li>
+  <li>Served with optional 10 differnt sauces</li>
+</ul>
+</div
+
+
 </main>
+
 </body>
 
 </head>
@@ -52,37 +87,3 @@ aria-labelledby="speciality-burger">
 
 </DOCTYPE>
 
-<!-- 
-  3. Note the elements/content contained within the 
-     top red bar. What element would best include
-     these elements/content?
- -->
-
-<!-- 
-  4. Below the red bar, note the consistent 
-     white space around the elements/content.
-     Also, note the kind of content. What element
-     should be another child of the body and a 
-     sibling of the red bar containing block?
- -->
-
-<!-- 
-  5. Ok, a tricky part!
-  
-     Inside this sibling block of the red bar,
-     note how there seems to be a pattern to consider
-     with regards to the menu items.
-
-     There are also 3 more headings to consider that will 
-     give you some hints to how to create a set of
-     parent-child-descendent relationships with HTML.
-
-     Hint: the two types of pizzas, Specialty vs. CLassic,
-     should be respectively contained by a some available 
-     and semantic block element. 
-     
-     Within this block, you should spot the menu item
-     pattern. How can you group these content items together
-     in HTML, add a class to a particular part of the menu
-     item, and then select them as a class in your CSS?
- -->
