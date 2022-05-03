@@ -17,7 +17,7 @@
   But, it's fine for prototyping and play.
 */
 
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Dongle:wght@300&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova:ital@1&family=IBM+Plex+Serif:wght@600&family=PT+Serif&display=swap');
 
 /* GENERAL RULES */
 /* 
@@ -55,32 +55,32 @@ body {
   }
 h1 {
   font-size: larger;
-  font-family: 'Anton', sans-serif;
+  font-family: 'IBM Plex Serif', serif;
   outline-color:ghostwhite;
   outline-style:ridge;
   background-color: ghostwhite;
   } 
 h2 { 
-  font-family: 'Anton', sans-serif;
+  font-family: 'IBM Plex Serif', serif;
   font-size: large;
   outline-color: ghostwhite;
   outline-style: ridge;
   background-color: ghostwhite;
  } 
 h3 { 
-  font-family: 'Anton', sans-serif;
+  font-family: 'IBM Plex Serif', serif;
   font-size:medium;
   outline-color: ghostwhite;
   outline-style: ridge;
   background-color: ghostwhite;
  }
 p  { 
-  font-family: 'Varela Round', sans-serif;
+  font-family: 'PT Serif', serif;
   font-size:small;
   margin-inline-start: 5px;
  }
 blockquote {
-  font-family: 'Dongle', sans-serif;
+  font-family: 'Bona Nova', serif;
   font-size:medium;
   background-color: dimgrey;
   outline-color: ghostwhite;
