@@ -82,7 +82,7 @@ p  {
 blockquote {
   font-family: 'Bona Nova', serif;
   font-size:medium;
-  background-color: dimgrey;
+  background-color: rgb(255, 255, 255);
   outline-color: ghostwhite;
   outline-style: double;
   }
