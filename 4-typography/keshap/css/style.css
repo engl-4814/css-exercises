@@ -53,25 +53,28 @@ html {
 */
 body {
   font-size: 25px;
-  background-color: forestgreen;
+  background-color: rgb(225, 255, 225);
   }
 h1 {
   font-size: larger;
   font-family: 'Anton', sans-serif;
   outline-color:ghostwhite;
   outline-style:ridge;
+  background-color: ghostwhite;
   } 
 h2 { 
   font-family: 'Anton', sans-serif;
   font-size: large;
   outline-color: ghostwhite;
   outline-style: ridge;
+  background-color: ghostwhite;
  } 
 h3 { 
   font-family: 'Anton', sans-serif;
   font-size:medium;
   outline-color: ghostwhite;
   outline-style: ridge;
+  background-color: ghostwhite;
  }
 p  { 
   font-family: 'Varela Round', sans-serif;
