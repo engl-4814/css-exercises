@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&family=Rubik+Glitch&display=swap');
+
+body {
+  font-family: Gruppo;
+  display: grid;
+  justify-content: space-around;
+  background-color: burlywood;
+}
+h1.cut {
+  font-family: Rubik Glitch;
+  font-size: 5rem;
+}
+p.diff {
+  font-family: Rubik Glitch;
+  margin-top: -.5rem;
+}
+header {
+  display: grid;
+  grid-template-columns: 95px 100px 130px 190px;
+}
+section {
+  display: grid;
+}
+section.scissors {
+  justify-content: start;
+}
+section.paper {
+  justify-content: center;
+}
+section.rocks {
+  justify-content: end;
+}
+main {
+  display: grid;
+  grid-template-rows: 0rem 0rem 0rem;
+}

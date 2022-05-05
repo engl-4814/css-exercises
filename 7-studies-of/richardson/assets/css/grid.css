@@ -1,0 +1,28 @@
+.container > * {
+    border: 1px solid purple;
+    min-height: 20vh;
+}
+
+.header {grid-area: header; }
+.nav {grid-area: nav; }
+.main-content {grid-area: main-content; }
+.second-content {grid-area: second-content; }
+.extra-1 {grid-area: extra-1; }
+.extra-2 {grid-area: extra-2; }
+.extra-3 {grid-area: extra-3; }
+.additional {grid-area: additional; }
+.footer {grid-area: footer; }
+
+.container {
+    display: grid;
+    grid-template-columns: 150px 150px 150px 150px 150px 75px;
+    grid-template-rows: 20vh 200px 125px 125px 200px 20vh;
+    grid-gap: 1rem;
+    grid-template-areas:
+    "header header header header header header"
+    "nav main-content main-content second-content second-content additional"
+    "nav main-content main-content second-content second-content additional"
+    "extra-1 main-content main-content second-content second-content additional"
+    "extra-1 extra-2 extra-3 extra-3 extra-3 additional"
+    "footer footer footer footer footer footer"
+}

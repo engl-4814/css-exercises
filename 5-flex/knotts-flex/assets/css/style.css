@@ -1,3 +1,8 @@
+
+/* Make sure that your CSS rules are documented with comments and follow the HTML source order for clarity. */
+
+
+/* Remove those absolute widths and margins and see how that helps */
 div {
     border: 4px black;
     border-style: solid;
@@ -5,11 +10,15 @@ div {
     width: 250px;
 }
 
+/* Recall the img sizing technique we learned and do it here in the more general rule area */
+
+/* this one's unnecessary */
 .flexbox-1 {
     display: flex;
     flex-direction: column;
 }
 
+/* start is the default, so you need not apply this rule */
 .box-1 {
     align-self: flex-start
 }
@@ -22,6 +31,8 @@ div {
     align-self: flex-end;
 }
 
+/* Remove those absolute widtsh */
+/* Change your flex-direction value to column instead for group-1, then check your work again. */
 .group-1 {
   display: flex;
   flex-direction: row-reverse;
@@ -29,6 +40,8 @@ div {
   width: 600px;
 }
 
+
+/* row and start are defaults, so you need not apply them */
 .group-2 {
     display: flex;
     flex-direction: row;
@@ -41,4 +54,16 @@ div {
     flex-direction: row;
     align-self: flex-end;
     width: 600 px;
+}
+
+/* 
+    Practice using the flex rule on the children items in group-2 and group-3 
+
+    Once you remove those absolute values on
+    the parent containers, you'll see some
+    cool flex magic.
+*/
+.group-2 > *,
+.group-3 > * {
+    flex: 1 1 200px;
 }

@@ -9,9 +9,10 @@ h2 {font-size: 25px;
 p {font-size: 20px;
    text-align: center;}
 
-header {background-color: beige;
+.header {background-color: beige;
         padding: 15px;
-        border: 10px red;}
+        border: 10px red;
+        grid-area: header;}
 
 .card-1 {
     grid-area: card-1;
@@ -53,4 +54,13 @@ header {background-color: beige;
 .footer {
     font-size: 15px;
     text-align: center;
+}
+
+.container {
+    display: grid;
+    margin: 1rem;
+    gap: 1rem;
+    grid-template-areas: "header header"
+    "card-1 card-2"
+    "card-3 card-4";
 }

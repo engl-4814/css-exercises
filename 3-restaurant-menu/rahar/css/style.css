@@ -1,67 +1,24 @@
-/* 
-  Below are 2 kinds of comments: 
 
-  1) The usual prompts.
-  2) Comments that document what to
-     write underneath. They use all 
-     capitals for major areas and then
-     a regular capitalization scheme for
-     subsections in that area.
-
-  When put together, I hope they provide
-  you with some clues for both your CSS 
-  AND your HTML.
-*/
-
-
-/* GENERAL */
-
-}
-
-/* 
-  Select the html root tag.
-  Set the font-size between 
-  18 and 22 pixels (px).
-*/
 html {
   font-size: 20px;
 
-/* TYPOGRAPHY */
+
+}
 
 
-/* 
-  Take stock of your headings vs.
-  paragraph elements and write some
-  rules.
-
-  Use the root element relative 
-  length unit, which the readings
-  describe for you. Make sure you
-  know how these values are in 
-  relation to something you defined
-  above.
-*/
-h1 { font-size: 5rem; }
+h1 { font-size: 4rem; }
 h2 { font-size: 2rem; }
 h3 { font-size: 1.5rem;}
 h4,p { font-size: 1.2rem; }
-h4 [ font-style: italic; }]
-
-/* HEADER */
+h4 { font-style: italic; }
 
 
-/* 
-  Write a more general selection of the containing
-  element for this area of the site.
-
-  How can you apply some whitespace and color rules
-  to mimic the site example.
-*/
 header {
-background-color:rgb(240, 135, 135)
-color: white;
-min-height: 65px;
-padding: 25px;
+background-color:rgb(240, 135, 135);
+min-height:5px;
+max-height: 60px;
+padding: 2px;
+font-size: 15px;
 
 
 
@@ -72,77 +29,26 @@ div.logo-box{
 }
 
 
-/* Logo Box */
+
 .logo-box > img {
   float: left;
-  border-radius:50%;
+  
+  border-radius:1%;
   margin-right: 5px;
 
 
 }
-/* 
-  How could you group the image and 
-  'LingerPizza' together? Then how to
-  float it?
-*/
+
+ul {
+  display: block;
+}
 
 
-/* Header Navigation */
+.card_menu_item {
+  border: solid black;
+  max-width: 150px;
+  max-height: 250px;
+  padding: 15px;
+  float: left;
+}
 
-/* 
-  After the grouped content above,
-  there seems to be a nav!
-  
-  Check out this article:
-  https://www.blustemy.io/styling-inline-lists-in-css/
-
-  Note how to select list items and 
-  use the display property to change its
-  typical block behavior.
-
-  Then, lookup the 'text-align' rule and
-  consider what element to select and apply it
-  there.
-*/
-
-
-/* MAIN */
-
-/* 
-  How could you select a main wrapper 
-  and apply some white space here to make it
-  look purrrrrdy?
-*/
-
-
-/* CARDS */
-
-/* 
-  Almost done!
-
-  Create a card class component and consider
-  a similar float technique to apply to the pizza
-  menu items.
-
-  Try to be semantically meaningful with your
-  class names. We have a nice context to consider for
-  your class names here.
-
-  Also, use the HTML hierarchy to select more
-  specific items within each menu item card.
-*/
-
-/* 
-  BONUS!!
-
-  Ok, by now, you're probably frustrated with the 
-  heading for the Classic section. Why is it doing
-  that?!
-
-  This is a bonus. Research the clear: both technique
-  in this article: 
-  https://www.smashingmagazine.com/2009/10/the-mystery-of-css-float-property/
-  
-  See if you can figure out where to apply this rule 
-  to resolve that issue.
- */
