@@ -1,0 +1,25 @@
+.container > * {
+    border: 3px solid lightskyblue;
+    min-height: 10vh;
+}
+
+.header {grid-area: header;}
+.navigation {grid-area: navigation;}
+.section-1 {grid-area: section-1;}
+.section-2 {grid-area: section-2;}
+.section-3 {grid-area: section-3;}
+.aside {grid-area: aside;}
+.footer {grid-area: footer;}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr 3fr 3fr 1fr;
+    grid-gap: 0.5rem;
+    grid-template-areas:
+    "header header header header"
+    "navigation navigation navigation navigation"
+    "section-1 section-1 section-2 section-2"
+    "section-3 section-3 section-3 aside"
+    "footer footer footer footer"
+}

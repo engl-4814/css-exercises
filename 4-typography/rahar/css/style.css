@@ -1,91 +1,47 @@
-/* 
-  GOAL: Create a set of rules that will create a typography scheme.
-*/
+
+
 @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
 
-/* IMPORTS */
-/* 
-  1. Import 3 fonts from https://fonts.google.com/ 
 
-  Consider what combination of serif and 
-  sans-serif fonts to use as a theme.
-  
-  Normally, we don't use this @import
-  method in our published code, since it
-  creates a performance-loading issue.
-  
-  But, it's fine for prototyping and play.
-*/
 
-/* GENERAL RULES */
+
+
 html {
   font-size: 18px;
   background-color: rgb(124, 99, 99); 
 
 }
-/* 
-  2. Set the root font-size
-  
-*/
 
-/* GENERAL COPY SIZING */
-/*
-  3. Apply font-sizing, and, where
-     desired, font-style, font-weight,
-     text-indent, margins, padding,
-     line-height, and text-decoration.
-     
-     Consider how you want to style your 
-     vertical spacing, line lengths, 
-     and indentations.
-  
-  Use the relative-length rem value.
+@font-face {
+  font-family: 'Black Ops One';
+  src: url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+  font-weight: 400;
+}
 
-  Remember, the:
-    - em computes relative to the 
-      font-size or width of the direct 
-      containing block
-    - rem computes relative to the 
-      font-size or width of the root 
-      element: html.
-*/
+@font-face {
+  font-family: 'EB Garamond';
+  src: url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&display=swap');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Jost';
+  src: url('https://fonts.googleapis.com/css2?family=Jost:wght@100&display=swap');
+  font-weight: 400;
+}
+
+
 body { font-family: 'Black Ops One';font-size: none; }
 h1 {   font-family: 'Black Ops One'; font-size: 2.25rem; text-align: center;  } 
 h2 {   font-family: 'Black Ops One';font-size: 1.5rem; text-align: center; } 
-h3 {   font-family: 'Black Ops One';font-size: 1.125; text-align: center; }
-h4 {   font-family: 'Black Ops One';font-size:1.05rem; font-style: italic; text-align: center; }
-p  {   font-family: 'Black Ops One'; text-align: center;    }
+h3 {   font-family: 'Jost';font-size: 1.125; text-align: center; }
+h4 {   font-family: 'Jost';font-size:1.05rem; font-style: italic; text-align: center; }
+p  {   font-family: 'Jost'; text-align: center;    }
 
-blockquote { font-family: 'Black Ops One';font-size: 1.2rem; text-align: center; }
+blockquote { font-family: 'EB Garamond';font-size: 1.2rem; text-align: center; }
 
-
-/* GENERAL FONT FAMILIES */
-/*
-  4. Define your general rules
-  for what types of fonts to
-  use with the font-family rule.
-*/
-p  { font-family: 'Black Ops One'; }
-h1,h2,h3 { font-family: 'Black Ops One', cursive; }
-
-blockquote { font-family: 'Black Ops One', cursive; }
-
-/* 
-  5. From here on out, write more
-     specific rules for particular
-     parts of the page and classes 
-     of element(s) on the page.
-
-     Be sure to consider writing
-     them based on their position
-     in the HTML source.
-
-     Consider over-writing the 
-     general rules from above to
-     create a class distinct from the
-     general scheme, but still thematically
-     aligned with it. Again, use rules like
-     font-sizing, font-style, font-weight,
-     text-indent, margins, padding,
-     line-height, or text-decoration.
-*/
+img {
+  max-height: 200px;
+  max-width: 200px;
+  padding: 1em;
+}
