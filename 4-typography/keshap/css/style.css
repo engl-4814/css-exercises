@@ -1,0 +1,88 @@
+/* 
+  GOAL: Create a set of rules that will create a typography scheme.
+*/
+
+
+/* IMPORTS */
+/* 
+  1. Import 3 fonts from https://fonts.google.com/ 
+
+  Consider what combination of serif and 
+  sans-serif fonts to use as a theme.
+  
+  Normally, we don't use this @import
+  method in our published code, since it
+  creates a performance-loading issue.
+  
+  But, it's fine for prototyping and play.
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova:ital@1&family=IBM+Plex+Serif:wght@600&family=PT+Serif&display=swap');
+
+/* GENERAL RULES */
+/* 
+  2. Set the root font-size
+*/
+
+html {
+  font-size: 20px;
+}
+
+/* GENERAL COPY SIZING */
+/*
+  3. Apply font-sizing, and, where
+     desired, font-style, font-weight,
+     text-indent, margins, padding,
+     line-height, and text-decoration.
+     
+     Consider how you want to style your 
+     vertical spacing, line lengths, 
+     and indentations.
+  
+  Use the relative-length rem value.
+
+  Remember, the:
+    - em computes relative to the 
+      font-size or width of the direct 
+      containing block
+    - rem computes relative to the 
+      font-size or width of the root 
+      element: html.
+*/
+body {
+  font-size: 25px;
+  background-color: lightgray;
+  }
+h1 {
+  font-size: larger;
+  font-family: 'IBM Plex Serif', serif;
+  outline-color:ghostwhite;
+  outline-style:ridge;
+  background-color: ghostwhite;
+  } 
+h2 { 
+  font-family: 'IBM Plex Serif', serif;
+  font-size: large;
+  outline-color: ghostwhite;
+  outline-style: ridge;
+  background-color: ghostwhite;
+ } 
+h3 { 
+  font-family: 'IBM Plex Serif', serif;
+  font-size:medium;
+  outline-color: ghostwhite;
+  outline-style: ridge;
+  background-color: ghostwhite;
+ }
+p  { 
+  font-family: 'PT Serif', serif;
+  font-size:small;
+  margin-inline-start: 5px;
+ }
+blockquote {
+  font-family: 'Bona Nova', serif;
+  font-size:medium;
+  background-color: rgb(255, 255, 255);
+  outline-color: ghostwhite;
+  outline-style: double;
+  }

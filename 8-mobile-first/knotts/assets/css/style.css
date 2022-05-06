@@ -1,35 +1,52 @@
-body {background-color: pink;}
+body {background-color: pink;
+font-size: 55px;}
 
-header {font-size: 500px;
-text-emphasis-color: green;}
+header {font-size: 50px;
+text-emphasis-color: green;
+grid-area: header;}
 
-.header-one {
-    grid-area: header;
+.container {
+    font-size: 50px;
 }
 
-.navigation-top {
-    grid-area: nav;
+.card-1 {
+    grid-area: card1;
 }
 
-.about {
-    grid-area: h1;
+.card-2 {
+    grid-area: card2;
 }
 
-.ourstory {
-    grid-area: h2;
+.card-3 {
+    grid-area: card3;
 }
 
-.externallinks {
-    grid-area: h3;
+.card-4 {
+    grid-area: card4;
 }
 
 @media screen and (max-width:1000px) {
-    main {
+    .container {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
         grid-gap: 2rem;
         grid-template-areas: 
-        "header nav"
-        "h1 h2"
-        "h2 h3"}
+        "header header"
+        "card1 card2"
+        "card3 card4"
+    }
+}
+
+@media screen and (max-width:700px) {
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1 fr;
+    grid-gap: 2rem;
+    grid-template-areas:
+    "header header"
+    "card1 card2"
+    "card3 card4"
+}
+}

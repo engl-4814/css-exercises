@@ -17,8 +17,8 @@
   But, it's fine for prototyping and play.
 */
 
-@import url('https://fonts.googleleapis.com/css?family=Monoton|Metrophic|Roboto' );
-
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
 /* GENERAL RULES */
 /* 
   2. Set the root font-size
@@ -65,9 +65,8 @@ blockquote {font-size: 1.25rem; }
   for what types of fonts to
   use with the font-family rule.
 */
-p  { font-family: Metrophobic; }
-h1,h2,h3 { font-family: Monoton; }
-blockquote {  }
+body { font-family: 'Work Sans', sans-serif; }
+h1,h2,h3 { font-family: 'Quicksand', sans-serif; }
 
 /* 
   5. From here on out, write more
@@ -88,3 +87,13 @@ blockquote {  }
      text-indent, margins, padding,
      line-height, or text-decoration.
 */
+
+ul {
+  font-size: smaller;
+  font-style: italic;
+}
+
+blockquote {
+  font-family: Arial, sans-serif;
+  font-size: large;
+}
