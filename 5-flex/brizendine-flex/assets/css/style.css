@@ -33,33 +33,21 @@
   class per color, e.g., 'orange-portion', etc. with
   the background-color rule.
 */
-.portion-1 {
+.portion {
   display: flex;
   justify-content: center;
   flex-direction: row;
 }
 
-.portion-2 {
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
+.orange-portion {
   background-color: orange;
-}
-
-/* Double check your HTML parent-children for portion 3 */
-.portion-3 {
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
 }
 
 /* 
   See what happens when I use 
   the flex rule on the flexbox children items
 */
-.portion-1 > *,
-.portion-2 > *,
-.portion-3 > * {
+.portion > * {
   flex: 1 1 300px;
 }
 

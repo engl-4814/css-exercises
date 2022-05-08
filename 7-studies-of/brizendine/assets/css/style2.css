@@ -1,0 +1,47 @@
+html {
+  display: grid;
+}
+
+.header {
+  grid-area: header;
+}
+
+.title {
+  grid-area: title;
+}
+
+.nav {
+  grid-area: nav;
+}
+
+.main {
+  background-color: red;
+}
+
+.football {
+  grid-area: football;
+}
+
+.basketball {
+  grid-area: basketball;
+}
+
+.baseball {
+  grid-area: baseball;
+}
+
+.footer {
+  grid-area: footer;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 200px 1fr 1fr 1fr 1fr 200px;
+  grid-template-rows: 100px 1fr 1fr 100px;
+  grid-gap: 1rem;
+  grid-template-areas:
+  "title title nav nav"
+  ".football .football . ."
+  ". . .basketball .basketball"
+  ".baseball .baseball . ."
+  "footer footer footer footer" ;
