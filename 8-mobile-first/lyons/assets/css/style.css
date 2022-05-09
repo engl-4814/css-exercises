@@ -32,6 +32,9 @@ footer {
   color: antiquewhite;
   padding: .1rem;
 }
+a {
+  color: olivedrab;
+}
 footer > div {
   display: flex;
   flex-direction: column;
