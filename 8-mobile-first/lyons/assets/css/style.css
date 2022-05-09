@@ -1,0 +1,159 @@
+header {
+  background-color: brown;
+  color: antiquewhite;
+  padding: .1rem;
+  padding-left: 1rem;
+}
+header > h1 {
+  font-size: 3rem;
+}
+section > div {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+h2 {
+  font-size: 6rem;
+  color: brown;
+  margin-bottom: 1rem;
+}
+h3 {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+p {
+  font-size: 3rem;
+}
+li {
+  font-size: 2rem;
+}
+footer {
+  background-color: brown;
+  color: antiquewhite;
+  padding: .1rem;
+}
+footer > div {
+  display: flex;
+  flex-direction: column;
+}
+footer > nav > ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+}
+h3 {
+  padding-left: 1rem;
+  margin-top: 0rem;
+}
+footer > div > p {
+  padding-left: 1rem;
+}
+footer > p {
+  padding-left: 1rem;
+}
+@media (min-width: 1280px) {
+  section {
+    display: grid;
+    grid-template-columns: 30rem;
+  }
+  main {
+    display: grid;
+    grid-template-rows: 1rem;
+  }
+  main {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+  p {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 4rem;
+  }
+  header > h1 {
+    font-size: 2rem;
+  }
+  footer > div {
+    display: grid;
+    grid-template-columns: 22rem 310px 32rem;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
+@media (min-width: 1680px) {
+  header.header {
+    grid-area: header;
+  }
+  nav.nav1 {
+    grid-area: nav1;
+  }
+  main.main {
+    grid-area: main;
+  }
+  section.sec1 {
+    grid-area: sec1
+  }
+  div.div1 {
+    grid-area: div1
+  }
+  section.sec2 {
+    grid-area: sec2
+  }
+  div.div2 {
+    grid-area: div2;
+  }
+  footer.footer {
+    grid-area: footer;
+  }
+  div.div3 {
+    grid-area: div3;
+  }
+  nav.nav2 {
+    grid-area: nav2;
+  }
+  body {
+    display: grid;
+    grid-template-columns: 57rem 12rem 12rem 12rem;
+    grid-template-rows: 13rem 12rem 12rem 68rem;
+    grid-gap: 4rem;
+    grid-template-areas: 
+    "header header header header"
+    "main main footer footer"
+    "main main footer footer"
+    "main main footer footer";
+  }
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+  footer {
+    display: flex;
+    flex-direction: column;
+  }
+  footer > div {
+    display: flex;
+    flex-direction: column;
+  }
+  section.sec1 {
+    display: flex;
+    flex-direction: column;
+  }
+  section.sec2 {
+    display: flex;
+    flex-direction: column;
+  }
+  main {
+    display: grid;
+    grid-template-columns: 27rem 27rem;
+    grid-template-areas:
+    "sec1 sec2"
+    "sec1 sec2"
+    "sec1 sec2"
+    "sec1 sec2";
+    justify-content: space-around;
+  }
+  h2 {
+    margin-top: -.1rem;
+  }
+}
