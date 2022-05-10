@@ -14,9 +14,14 @@
 */
 
 
-html {
-  font-size: 20px;
-}
+/* GENERAL */
+
+/* 
+  Select the html root tag.
+  Set the font-size between 
+  18 and 22 pixels (px).
+*/
+
 
 /* TYPOGRAPHY */
 
@@ -33,22 +38,6 @@ html {
   above.
 */
 
-h1 {
-  font-size: 5rem;
-}
-
-h2 {
-  font-size: 2rem;
-}
-
-h3 {
-  font-size: 1rem;
-}
-
-p {
-  font-size: .5rem;
-}
-
 /* HEADER */
 
 /* 
@@ -58,13 +47,6 @@ p {
   How can you apply some whitespace and color rules
   to mimic the site example.
 */
-
-header {
-  color: black;
-  background-color: antiquewhite;
-  padding: 100px;
-}
-
 
 
 /* Logo Box */
