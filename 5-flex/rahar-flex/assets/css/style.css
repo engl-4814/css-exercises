@@ -1,7 +1,55 @@
+
 div {
-  border: 4px black;
+  border: 10px black;
   border-style: solid;
-  margin: 15px;
-  width: 150px;
+  margin: 20px;
+  width: 250px;
 }
 
+
+.flex-1 {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.one {
+  align-self: flex-start
+}
+
+.two {
+  align-self: center;
+}
+
+.three {
+  align-self: flex-end;
+}
+
+.group-1 {
+  display: flex;
+  flex-direction: row-reverse;
+  align-self: center;
+  width: 300px;
+}
+
+
+
+.group-2 {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    width: 300px;
+}
+
+.group-3 {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-end;
+    width: 300 px;
+}
+
+
+.group-2 > *,
+.group-3 > * {
+    flex: 1 1 200px;
+}
