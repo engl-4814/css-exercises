@@ -18,7 +18,7 @@
 .textbox-1 {
     grid-area: textbox;
     border: 3px solid blue;
-    padding-inline-start: 20%;
+    padding-right: 30%;
 }
 
 .image-2 {
