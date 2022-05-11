@@ -1,0 +1,57 @@
+@media screen and (min-width: 2000px) {
+    main {
+        display: grid;
+        grid-template-columns: minmax(400px, max-content);
+        grid-template-rows: minmax(400px, max-content);
+        grid-template-areas: 
+        "header header nav nav"
+        "aside section1 section2 aside"
+        "aside section3 section4 aside"
+        "footer footer footer footer";
+    }
+}
+
+@media screen and (min-width:500px) {
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: 
+        "header nav"
+        "section1 section2"
+        "section3 section4"
+        "aside footer";
+    }
+}
+
+header {
+    grid-area: header;
+}
+
+nav {
+    grid-area: nav;
+}
+
+.section1 {
+    grid-area: section1;
+}
+
+.section2 {
+    grid-area: section2;
+}
+
+.section3 {
+    grid-area: section3;
+}
+
+.section4 {
+    grid-area: section4;
+}
+
+aside {
+    grid-area: aside;
+}
+
+footer {
+    grid-area: footer;
+}

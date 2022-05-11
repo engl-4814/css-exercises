@@ -1,0 +1,30 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: minmax(250px, auto);
+  padding: 20px;
+  column-gap: 10px;
+  row-gap: 20px;
+  border: 2px solid red;
+}
+
+.header {
+  border: 2px solid red;
+}
+
+.text {
+  border: 2px solid red;
+}
+.image {
+  border: 2px solid red;
+}
+.more text {
+  border: 2px solid red;
+}
+
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  border: 2px solid red;
+}
