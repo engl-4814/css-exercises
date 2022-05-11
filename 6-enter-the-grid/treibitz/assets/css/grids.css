@@ -1,0 +1,10 @@
+.grid-item {
+    background-color: blanchedalmond;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 10px;
+    background-color: rgb(91, 110, 110);
+}
