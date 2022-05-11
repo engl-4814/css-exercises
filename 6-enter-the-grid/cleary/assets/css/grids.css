@@ -1,0 +1,43 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 100px 2fr 100px;
+  grid-template-rows: 75px 1fr 1fr 75px;
+  margin: auto;
+  gap: auto;
+  grid-template-areas:
+  "image-1"
+  "textbox-1"
+  "image-2"
+  "textbox-2"
+  "footer";
+}
+
+.image-1 {
+  grid-area: image-1;
+}
+
+.textbox-1 {
+  grid-area: textbox-1;
+  margin-top: auto;
+  margin-bottom: 10em;
+  border: paleturquoise;
+  padding-right: 5%;
+}
+
+.image-2 {
+  grid-area: image-2;
+}
+
+.textbox-2 {
+  grid-area: textbox-2;
+  margin-bottom: auto;
+  border: 5px crimson;
+  padding-left: 2%;
+}
+
+.footer {
+  grid-area: footer;
+  margin-right: 5em;
+  border: 5px darkkhaki;
+  padding-top: 6%;
+}
