@@ -1,0 +1,55 @@
+
+.header {background-color: beige;
+      padding: 15px;
+      border: 10px red;
+      grid-area: header;}
+
+.card-1 {
+  grid-area: card-1;
+  font-size: large;
+  font-weight: 500;
+  text-align: center;
+  color: red;
+  background-color: lightcoral;
+}
+
+.card-2 {
+  grid-area: card-2;
+  font-size: large;
+  font-weight: 500;
+  text-align: center;
+  color: red;
+  background-color: lightcyan;
+}
+
+.card-3 {
+  grid-area: card-3;
+  font-size: large;
+  font-weight: 500;
+  text-align: center;
+  color: red;
+  background-color: lightgray;
+}
+
+.card-4 {
+  grid-area: card-4;
+  font-size: large;
+  font-weight: 500;
+  text-align: center;
+  color:red;
+  background-color: lightgrey;
+}
+
+.footer {
+  font-size: 15px;
+  text-align: center;
+}
+
+.main-container {
+  display: grid;
+  margin: 1rem;
+  gap: 1rem;
+  grid-template-areas: "header header"
+  "card-1 card-2"
+  "card-3 card-4";
+}
