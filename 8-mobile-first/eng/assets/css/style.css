@@ -1,0 +1,54 @@
+body {background-color: burlywood;
+font-size: 60px;}
+
+header {font-size: 50px;
+text-decoration-color: cadetblue;
+grid-area: header;}
+
+.container {
+    font-size: 60px;
+}
+
+.textbox-1 {
+    grid-area: container;
+    background: pink;
+    color: saddlebrown;
+}
+
+.textbox-2 {
+    grid-area: textbox2;
+    background: orchid;
+    color: palegoldenrod;
+}
+
+.textbox-3 {
+    grid-area: textbox3;
+}
+
+@media only screen and (min-width: 720px) {
+  .container {
+    display: grid;
+    grid: 1fr 1fr;
+    grid-template-areas: 1fr 1fr;
+    grid-gap:3rem;
+    grid-template-areas: 
+    "header header"
+    "textbox1 textbox2"
+    "textbox3 textbox3"
+    
+  }
+}
+
+ @media screen and (max-width: 1000px) {
+     .container {
+         display: grid;
+         grid: 1fr 1fr;
+         grid-template-areas: 1fr 1fr;
+         grid-gap:3rem;
+         grid-template-areas: 
+         "header header"
+         "textbox1 textbox2"
+         "textbox3 textbox3"
+     }
+    }
+
