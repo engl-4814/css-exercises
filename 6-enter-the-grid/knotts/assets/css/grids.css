@@ -1,34 +1,41 @@
-.grid-container {
+
+/* Content sizing for the images to fit the width of the parent container */
+img {
+  width:100%;
+}
+
+/* You css names didn't match up. Be careful to not copy-paste others' code. */
+.grid {
     display: grid;
     grid-template-columns: 200px 1fr 150px;
     grid-template-rows: 50vh 1fr 1fr 1fr 150px;
     margin: .5rem;
     gap: 1rem;
+    /* Your orig template areas only used 1 of the 3 templated columns */
     grid-template-areas: 
-    "image-1"
-    "textbox-1"
-    "image-2"
+    "image-1 textbox-1 textbox-1"
+    "image-2 textbox-1 textbox-1"
     "footer footer footer";
-  }
+}
 
-  .image-1 {
-    grid-area: image-1;
-  }
+.image-1 {
+  grid-area: image-1;
+}
 
-  .textbox-1 {
-    grid-area: textbox-1;
+.textbox-1 {
+  grid-area: textbox-1;
+  margin-bottom: 5rem;
+  border: 2px solid violet;
+  padding-left: 2%;
+}
+
+.image-2 {
+    grid-area: image-2;
+}
+
+footer {
+    grid-area: footer;
     margin-bottom: 5rem;
-    border: 2px solid violet;
+    border: 4px solid green;
     padding-left: 2%;
-  }
-
-  .image-2 {
-      grid-area: image-2;
-  }
-
-  .footer {
-      grid-area: footer;
-      margin-bottom: 5rem;
-      border: 4px solid green;
-      padding-left: 2%;
-  }
+}
