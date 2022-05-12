@@ -47,15 +47,29 @@
   How can you apply some whitespace and color rules
   to mimic the site example.
 */
-header {
-  background-color: azure(243, 130, 130);
-  color: white;
+h1 {
+  font-size: 50px;
+  color: maroon;
+  font-family: monospace;
+}
+h2 {
+  font-size: 40px;
+  color: navy;
+  font-family: cursive;
+}
+ul {
+  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p {
+  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.logo-box > img {
-  float 
+h3 {
+  font-size: 25px;
+  font-family: monospace;
 }
-
 /* Logo Box */
 
 /* 
