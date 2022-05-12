@@ -1,0 +1,34 @@
+
+
+main { grid-area: main;}
+aside { grid-area: aside;}
+header { grid-area: header;}
+
+@media (max-width: 750px){
+  body{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    gap: 20px;
+    padding: 20px;
+    grid-template-areas: 
+    ". header ."
+    ". main  ."
+    ". aside ."
+  }
+}
+
+@media (min-width: 750px){
+  body{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    gap: 20px;
+    padding: 20px;
+    grid-template-areas: 
+    ". header . "
+    "main . aside"
+    "main . aside"
+    "main . aside"
+  }
+}
