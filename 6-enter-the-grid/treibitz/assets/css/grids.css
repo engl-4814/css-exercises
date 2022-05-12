@@ -1,10 +1,20 @@
+/* Content sizing for your images */
+/* This will tell all images to be the full widht of their parent containers */
+img {
+    width:100%;
+}
+
 .grid-item {
     background-color: blanchedalmond;
 }
 
 .grid-container {
     display: grid;
+    /* Only 1 column defined */
     grid-template-columns: auto;
+    /* This rule below will take precedence */
+    /* Note how I defined 4 columns and what they do to your 4 children grid items. */
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 10px;
     background-color: rgb(91, 110, 110);
 }
