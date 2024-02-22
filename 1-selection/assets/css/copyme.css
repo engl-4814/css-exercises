@@ -1,0 +1,128 @@
+/* NOTE: If you haven't done the readings, you're not ready to dive into this yet. :-) Be sure to do so and come back. */
+
+/*
+  This is a comment in CSS. All of the prompts will be within the comments.
+*/
+
+/* First note how a comment can be all on one line */
+
+/* Or notice how the can span multiple lines:  */
+/*
+  Comments can also span multiple lines
+  another line
+  another line
+  another line
+*/
+
+/* OK, delete these comments above and get started! */
+
+/* ====================================
+  EXERCISE GOALS
+  1. Get acclimated to reading and writing CSS files in relationship with HTML.
+  2. Implement knowledge about the CASCADE! This project models how and why we first write CSS starting with more general rules to more specific rules.
+  2. Practice __selecting__ **specific HTML elements** and **groups of elements** by writing the appropriate types of selector, such as 
+      * type
+      * class
+      * child and descendant combinators
+  3. Practice styling the web page with some basic properties. (We'll learn about more rules to use as we go.)
+==================================== */
+
+/* ==================================== 
+  1. GENERAL Rules 
+
+  By GENERAL rules, I mean you will see how I have selectes elements using the type selector, such as the body or headings ruleset below. This first case selects the <body> element and applies the rules within the {} for not only the body, but ALL OF THE BODY'S children and descendants. That's inheritance at work, yo!
+
+  The beauty of these general rules is that you can define a new default style that elements will use. From there, you can write more specific rules, based on new HTML patterns/contexts/scopes. Indeed, you'll see how, further on down, you will write rules that select more specific elements with classes and combinators.
+==================================== */
+/* 1. GENERAL */
+body {
+  /* Change my values. :-) */
+  background: white;
+  font-size: 18px; 
+}
+
+/* ====================================
+  2. TYPOGRAPAHY
+  Practice creating a very basic font scheme.
+  Select the available textual elements on the page and consider how to thoughtfully apply some of the following basic rules to your selected element(s):
+
+  - "font-size" with a "px" (pixel) value
+  - "font-style" with a "px" (pixel) value
+  - "color" with values like keywords, hex, or rgb values
+      (https://developer.mozilla.org/en-US/docs/Web/CSS/color)
+  - "text-decoration": https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration.
+  - Any box model rule with px: margin, padding, border
+==================================== */
+
+/* Sizing */
+h1 { font-size: 32px; }
+h2 { font-size: 26px; }
+h3 { /*???*/ }
+/* How about the blockquote element? */
+
+/* Styling & Color */
+/*
+  Now select some textual elements and consider any other styles, such as color or some of the font rules. I'll start you off.
+*/
+h1 {
+  text-transform: uppercase;
+}
+h3 {
+  font-style: italic;
+}
+
+
+/* ====================================
+  3. IMAGE Rules
+  Select all of the images and write some general styles for them to share.
+  I recommend the following as a good default.
+==================================== */
+??? {
+  display: block;
+  width: 100%;
+}
+
+
+/* ==================================== 
+  4. REUSABLE CLASSES
+  Take stock of the existing classes being used on the page.
+  Create rulesets for those classes in keeping with what design changes they suggest with their name.
+  For example, what rule would you write for the
+    - .float_left? Look into the values of the "float" rule.
+    - .align_center or .align_right?  Look into the values of the 'text-align' rule.
+    - .img__border_all and .img__border_bottom? Look into the syntax for 'border' and 'border-bottom'
+==================================== */
+
+
+
+/* ====================================
+  5. HEADER
+  - Use rules provided by the box model to style the header in whatever way you'd like: margin, padding, border, width, height.
+  - Now, write a descendant combinator to target the image inside of header's class name. Tell that image to only be a fixed, absolute width of 100px.
+==================================== */
+
+
+
+/* ====================================
+  6. MAIN
+  Select the main element.
+  Apply a "max-width" of 750px.
+  You can center it horizontally with the box model's margin as follows: "margin: auto;"
+  Research into this solution. Why does it work?
+==================================== */
+
+
+
+/* ====================================
+  7. SECTION Rules
+  Select and style anything regarding the patterns establish by the sections on the page.
+==================================== */
+
+
+
+/* ==================================== 
+  8. FOOTER Rules
+  Use rules provided by the box model to style the footer
+  in whatever way you'd like.
+==================================== */
+
