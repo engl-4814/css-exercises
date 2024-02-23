@@ -1,85 +1,118 @@
-/* NOTE: If you haven't done the readings, you're not ready to dive into this yet. :-) Be sure to do so and come back. */
+/* WARNING!
+  (1) If you haven't done the readings, you're not ready to dive into this yet. :-) Be sure to do so and come back. You won't be able to barge your way through this material without some conceptual work first.
 
-/*
-  This is a comment in CSS. All of the prompts will be within the comments.
+  (2) This content is embedded within a CSS comment. All of the prompts will be within the comments. Please write your code after them.
+
+  (3) Delete this comment, when you've got the message from me. :-)
 */
 
-/* First note how a comment can be all on one line */
 
-/* Or notice how the can span multiple lines:  */
-/*
-  Comments can also span multiple lines
-  another line
-  another line
-  another line
+/* =============
+  1. ON COMMENTS
+  ============== */
+
+/* 1.1 Comment Scope
+  Comments have scope like HTML elements. But, instead of opening and closing tags, note the openning and closing syntax that uses the asterisk and forward-slash characters.
+
+  Everything within this defined scope is ignored by the browser, when applying new declaration rulesets to your project.
 */
 
-/* OK, delete these comments above and get started! */
+/* 1.2 Comments can be all on one line */
 
-/* ====================================
-  EXERCISE GOALS
+/* 1.3 Multiline Comments
+
+  line
+  another line
+  another line
+  another line
+
+  You can also collapse/close a multiline comment, if you format it in this particular way. Hover over/around the top/start of this comment to reveal the dropdown button. Practice openning and closing it a few times.
+
+  Notice how you can still see the first line of the comment after you collapse it. That's a hand feature, as you can use comments to create "headings" to document your code.
+*/
+
+/* 1.4 Quick Comment Creation
+  Easily create the opening and closing scope with a simple hotkey combination:
+  - Mac: cmd+/
+  - Windows: ctrl+/
+*/
+
+/* 1.5 You Try
+  Create a new comment after this one by using the hotkey combo on the next line
+*/
+
+/* OK, let's clean up a bit by deleting these comments about comments above and get started! */
+
+/* EXERCISE GOALS ================
+
   1. Get acclimated to reading and writing CSS files in relationship with HTML.
-  2. Implement knowledge about the CASCADE! This project models how and why we first write CSS starting with more general rules to more specific rules.
-  2. Practice __selecting__ **specific HTML elements** and **groups of elements** by writing the appropriate types of selector, such as 
+
+  2. Implement knowledge about the CASCADE, i.e., understanding why we write CSS starting with more __general selections__ to more __specific selections__.
+
+  3. Practice selection, selection, selection. Make sure to read the CSS selection reading, so you can figure out how to read the HTML and select the appropriate HTML element(s), such as
       * type
       * class
       * child and descendant combinators
-  3. Practice styling the web page with some basic properties. (We'll learn about more rules to use as we go.)
+
+  4. Practice styling the web page with some basic properties. (We'll learn about more "properties" to use as we go.)
+
 ==================================== */
 
-/* ==================================== 
-  1. GENERAL Rules 
+/* 2. ROOT & BODY SELECTION
 
-  By GENERAL rules, I mean you will see how I have selectes elements using the type selector, such as the body or headings ruleset below. This first case selects the <body> element and applies the rules within the {} for not only the body, but ALL OF THE BODY'S children and descendants. That's inheritance at work, yo!
+  ROOT SELECTION means selecting the <html> root tag of the page. You do so in a special way by writing the following characters in between the double quotations: ":root"
+
+  When you select the root, and write rules to it, you will begin to learn how the genetic inheritance metaphor of HTML elements becomes much more literal. Why? Because if <html> is the progenitor of all that it contains, then you should recognize now that all elements can potentially inherit the root's properties that you apply to it.
+
+  The same goes for the other big scoped container: the <body>. Consider how all of the elements within the <body> are either direct children or descendants of the <body>. So, if you change the default properties of the <body>, like its 'background-color' property, then all of the HTML elements within the body will inherit that new property, unless you define it otherwise in a more specific selection condition.
+
+  The beauty of these general rules is that you can define a new default style that all child and descendat elements will inherit. From there, you can write more specific rules, based on new HTML patterns/contexts/scopes. Indeed, you'll see how, further on down, you will write rules that select more specific elements with classes and combinators.
+==================================== */
+:root {
+  /* The default font size is 16px, defined bu the "user agent" browser vendor, e.g., Chrome, Safari, Firefox, etc. */
+  font-size: 18px;
+  /* Change the root's default background color from white to black */
+  background-color: black;
+  /* Change the root's default text color from black to white */
+  color: white;
+}
+
+/* 3. GENERAL SELECTION ============
+
+  Beyond the :root and body, GENERAL SELECTION typically refers to the simplest selection technique, which uses the the TYPE selector.
+
+  TYPE selectors are just the names of the HTML elements. So, to select ALL
+    - paragraphs on a page, write p
+    - sections on a page, write section
+    - blockquotes on the page, blockquote
+    - etc.
 
   The beauty of these general rules is that you can define a new default style that elements will use. From there, you can write more specific rules, based on new HTML patterns/contexts/scopes. Indeed, you'll see how, further on down, you will write rules that select more specific elements with classes and combinators.
 ==================================== */
+
 /* 1. GENERAL */
 body {
-  /* Change my values. :-) */
-  background: white;
-  font-size: 18px; 
+  /* Change my values and inspect the changes to the body. Then, come back and note some of your observations in the comment below about the relationships between the rules in the :root and the rules for the body */
+  /* Be sure to select the <html> element, then scroll down and through all of the styles that are defined on it. The inspection tool will tell you the "Origin" of the style, whether it's from your stylesheet or the "user agent" */
+  font-size: 16px;
+  background-color: white;
+  color: black;
+  /* Write your observations here. */
 }
 
-/* ====================================
-  2. TYPOGRAPAHY
-  Practice creating a very basic font scheme.
-  Select the available textual elements on the page and consider how to thoughtfully apply some of the following basic rules to your selected element(s):
-
-  - "font-size" with a "px" (pixel) value
-  - "font-style" with a "px" (pixel) value
-  - "color" with values like keywords, hex, or rgb values
-      (https://developer.mozilla.org/en-US/docs/Web/CSS/color)
-  - "text-decoration": https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration.
-  - Any box model rule with px: margin, padding, border
-==================================== */
+/* 2. TYPOGRAPAHY */
 
 /* Sizing */
 h1 { font-size: 32px; }
 h2 { font-size: 26px; }
-h3 { /*???*/ }
-/* How about the blockquote element? */
-
-/* Styling & Color */
-/*
-  Now select some textual elements and consider any other styles, such as color or some of the font rules. I'll start you off.
-*/
-h1 {
-  text-transform: uppercase;
-}
-h3 {
-  font-style: italic;
-}
+/* Add a font-size for all h3 elements */
+h3 {  }
+/* Select all blockquote elements and change the font-size */
 
 
-/* ====================================
-  3. IMAGE Rules
-  Select all of the images and write some general styles for them to share.
-  I recommend the following as a good default.
-==================================== */
-??? {
-  display: block;
-  width: 100%;
+/* 3. IMAGES */
+img {
+  /* We'll cover this one in class together. */
 }
 
 
@@ -88,12 +121,21 @@ h3 {
   Take stock of the existing classes being used on the page.
   Create rulesets for those classes in keeping with what design changes they suggest with their name.
   For example, what rule would you write for the
+
     - .float_left? Look into the values of the "float" rule.
     - .align_center or .align_right?  Look into the values of the 'text-align' rule.
     - .img__border_all and .img__border_bottom? Look into the syntax for 'border' and 'border-bottom'
+
 ==================================== */
 
 
+/*
+  Ok, we've written some more general rules that can be applied in numerous places. Now, let's use the Position rule to our advantage and write our CSS in relationship to the position of the HTML source order:
+    - Header
+    - Main
+    - Section
+    - Footer
+ */
 
 /* ====================================
   5. HEADER
@@ -115,14 +157,13 @@ h3 {
 
 /* ====================================
   7. SECTION Rules
-  Select and style anything regarding the patterns establish by the sections on the page.
+  Select and style anything regarding the sections on the page and their contents.
 ==================================== */
 
 
 
 /* ==================================== 
   8. FOOTER Rules
-  Use rules provided by the box model to style the footer
-  in whatever way you'd like.
+  Same with the footer.
 ==================================== */
 

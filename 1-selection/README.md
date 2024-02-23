@@ -28,8 +28,8 @@
 
 2. Never use your browser's inspection tool.
     * **Why?** How will you know if it is working, unless you inspect it and study it?
-    * **Consequences**:
-    * **Solution**: Be sure to practice selecting one element at a time, adding a ruleset, and then testing it in your browser **before moving onto the next prompt**. Make a change in your CSS, save it, then review it in your browser. If you don't practice this step-by-step process, you risk creating a twisty ALL-THE-ERRORS knot to untie.
+    * **Consequences**: Same as the above.
+    * **Solution**: Practice, practice, practice selecting one component element at a time, adding a ruleset, and then testing it in your browser **before moving onto the next prompt**.
 
 ## EXAMPLE END RESULT
 
