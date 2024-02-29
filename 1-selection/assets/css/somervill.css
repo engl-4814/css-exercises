@@ -126,6 +126,9 @@
     Select and style anything regarding the sections on the page and their contents.
   ==================================== */
   section {
+    margin: auto;
+    max-width: 800px;
+    padding: 10ch;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: darkslategray;
   }
@@ -137,6 +140,7 @@
   ==================================== */
   
   footer {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background: darkslategray;
     color: white;
   }
