@@ -77,4 +77,22 @@
 /*======================
   3. RECREATE THE DESIGN
 ======================*/
+.floating-images {
+  margin: 20%;
+  padding: 10em;
+}
 
+img {
+  width: 25%;
+  height: 25%;
+  margin: 1em;
+  display: block;
+}
+
+#left {
+  float: left;
+}
+
+#right {
+  float: right;
+}
