@@ -35,52 +35,52 @@
 =============*/
 
 :root {
-  --backgroundColor: #fff;
-  --foregroundColor: #111;
+  --backgroundColor: #7A2424;
+  --foregroundColor: #D8D8D8;
 
-  --primaryColor: #03a9f4;
-  --primaryShade1: #e1f5fe;
-  --primaryShade2: #b3e5fc;
-  --primaryShade3: #4fc3f7;
-  --primaryShade4: #0288d1;
-  --primaryShade5: #0277bd;
+  --primaryColor: #FF0000;
+  --primaryShade1: #D52323;
+  --primaryShade2: #E20000;
+  --primaryShade3: #332B2B;
+  --primaryShade4: #553939;
+  --primaryShade5: #804040;
 
-  --secondaryColor: #673ab7;
-  --secondaryShade1: #ede7f6;
-  --secondaryShade2: #d1c4e9;
-  --secondaryShade3: #9575cd;
-  --secondaryShade4: #512da8;
-  --secondaryShade5: #311b92;
+  --secondaryColor: #D13FD1;
+  --secondaryShade1: #B436B4;
+  --secondaryShade2: #982E98;
+  --secondaryShade3: #7C257C;
+  --secondaryShade4: #601D60;
+  --secondaryShade5: #441444;
 
-  --accentColor: #009688;
-  --accentShade1: #e0f2f1;
-  --accentShade2: #b2dfdb;
-  --accentShade3: #4db6ac;
-  --accentShade4: #00796b;
-  --accentShade5: #004d40;
+  --accentColor: #D9D9D9;
+  --accentShade1: #E3E3E3;
+  --accentShade2: #C7C7C7;
+  --accentShade3: #BCBCBC;
+  --accentShade4: #A9A9A9;
+  --accentShade5: #525252;
 
-  --accent2Color: #8bc34a;
-  --accent2Shade1: #e7f6d5;
-  --accent2Shade2: #c5e1a5;
-  --accent2Shade3: #aed581;
-  --accent2Shade4: #689f38;
-  --accent2Shade5: #558b2f;
+  --accent2Color: #333333;
+  --accent2Shade1: #5A5A5A;
+  --accent2Shade2: #3E3E3E;
+  --accent2Shade3: #5A5A5A;
+  --accent2Shade4: #202020;
+  --accent2Shade5: #222222;
 
-  --accent3Color: #f44336;
-  --accent3Shade1: #ffdde0;
-  --accent3Shade2: #ffcdd2;
-  --accent3Shade3: #ef9a9a;
-  --accent3Shade4: #d32f2f;
-  --accent3Shade5: #b71c1c;
+  --accent3Color: #BCBCBC;
+  --accent3Shade1: #F8F8F8;
+  --accent3Shade2: #B4B4B4;
+  --accent3Shade3: #929292;
+  --accent3Shade4: #707070;
+  --accent3Shade5: #4E4E4E;
 
-  --neutralShade1: #f2f2f2;
-  --neutralShade2: #e8e9e9;
-  --neutralShade3: #d1d3d4;
-  --neutralShade4: #babdbf;
-  --neutralShade5: #808488;
-  --neutralShade6: #666a6d;
-  --neutralShade7: #4d5052;
-  --neutralShade8: #212122;
+  --neutralShade1: #A73131;
+  --neutralShade2: #CB3B3B;
+  --neutralShade3: #AE3333;
+  --neutralShade4: #922A2A;
+  --neutralShade5: #762222;
+  --neutralShade6: #5A1A1A;
+  --neutralShade7: #3E1212;
+  --neutralShade8: #220A0A;
 
   --grayColor: #999;
   --lightGrayColor: #ddd;
