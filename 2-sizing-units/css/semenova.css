@@ -28,8 +28,13 @@
   .img_relative_percentage {
     float: left;
     padding: 15px;
+  .p{
+    background-color: antiquewhite;
+  }
+
   }
 }
+
 /*
   Below, for #1, create a new class or classes to test out padding and margins with any of the lengths' values.
   Be sure to test them out in the browser's inspection tool.
