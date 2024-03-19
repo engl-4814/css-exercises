@@ -6,7 +6,7 @@
   IMPORT FONTS
   1. Import your own fonts via https://fonts.google.com. Be sure to revise the family names in the CSS and in the HTML
 ==============*/
-@import url("@import url('https://fonts.googleapis.com/css2?family=Anybody:ital,wght@0,100..900;1,100..900&family=Noto+Sans+Khojki&display=swap')");
+@import url("https://fonts.googleapis.com/css2?family=Arya:wght@400;700&family=Cuprum:ital,wght@0,400..700;1,400..700&family=Darker+Grotesque:wght@300..900&family=Denk+One&family=Wellfleet&family=Young+Serif&display=swap");
 
 /*============
   COLOR SCHEME
@@ -38,33 +38,33 @@
   --backgroundColor: #fff;
   --foregroundColor: #111;
 
-  --primaryColor: #dbe9ef;
-  --primaryShade1: #026b9b;
-  --primaryShade2: #25424f;
-  --primaryShade3: #4fc3f7;
-  --primaryShade4: #0288d1;
-  --primaryShade5: #0277bd;
+  --primaryColor: #be1300;
+  --primaryShade1: #fe8d81;
+  --primaryShade2: #ff523ff5;
+  --primaryShade3: #ff3d27;
+  --primaryShade4: #f91900;
+  --primaryShade5: #960f00;
 
-  --secondaryColor: #673ab7;
-  --secondaryShade1: #ede7f6;
-  --secondaryShade2: #d1c4e9;
-  --secondaryShade3: #9575cd;
-  --secondaryShade4: #512da8;
-  --secondaryShade5: #311b92;
+  --secondaryColor: #ff6a00;
+  --secondaryShade1: #ffc69e;
+  --secondaryShade2: #ffa15e;
+  --secondaryShade3: #ff8f3f;
+  --secondaryShade4: #ff7513;
+  --secondaryShade5: #eb6200;
 
-  --accentColor: #009688;
-  --accentShade1: #e0f2f1;
-  --accentShade2: #b2dfdb;
-  --accentShade3: #4db6ac;
-  --accentShade4: #00796b;
-  --accentShade5: #004d40;
+  --accentColor: #dfd6cf;
+  --accentShade1: #fff9f3;
+  --accentShade2: #d8d4d1;
+  --accentShade3: #b6b4b1;
+  --accentShade4: #6c6865;
+  --accentShade5: #343434;
 
-  --accent2Color: #8bc34a;
-  --accent2Shade1: #e7f6d5;
-  --accent2Shade2: #c5e1a5;
-  --accent2Shade3: #aed581;
-  --accent2Shade4: #689f38;
-  --accent2Shade5: #558b2f;
+  --accent2Color: #ffd000;
+  --accent2Shade1: #f2e196;
+  --accent2Shade2: #ffe77d;
+  --accent2Shade3: #f8dc5d;
+  --accent2Shade4: #ffd724;
+  --accent2Shade5: #d7b105;
 
   --accent3Color: #f44336;
   --accent3Shade1: #ffdde0;
@@ -86,8 +86,8 @@
   --lightGrayColor: #ddd;
 
   /* Fonts */
-  --copyFontFamily: "Anybody", sans-serif;
-  --headingFontFamily: "Noto+Sans+Khoj", serif;
+  --copyFontFamily: "Arya", sans-serif;
+  --headingFontFamily: "Denk One", serif;
   /* Change default root font size (16px), if desired */
   font-size: 18px;
 
