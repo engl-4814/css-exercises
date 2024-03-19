@@ -30,11 +30,7 @@
 
   Be sure to understand the difference between padding and margins and how to write the shorthand versions.
 */
-.abs_rel_lengths__container {
-  padding: 10%;
-  margin-top: 2rem;
-  margin-bottom: 1rem;
-}
+
 
 /*===============
   2. IMAGE SIZING
@@ -55,44 +51,37 @@
     - Inspect each image and change their values.
     - AS you do so, also hover over the HTML of those images to compare their box dimensions and see if you understand why their size is as it is.
 */
+
 .img_sizing__container {
+  background: cornsilk;
   width: 65vw;
 }
-
 
 .img_absolute_px {
   width: 100px;
 }
 
-
 .img_relative_percentage {
-  width: 50%;
+  height: 50%;
 }
 
-
 .img_relative_vw {
-  width: 45vw;
+  height: 10vw;
 }
 
 /*======================
   3. RECREATE THE DESIGN
 ======================*/
-.floating-images {
-  margin: 20%;
-  padding: 10em;
-}
 
-img {
-  width: 25%;
-  height: 25%;
-  margin: 1em;
-  display: block;
-}
-
-#left {
+.wireframe_1 {
+  height: 75%;
+  width: 75%;
   float: left;
+  font-size: 25px;
 }
 
-#right {
+.wireframe_2 {
+  height: 50%;
+  width: 50%;
   float: right;
 }
