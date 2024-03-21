@@ -38,19 +38,17 @@
   --backgroundColor: #fff;
   --foregroundColor: #111;
 
-  --primaryColor: #dbe9ef;
-  --primaryShade1: #026b9b;
-  --primaryShade2: #25424f;
-  --primaryShade3: #4fc3f7;
-  --primaryShade4: #0288d1;
-  --primaryShade5: #0277bd;
+  --primaryColor: #600830;
+  --primaryShade1: #500830;
+  --primaryShade2: #400028;
+  --primaryShade3: #300028;
+  --primaryShade4: #200028;
 
-  --secondaryColor: #673ab7;
-  --secondaryShade1: #ede7f6;
-  --secondaryShade2: #d1c4e9;
-  --secondaryShade3: #9575cd;
-  --secondaryShade4: #512da8;
-  --secondaryShade5: #311b92;
+  --secondaryColor: #91432b;
+  --secondaryShade1: #903b31;
+  --secondaryShade2: #8e3436;
+  --secondaryShade3: #8b2e3c;
+  --secondaryShade4: #862842;
 
   --accentColor: #009688;
   --accentShade1: #e0f2f1;
@@ -87,7 +85,7 @@
 
   /* Fonts */
   --copyFontFamily: "Anybody", sans-serif;
-  --headingFontFamily: "Noto+Sans+Khoj", serif;
+  --headingFontFamily: "EB Garamond", serif;
   /* Change default root font size (16px), if desired */
   font-size: 18px;
 
