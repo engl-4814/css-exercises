@@ -6,7 +6,7 @@
   IMPORT FONTS
   1. Import your own fonts via https://fonts.google.com. Be sure to revise the family names in the CSS and in the HTML
 ==============*/
-@import url("@import url('https://fonts.googleapis.com/css2?family=Anybody:ital,wght@0,100..900;1,100..900&family=Noto+Sans+Khojki&display=swap')");
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Yuji+Boku&display=swap');
 
 /*============
   COLOR SCHEME
@@ -36,28 +36,28 @@
 
 :root {
   --backgroundColor: #fff;
-  --foregroundColor: #111;
+  --foregroundColor: #025959;
 
-  --primaryColor: #dbe9ef;
-  --primaryShade1: #026b9b;
-  --primaryShade2: #25424f;
-  --primaryShade3: #4fc3f7;
-  --primaryShade4: #0288d1;
-  --primaryShade5: #0277bd;
+  --primaryColor: #4D8C5D;
+  --primaryShade1: #d4e9d9;
+  --primaryShade2: #a6ccaf;
+  --primaryShade3: #4a7f57;
+  --primaryShade4: #1d612e;
+  --primaryShade5: #00340d;
 
-  --secondaryColor: #673ab7;
-  --secondaryShade1: #ede7f6;
-  --secondaryShade2: #d1c4e9;
-  --secondaryShade3: #9575cd;
-  --secondaryShade4: #512da8;
-  --secondaryShade5: #311b92;
+  --secondaryColor: #F24C3D;
+  --secondaryShade1: #f3e1e0;
+  --secondaryShade2: #edb3ae;
+  --secondaryShade3: #fc7d71;
+  --secondaryShade4: #ec1b08;
+  --secondaryShade5: #710900;
 
-  --accentColor: #009688;
-  --accentShade1: #e0f2f1;
-  --accentShade2: #b2dfdb;
-  --accentShade3: #4db6ac;
-  --accentShade4: #00796b;
-  --accentShade5: #004d40;
+  --accentColor: #f6621e;
+  --accentShade1: #f8e0d5;
+  --accentShade2: #f1bda4;
+  --accentShade3: #f69669;
+  --accentShade4: #f97538;
+  --accentShade5: #d64603;
 
   --accent2Color: #8bc34a;
   --accent2Shade1: #e7f6d5;
@@ -66,12 +66,12 @@
   --accent2Shade4: #689f38;
   --accent2Shade5: #558b2f;
 
-  --accent3Color: #f44336;
-  --accent3Shade1: #ffdde0;
-  --accent3Shade2: #ffcdd2;
-  --accent3Shade3: #ef9a9a;
-  --accent3Shade4: #d32f2f;
-  --accent3Shade5: #b71c1c;
+  --accent3Color: #025959;
+  --accent3Shade1: #daffff;
+  --accent3Shade2: #b5ffff;
+  --accent3Shade3: #79ffff;
+  --accent3Shade4: #1ea4a4;
+  --accent3Shade5: #004242;
 
   --neutralShade1: #f2f2f2;
   --neutralShade2: #e8e9e9;
@@ -86,8 +86,9 @@
   --lightGrayColor: #ddd;
 
   /* Fonts */
-  --copyFontFamily: "Anybody", sans-serif;
-  --headingFontFamily: "Noto+Sans+Khoj", serif;
+  --copyFontFamily: "PT Serif", sans-serif;
+  --headingFontFamily: "Kanit", serif;
+  --displayFontFamily: "Yuji Boku", sans-serif;
   /* Change default root font size (16px), if desired */
   font-size: 18px;
 
@@ -113,7 +114,8 @@ body {
 
 /* Font Families */
 body { font-family: var(--copyFontFamily); }
-h1,h2,h3 { font-family: var(--headingFontFamily); }
+h2,h3 { font-family: var(--headingFontFamily); }
+h1 {font-family: var(--displayFontFamily); }
 
 /* Emphasis and Bolding */
 strong { font-weight: 500; }
