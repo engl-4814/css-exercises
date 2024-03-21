@@ -6,7 +6,7 @@
   IMPORT FONTS
   1. Import your own fonts via https://fonts.google.com. Be sure to revise the family names in the CSS and in the HTML
 ==============*/
-@import url("@import url('https://fonts.googleapis.com/css2?family=Anybody:ital,wght@0,100..900;1,100..900&family=Noto+Sans+Khojki&display=swap')");
+@import url('https://fonts.googleapis.com/css2?family=Farro:wght@300;400;500;700&family=Linden+Hill:ital@0;1&display=swap');
 
 /*============
   COLOR SCHEME
@@ -38,9 +38,9 @@
   --backgroundColor: #fff;
   --foregroundColor: #111;
 
-  --primaryColor: #dbe9ef;
-  --primaryShade1: #026b9b;
-  --primaryShade2: #25424f;
+  --primaryColor: #03a9f4;
+  --primaryShade1: #e1f5fe;
+  --primaryShade2: #b3e5fc;
   --primaryShade3: #4fc3f7;
   --primaryShade4: #0288d1;
   --primaryShade5: #0277bd;
@@ -86,8 +86,8 @@
   --lightGrayColor: #ddd;
 
   /* Fonts */
-  --copyFontFamily: "Anybody", sans-serif;
-  --headingFontFamily: "Noto+Sans+Khoj", serif;
+  --copyFontFamily: "Farro", sans-serif;
+  --headingFontFamily: "Linden Hill", serif;
   /* Change default root font size (16px), if desired */
   font-size: 18px;
 

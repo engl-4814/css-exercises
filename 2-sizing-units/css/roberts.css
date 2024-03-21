@@ -7,12 +7,12 @@
   1. ABSOLUTE LENGTHS VS RELATIVE LENGTHS
 =======================================*/
 .abs_rel_lengths__container {
-  font-size: 14px;
-  width: 30%;
+  font-size: 20px;
+  width: 50%;
   border: black solid 2px;
 }
 .abs_rel_lengths__container > div {
-  background: rgb(100, 21, 100);
+  background: purple;
   padding: 1em;
   margin: 1rem;
   color: white;
@@ -23,17 +23,6 @@
 .em { width: 30em; }
 .rem { width: 30rem; }
 .percentage { width: 30%; }
-
-.floating_images_container{
-  .img_relative_percentage {
-    float: left;
-    padding: 15px;
-  .p{
-    background-color: antiquewhite;
-  }
-
-  }
-}
 
 /*
   Below, for #1, create a new class or classes to test out padding and margins with any of the lengths' values.
@@ -63,9 +52,16 @@
     - AS you do so, also hover over the HTML of those images to compare their box dimensions and see if you understand why their size is as it is.
 */
 
-
-
 /*======================
   3. RECREATE THE DESIGN
 ======================*/
 
+/* GENERAL HELPER CLASSES */
+.float_left { float: left; }
+.float_right { float: right; }
+
+
+/* COMPONENT CLASS */
+.floating_images_container {
+
+}
