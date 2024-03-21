@@ -6,7 +6,7 @@
   IMPORT FONTS
   1. Import your own fonts via https://fonts.google.com. Be sure to revise the family names in the CSS and in the HTML
 ==============*/
-@import url("@import url('https://fonts.googleapis.com/css2?family=Anybody:ital,wght@0,100..900;1,100..900&family=Noto+Sans+Khojki&display=swap')");
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 /*============
   COLOR SCHEME
@@ -38,19 +38,19 @@
   --backgroundColor: #fff;
   --foregroundColor: #111;
 
-  --primaryColor: #058dc8;
-  --primaryShade1: #026b9b;
-  --primaryShade2: #25424f;
-  --primaryShade3: #4fc3f7;
-  --primaryShade4: #0288d1;
-  --primaryShade5: #0277bd;
+  --primaryColor: #7a80a6;
+  --primaryShade1: #6c729d;
+  --primaryShade2: #6c729d;
+  --primaryShade3: #5a5e87;
+  --primaryShade4: #3d405b;
+  --primaryShade5: #313349;
 
-  --secondaryColor: #673ab7;
-  --secondaryShade1: #ede7f6;
-  --secondaryShade2: #d1c4e9;
-  --secondaryShade3: #9575cd;
-  --secondaryShade4: #512da8;
-  --secondaryShade5: #311b92;
+  --secondaryColor: #472147;
+  --secondaryShade1: #765876;
+  --secondaryShade2: #6a456b;
+  --secondaryShade3: #5a315b;
+  --secondaryShade4: #3f1b40;
+  --secondaryShade5: #280f2a;
 
   --accentColor: #009688;
   --accentShade1: #e0f2f1;
@@ -86,8 +86,8 @@
   --lightGrayColor: #ddd;
 
   /* Fonts */
-  --copyFontFamily: "Anybody", sans-serif;
-  --headingFontFamily: "Noto+Sans+Khoj", serif;
+  --copyFontFamily: "Poppins", sans-serif;
+  --headingFontFamily: "EB Garamond", serif;
   /* Change default root font size (16px), if desired */
   font-size: 18px;
 
