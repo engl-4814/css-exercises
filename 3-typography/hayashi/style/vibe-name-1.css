@@ -6,7 +6,7 @@
   IMPORT FONTS
   1. Import your own fonts via https://fonts.google.com. Be sure to revise the family names in the CSS and in the HTML
 ==============*/
-@import url("@import url('https://fonts.googleapis.com/css2?family=Anybody:ital,wght@0,100..900;1,100..900&family=Noto+Sans+Khojki&display=swap')");
+@import url('https://fonts.googleapis.com/css2?family=Metamorphous&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 /*============
   COLOR SCHEME
@@ -35,59 +35,59 @@
 =============*/
 
 :root {
-  --backgroundColor: #fff;
-  --foregroundColor: #111;
+  --backgroundColor: #f5f5f5;
+  --foregroundColor: #0b3036;
 
-  --primaryColor: #dbe9ef;
-  --primaryShade1: #026b9b;
-  --primaryShade2: #25424f;
-  --primaryShade3: #4fc3f7;
-  --primaryShade4: #0288d1;
-  --primaryShade5: #0277bd;
+  --primaryColor: #91c6cf;
+  --primaryShade1: #b1fcef;
+  --primaryShade2: #B1D9FC;
+  --primaryShade3: #9CD5DF;
+  --primaryShade4: #9CDFBD;
+  --primaryShade5: #B1C1FC;
 
-  --secondaryColor: #673ab7;
-  --secondaryShade1: #ede7f6;
-  --secondaryShade2: #d1c4e9;
-  --secondaryShade3: #9575cd;
-  --secondaryShade4: #512da8;
-  --secondaryShade5: #311b92;
+  --secondaryColor: #E3E3E3;
+  --secondaryShade1: #C6C6C6;
+  --secondaryShade2: #AAAAAA;
+  --secondaryShade3: #8E8E8E;
+  --secondaryShade4: #727272;
+  --secondaryShade5: #565656;
 
-  --accentColor: #009688;
-  --accentShade1: #e0f2f1;
-  --accentShade2: #b2dfdb;
-  --accentShade3: #4db6ac;
+  --accentColor: #0b3036;
+  --accentShade1: #114A53;
+  --accentShade2: #176571;
+  --accentShade3: #1C7E8D;
   --accentShade4: #00796b;
-  --accentShade5: #004d40;
+  --accentShade5: #27B0C5;
 
-  --accent2Color: #8bc34a;
-  --accent2Shade1: #e7f6d5;
-  --accent2Shade2: #c5e1a5;
-  --accent2Shade3: #aed581;
-  --accent2Shade4: #689f38;
-  --accent2Shade5: #558b2f;
+  --accent2Color: #16466E;
+  --accent2Shade1: #1C598B;
+  --accent2Shade2: #16626E;
+  --accent2Shade3: #1C7C8B;
+  --accent2Shade4: #1C7D8C;
+  --accent2Shade5: #2297A9;
 
-  --accent3Color: #f44336;
-  --accent3Shade1: #ffdde0;
-  --accent3Shade2: #ffcdd2;
-  --accent3Shade3: #ef9a9a;
-  --accent3Shade4: #d32f2f;
-  --accent3Shade5: #b71c1c;
+  --accent3Color: #B1FCF0;
+  --accent3Shade1: #9CDFD4;
+  --accent3Shade2: #87C1B7;
+  --accent3Shade3: #73A59C;
+  --accent3Shade4: #608981;
+  --accent3Shade5: #4C6D66;
 
-  --neutralShade1: #f2f2f2;
-  --neutralShade2: #e8e9e9;
-  --neutralShade3: #d1d3d4;
-  --neutralShade4: #babdbf;
-  --neutralShade5: #808488;
-  --neutralShade6: #666a6d;
-  --neutralShade7: #4d5052;
-  --neutralShade8: #212122;
+  --neutralShade1: #E1EED7;
+  --neutralShade2: #EAEDD5;
+  --neutralShade3: #D6EDD5;
+  --neutralShade4: #BCD0BB;
+  --neutralShade5: #D1CFBC;
+  --neutralShade6: #D0CEBB;
+  --neutralShade7: #BBD0C2;
+  --neutralShade8: #D5EDDD;
 
-  --grayColor: #999;
+  --grayColor: #A9A9A9;
   --lightGrayColor: #ddd;
 
   /* Fonts */
-  --copyFontFamily: "Anybody", sans-serif;
-  --headingFontFamily: "Noto+Sans+Khoj", serif;
+  --copyFontFamily: "Open Sans", sans-serif;
+  --headingFontFamily: "Metamorphous", serif;
   /* Change default root font size (16px), if desired */
   font-size: 18px;
 
@@ -116,7 +116,7 @@ body { font-family: var(--copyFontFamily); }
 h1,h2,h3 { font-family: var(--headingFontFamily); }
 
 /* Emphasis and Bolding */
-strong { font-weight: 500; }
+strong { font-weight: 400; }
 em { font-style: italic; }
 
 /* Font Weight, Sizing & Spacing */
@@ -126,24 +126,24 @@ body {
   transition: all 0.3s ease;
 }
 h1 {
-  font-weight: 700;
+  font-weight: 900;
   font-size: clamp(2.5rem,3rem,3.5rem);
   line-height: 1.2;
   text-transform: uppercase;
 }
 h2 {
-  font-weight: 500;
+  font-weight: 700;
   font-size: clamp(1.75rem,2rem,2.5rem);
   line-height: 1.2;
   text-transform: uppercase;
 }
 h3 {
-  font-weight: 500;
+  font-weight: 600;
   font-size: clamp(1.25rem,1.5rem,1.75rem);
   line-height: 1.2;
 }
 h4 {
-  font-weight: 300;
+  font-weight: 400;
   font-size: clamp(1.25rem,1.5rem,1.75rem);
   line-height: 1.2;
   font-style: italic;
@@ -159,7 +159,7 @@ h6 {
   line-height: 1.2;
 }
 
-a { font-weight: 500; }
+a { font-weight: 400; }
 
 /* Default Font Colors & Styling */
 
