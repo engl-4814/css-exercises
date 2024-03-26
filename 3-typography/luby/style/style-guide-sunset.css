@@ -71,21 +71,21 @@
   --accent3Shade4: #d32f2f;
   --accent3Shade5: #b71c1c;
 
-  --neutralShade1: #f2f2f2;
-  --neutralShade2: #e8e9e9;
-  --neutralShade3: #d1d3d4;
-  --neutralShade4: #babdbf;
-  --neutralShade5: #808488;
-  --neutralShade6: #666a6d;
-  --neutralShade7: #4d5052;
-  --neutralShade8: #212122;
+  --neutralShade1: #d9b99b;
+  --neutralShade2: #bfa083;
+  --neutralShade3: #a6876c;
+  --neutralShade4: #8e6f55;
+  --neutralShade5: #765940;
+  --neutralShade6: #5f432c;
+  --neutralShade7: #482e18;
+  --neutralShade8: #331a00;
 
   --grayColor: #999;
   --lightGrayColor: #ddd;
 
   /* Fonts */
-  --copyFontFamily: "Anybody", sans-serif;
-  --headingFontFamily: "EB Garamond", serif;
+  --copyFontFamily: "Palanquin", sans-serif;
+  --headingFontFamily: "Tinos", serif;
   /* Change default root font size (16px), if desired */
   font-size: 18px;
 
