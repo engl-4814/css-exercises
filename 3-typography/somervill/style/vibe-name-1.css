@@ -6,7 +6,7 @@
   IMPORT FONTS
   1. Import your own fonts via https://fonts.google.com. Be sure to revise the family names in the CSS and in the HTML
 ==============*/
-@import url('https://fonts.googleapis.com/css2?family=Mukta+Mahee:wght@200;300;400;500;600;700;800&family=Simonetta:ital,wght@0,400;0,900;1,400;1,900&display=swap') ;
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Yuji+Boku&display=swap');
 
 /*============
   COLOR SCHEME
@@ -35,61 +35,62 @@
 =============*/
 
 :root {
-  --backgroundColor: #7A2424;
-  --foregroundColor: #D8D8D8;
+  --backgroundColor: #fff;
+  --foregroundColor: #025959;
 
-  --primaryColor: #FF0000;
-  --primaryShade1: #D52323;
-  --primaryShade2: #E20000;
-  --primaryShade3: #332B2B;
-  --primaryShade4: #553939;
-  --primaryShade5: #804040;
+  --primaryColor: #4D8C5D;
+  --primaryShade1: #d4e9d9;
+  --primaryShade2: #a6ccaf;
+  --primaryShade3: #4a7f57;
+  --primaryShade4: #1d612e;
+  --primaryShade5: #00340d;
 
-  --secondaryColor: #D13FD1;
-  --secondaryShade1: #B436B4;
-  --secondaryShade2: #982E98;
-  --secondaryShade3: #7C257C;
-  --secondaryShade4: #601D60;
-  --secondaryShade5: #441444;
+  --secondaryColor: #F24C3D;
+  --secondaryShade1: #f3e1e0;
+  --secondaryShade2: #edb3ae;
+  --secondaryShade3: #fc7d71;
+  --secondaryShade4: #ec1b08;
+  --secondaryShade5: #710900;
 
-  --accentColor: #D9D9D9;
-  --accentShade1: #E3E3E3;
-  --accentShade2: #C7C7C7;
-  --accentShade3: #BCBCBC;
-  --accentShade4: #A9A9A9;
-  --accentShade5: #525252;
+  --accentColor: #f6621e;
+  --accentShade1: #f8e0d5;
+  --accentShade2: #f1bda4;
+  --accentShade3: #f69669;
+  --accentShade4: #f97538;
+  --accentShade5: #d64603;
 
-  --accent2Color: #333333;
-  --accent2Shade1: #5A5A5A;
-  --accent2Shade2: #3E3E3E;
-  --accent2Shade3: #5A5A5A;
-  --accent2Shade4: #202020;
-  --accent2Shade5: #222222;
+  --accent2Color: #8bc34a;
+  --accent2Shade1: #e7f6d5;
+  --accent2Shade2: #c5e1a5;
+  --accent2Shade3: #aed581;
+  --accent2Shade4: #689f38;
+  --accent2Shade5: #558b2f;
 
-  --accent3Color: #BCBCBC;
-  --accent3Shade1: #F8F8F8;
-  --accent3Shade2: #B4B4B4;
-  --accent3Shade3: #929292;
-  --accent3Shade4: #707070;
-  --accent3Shade5: #4E4E4E;
+  --accent3Color: #025959;
+  --accent3Shade1: #daffff;
+  --accent3Shade2: #b5ffff;
+  --accent3Shade3: #79ffff;
+  --accent3Shade4: #1ea4a4;
+  --accent3Shade5: #004242;
 
-  --neutralShade1: #A73131;
-  --neutralShade2: #CB3B3B;
-  --neutralShade3: #AE3333;
-  --neutralShade4: #922A2A;
-  --neutralShade5: #762222;
-  --neutralShade6: #5A1A1A;
-  --neutralShade7: #3E1212;
-  --neutralShade8: #220A0A;
+  --neutralShade1: #f2f2f2;
+  --neutralShade2: #e8e9e9;
+  --neutralShade3: #d1d3d4;
+  --neutralShade4: #babdbf;
+  --neutralShade5: #808488;
+  --neutralShade6: #666a6d;
+  --neutralShade7: #4d5052;
+  --neutralShade8: #212122;
 
   --grayColor: #999;
   --lightGrayColor: #ddd;
 
   /* Fonts */
-  --copyFontFamily: "Mukta Mahee", sans-serif;
-  --headingFontFamily: "Simonetta", serif;
+  --copyFontFamily: "PT Serif", sans-serif;
+  --headingFontFamily: "Kanit", serif;
+  --displayFontFamily: "Yuji Boku", sans-serif;
   /* Change default root font size (16px), if desired */
-  font-size: 17px;
+  font-size: 18px;
 
   /* You can also use it for generally applied sizing and spacing. */
   --borderRadius: 6px;
@@ -113,7 +114,8 @@ body {
 
 /* Font Families */
 body { font-family: var(--copyFontFamily); }
-h1,h2,h3 { font-family: var(--headingFontFamily); }
+h2,h3 { font-family: var(--headingFontFamily); }
+h1 {font-family: var(--displayFontFamily); }
 
 /* Emphasis and Bolding */
 strong { font-weight: 500; }
@@ -204,14 +206,6 @@ a.secondary:hover {
   border-bottom: 3px solid var(--primaryColor);
   transition: 0.4s;
 }
-
-/* Main */
-main {
-  max-width: 800px;
-  margin: auto;
-  padding: 1rem;
-}
-
 
 /*##########################################
 
@@ -506,3 +500,4 @@ main {
     text-align: left;
   }
 }
+
