@@ -86,8 +86,8 @@
   --lightGrayColor: #ddd;
 
   /* Fonts */
-  --copyFontFamily: "Poppins", sans-serif;
-  --headingFontFamily: "Exo 2", serif;
+  --copyFontFamily: "Playfair Display", serif; font-weight: 400; font-style: normal;
+  --headingFontFamily: "Oswald", sans-serif;  font-optical-sizing: auto; font-weight: <weight>; font-style: normal;
   /* Change default root font size (16px), if desired */
   font-size: 18px;
 
@@ -97,7 +97,7 @@
 }
 
 
-/*
+/* 
   After you define your color schemes above, revise the color and typography rulesets below in accordance with your desired new font families, weights, line-heights, etc. You can even modify which variables are being used.
 */
 
