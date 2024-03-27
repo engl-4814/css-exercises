@@ -6,7 +6,7 @@
   IMPORT FONTS
   1. Import your own fonts via https://fonts.google.com. Be sure to revise the family names in the CSS and in the HTML
 ==============*/
-@import url("@import url('https://fonts.googleapis.com/css2?family=Anybody:ital,wght@0,100..900;1,100..900&family=Noto+Sans+Khojki&display=swap')");
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 /*============
   COLOR SCHEME
@@ -38,17 +38,19 @@
   --backgroundColor: #fff;
   --foregroundColor: #111;
 
-  --primaryColor: #600830;
-  --primaryShade1: #500830;
-  --primaryShade2: #400028;
-  --primaryShade3: #300028;
-  --primaryShade4: #200028;
+  --raspberry: #472147;
+  --primaryShade1: #765876;
+  --primaryShade2: #6a456b;
+  --primaryShade3: #5a315b;
+  --primaryShade4: #3f1b40;
+  --primaryShade5: #280f2a;
 
-  --secondaryColor: #91432b;
-  --secondaryShade1: #903b31;
-  --secondaryShade2: #8e3436;
-  --secondaryShade3: #8b2e3c;
-  --secondaryShade4: #862842;
+  --blue: #6c729d;
+  --secondaryShade1: #878cae;
+  --secondaryShade2: #7a80a6;
+  --secondaryShade3: #5a5e87;
+  --secondaryShade4: #3d405b;
+  --secondaryShade5: #313349;
 
   --accentColor: #009688;
   --accentShade1: #e0f2f1;
@@ -71,14 +73,14 @@
   --accent3Shade4: #d32f2f;
   --accent3Shade5: #b71c1c;
 
-  --neutralShade1: #d9b99b;
-  --neutralShade2: #bfa083;
-  --neutralShade3: #a6876c;
-  --neutralShade4: #8e6f55;
-  --neutralShade5: #765940;
-  --neutralShade6: #5f432c;
-  --neutralShade7: #482e18;
-  --neutralShade8: #331a00;
+  --neutralShade1: #f2f2f2;
+  --neutralShade2: #e8e9e9;
+  --neutralShade3: #d1d3d4;
+  --neutralShade4: #babdbf;
+  --neutralShade5: #808488;
+  --neutralShade6: #666a6d;
+  --neutralShade7: #4d5052;
+  --neutralShade8: #212122;
 
   --grayColor: #999;
   --lightGrayColor: #ddd;
@@ -270,7 +272,7 @@ main {
       text-align: left;
     }
     .palette.main div:nth-child(1) {
-      background: var(--primaryColor);
+      background: var(--raspberry);
     }
     .palette.main div:nth-child(2) {
       background: var(--primaryShade1);
@@ -288,7 +290,7 @@ main {
       background: var(--primaryShade5);
     }
     .palette.secondary div:nth-child(1) {
-      background: var(--secondaryColor);
+      background: var(--blue);
     }
     .palette.secondary div:nth-child(2) {
       background: var(--secondaryShade1);
