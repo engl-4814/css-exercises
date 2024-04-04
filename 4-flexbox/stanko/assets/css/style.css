@@ -1,0 +1,34 @@
+#stepping_stones {
+    max-width: 1000px;
+
+    .flex__stepping_container {
+    display: flex; 
+    }
+
+    .box_1 { 
+        padding: 10px; 
+        margin-right: auto;
+        width: 400px;
+        height: 300px;
+        flex-direction: row;
+        flex-grow: 1;
+    }
+
+    .box_2 {
+        display: inline-block; 
+        padding: 10px;
+        justify-content: center;
+        vertical-align: middle;
+        width: 400px;
+        height: 300px;
+        flex-grow: 1;
+    }
+
+    .box_3 {
+        padding: 10px; 
+        margin-left: auto;
+        width: 400px;
+        height: 300px;
+        flex-direction: row;
+        flex-grow: 1;
+    }
