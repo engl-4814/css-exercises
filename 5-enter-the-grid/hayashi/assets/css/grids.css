@@ -1,3 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Annapurna+SIL:wght@400;700&family=Archivo:ital,wdth,wght@0,112.5,100..900;1,112.5,100..900&family=Kaushan+Script&display=swap');
+
+:root {
+  --copyFontFamily: "Annapurna SIL", slab-serif;
+  --titleFontFamily: "Kaushan Script";
+  --subtitleFontFamily: "Archivo", sans-serif;
+  font-size: 14px;
+}
+
+
+body { 
+  font-family: var(--copyFontFamily);
+}
+h1 {
+  font-family: var(--titleFontFamily);
+  font-size: 8rem;
+}
+
+h2 {
+  font-family: var(--subtitleFontFamily);
+  font-size: 2rem;
+}
+
+strong { font-weight: 700;}
+em { font-style: italic;}
+
 img {
   display: block;
   height: 100%;
@@ -7,13 +33,29 @@ img {
 main {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  padding: 10%;
+  gap: 10px;
 }
 
 .full-width {
   grid-column: 1 / 5;
   display: grid;
+  grid-template-columns: minmax(400px, 2fr) 1fr 1fr;
+
+  .center {
+    align-self: center;
+    justify-self: center;
+  }
+}
+
+.footer {
+  grid-column: 1 / 5;
 }
 
 .wide {
   grid-column: 2 / 4;
+
+  #cover-image {
+    object-fit: cover;
+  }
 }
