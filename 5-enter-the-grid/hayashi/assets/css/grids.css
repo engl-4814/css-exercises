@@ -1,0 +1,19 @@
+img {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.full-width {
+  grid-column: 1 / 5;
+  display: grid;
+}
+
+.wide {
+  grid-column: 2 / 4;
+}
