@@ -130,8 +130,8 @@ NOTE: Your queries need to match the above to ensure that your media query rules
     display: grid; 
     grid-template-columns: 1fr 2fr 2fr;
     grid-template-areas: 
-      "header first"
-      "header first"
+      "header first first"
+      "header first first"
       "header second third"
       "header second third";
     gap: 1rem;
