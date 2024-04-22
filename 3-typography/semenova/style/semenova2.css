@@ -35,21 +35,21 @@
 =============*/
 
 :root {
-  --backgroundColor: #fff;
-  --foregroundColor: #111;
+  --backgroundColor: #ce8787;
+  --foregroundColor: #9a3535;
 
-  --primaryColor: #03a9f4;
-  --primaryShade1: #e1f5fe;
-  --primaryShade2: #b3e5fc;
-  --primaryShade3: #4fc3f7;
-  --primaryShade4: #0288d1;
-  --primaryShade5: #0277bd;
+  --primaryColor: #141c63;
+  --primaryShade1: #0d455e;
+  --primaryShade2: #6e9eb4;
+  --primaryShade3: #2f98c9;
+  --primaryShade4: #072637;
+  --primaryShade5: #31373b;
 
-  --secondaryColor: #673ab7;
-  --secondaryShade1: #ede7f6;
-  --secondaryShade2: #d1c4e9;
-  --secondaryShade3: #9575cd;
-  --secondaryShade4: #512da8;
+  --secondaryColor: #0e0027ae;
+  --secondaryShade1: #5950a5;
+  --secondaryShade2: #615479;
+  --secondaryShade3: #cd75b6;
+  --secondaryShade4: #3f2874;
   --secondaryShade5: #311b92;
 
   --accentColor: #009688;
@@ -93,7 +93,7 @@
 
   /* You can also use it for generally applied sizing and spacing. */
   --borderRadius: 6px;
-  --boxShadow: 0 2px 5px rgba(#333, 0.2);
+  --boxShadow: 0 2px 5px rgba(#945656, 0.2);
 }
 
 
@@ -103,8 +103,8 @@
 
 /* GENERAL COLOR SCHEME */
 body {
-  background: var(--backgroundColor);
-  color: var(--neutralShade8);
+  background: #d1d3d4;
+  color: #0a1e27;
 }
 
 /*==========
@@ -112,8 +112,8 @@ body {
 ===========*/
 
 /* Font Families */
-body { font-family: var(--copyFontFamily); }
-h1,h2,h3 { font-family: var(--headingFontFamily); }
+body { font-family: Verdana, Geneva, Tahoma, sans-serif ; }
+h1,h2,h3 { font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
 
 /* Emphasis and Bolding */
 strong { font-weight: 500; }
