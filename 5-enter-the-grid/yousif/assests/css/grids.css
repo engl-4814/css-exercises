@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Allan:wght@400;700&family=Platypi:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Sedan:ital@0;1&display=swap');
+
+:root {
+    --copyFontFamily: "raleway", sans-serif; 
+    --titleFontFamily: "sedan";
+    --subtitleFontFamily: "platypi", sans-serif;
+    font-size: 15px;
+}
+
+body {
+    font-family: var(--copyFontFamily);
+}
+h1 {
+    font-family: var(--titleFontFamily);
+    font-size: 5rem;
+}
+
+h2 {
+    font-family: var(--subtitleFontFamily);
+    font-size: 3rem;
+}
+
+strong { font-weight: 600; }
+em {font-style: bold; }
+
+img { display: block;
+      height: 100%;
+      width: 100%; }
+
+main {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 10%;
+    gap: 10px;
+}      
+
+.fill-width {
+    grid-column: 1/5;
+    display: grid; 
+    grid-template-columns: minmax(400px, 2fr) 1fr 1fr;
+
+    .center {
+        align-self: center;
+        justify-self: center;
+    }
+}
+
+.footer {
+    grid-column: 1/5;
+}
+
+.part-3{ grid-column: 1/1; 
+
+    #img { object-fit: cover; }
+}
