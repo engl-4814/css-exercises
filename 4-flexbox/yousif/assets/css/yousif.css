@@ -1,0 +1,51 @@
+
+ img { width: 75%; }
+
+ .flexbox_practice {
+    margin: 10px; 
+    padding: 2rem;
+
+    .frame1 {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: flex-start;
+
+        .img_1 {
+            width: 400px; 
+        }
+
+        .paragraph-1 {
+            align-self: center;
+            width: 400px; 
+        }
+
+        .img_2 {
+            align-self: flex-end;
+            width: 400px;
+        }
+    }
+}
+
+.flexbox_2 {
+   margin: 1rem;
+   padding: 5%;
+
+  .word {
+      display: flex;
+      flex-wrap: wrap;
+
+     .paragraphs { flex: 1; }
+
+     .image { flex: 1 20rem; }
+    }
+ }
+
+ #paragraph-3 {
+    flex-flow: row-reverse;
+    flex-wrap: wrap-reverse;
+
+    .word { flex: 1; }
+
+    .image { flex: 1 20rem; }
+ }

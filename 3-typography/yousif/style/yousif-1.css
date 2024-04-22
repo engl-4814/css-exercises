@@ -6,7 +6,7 @@
   IMPORT FONTS
   1. Import your own fonts via https://fonts.google.com. Be sure to revise the family names in the CSS and in the HTML
 ==============*/
-@import url('https://fonts.googleapis.com/css2?family=Allan:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allan:wght@400;700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 /*============
   COLOR SCHEME
@@ -38,26 +38,28 @@
   --backgroundColor: #fff;
   --foregroundColor: #111;
 
-  --primaryColor: #03a9f4;
-  --primaryShade1: #e1f5fe;
-  --primaryShade2: #b3e5fc;
-  --primaryShade3: #4fc3f7;
-  --primaryShade4: #0288d1;
-  --primaryShade5: #0277bd;
+  --blue: #96a3f5;
+  --primaryColor: #6b77c4;
+  --primaryShade3: #454E8A;
+  --primaryShade4: #1833EF;
+  --primaryShade2: #3D4057;
+  --primaryShade1: #0c7bbb;
+  --primaryShade5: #25317b;
+ 
 
-  --secondaryColor: #673ab7;
-  --secondaryShade1: #ede7f6;
-  --secondaryShade2: #d1c4e9;
-  --secondaryShade3: #9575cd;
-  --secondaryShade4: #512da8;
-  --secondaryShade5: #311b92;
+  --secondaryColor: #663dac;
+  --secondaryShade1: #7d569b;
+  --secondaryShade2: #7C688D;
+  --secondaryShade3: #B45FEF;
+  --secondaryShade4: #555257;
+  --secondaryShade5: #A73AF0;
 
-  --accentColor: #009688;
-  --accentShade1: #e0f2f1;
-  --accentShade2: #b2dfdb;
-  --accentShade3: #4db6ac;
-  --accentShade4: #00796b;
-  --accentShade5: #004d40;
+  --accentColor: #4590AE;
+  --accentShade1: #46C8B7;
+  --accentShade2: #918559;
+  --accentShade3: #8E7828;
+  --accentShade4: #665065;
+  --accentShade5: #506663;
 
   --accent2Color: #8bc34a;
   --accent2Shade1: #e7f6d5;
@@ -86,8 +88,8 @@
   --lightGrayColor: #ddd;
 
   /* Fonts */
-  --copyFontFamily: "Poppins", sans-serif;
-  --headingFontFamily: "Exo 2", serif;
+  --copyFontFamily: "Raleway", sans-serif;
+  --headingFontFamily: "Platypi", serif;
   /* Change default root font size (16px), if desired */
   font-size: 18px;
 
@@ -103,8 +105,8 @@
 
 /* GENERAL COLOR SCHEME */
 body {
-  background: var(--backgroundColor);
-  color: var(--neutralShade8);
+  background: rgb(181, 132, 98);
+  color: whitesmoke;
 }
 
 /*==========
@@ -227,7 +229,7 @@ a.secondary:hover {
 
 /*Large Screen Layout*/
 main {
-  width: 90%;
+  max-width: 90%;
   margin: 3em auto;
   display: grid;
   grid-template-columns: 30ch repeat(5, minmax(50px,1fr));

@@ -1,0 +1,13 @@
+main > * {
+    display: grid;
+    border: 1px solid;
+}
+
+.mondrian-one {
+    grid-template-columns: 1fr 2fr 100px;
+
+    & > * {
+        min-height: 300px;
+        border: 1px solid;
+    }
+}
