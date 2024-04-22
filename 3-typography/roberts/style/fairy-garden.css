@@ -6,7 +6,7 @@
   IMPORT FONTS
   1. Import your own fonts via https://fonts.google.com. Be sure to revise the family names in the CSS and in the HTML
 ==============*/
-@import url('https://fonts.googleapis.com/css2?family=Farro:wght@300;400;500;700&family=Linden+Hill:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Merienda:wght@300..900&display=swap');
 
 /*============
   COLOR SCHEME
@@ -86,8 +86,8 @@
   --lightGrayColor: #ddd;
 
   /* Fonts */
-  --copyFontFamily: "Farro", sans-serif;
-  --headingFontFamily: "Linden Hill", serif;
+  --copyFontFamily: "Barlow", sans-serif;
+  --headingFontFamily: "Merienda", serif;
   /* Change default root font size (16px), if desired */
   font-size: 18px;
 
