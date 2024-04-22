@@ -85,7 +85,7 @@ img {
 ==================================== */
 .float_left {float: left;}
 .align_center {text-align: center; }
-.img__border_bottom {margin: 4px 15px 4px 4px; border: 1px solid black; }
+.img__border_bottom {margin: 4px; border: 1px solid black; }
 
 /*
   Ok, we've written some more general rules that can be applied in numerous places. Now, let's use the Position rule to our advantage and write our CSS in relationship to the position of the HTML source order:
@@ -127,7 +127,7 @@ main {
   Select and style anything regarding the sections on the page and their contents.
 ==================================== */
 section {
-  margin:auto
+  margin:auto;
 }
 
 
@@ -137,5 +137,6 @@ section {
 ==================================== */
 
 footer {
-  
+  background-color: darkseagreen;
+  color: whitesmoke;
 }
