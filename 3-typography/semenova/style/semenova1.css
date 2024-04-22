@@ -38,42 +38,42 @@
 
 :root {
   --backgroundColor: #bf4e4e28;
-  --foregroundColor: #CCD9BF;
+  --foregroundColor: #471585;
 
-  --primaryColor: #03a9f4;
-  --primaryShade1: #e1f5fe;
-  --primaryShade2: #b3e5fc;
-  --primaryShade3: #4fc3f7;
-  --primaryShade4: #0288d1;
-  --primaryShade5: #0277bd;
+  --primaryColor: #F72823;
+  --primaryShade1: #F77223;
+  --primaryShade2: #F74D23;
+  --primaryShade3: #F72390;
+  --primaryShade4: #FAD5A7;
+  --primaryShade5: #F78F75;
 
-  --secondaryColor: #673ab7;
-  --secondaryShade1: #ede7f6;
-  --secondaryShade2: #d1c4e9;
-  --secondaryShade3: #9575cd;
-  --secondaryShade4: #512da8;
-  --secondaryShade5: #311b92;
+  --secondaryColor: #5962F0;
+  --secondaryShade1: #BC71F0;
+  --secondaryShade2: #8158F0;
+  --secondaryShade3: #5991F0;
+  --secondaryShade4: #E459F0;
+  --secondaryShade5: #D6CBF2;
 
-  --accentColor: #009688;
+  --accentColor: #8FF0CB;
   --accentShade1: #e0f2f1;
-  --accentShade2: #b2dfdb;
-  --accentShade3: #4db6ac;
-  --accentShade4: #00796b;
-  --accentShade5: #004d40;
+  --accentShade2: #71CDF0;
+  --accentShade3: #59F0E9;
+  --accentShade4: #59F083;
+  --accentShade5: #5996F0;
 
-  --accent2Color: #8bc34a;
-  --accent2Shade1: #e7f6d5;
-  --accent2Shade2: #c5e1a5;
-  --accent2Shade3: #aed581;
-  --accent2Shade4: #689f38;
-  --accent2Shade5: #558b2f;
+  --accent2Color: #DB6A67;
+  --accent2Shade1: #DB9367;
+  --accent2Shade2: #DB7E67;
+  --accent2Shade3: #DB67A3;
+  --accent2Shade4: #DBA767;
+  --accent2Shade5: #DBB9B0;
 
-  --accent3Color: #f44336;
-  --accent3Shade1: #ffdde0;
-  --accent3Shade2: #ffcdd2;
-  --accent3Shade3: #ef9a9a;
-  --accent3Shade4: #d32f2f;
-  --accent3Shade5: #b71c1c;
+  --accent3Color: #87DB67;
+  --accent3Shade1: #67DB9C;
+  --accent3Shade2: #B8DB67;
+  --accent3Shade3: #B8DB67;
+  --accent3Shade4: #67DBC4;
+  --accent3Shade5: #2DDB41;
 
   --neutralShade1: #f2f2f2;
   --neutralShade2: #e8e9e9;
@@ -114,8 +114,8 @@ body {
 ===========*/
 
 /* Font Families */
-body { font-family: var(--copyFontFamily); }
-h1,h2,h3 { font-family: var(--headingFontFamily); }
+body { font-family: var(--boxShadow); 
+font-family:'Times New Roman', Times, serif sans-serif;}
 
 /* Emphasis and Bolding */
 strong { font-weight: 500; }
@@ -123,12 +123,12 @@ em { font-style: italic; }
 
 /* Font Weight, Sizing & Spacing */
 body {
-  font-weight: 300;
+  font-weight: 100;
   line-height: 1.5;
   transition: all 0.3s ease;
 }
 h1 {
-  font-weight: 700;
+  font-weight: 200;
   font-size: clamp(2.5rem,3rem,3.5rem);
   line-height: 1.2;
   text-transform: uppercase;
@@ -140,7 +140,7 @@ h2 {
   text-transform: uppercase;
 }
 h3 {
-  font-weight: 500;
+  font-weight: 200;
   font-size: clamp(1.25rem,1.5rem,1.75rem);
   line-height: 1.2;
 }
@@ -164,6 +164,15 @@ h6 {
 a { font-weight: 500; }
 
 /* Default Font Colors & Styling */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Times New Roman Vibe', serif;
+  font-weight: bold; 
+  margin-bottom: 0.5em;}
+
+a {
+    color: #587799; /* Change default link color */
+    text-decoration: none; /* Remove default underline from links */
+  }
 
 /* default links */
 a {
@@ -244,7 +253,7 @@ main {
   }
 
   /* Grid Areas */
-  .colors { grid-area: colors; background-color: var(--secondaryShade1); box-shadow: 2px 2px 3px -1px var(--secondaryShade2);}
+  .colors { grid-area: colors; background-color: var(--backgroundColor); box-shadow: 2px 2px 3px -1px var(blue);}
   .typography { grid-area: typography; }
   .headlines { grid-area: headlines; }
   .body_text_example { grid-area: bodyex; }
@@ -392,7 +401,7 @@ main {
       grid-row: 2;
     }
     .palette.neutrals div:nth-child(8) {
-      background: var(--neutralShade8);
+      background: var(--neutralShade1);
       grid-row: 2;
     }
   }
@@ -410,15 +419,15 @@ main {
   }
 
   /* First Level Font */
-  .font__first-level { font-family: var(--headingFontFamily); }
+  .font__first-level { font-family: var(Serif); }
   .font__first-level > span { font-size: 1rem; }
 
   /* Second Level Font */
-  .font__second-level { font-family: var(--copyFontFamily);}
+  .font__second-level { font-family: var(Serif);}
   .font__second-level > span { font-size: 0.8rem; }
 
   /* Display Level Font */
-  .font__display-level { font-family: var(--displayFontFamily);}
+  .font__display-level { font-family: var(Sans-Serif);}
   .font__display-level > span { font-size: 0.8rem; }
 
   /* General Font Weights */
