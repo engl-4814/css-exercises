@@ -119,6 +119,6 @@ NOTE: Your queries need to match the above to ensure that your media query rules
     margin-right: 1rem;
   }
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 800px) {
   
 }
