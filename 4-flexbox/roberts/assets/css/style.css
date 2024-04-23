@@ -28,9 +28,8 @@ img {
 .switching-it-up > * {
     display: flex;
     flex-wrap: wrap;
-    * {
-        flex: 1 1 200px;
-    }
+
+    * {flex: 1 1 200px;}
 }
 
 
