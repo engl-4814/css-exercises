@@ -6,7 +6,7 @@
   IMPORT FONTS
   1. Import your own fonts via https://fonts.google.com. Be sure to revise the family names in the CSS and in the HTML
 ==============*/
-@import url("https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hahmlet:wght@100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
 
 /*============
   COLOR SCHEME
@@ -38,26 +38,26 @@
   --backgroundColor: #fff;
   --foregroundColor: #111;
 
-  --primaryColor: #03a9f4;
-  --primaryShade1: #e1f5fe;
-  --primaryShade2: #b3e5fc;
-  --primaryShade3: #4fc3f7;
-  --primaryShade4: #0288d1;
-  --primaryShade5: #0277bd;
+  --primaryColor: #081d67;
+  --primaryShade1: #e4e8f5;
+  --primaryShade2: #a3acd5;
+  --primaryShade3: #6479c5;
+  --primaryShade4: #3a58c2;
+  --primaryShade5: #0e2fa8;
 
-  --secondaryColor: #673ab7;
-  --secondaryShade1: #ede7f6;
-  --secondaryShade2: #d1c4e9;
-  --secondaryShade3: #9575cd;
-  --secondaryShade4: #512da8;
-  --secondaryShade5: #311b92;
+  --secondaryColor: #68d098;
+  --secondaryShade1: #c1edd6;
+  --secondaryShade2: #88f0b9;
+  --secondaryShade3: #6fa688;
+  --secondaryShade4: #3c7f5b;
+  --secondaryShade5: #17673c;
 
-  --accentColor: #009688;
-  --accentShade1: #e0f2f1;
-  --accentShade2: #b2dfdb;
-  --accentShade3: #4db6ac;
-  --accentShade4: #00796b;
-  --accentShade5: #004d40;
+  --accentColor: #f2e373;
+  --accentShade1: #f4efce;
+  --accentShade2: #e3da94;
+  --accentShade3: #f7e663;
+  --accentShade4: #e5ce22;
+  --accentShade5: #d0b805;
 
   --accent2Color: #8bc34a;
   --accent2Shade1: #e7f6d5;
@@ -86,8 +86,8 @@
   --lightGrayColor: #ddd;
 
   /* Fonts */
-  --copyFontFamily: "Poppins", sans-serif;
-  --headingFontFamily: "Exo 2", serif;
+  --copyFontFamily: "Raleway", sans-serif;
+  --headingFontFamily: "Hahmlet", serif;
   /* Change default root font size (16px), if desired */
   font-size: 18px;
 

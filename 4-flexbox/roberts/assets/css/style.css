@@ -1,0 +1,35 @@
+img {
+    width: 100%;
+}
+
+.stepping-stones-div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    img {
+        max-width: 400px;
+    }
+}
+.ss-image-1 {
+    align-self: flex-start;
+}
+
+.ss-paragraph {
+    max-width: 400px;
+    align-self: center;
+}
+
+.ss-image-2 {
+    align-self: flex-end;
+}
+
+.switching-it-up > * {
+    display: flex;
+    flex-wrap: wrap;
+
+    * {flex: 1 1 200px;}
+}
+
+
