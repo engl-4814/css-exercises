@@ -111,3 +111,10 @@ section {
 NOTE: Your queries need to match the above to ensure that your media query rules overwrite the rules above.
 =================*/
 
+@media and (min-width: 500px) {
+  font-size: 1.25 rem;
+}
+
+@media and (min-width: 800px) {
+  font-size: 1.5 rem;
+}
