@@ -63,6 +63,13 @@ img {
   object-fit: cover;
 }
 
+.img_float_left_shape_circle {
+  float: left;
+  border-radius: 50%;
+  shape-outside: circle();
+  margin-right: 1rem;
+}
+
 /* GENERAL CLASSES */
 .float_right  { float: right; }
 .float_left   { float: left; }
@@ -94,6 +101,7 @@ section {
 
     &> img {
       width: 225px;
+      height: 225px;
     }
   }
 
@@ -119,6 +127,11 @@ NOTE: Your queries need to match the above to ensure that your media query rules
     margin-right: 1rem;
   }
 }
-@media only screen and (min-width: 800px) {
-  
+
+/* Large Screens */
+@media only screen and (min-width: 1200px) {
+  .main__grid_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr
+  }
 }
