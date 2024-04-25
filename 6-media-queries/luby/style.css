@@ -91,9 +91,17 @@ section {
 }
 
 .main__grid_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+
   /* Grid Container Rules Here */
 
   /* Header, if needed */
+  header {grid-area: 1 / 1 / 4 / 2;}
+  .top_priority {grid-area: 2 / 1 / 3 / 2:}
+  .second_priority {grid-area: 2 / 2 / 3 / 3;}
+  .third_priority {grid-area: 2 / 3 / 3 / 4;}
 
   article {
     margin: 1rem 0;
@@ -111,10 +119,24 @@ section {
 NOTE: Your queries need to match the above to ensure that your media query rules overwrite the rules above.
 =================*/
 
-@media and (min-width: 500px) {
-  font-size: 1.25 rem;
+@media screen and (min-width: 500px) {
+  .main__grid_container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 500px 500px 500px 500px;
+    gap: 50px;
+  }
+  /* .header_grid {
+    display: grid;
+    grid-template-rows: auto;
+  } */
+  p {
+    font-size: 1.25rem;
+  }
 }
 
-@media and (min-width: 800px) {
-  font-size: 1.5 rem;
+@media screen and (min-width: 800px) {
+  p {
+  font-size: 1.5rem;
+  }
 }
