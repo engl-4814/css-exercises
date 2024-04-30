@@ -8,3 +8,9 @@
     gap: 10px;
     justify-items: center;
 }
+element.style {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
