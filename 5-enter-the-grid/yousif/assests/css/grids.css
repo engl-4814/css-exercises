@@ -53,3 +53,11 @@ main {
 
     #img { object-fit: cover; }
 }
+
+
+/*Horizontal Scroll Snap
+.slider > div {
+    min-wdith: 10vw;
+    height: 50vh;
+    border-right: 5px solid;
+} */
