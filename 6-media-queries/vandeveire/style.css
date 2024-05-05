@@ -21,7 +21,6 @@ GENERAL
 body {
   background-color: var(--laser-lemon);
   color: var(--violet);
-  margin: 0;
 }
 
 /* Utilities */
@@ -29,8 +28,8 @@ body {
 
 /* Typography */
 h1,h2,h3 { font-family: Monoton; }
-h1 { font-size: 2.25rem; }
-h2 { font-size: 1.5rem; margin: 1em 0; }
+h1 { font-size: 4rem; margin: 2.75em 0; }
+h2 { font-size: 2.5rem; margin: 1em 0; }
 
 /* Anchors */
 .a__cta {
@@ -64,6 +63,13 @@ img {
   object-fit: cover;
 }
 
+.img_float_left_shape_circle {
+  float: left;
+  border-radius: 50%;
+  shape-outside: circle();
+  margin-right: 1rem;
+}
+
 /* GENERAL CLASSES */
 .float_right  { float: right; }
 .float_left   { float: left; }
@@ -86,8 +92,9 @@ section {
 
 .main__grid_container {
   /* Grid Container Rules Here */
-   display: grid;
+
   /* Header, if needed */
+
   article {
     margin: 1rem 0;
     padding: 1rem;
@@ -103,13 +110,4 @@ section {
 @MEDIA QUERIES HERE
 NOTE: Your queries need to match the above to ensure that your media query rules overwrite the rules above.
 =================*/
-
-@media screen and (min-width: 600px) {
-    .img_float_left_shape_circle {
-        float: left;
-        border-radius: 50%;
-        margin-right: 1rem;
-      }
-}
-
 

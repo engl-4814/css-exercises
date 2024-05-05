@@ -94,6 +94,7 @@ section {
   /* Grid Container Rules Here */
 
   /* Header, if needed */
+  
 
   article {
     margin: 1rem 0;
@@ -111,3 +112,14 @@ section {
 NOTE: Your queries need to match the above to ensure that your media query rules overwrite the rules above.
 =================*/
 
+@media screen and (min-width: 500px) {
+  p {
+    font-size: 1.25rem;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  p {
+  font-size: 1.5rem;
+  }
+}
