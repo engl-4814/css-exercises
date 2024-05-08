@@ -37,43 +37,44 @@
 =============*/
 
 :root {
+ 
   --backgroundColor: #bf4e4e28;
   --foregroundColor: #471585;
 
-  --primaryColor: #F72823;
-  --primaryShade1: #F77223;
+  --primaryColor: #ebaead;
+  --primaryShade1: #F78F75;
   --primaryShade2: #F74D23;
-  --primaryShade3: #F72390;
-  --primaryShade4: #FAD5A7;
-  --primaryShade5: #F78F75;
+  --primaryShade3: #c54800;
+  --primaryShade4: #d51679;
+  --primaryShade5: #96380d;
 
-  --secondaryColor: #5962F0;
-  --secondaryShade1: #BC71F0;
-  --secondaryShade2: #8158F0;
-  --secondaryShade3: #5991F0;
-  --secondaryShade4: #E459F0;
-  --secondaryShade5: #D6CBF2;
+  --secondaryColor: #bdc1f8;
+  --secondaryShade1: #c4b3f0;
+  --secondaryShade2: #8871c7;
+  --secondaryShade3: #b265e9;
+  --secondaryShade4: #2e6ede;
+  --secondaryShade5: #90149b;
 
   --accentColor: #8FF0CB;
-  --accentShade1: #e0f2f1;
-  --accentShade2: #71CDF0;
-  --accentShade3: #59F0E9;
-  --accentShade4: #59F083;
-  --accentShade5: #5996F0;
+  --accentShade1: #70c2e2;
+  --accentShade2: #36b9b3;
+  --accentShade3: #7a9e9c;
+  --accentShade4: #2b7640;
+  --accentShade5: #1d4683;
 
-  --accent2Color: #DB6A67;
-  --accent2Shade1: #DB9367;
-  --accent2Shade2: #DB7E67;
-  --accent2Shade3: #DB67A3;
-  --accent2Shade4: #DBA767;
-  --accent2Shade5: #DBB9B0;
+  --accent2Color: #e4a09e;
+  --accent2Shade1: #e7ab9b;
+  --accent2Shade2: #d28e7c;
+  --accent2Shade3: #c18057;
+  --accent2Shade4: #b4477f;
+  --accent2Shade5: #764100;
 
-  --accent3Color: #87DB67;
-  --accent3Shade1: #67DB9C;
-  --accent3Shade2: #B8DB67;
-  --accent3Shade3: #B8DB67;
-  --accent3Shade4: #67DBC4;
-  --accent3Shade5: #2DDB41;
+  --accent3Color: #b2ee9a;
+  --accent3Shade1: #6ed87a;
+  --accent3Shade2: #8aab3d;
+  --accent3Shade3: #688522;
+  --accent3Shade4: #458b7d;
+  --accent3Shade5: #04803c;
 
   --neutralShade1: #f2f2f2;
   --neutralShade2: #e8e9e9;
@@ -83,31 +84,34 @@
   --neutralShade6: #666a6d;
   --neutralShade7: #4d5052;
   --neutralShade8: #212122;
-
   --grayColor: #999;
   --lightGrayColor: #ddd;
 
-  /* Fonts */
-  --copyFontFamily: "Asar", sans-serif;
-  --headingFontFamily: "Asar", serif;
-  /* Change default root font size (16px), if desired */
-  font-size: 18px;
-
-  /* You can also use it for generally applied sizing and spacing. */
-  --borderRadius: 6px;
-  --boxShadow: 0 2px 5px rgba(#333, 0.2);
+  --headingFont: 'Arial', sans-serif;
+  --bodyFont: 'Helvetica', sans-serif;
 }
 
 
-/*
-  After you define your color schemes above, revise the color and typography rulesets below in accordance with your desired new font families, weights, line-heights, etc. You can even modify which variables are being used.
-*/
-
-/* GENERAL COLOR SCHEME */
 body {
-  background: var(--backgroundColor);
-  color: var(--neutralShade8);
+  font-family: var(--bodyFont);
+  background-color: var(--backgroundColor);
+  color: var(--foregroundColor);
+  line-height: 1.6;
 }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--headingFont);
+  color: var(--primaryColor);
+  font-weight: bold;
+}
+
+p {
+  font-family: var(--bodyFont);
+  color: var(--foregroundColor);
+  font-size: 16px;
+}
+
+
 
 /*==========
   TYPOGRAPHY
@@ -118,31 +122,47 @@ body { font-family: var(--boxShadow);
 font-family:'Times New Roman', Times, serif sans-serif;}
 
 /* Emphasis and Bolding */
-strong { font-weight: 500; }
+strong { font-weight: 900; }
 em { font-style: italic; }
 
 /* Font Weight, Sizing & Spacing */
 body {
-  font-weight: 100;
-  line-height: 1.5;
+  font-weight: 150;
+  line-height: 2;
   transition: all 0.3s ease;
 }
 h1 {
-  font-weight: 200;
+  font-weight: 150;
   font-size: clamp(2.5rem,3rem,3.5rem);
   line-height: 1.2;
   text-transform: uppercase;
 }
 h2 {
-  font-weight: 500;
+  font-weight: 400;
   font-size: clamp(1.75rem,2rem,2.5rem);
   line-height: 1.2;
   text-transform: uppercase;
 }
 h3 {
-  font-weight: 200;
+  font-weight: 300;
   font-size: clamp(1.25rem,1.5rem,1.75rem);
   line-height: 1.2;
+  font-style: oblique;
+      .font-family-light {
+        font-size: small;
+        font-weight: 100;
+      }
+
+      .font-family-medium {
+        font-size: medium;
+        font-weight: 300;
+      }
+
+      .font-family-bold {
+        font-size:large;
+        font-weight: 900;
+      }
+
 }
 h4 {
   font-weight: 300;
