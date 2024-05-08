@@ -6,8 +6,8 @@
   IMPORT FONTS
   1. Import your own fonts via https://fonts.google.com. Be sure to revise the family names in the CSS and in the HTML
 ==============*/
-@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Merienda:wght@300..900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&family=Reddit+Sans+Condensed:wght@200..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Poetsen+One&family=Reddit+Sans+Condensed:wght@200..900&display=swap" rel="stylesheet");
 /*============
   COLOR SCHEME
 
@@ -35,29 +35,29 @@
 =============*/
 
 :root {
-  --backgroundColor: #fff;
+  --backgroundColor: #fcfa8b;
   --foregroundColor: #111;
 
-  --primaryColor: #a8de97;
-  --primaryShade1: #e1f2dc;
-  --primaryShade2: #bfe1b5;
-  --primaryShade3: #8eba81;
-  --primaryShade4: #537e46;
-  --primaryShade5: #33512a;
+  --primaryColor: #faf60f;
+  --primaryShade1: rgb(252, 240, 73);
+  --primaryShade2: #f8d433;
+  --primaryShade3: #e6f750;
+  --primaryShade4: #f3f73c;
+  --primaryShade5: #f7e924;
 
-  --secondaryColor: #4f0c5e;
-  --secondaryShade1: #e9dcec;
-  --secondaryShade2: #cbb4d0;
-  --secondaryShade3: #96759e;
-  --secondaryShade4: #6c4674;
-  --secondaryShade5: #46234d;
+  --secondaryColor: #067415;
+  --secondaryShade1: #2aeb23;
+  --secondaryShade2: #4cdf1f;
+  --secondaryShade3: #65e919;
+  --secondaryShade4: #63eb14;
+  --secondaryShade5: #79f134;
 
-  --accentColor: #f16b98;
-  --accentShade1: #efd6de;
-  --accentShade2: #e8b0c2;
-  --accentShade3: #ef86a9;
-  --accentShade4: #d84e7c;
-  --accentShade5: #9a1e47;
+  --accentColor: #f5e50f;
+  --accentShade1: #c8e42e;
+  --accentShade2: #e4d82f;
+  --accentShade3: #f4f80d;
+  --accentShade4: #d0e60d;
+  --accentShade5: #ccfa26;
 
   --accent2Color: #8bc34a;
   --accent2Shade1: #e7f6d5;
@@ -66,12 +66,12 @@
   --accent2Shade4: #689f38;
   --accent2Shade5: #558b2f;
 
-  --accent3Color: #f44336;
-  --accent3Shade1: #ffdde0;
-  --accent3Shade2: #ffcdd2;
-  --accent3Shade3: #ef9a9a;
-  --accent3Shade4: #d32f2f;
-  --accent3Shade5: #b71c1c;
+  --accent3Color: #f7d43c;
+  --accent3Shade1: #d9e94a;
+  --accent3Shade2: #e4e721;
+  --accent3Shade3: #fdef28;
+  --accent3Shade4: #f5b847;
+  --accent3Shade5: #f5eb5b;
 
   --neutralShade1: #f2f2f2;
   --neutralShade2: #e8e9e9;
@@ -86,8 +86,8 @@
   --lightGrayColor: #ddd;
 
   /* Fonts */
-  --copyFontFamily: "Barlow", sans-serif;
-  --headingFontFamily: "Merienda", serif;
+  --copyFontFamily: "Poetsen One", sans-serif;
+  --headingFontFamily: "Cinzel", serif;
   /* Change default root font size (16px), if desired */
   font-size: 18px;
 
