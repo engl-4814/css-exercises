@@ -21,13 +21,8 @@ GENERAL
 body {
   background-color: var(--laser-lemon);
   color: var(--violet);
-  text-align: center;
-  margin: 12px;
 }
 
-h2 {
-  margin-top: 500px;
-}
 /* Utilities */
 .fix__clear_float { clear: both; }
 
@@ -35,12 +30,10 @@ h2 {
 h1,h2,h3 { font-family: Monoton; }
 h1 { font-size: 4rem; margin: 2.75em 0; }
 h2 { font-size: 2.5rem; margin: 1em 0; }
-/**/
+
 /* Anchors */
 .a__cta {
-  position: relative;
-  top: 20px;
-  margin: auto;
+  display: block;
   width: max-content;
   padding: 1.5rem;
   background-color: var(--violet);
@@ -63,15 +56,10 @@ h2 { font-size: 2.5rem; margin: 1em 0; }
 img {
   display: block;
   width: 100%;
-  height: 100%;
 }
 
 .img_cover {
   object-fit: cover;
-  object-position: center;
-  height: 300px;
-  width: 200px;
-  float: left;
 }
 
 .img_float_left_shape_circle {
@@ -103,7 +91,10 @@ section {
 
 .main__grid_container {
   /* Grid Container Rules Here */
-  .text_center {text-align: center;}
+  header { grid-area: header;}
+  .top_priority {grid-area: sectionone;}
+  .second_priority {grid-area: sectiontwo;}
+  .third_priority {grid-area: sectionthree;}
   /* Header, if needed */
 
   article {
@@ -111,9 +102,7 @@ section {
     padding: 1rem;
 
     &> img {
-      width: 200px;
-      height: 200px;
-      margin-top: 50px;
+      width: 225px;
     }
   }
 
@@ -124,56 +113,45 @@ section {
 NOTE: Your queries need to match the above to ensure that your media query rules overwrite the rules above.
 =================*/
 
-@media screen and (max-width: 600px) {
-  .main__grid_container{
-    padding-top: 20px;
-    font-size: small;
-    display: flex;
-    flex-wrap: wrap;
+@media screen and (min-width:600px) {
+  h1 {font-size: 2rem;}
+  h2 {font-size: 1.5rem;}
 
-  }
-  body {
-    margin: 40px;
-  }
-  header {
-    font-size: 25px;
-    margin: 20px;
-
-  }
-  h1 {
-    font-size: 32px;
-  }
-  .a__cta {
-    padding: 0.8rem;
-  }
-  p{
-    font-size: 20px;
+  .main__grid_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "header header"
+    "sectionone sectionone"
+    "sectiontwo sectiontwo"
+    "sectionthree sectionthree";
+    gap: 1rem;
   }
 
-}
-
-@media screen and (min-width:601px)
-{
-  .main__grid_container{
-    padding-top: 30px;
-    font-size: small;
-    display: flex;
-    flex-wrap: wrap;
-
-  }
-  body {
-    margin: 20px;
-  }
-  header {
-    font-size: 25px;
-    margin: 20px;
-
-  }
-  h1 {
-    font-size: 32px;
-  }
-  .a__cta {
-    padding: 0.8rem;
+  .img_float_left_shape_circle {
+    border-radius: 50%;
+    shape-outside: circle();
+    margin-right: 1rem;
   }
 }
 
+@media screen and (min-width:800px) {
+  h1 {font-size: 3rem;}
+  h2 {font-size: 2.5rem}
+
+
+  .main__grid_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "header header header"
+    "sectionone sectiontwo sectionthree";
+    gap: 1rem;
+  }
+
+  .img_float_left_shape_circle {
+    border-radius: 50%;
+    shape-outside: circle();
+    margin-right: 1rem;
+  }
+}

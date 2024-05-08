@@ -6,7 +6,7 @@
   IMPORT FONTS
   1. Import your own fonts via https://fonts.google.com. Be sure to revise the family names in the CSS and in the HTML
 ==============*/
-@import url("https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 /*============
   COLOR SCHEME
@@ -35,65 +35,58 @@
 =============*/
 
 :root {
- 
-    --backgroundColor: #bf4e4e28;
-    --foregroundColor: #471585;
-  
-    --primaryColor: #ebaead;
-    --primaryShade1: #F78F75;
-    --primaryShade2: #F74D23;
-    --primaryShade3: #c54800;
-    --primaryShade4: #d51679;
-    --primaryShade5: #96380d;
-  
-    --secondaryColor: #bdc1f8;
-    --secondaryShade1: #c4b3f0;
-    --secondaryShade2: #8871c7;
-    --secondaryShade3: #b265e9;
-    --secondaryShade4: #2e6ede;
-    --secondaryShade5: #90149b;
-  
-    --accentColor: #8FF0CB;
-    --accentShade1: #70c2e2;
-    --accentShade2: #36b9b3;
-    --accentShade3: #7a9e9c;
-    --accentShade4: #2b7640;
-    --accentShade5: #1d4683;
-  
-    --accent2Color: #e4a09e;
-    --accent2Shade1: #e7ab9b;
-    --accent2Shade2: #d28e7c;
-    --accent2Shade3: #c18057;
-    --accent2Shade4: #b4477f;
-    --accent2Shade5: #764100;
-  
-    --accent3Color: #b2ee9a;
-    --accent3Shade1: #6ed87a;
-    --accent3Shade2: #8aab3d;
-    --accent3Shade3: #688522;
-    --accent3Shade4: #458b7d;
-    --accent3Shade5: #04803c;
-  
-    --neutralShade1: #f2f2f2;
-    --neutralShade2: #e8e9e9;
-    --neutralShade3: #d1d3d4;
-    --neutralShade4: #babdbf;
-    --neutralShade5: #808488;
-    --neutralShade6: #666a6d;
-    --neutralShade7: #4d5052;
-    --neutralShade8: #212122;
-    --grayColor: #999;
-    --lightGrayColor: #ddd;
+  --backgroundColor: #8db488;
+  --foregroundColor: #0d242f;
 
-  
+  --primaryColor: #1b6921;
+  --primaryShade1: #b4d8b0;
+  --primaryShade2: #6bb46b;
+  --primaryShade3: #5c9c48;
+  --primaryShade4: #2b4b18;
+  --primaryShade5: #10310a;
+
+  --secondaryColor: #f1b211;
+  --secondaryShade1: #f9f1dc;
+  --secondaryShade2: #f4dea7;
+  --secondaryShade3: #f2cb69;
+  --secondaryShade4: #5f4a15;
+  --secondaryShade5: #2b2004;
+
+  --accentColor: #b60000;
+  --accentShade1: #e9b8b8;
+  --accentShade2: #d48a8a;
+  --accentShade3: #d36161;
+  --accentShade4: #d32f2f;
+  --accentShade5: #b71c1c;
+
+  --accent2Color: #12506d;
+  --accent2Shade1: #c0e2e0;
+  --accent2Shade2: #7ba4ca;
+  --accent2Shade3: #4276a7;
+  --accent2Shade4: #0f344d;
+  --accent2Shade5: #05192c;
+
+  --neutralShade1: #d9e2bf;
+  --neutralShade2: #e4debd;
+  --neutralShade3: #b7c99a;
+  --neutralShade4: #506646;
+  --neutralShade5: #3c4752;
+  --neutralShade6: #666a6d;
+  --neutralShade7: #c6dfae;
+  --neutralShade8: #141615;
+
+  --grayColor: #999;
+  --lightGrayColor: #ddd;
 
   /* Fonts */
-  --copyFontFamily: "Gill Sans", sans-serif;
-  --headingFontFamily: "Verdana", serif;
-  font-size: 18px;
+  --copyFontFamily: "Arial", sans-serif;
+  --headingFontFamily: "Georgia", serif;
+  /* Change default root font size (16px), if desired */
+  font-size: 20px;
 
+  /* You can also use it for generally applied sizing and spacing. */
   --borderRadius: 6px;
-  --boxShadow: 0 2px 5px rgba(#945656, 0.2);
+  --boxShadow: 0 2px 5px rgba(#333, 0.2);
 }
 
 
@@ -103,8 +96,8 @@
 
 /* GENERAL COLOR SCHEME */
 body {
-  background: #d1d3d4;
-  color: #0a1e27;
+  background: var(--backgroundColor);
+  color: var(--primaryShade5);
 }
 
 /*==========
@@ -112,21 +105,21 @@ body {
 ===========*/
 
 /* Font Families */
-body { font-family: Verdana, Hervetica, Tahoma, sans-serif ; }
-h1,h2,h3 { font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
+body { font-family: var(--accent2Shade5); }
+h1,h2,h3 { font-family: var(--neutralShade8); }
 
 /* Emphasis and Bolding */
-strong { font-weight: 900; }
+strong { font-weight: 500; }
 em { font-style: italic; }
 
 /* Font Weight, Sizing & Spacing */
 body {
-  font-weight: 100;
+  font-weight: 300;
   line-height: 1.5;
   transition: all 0.3s ease;
 }
 h1 {
-  font-weight: 300;
+  font-weight: 700;
   font-size: clamp(2.5rem,3rem,3.5rem);
   line-height: 1.2;
   text-transform: uppercase;
@@ -165,15 +158,14 @@ a { font-weight: 500; }
 
 /* default links */
 a {
-  color: var(--neutralShade8);
+  color: var(--foregroundColor);
   border-bottom: 2px dashed;
   cursor: pointer;
   transition: 0.4s;
 }
 a:hover {
-  color: var(--neutralShade1);
-  background-color: var(--primaryColor);
-  border-bottom: 3px solid var(--primaryShade5);
+  background-color: var(--accentColor);
+  border-bottom: 3px solid var(--secondaryShade5);
   transition: 0.4s;
 }
 
@@ -437,8 +429,7 @@ main {
   }
 }
 
-/*=============================
-  MEDIA QUERIES
+/* MEDIA QUERIES
   DO NOT change anything below!
 =============================*/
 

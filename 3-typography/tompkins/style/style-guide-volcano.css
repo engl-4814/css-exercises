@@ -35,65 +35,65 @@
 =============*/
 
 :root {
- 
-    --backgroundColor: #bf4e4e28;
-    --foregroundColor: #471585;
-  
-    --primaryColor: #ebaead;
-    --primaryShade1: #F78F75;
-    --primaryShade2: #F74D23;
-    --primaryShade3: #c54800;
-    --primaryShade4: #d51679;
-    --primaryShade5: #96380d;
-  
-    --secondaryColor: #bdc1f8;
-    --secondaryShade1: #c4b3f0;
-    --secondaryShade2: #8871c7;
-    --secondaryShade3: #b265e9;
-    --secondaryShade4: #2e6ede;
-    --secondaryShade5: #90149b;
-  
-    --accentColor: #8FF0CB;
-    --accentShade1: #70c2e2;
-    --accentShade2: #36b9b3;
-    --accentShade3: #7a9e9c;
-    --accentShade4: #2b7640;
-    --accentShade5: #1d4683;
-  
-    --accent2Color: #e4a09e;
-    --accent2Shade1: #e7ab9b;
-    --accent2Shade2: #d28e7c;
-    --accent2Shade3: #c18057;
-    --accent2Shade4: #b4477f;
-    --accent2Shade5: #764100;
-  
-    --accent3Color: #b2ee9a;
-    --accent3Shade1: #6ed87a;
-    --accent3Shade2: #8aab3d;
-    --accent3Shade3: #688522;
-    --accent3Shade4: #458b7d;
-    --accent3Shade5: #04803c;
-  
-    --neutralShade1: #f2f2f2;
-    --neutralShade2: #e8e9e9;
-    --neutralShade3: #d1d3d4;
-    --neutralShade4: #babdbf;
-    --neutralShade5: #808488;
-    --neutralShade6: #666a6d;
-    --neutralShade7: #4d5052;
-    --neutralShade8: #212122;
-    --grayColor: #999;
-    --lightGrayColor: #ddd;
+  --backgroundColor: #a87b7b;
+  --foregroundColor: #111;
 
-  
+  --primaryColor: #000000;
+  --primaryShade1: #ffffff;
+  --primaryShade2: #b1b1b1;
+  --primaryShade3: #747474;
+  --primaryShade4: rgb(73, 73, 73);
+  --primaryShade5: #202020;
+
+  --secondaryColor: #a10000;
+  --secondaryShade1: #f6e7e7;
+  --secondaryShade2: #e9c4c4;
+  --secondaryShade3: #cd7575;
+  --secondaryShade4: #a82d2d;
+  --secondaryShade5: #3f0909;
+
+  --accentColor: #c57417;
+  --accentShade1: #ebd9c2;
+  --accentShade2: #b69b74;
+  --accentShade3: #b69a4d;
+  --accentShade4: #64421b;
+  --accentShade5: #703803;
+
+  --accent2Color: #e9dc26;
+  --accent2Shade1: #d3d88a;
+  --accent2Shade2: #c9ca72;
+  --accent2Shade3: #aaa94c;
+  --accent2Shade4: #9f9838;
+  --accent2Shade5: #8b7d2f;
+
+  --accent3Color: #36d8f4;
+  --accent3Shade1: #caeaee;
+  --accent3Shade2: #cdf5ff;
+  --accent3Shade3: #9adeef;
+  --accent3Shade4: #2fbad3;
+  --accent3Shade5: #0a587c;
+
+  --neutralShade1: #f2f2f2;
+  --neutralShade2: #e8e9e9;
+  --neutralShade3: #d1d3d4;
+  --neutralShade4: #babdbf;
+  --neutralShade5: #808488;
+  --neutralShade6: #666a6d;
+  --neutralShade7: #4d5052;
+  --neutralShade8: #1d1d1d;
+
+  --grayColor: #999;
+  --lightGrayColor: #ddd;
 
   /* Fonts */
-  --copyFontFamily: "Gill Sans", sans-serif;
-  --headingFontFamily: "Verdana", serif;
+  --copyFontFamily: "tahoma", sans-serif;
+  --headingFontFamily: "Courier New", monospace;
+  /* Change default root font size (16px), if desired */
   font-size: 18px;
 
+  /* You can also use it for generally applied sizing and spacing. */
   --borderRadius: 6px;
-  --boxShadow: 0 2px 5px rgba(#945656, 0.2);
+  --boxShadow: 0 2px 5px rgba(#333, 0.2);
 }
 
 
@@ -103,8 +103,8 @@
 
 /* GENERAL COLOR SCHEME */
 body {
-  background: #d1d3d4;
-  color: #0a1e27;
+  background: var(--backgroundColor);
+  color: var(--neutralShade8);
 }
 
 /*==========
@@ -112,21 +112,21 @@ body {
 ===========*/
 
 /* Font Families */
-body { font-family: Verdana, Hervetica, Tahoma, sans-serif ; }
-h1,h2,h3 { font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
+body { font-family: var(--copyFontFamily); }
+h1,h2,h3 { font-family: var(--headingFontFamily); }
 
 /* Emphasis and Bolding */
-strong { font-weight: 900; }
+strong { font-weight: 500; }
 em { font-style: italic; }
 
 /* Font Weight, Sizing & Spacing */
 body {
-  font-weight: 100;
+  font-weight: 300;
   line-height: 1.5;
   transition: all 0.3s ease;
 }
 h1 {
-  font-weight: 300;
+  font-weight: 700;
   font-size: clamp(2.5rem,3rem,3.5rem);
   line-height: 1.2;
   text-transform: uppercase;
