@@ -1,24 +1,70 @@
-.flex-container {
+
+.stepping_stones {
+    color: azure;
+    padding: 20px;
+    text-align: center;
+
+    .ss-box-1 {
+        display: flexbox;
+        margin: auto;
+    }
+    .img-1 {
+        width: fit-content;
+    }
+}
+    
+
+.ss-main-paragraph {
     display: flex;
+    flex-wrap: wrap-reverse;
     justify-content: center;
     background-color: rgb(35, 104, 81);
 
+    .ss-image-2 {
+        width: fit-content;
+        padding: 0%;
+    }
 }
 
-.flex-item {
-color: azure;
-padding: 20px;
-text-align: center;
 
-}
-
-.image-container {
+.ss-different-vibe {
     display: flex;
-    flex-wrap: wrap;
-    object-fit: cover;
-}
-.flex-header {
-    display: flex;
-    color: bisque;
+    color: rgb(99, 65, 25);
     text-align: justify;
+
+    .paragraph {
+        flex-flow: wrap;
+        margin: 0rem;
+        padding: 3%;
+    }
+
+    .image-flex-vibe-3 {
+        image-rendering: crisp-edges;
+        flex-wrap: wrap;
+    }
+}
+
+.section-3-container {
+        flex: 3%;
+        flex-wrap: wrap;
+
+    .image-ss3-vibes {
+        padding: 3%;
+        width: fit-content;
+    }
+    
+}
+.section-4-flex-text {
+    max-width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+.flex-container-5 > div {
+    flex: 1;
+    padding: 10px;
+    
+    .image-ss5-vibes {
+        flex: 1 15rem;
+    }
 }
