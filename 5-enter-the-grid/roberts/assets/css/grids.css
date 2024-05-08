@@ -1,0 +1,12 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 100px;
+    justify-items: center;
+}
+
+.grid-text-flexbox {
+    display: flex;
+    justify-content: center;
+    padding-top: 25px
+}

@@ -1,0 +1,137 @@
+/*
+  Flex Demos
+  1. Basic
+  2 & 3 use Flex Grow, Shrink, and Basis
+*/
+@import url("https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900");
+@import url("https://fonts.googleapis.com/css?family=Monoton");
+
+/*=====
+GENERAL
+=====*/
+
+:root {
+  font-size: 18px;
+  --laser-lemon: #e6eb3f;
+  --violet: #705c90;
+  --watermelon: #eb7878;
+  --custard: #fdffc6;
+}
+
+body {
+  background-color: var(--laser-lemon);
+  color: var(--violet);
+}
+
+/* Utilities */
+.fix__clear_float { clear: both; }
+
+/* Typography */
+h1,h2,h3 { font-family: Monoton; }
+h1 { font-size: 4rem; margin: 2.75em 0; }
+h2 { font-size: 2.5rem; margin: 1em 0; }
+
+/* Anchors */
+.a__cta {
+  display: block;
+  width: max-content;
+  padding: 1.5rem;
+  background-color: var(--violet);
+  color: var(--custard);
+  text-decoration: none;
+  font-weight: 600;
+  border: var(--custard) 1px solid;
+  transition: 0.2s;
+
+  &:hover {
+    color: var(--violet);
+    background-color: var(--custard);
+    border: var(--violet) 1px solid;
+    transition: 0.2s;
+  }
+}
+
+/* Images */
+
+img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.img_cover {
+  object-fit: cover;
+}
+
+.img_float_left_shape_circle {
+  float: left;
+  border-radius: 50%;
+  shape-outside: circle();
+  margin-right: 1rem;
+}
+
+/* GENERAL CLASSES */
+.float_right  { float: right; }
+.float_left   { float: left; }
+.text_center  { text-align: center; }
+.text_right   { text-align: right; }
+.text_left    { text-align: left; }
+
+/*====
+SHARED
+====*/
+
+section {
+  padding: 1rem;
+  background-color: var(--watermelon);
+  font-family: 'Lato';
+  font-weight: 300;
+  color: var(--custard);
+  border: 1px whitesmoke solid;
+}
+
+.main__grid_container {
+  /* Grid Container Rules Here */
+
+  /* Header, if needed */
+
+  article {
+    margin: 1rem 0;
+    padding: 1rem;
+
+    &> img {
+      width: 225px;
+      height: 225px;
+    }
+  }
+
+}
+
+/*=================
+@MEDIA QUERIES HERE
+NOTE: Your queries need to match the above to ensure that your media query rules overwrite the rules above.
+=================*/
+
+/* Medium Screens */
+@media only screen and (min-width: 600px) {
+  /* GRID */
+  .main__grid_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .img_float_left_shape_circle {
+    float: left;
+    border-radius: 50%;
+    shape-outside: circle();
+    margin-right: 1rem;
+  }
+}
+
+/* Large Screens */
+@media only screen and (min-width: 1200px) {
+  .main__grid_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr
+  }
+}
