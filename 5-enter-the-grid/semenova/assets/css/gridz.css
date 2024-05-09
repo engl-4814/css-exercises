@@ -1,0 +1,25 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    grid-auto-flow: dense;
+    padding: 20px;
+  }
+  
+  .poster{
+    background-color: lightblue;
+    height: 300px;
+  }
+  
+  .image-1 { grid-column-end: span 2;
+            grid-template-rows:min-content;}
+  .image-2 { grid-row-end: span 2;}
+  .image-3 { grid-column-end: span 2; }
+  .image-4 { grid-row-end: span 2; }
+  .image-5 { grid-column-end: span 2; }
+  .image-6 { grid-column-end: span 2; }
+
+  .text-flexbox {
+    flex-wrap: wrap;
+    width: fit-content;
+  }
