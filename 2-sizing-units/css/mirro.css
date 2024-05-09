@@ -1,3 +1,5 @@
+/* NOTE TO PROFESSOR LINDGREN: See 1-Section CSS file note. Thank you! */
+
 /* Root */
 :root {
   font-size: 10px;
@@ -30,7 +32,15 @@
 
   Be sure to understand the difference between padding and margins and how to write the shorthand versions.
 */
+.float_left { float: left;}
+.float_right { float: right;}
 
+.floating_images_container {
+  max-width: 800px;
+  margin: auto;
+  background-color: blanchedalmond;
+  padding: 2rem;
+}
 
 /*===============
   2. IMAGE SIZING
@@ -52,9 +62,45 @@
     - AS you do so, also hover over the HTML of those images to compare their box dimensions and see if you understand why their size is as it is.
 */
 
+.img_sizing_container {
+  background-color: azure;
+  width: 65vw;
+}
 
+.img_absolute_px {
+  width: 100px;
+}
+
+.img_relative_percentage {
+  width: 50%;
+}
+
+.image_relative_vw {
+  width: 75vw
+}
 
 /*======================
   3. RECREATE THE DESIGN
 ======================*/
+
+.float-images {
+  margin: 40%;
+  padding: 20em;
+}
+
+#left {
+  float: left;
+}
+
+#right {
+  float: right;
+}
+
+img {
+  width: 50%;
+  height: 50%;
+  margin: 2em;
+  display: block;
+}
+
 
