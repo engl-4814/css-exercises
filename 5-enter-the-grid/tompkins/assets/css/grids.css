@@ -1,0 +1,21 @@
+.chessboard {
+    display: grid;
+    grid-template-columns: repeat(8, 200px);
+    grid-template-rows: repeat(8, 200px);
+    width: 1600px;
+    height: 1600px;
+}
+
+.chessboard div {
+    width: 200px;
+    height: 200px;
+    box-sizing: border-box;
+}
+
+.chessboard div:nth-child(odd) {
+    background: black;
+}
+
+.chessboard div:nth-child(even) {
+    background: rgb(114, 73, 32);
+}
