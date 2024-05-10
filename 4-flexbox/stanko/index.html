@@ -5,21 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Intro to Flexbox</title>
-    <link rel="stylesheet" href="/4-flexbox/stanko/assets/css/style.css">
+    <!-- <link rel="stylesheet" href="/4-flexbox/stanko/assets/css/style.css"> -->
 </head>
 <body>
     <main>
         <h1>Intro to Flexbox</h1>
         <section id="stepping_stones">
             <h2>Stepping Stones</h2>
+            <style>
+                .flex__stepping_container {
+                    display: flex;
+                    flex-direction: column;
+
+                    & img {
+                        display: block;
+                        width: 100%;
+                    }
+
+                    &> * { max-width: 300px; }
+
+                    &> .box_2 { align-self: center; }
+                    &> .box_3 { align-self: flex-end; }
+                }
+            </style>
             <div class="flex__stepping_container">
                 <div class="box_1">
                     <img src="https://placehold.co/400x300"
                     class="img_1"
                     width="400"
                     height="300">
+                    <!-- this div wasn't closed -->
+                </div>
                 <div class="box_2"
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda reprehenderit deleniti obcaecati, itaque reiciendis nulla excepturi quibusdam amet ut aperiam praesentium impedit pariatur commodi ea debitis dolore, cumque deserunt quod!</p>
+                    <!-- this div wasn't closed -->
+                </div>
                 <div class="box_3">
                     <img src="https://placehold.co/400x300"
                     class="img_1"
