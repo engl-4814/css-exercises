@@ -11,26 +11,30 @@
         <h1>Flexbox Exercises</h1>
         <section class="section1">
             <h2>Stepping Stones.</h2>
+            <!-- revised a bit to show you one common solution. -->
             <div class="flex_container">
                 <div class="box1">
                     <img src="https://placehold.co/800x400" alt=""
                 class="image1"
                 width="800"
                 height="400">
-            </div>
-            <div class="box2">
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur, sit provident quidem asperiores, dolorem, qui minus dolore repellendus natus eveniet neque nobis magni ex nostrum optio? Harum, consequuntur tempora. Optio?</p>
-            </div>
-            <div class="box3">
-                <img src="https://placehold.co/800x400" 
-                alt=""
-                class="image1"
-                width="800"
-                height="400">
+                </div>
+                <div class="box2">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur, sit provident quidem asperiores, dolorem, qui minus dolore repellendus natus eveniet neque nobis magni ex nostrum optio? Harum, consequuntur tempora. Optio?</p>
+                </div>
+                <div class="box3">
+                    <img src="https://placehold.co/800x400"
+                    alt=""
+                    class="image1"
+                    width="800"
+                    height="400">
+                </div>
+                <!-- didn't close the parent; was this copy-pasted? -->
             </div>
         </section>
         <section class="flex_container2">
             <h1>Switching-it-up</h1>
+            <!-- A little too much hierarchy here. Think of the solution as flex rows with a div flex container that has two children div flex items. One child has the text; the other has the img. Then, it's all about using the flex basis, shrink, and growth on the items with the wrap feature on the parent. -->
             <div class="paragraph">
                 <div class="paragraph_">
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat, sed!</p>
