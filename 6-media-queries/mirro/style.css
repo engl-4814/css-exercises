@@ -122,58 +122,43 @@ section {
 /*=================
 @MEDIA QUERIES HERE
 NOTE: Your queries need to match the above to ensure that your media query rules overwrite the rules above.
+This one gave me trouble- REVIEW AND REFERENCE FOR FINAL
+Feeling iffy about this code Professor Lindgren
 =================*/
 
-@media screen and (max-width: 600px) {
-  .main__grid_container{
-    padding-top: 20px;
-    font-size: small;
-    display: flex;
-    flex-wrap: wrap;
-
+@media screen and (min-width: 600px) {
+  .main__grid_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "header header"
+    "first first"
+    "second third"
+    "second third";
+    font-size: 1.5rem;
   }
-  body {
-    margin: 40px;
-  }
-  header {
-    font-size: 25px;
-    margin: 20px;
-
-  }
-  h1 {
-    font-size: 32px;
-  }
-  .a__cta {
-    padding: 0.8rem;
-  }
-  p{
-    font-size: 20px;
-  }
-
-}
-
-@media screen and (min-width:601px)
-{
-  .main__grid_container{
-    padding-top: 30px;
-    font-size: small;
-    display: flex;
-    flex-wrap: wrap;
-
-  }
-  body {
-    margin: 20px;
-  }
-  header {
-    font-size: 25px;
-    margin: 20px;
-
-  }
-  h1 {
-    font-size: 32px;
-  }
-  .a__cta {
-    padding: 0.8rem;
+  .img_float_left_shape_circle {
+    float: left;
+    border-radius: 25%;
+    shape-outside: circle();
+    margin-right: 1rem;
   }
 }
 
+@media screen and (min-width: 800px) {
+  .main__grid_container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+    grid-template-areas: 
+    "header first first"
+    "header first first"
+    "header second third"
+    "header second third";
+    font-size: 1.75rem;
+  }
+  .img_float_left_shape_circle {
+    border-radius: 25%;
+    shape-outside: circle();
+    margin-right: 1rem;
+  }
+}
