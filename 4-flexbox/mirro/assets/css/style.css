@@ -1,0 +1,43 @@
+.Section1 {
+    margin: 10px;
+    padding: 2rem;
+
+    .wireframe-1 {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: flex-start;
+
+        .image-1 {
+            width: 400px;
+        }
+
+        .middle-paragraph {
+            align-self: center;
+            width: 400px;
+        }
+
+        .image-2 {
+            align-self: flex-end;
+            width: 400px;
+        }
+    }
+}
+
+.Section2 {
+    margin: 1rem;
+    padding: 5%;
+
+    .part {
+        display: flex;
+        flex-wrap: wrap;
+
+        .word-section {
+            flex: 1;
+        }
+
+        .image-section {
+            flex: 1 20rem;
+        }
+    }
+}
